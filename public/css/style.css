@@ -70,6 +70,12 @@ a:hover {
     background-attachment: fixed;
 }
 
+.back-menu {
+    height: 132px;
+    width: 100%;
+    background: #353535;
+}
+
 .destinos {
     height: 60vh;
     width: 100%;
@@ -250,12 +256,38 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+.ica {
+    height: 60vh;
+    width: 100%;
+    background-image: url('../img/panoramico/huacachina-ica-peru-tour.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.pisco {
+    height: 60vh;
+    width: 100%;
+    background-image: url('../img/panoramico/pisco-city-tourism.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.puerto {
+    height: 60vh;
+    width: 100%;
+    background-image: url('../img/panoramico/puerto-maldonado-peru.webp');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .site-navbar-wrap {
     position: absolute;
     z-index: 99;
     width: 100%;
     left: 0;
-    background: #00000042;
 }
 
 .site-navbar-wrap a {

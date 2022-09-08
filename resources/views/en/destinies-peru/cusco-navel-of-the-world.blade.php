@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <!-- Required meta tags -->
@@ -16,13 +16,13 @@
 <body>
     @include('layouts.menu')
     <li>
-        <button onclick="window.location='{{route('cusco-ombligo-del-mundo')}}'" class="castellano-es">English</button>
+        <button onclick="window.location='{{ route('cusco-ombligo-del-mundo') }}'" class="castellano-es">Español</button>
     </li>
     @include('layouts.menu-2')
     <div class="cusco">
         <div class="container">
             <div class="row">
-                <h1 class="h1-destinos">Cusco Imperial</h1>
+                <h1 class="h1-destinos">Imperial Cuzco</h1>
             </div>
         </div>
     </div>
@@ -33,7 +33,8 @@
                 <div class="col-lg-12">
                     <div class="details">
                         <div class="location">
-                            <p><a href="/">Inicio</a> / <a href="{{route('destinies-peru')}}">Destinos</a> / <a>Cusco</a>
+                            <p><a href="{{route('index')}}">Home</a> / <a href="{{ route('destinies-peru') }}">Destinies</a> /
+                                <a>Cusco</a>
                             </p>
                         </div>
                     </div>
@@ -213,6 +214,8 @@
                                     en Piquillacta y Choquepuquio. Los mascas parecen haber sido quienes dieron origen
                                     a lo que más tarde sería el Imperio Inca.<br><br>
                                     <h4>El Imperio Inca</h4>
+                                    <img src="{{ asset('img/galeria/imperio-del-tahuantinsuyo-imperio-inca.webp') }}"
+                                        width="100%" alt="Ica Empire" loading="lazy"><br><br>
                                     Alrededor del <strong>1200 DC</strong> surgió en el Valle de Cusco un señorío que
                                     dominó, con el tiempo, al resto de los pueblos. El responsable de la creación de
                                     este imperio fue Cusi Yupanqui, el 9º Capac Inka y 1º Inka del Tahuantinsuyo,
@@ -370,6 +373,9 @@
 
                                     En Sacsayhuamán, cada 24 de junio, se realiza el Festival del Sol llamado Inti
                                     Raymi.<br><br>
+                                    <img src="{{ asset('img/galeria/know-sacsayhuaman-Cusco-Peru.webp') }}"
+                                        width="100%" loading="lazy" alt="The fortress of Sacsayhuman">
+                                    <i>Picture: Fortress of Sacsayhuaman</i><br><br>
                                     <h4>3. Laguna Humantay</h4>
                                     La Laguna Humantay (5,473 m.s.n.m.) es, sin duda, uno de los paisajes más increíbles
                                     del Cusco. Este atractivo turístico natural se encuentra al pie de la montaña del
@@ -431,6 +437,10 @@
                                     <h5>El sector ceremonial</h5>
                                     La zona ceremonial se encuentra en la parte denominada Plaza Principal, mientras
                                     que en la parte alta destaca una serie de sofisticados edificios.<br><br>
+                                    <img src="{{ asset('img/galeria/choquequirao-amazing-trekking.webp') }}"
+                                        width="100%" alt="Archaeological Center of Choquequirao" loading="lazy">
+                                    <i>Picture: Archaeological Center of Choquequirao</i><br><br>
+
                                     <h4>6. Aguas termales de Cocalmayo</h4>
                                     Los visitantes que llegan a Machu Picchu a través de la ruta alterna por
                                     Hidroeléctrica tienen la opción de relajarse en los baños termales de Cocalmayo.
@@ -441,6 +451,7 @@
                                     38ºC. hasta los 44ºC. Sus aguas son claras y tienen propiedades curativas y
                                     relajantes. Muchos turistas llegan allí en su camino a Machu Picchu con el fin de
                                     relajarse.<br><br>
+
                                     <h4>8. Plaza de Armas</h4>
                                     Conocida por los pobladores de la época como Plaza Aucaypata, que en quechua
                                     significa “Plaza del Guerrero”, fue uno de los escenarios más importantes para los
@@ -690,7 +701,8 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
                         <a href="#">
-                            <img class="card-img-top" src="{{ asset('img/thumb/City-Tour-en-Sacsayhuaman-Cusco-Peru.webp') }}"
+                            <img class="card-img-top"
+                                src="{{ asset('img/thumb/City-Tour-en-Sacsayhuaman-Cusco-Peru.webp') }}"
                                 alt="City tour en Cusco ciudad" loading="lazy">
                         </a>
                         <div class="card-body text-center">
@@ -704,8 +716,8 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
                         <a href="viajar-a-puno">
-                            <img class="card-img-top" src="{{ asset('img/thumb/tour-a-la-laguna-de-humantay.webp') }}" alt="Tour a Puno"
-                                loading="lazy">
+                            <img class="card-img-top" src="{{ asset('img/thumb/tour-a-la-laguna-de-humantay.webp') }}"
+                                alt="Tour a Puno" loading="lazy">
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Tour a la laguna Humantay</h5>
@@ -734,19 +746,6 @@
         </div>
     </section>
     <!---banner--------->
-    <div class="banner-destinos">
-        <div class="banner-container">
-            <h3 class="h3-banner">Tours en peru 2022</h3>
-            <p class="p-banner">TOUR OPERATOR PERÚ</p>
-            <P class="p-banner">Pacha Mama Spirit es tour operador turístico desde 2012. Somos especialistas en
-                viajes de aventura y caminata. Reserve con nosotros su proxima visita a Perú. Conoce las mejores
-                opciones en tours alrededor de <strong>Perú</strong></P>
-            <P class="p-banner">
-                <a href="" class="a-reserva" data-toggle="modal" data-target="#exampleModal">¡Reserva
-                    ahora!</a>
-            </P>
-        </div>
-    </div>
     @include('layouts.pop-up-booking')
     @include('layouts.foot')
 </body>

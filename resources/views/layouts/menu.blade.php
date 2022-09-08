@@ -76,13 +76,19 @@
                                             <a href="{{route('lima-city-of-kings')}}" class="nav-link">Lima</a>
                                         </li>
                                         <li>
-                                            <a href="en/inca-trail-4-days" class="nav-link">Arequipa</a>
+                                            <a href="{{route('arequipa-the-white-city')}}" class="nav-link">Arequipa</a>
                                         </li>
                                         <li>
-                                            <a href="en/inca-trail-4-days" class="nav-link">Puno</a>
+                                            <a href="{{route('puno-city')}}" class="nav-link">Puno</a>
                                         </li>
                                         <li>
-                                            <a href="en/inca-trail-4-days" class="nav-link">Trujillo</a>
+                                            <a href="{{route('ica-city')}}" class="nav-link">Ica</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{route('pisco-city')}}" class="nav-link">Pisco</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{route('puerto-maldonado-en')}}" class="nav-link">Puerto Maldonado</a>
                                         </li>
                                     </ul>
                                 </li>

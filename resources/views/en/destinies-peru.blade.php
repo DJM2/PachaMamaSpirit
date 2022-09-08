@@ -19,11 +19,11 @@
 </head>
 
 <body>
-    @include('layouts.menu-castellano')
+    @include('layouts.menu')
     <li>
-        <button onclick="window.location='{{ route('destinos-peru') }}'" class="castellano-es">English</button>
+        <button onclick="window.location='{{ route('destinos-peru') }}'" class="castellano-es">Español</button>
     </li>
-    @include('layouts.menu-castellano-2')
+    @include('layouts.menu-2')
     <div class="blog-temas">
         <div class="container">
             <div class="row">
@@ -88,7 +88,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title">Cusco</h5>
                             <p class="text-card">Ombligo del mundo</p>
-                            <a href="{{ route('cusco-navel-of-the-world') }}" class="boton-card">Más detalles</a>
+                            <a href="{{ route('cusco-navel-of-the-world') }}" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                         <div class="card-body text-center">
                             <h5 class="card-title">Lima</h5>
                             <p class="text-card">La ciudad de los reyes</p>
-                            <a href="{{ route('lima-city-of-kings') }}" class="boton-card">Más detalles</a>
+                            <a href="{{ route('lima-city-of-kings') }}" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -115,122 +115,67 @@
                         <div class="card-body text-center">
                             <h5 class="card-title">Arequipa</h5>
                             <p class="text-card">La ciudad blanca</p>
-                            <a href="{{ route('arequipa-the-white-city') }}" class="boton-card">Más detalles</a>
+                            <a href="{{ route('arequipa-the-white-city') }}" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ asset('img/thumb/lago-titicaca.webp') }}"
-                            alt="lago Titicaca Puno" loading="lazy">
+                        <a href="#">
+                            <img class="card-img-top" src="{{ asset('img/thumb/lago-titicaca.webp') }}"
+                                alt="lago Titicaca Puno" loading="lazy">
+                        </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Puno</h5>
                             <p class="text-card">Capital del folklore</p>
-                            <a href="#" class="boton-card">Más detalles</a>
+                            <a href="#" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ asset('img/thumb/Lineas-de-Nazca.webp') }}"
-                            alt="Ciudad de Ica, Nazca" loading="lazy">
+                        <a href="{{route('ica-city')}}">
+                            <img class="card-img-top" src="{{ asset('img/thumb/Lineas-de-Nazca.webp') }}"
+                                alt="Ica city, Nazca" loading="lazy">
+                        </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Ica</h5>
                             <p class="text-card">La ciudad del eterno sol</p>
-                            <a href="#" class="boton-card">Más detalles</a>
+                            <a href="{{route('ica-city')}}" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ asset('img/thumb/leon-marino.webp') }}"
-                            alt="Leon marino Ica - Paracas" loading="lazy">
+                        <a href="{{route('pisco-city')}}">
+                            <img class="card-img-top" src="{{ asset('img/thumb/leon-marino.webp') }}"
+                                alt="Leon marino Ica - Paracas" loading="lazy">
+                        </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Pisco</h5>
                             <p class="text-card">Ciudad que vio nacer a su homónima bebida</p>
-                            <a href="#" class="boton-card">Más detalles</a>
+                            <a href="{{route('pisco-city')}}" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top"
-                            src="{{ asset('img/thumb/rio-amazonas-selva-de-peru-pacha-mama-spirit.webp') }}"
-                            alt="Rio Amazonas - Puerto Maldonado" loading="lazy">
+                        <a href="{{route('puerto-maldonado-en')}}">
+                            <img class="card-img-top"
+                                src="{{ asset('img/thumb/rio-amazonas-selva-de-peru-pacha-mama-spirit.webp') }}"
+                                alt="Amazonas river - Puerto Maldonado" loading="lazy">
+                        </a>
                         <div class="card-body text-center">
-                            <h5 class="card-title">Madre de Dios</h5>
+                            <h5 class="card-title">Puerto Maldonado</h5>
                             <p class="text-card">La exótica selva peruana</p>
-                            <a href="#" class="boton-card">Más detalles</a>
+                            <a href="{{route('puerto-maldonado-en')}}" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!---banner--------->
-    <div class="banner-destinos">
-        <div class="banner-container">
-
-            <h3 class="h3-banner">Camino Inca 2022</h3>
-            <p class="p-banner">TOUR OPERATOR PERÚ</p>
-            <P class="p-banner">Pacha Mama Spirit es operador turístico al Camino Inca desde 2008. Somos
-                especialistas en
-                viajes de aventura y
-                caminata. Reserve con nosotros su proxima caminata al inca trail, finalizando en la ciudad
-                perdida de los Incas: <strong>Machu Picchu</strong></P>
-            <P class="p-banner">
-                <a href="" class="a-reserva" data-toggle="modal" data-target="#exampleModal">¡Reserva
-                    ahora!</a>
-            </P>
-        </div>
-    </div>
-    <!-- Modal de banner-->
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <form style="padding: 0px 25px">
-                    @csrf
-                    <h3 class="h3-book-pop-up">Reserva tu viaje a Perú</h3>
-                    <div class="form-row">
-                        <div class="form-group col-md-6">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" class="form-control" id="inputEmail4"
-                                placeholder="Email">
-                        </div>
-                        <div class="form-group col-md-6">
-                            <label for="name">Nombre:</label>
-                            <input type="text" class="form-control" id="name" placeholder="David Miranda">
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="fa">Arrivo:</label>
-                            <input type="date" class="form-control" id="inputPassword4" placeholder="Password">
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="fa">Salida:</label>
-                            <input type="date" class="form-control" id="inputPassword4" placeholder="Password">
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="fa">Adultos:</label>
-                            <input type="number" class="form-control" id="inputPassword4" placeholder="Password">
-                        </div>
-                        <div class="form-group col-md-3">
-                            <label for="adults">Niños:</label>
-                            <input type="number" class="form-control" id="inputPassword4" placeholder="Password">
-                        </div>
-                        <div class="form-group col-md-12">
-                            <label for="child">Mensaje:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="height: 2.8em"
-                                placeholder="Message:"></textarea>
-                        </div>
-                    </div>
-                    <div class="form-group text-center">
-                        <button type="submit" class="boton-index">Send</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
+    @include('layouts.pop-up-booking')
     @include('layouts.foot')
 </body>
 

@@ -1,5 +1,5 @@
 <div class="btn-whatsapp">
-    <a href="https://api.whatsapp.com/send?phone=51984004472" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=51921136755" target="_blank">
         <img src="{{ asset('img/whatsapp.png') }}" alt="WhatsaApp de Pacha Mama Spirit" width="80%">
     </a>
 </div>
@@ -79,10 +79,16 @@
                                             <a href="{{route('arequipa-la-ciudad-blanca')}}" class="nav-link">Arequipa</a>
                                         </li>
                                         <li>
-                                            <a href="en/inca-trail-4-days" class="nav-link">Puno</a>
+                                            <a href="{{route('la-ciudad-de-puno')}}" class="nav-link">Puno</a>
                                         </li>
                                         <li>
-                                            <a href="en/inca-trail-4-days" class="nav-link">Trujillo</a>
+                                            <a href="{{route('ciudad-de-ica')}}" class="nav-link">Ica</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{route('ciudad-de-pisco')}}" class="nav-link">Pisco</a>
+                                        </li>
+                                        <li>
+                                            <a href="{{route('puerto-maldonado')}}" class="nav-link">Puerto Maldonado</a>
                                         </li>
                                     </ul>
                                 </li>

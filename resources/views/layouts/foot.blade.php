@@ -20,9 +20,9 @@
                 <div class="col-lg-4 text-center">
                     <h4 class="h4-foot">Contact</h4>
                     <div class="linea-foot"></div>
-                    <p><span class="icon-whatsapp"></span> +51 984 004 472</p>
-                    <p><span class="icon-envelope"></span> correo@tierrasvivas.com</p>
-                    <p><span class="icon-map-marker"></span> Av Tupac Amaru PP-10B | Zarzuela Alta, Al</p>
+                    <p><span class="icon-whatsapp"></span> +51 921 136 755</p>
+                    <p><span class="icon-envelope"></span> info@pachamamaspirit.com</p>
+                    <p><span class="icon-map-marker"></span> Cusco - Perú</p>
                 </div>
                 <div class="col-lg-4">
                     <h4 class="h4-foot">Social</h4>
@@ -45,7 +45,7 @@
             </div>
             <div class="col-12">
                 <div class="copy">
-                    <h5> Copiryght todos los derechos reservados | Hecho por <a
+                    <h5> Copiryght 2022 © All rights reserved | Pacha Mama Spirit | Made by <a
                             href="https://www.facebook.com/DjmWebMaster" class="djm2" target="_blank" rel="no-follow"> DJM2</a></h5>
                 </div>
             </div>

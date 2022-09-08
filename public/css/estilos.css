@@ -236,15 +236,22 @@ strong {
     margin-bottom: 1em;
 }
 
+.iconos-tours {
+    padding-bottom: 2em;
+}
+
 .p-banner a {
     color: #fff;
     background: #2fa69b;
     padding: 10px 10px 10px 10px;
     border-radius: 3px;
+    transition: 0.5s;
 }
 
 .p-banner a:hover {
     background: #003fa7;
+    color: #fff;
+    transition: 0.5s;
 }
 
 .h1-destinos {
@@ -269,6 +276,36 @@ h3 {
     margin-top: 2em;
     text-align: center;
     margin-bottom: 1em;
+    text-transform: uppercase;
+}
+
+[data-title]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+    width: 150px;
+}
+
+[data-title]:after {
+    content: attr(data-title);
+    background-color: #333;
+    color: #fff;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    text-align: left;
+    padding: 5px 20px;
+    bottom: -1.6em;
+    left: 100%;
+    opacity: 0;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 6px;
+}
+
+[data-title] {
+    position: relative;
 }
 
 .space {
@@ -394,6 +431,12 @@ h3 {
     transition: 1s;
 }
 
+.oscuro a:hover {
+    margin-right: 0em;
+    transition: 1s;
+    color: #fff;
+}
+
 .uno:hover a {
     margin-right: 0em;
     transition: 1s;
@@ -504,9 +547,9 @@ footer p {
 }
 
 .banner {
-    height: 500px;
+    height: 400px;
     width: 100%;
-    background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/galeria/camino-inca-reserva.webp);
+    background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/panoramico/lares-trek.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -550,7 +593,7 @@ footer p {
 
 .h3-banner {
     color: #fff;
-    font-size: 3.4em;
+    font-size: 1.8em;
     text-align: center;
     padding-top: 2.2em;
     font-weight: 700;
@@ -583,12 +626,12 @@ footer p {
 }
 
 .copy .djm2 {
-    color: #00ffe1;
+    color: #fff;
     font-weight: 400;
 }
 
 .copy .djm2:hover {
-    color: #19dfff;
+    color: #00ffe1;
 }
 
 .castellano-es {
@@ -672,6 +715,7 @@ footer p {
         background-position: center;
         align-content: center;
         background-size: cover;
+        height: 600px;
     }
     .banner-destinos {
         background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/responsive/los-mejores-destinos-para-peru.webp);

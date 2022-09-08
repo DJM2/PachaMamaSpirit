@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <!-- Required meta tags -->
@@ -14,11 +14,11 @@
 </head>
 
 <body>
-    @include('layouts.menu-castellano')
+    @include('layouts.menu')
     <li>
         <button onclick="window.location='{{ route('arequipa-la-ciudad-blanca') }}'" class="castellano-es">Español</button>
     </li>
-    @include('layouts.menu-castellano-2')
+    @include('layouts.menu-2')
     <div class="lima">
         <div class="container">
             <div class="row">
@@ -33,8 +33,8 @@
                 <div class="col-lg-12">
                     <div class="details">
                         <div class="location">
-                            <p><a href="{{ route('inicio') }}">Home</a> / <a
-                                    href="{{ route('destinos-peru') }}">Destinies</a> / <a>Arequipa</a>
+                            <p><a href="{{ route('index') }}">Home</a> / <a
+                                    href="{{ route('destinies-peru') }}">Destinies</a> / <a>Arequipa</a>
                             </p>
                         </div>
                     </div>

@@ -121,19 +121,23 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ asset('img/thumb/lago-titicaca.webp') }}"
-                            alt="lago Titicaca Puno" loading="lazy">
+                        <a href="{{ route('la-ciudad-de-puno') }}">
+                            <img class="card-img-top" src="{{ asset('img/thumb/lago-titicaca.webp') }}"
+                                alt="lago Titicaca Puno" loading="lazy">
+                        </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Puno</h5>
                             <p class="text-card">Capital del folklore</p>
-                            <a href="#" class="boton-card">Más detalles</a>
+                            <a href="{{ route('la-ciudad-de-puno') }}" class="boton-card">Más detalles</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ asset('img/thumb/Lineas-de-Nazca.webp') }}"
-                            alt="Ciudad de Ica, Nazca" loading="lazy">
+                        <a href="{{ route('ciudad-de-ica') }}">
+                            <img class="card-img-top" src="{{ asset('img/thumb/Lineas-de-Nazca.webp') }}"
+                                alt="Ciudad de Ica, Nazca" loading="lazy">
+                        </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Ica</h5>
                             <p class="text-card">La ciudad del eterno sol</p>
@@ -143,24 +147,28 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ asset('img/thumb/leon-marino.webp') }}"
-                            alt="Leon marino Ica - Paracas" loading="lazy">
+                        <a href="{{ route('ciudad-de-pisco') }}">
+                            <img class="card-img-top" src="{{ asset('img/thumb/leon-marino.webp') }}"
+                                alt="Leon marino Ica - Paracas" loading="lazy">
+                        </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Pisco</h5>
                             <p class="text-card">Ciudad que vio nacer a su homónima bebida</p>
-                            <a href="#" class="boton-card">Más detalles</a>
+                            <a href="{{ route('ciudad-de-pisco') }}" class="boton-card">Más detalles</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top"
-                            src="{{ asset('img/thumb/rio-amazonas-selva-de-peru-pacha-mama-spirit.webp') }}"
-                            alt="Rio Amazonas - Puerto Maldonado" loading="lazy">
+                        <a href="{{ route('puerto-maldonado') }}">
+                            <img class="card-img-top"
+                                src="{{ asset('img/thumb/rio-amazonas-selva-de-peru-pacha-mama-spirit.webp') }}"
+                                alt="Rio Amazonas - Puerto Maldonado" loading="lazy">
+                        </a>
                         <div class="card-body text-center">
-                            <h5 class="card-title">Madre de Dios</h5>
+                            <h5 class="card-title">Puerto Maldonado</h5>
                             <p class="text-card">La exótica selva peruana</p>
-                            <a href="#" class="boton-card">Más detalles</a>
+                            <a href="{{ route('puerto-maldonado') }}" class="boton-card">Más detalles</a>
                         </div>
                     </div>
                 </div>
