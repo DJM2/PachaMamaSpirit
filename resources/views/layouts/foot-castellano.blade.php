@@ -1,11 +1,11 @@
 <section>
     <div class="display-foot">
-        <img src="{{asset('img/paisaje-cerros-silueta.png')}}" alt="Paisaje cerros silueta" width="100%">
+        <img src="{{ asset('img/paisaje-cerros-silueta.png') }}" alt="Paisaje cerros silueta" width="100%">
     </div>
-   <div class="display-foot-2">
-    <img src="{{asset('img/paisaje-cerros-silueta-responsive.png')}}" alt="Paisaje cerros silueta" width="100%">
-   </div>
-    
+    <div class="display-foot-2">
+        <img src="{{ asset('img/paisaje-cerros-silueta-responsive.png') }}" alt="Paisaje cerros silueta" width="100%">
+    </div>
+
     <footer>
         <div class="container">
             <div class="row">
@@ -28,8 +28,8 @@
                     <h4 class="h4-foot">Sociales</h4>
                     <div class="linea-foot"></div>
                     <div class="text-center social-foot">
-                        <a href="https://twitter.com/PachaSpirit" target="_blank" rel="no-follow"
-                            class="p-2 pl-0"><span class="icon-twitter"></span></a>
+                        <a href="https://twitter.com/PachaSpirit" target="_blank" rel="no-follow" class="p-2 pl-0"><span
+                                class="icon-twitter"></span></a>
                         <a href="https://www.facebook.com/PachaMamaSpiritMountain" rel="no-follow" target="_blank"
                             class="p-2 pl-0"><span class="icon-facebook"></span></a>
                         <a href="https://www.pinterest.com/spiritpachamama/_saved/" rel="no-follow" target="_blank"
@@ -46,16 +46,23 @@
             <div class="col-12">
                 <div class="copy">
                     <h5> Copiryght 2022 © todos los derechos reservados | Pacha Mama Spirit | Hecho por <a
-                            href="https://www.facebook.com/DjmWebMaster" class="djm2" target="_blank" rel="no-follow"> DJM2</a></h5>
+                            href="https://www.facebook.com/DjmWebMaster" class="djm2" target="_blank" rel="no-follow">
+                            DJM2</a></h5>
                 </div>
             </div>
         </div>
     </footer>
 </section>
-<script src="{{asset('js/animation.js')}}"></script>
 <script type='text/javascript'
-src='https://platform-api.sharethis.com/js/sharethis.js#property=629958a2703b77001ade9c8c&product=sop' async='async'>
-</script>
+    src='https://platform-api.sharethis.com/js/sharethis.js#property=633f37caf2bbcb00196d6f0f&product=inline-share-buttons'
+    async='async'></script>
+<script type="text/javascript"
+    src="https://platform-api.sharethis.com/js/sharethis.js#property=633f37caf2bbcb00196d6f0f&product=inline-share-buttons"
+    async="async"></script>
+<script src="{{ asset('js/animation.js') }}"></script>
+<script type='text/javascript'
+    src='https://platform-api.sharethis.com/js/sharethis.js#property=629958a2703b77001ade9c8c&product=sop'
+    async='async'></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-YVS6V2T2Z2"></script>
 <script>

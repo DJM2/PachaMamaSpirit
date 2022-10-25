@@ -4,18 +4,16 @@
 <head>
     <!-- Required meta tags -->
     @include('layouts.estilos')
-    <title>Destinos para conocer Perú | Travel Agency Pacha Mama Spirit</title>
+    <title>Destinations to discover Peru | Travel Agency Pacha Mama Spirit</title>
     <meta name="description"
-        content="Te ofrecemos en esta sección las mejores opciones para conocer Perú, un país lleno de maravillas en cada rinconcito al que se va.  Maravíllate con lo que Perú ofrece.">
+        content="In this section we offer you the best options to get to know Peru, a country full of wonders in every little corner you go to. Marvel at what Peru offers.">
     <meta property="og:description"
-        content="Te ofrecemos en esta sección las mejores opciones para conocer Perú, un país lleno de maravillas en cada rinconcito al que se va.  Maravíllate con lo que Perú ofrece.">
+        content="In this section we offer you the best options to get to know Peru, a country full of wonders in every little corner you go to. Marvel at what Peru offers.">
     <meta name="keywords"
-        CONTENT="Conocer Perú, Viajar a Perú,Reservar Perú,Como viajar a Perú?,Vacaciones en Perú,Como reservar Perú,Como llegar a Perú,Precio de viajar a Perú,Que lugares visitar en Perú,Maravilla del mundo">
-    <meta name="DateCreated" CONTENT="Mon, 6 June 2022 00:00:00 GMT-5">
-    <meta name="Revisit-after" CONTENT="30 days">
-    <meta name="robots" content="ALL">
-    <meta property="og:image" content="https://pachamamaspirit.com/img/" />
-    <link rel="canonical" href="https://www.pachamamaspirit.com/es/destinos-peru" />
+        CONTENT="Getting to know Peru, Traveling to Peru, Booking Peru, How to travel to Peru?, Vacations in Peru, How to book Peru, How to get to Peru, Price of traveling to Peru, What places to visit in Peru, Wonder of the world">
+    <meta propererty="og:title" content="Destinations to discover Peru | Travel Agency Pacha Mama Spirit">
+    <meta property="og:image" content="https://pachamamaspirit.com/img/panoramico/caminatas-trekking-peru.webp" />
+    <link rel="canonical" href="https://www.pachamamaspirit.com/en/destinies-peru" />
 </head>
 
 <body>
@@ -27,7 +25,7 @@
     <div class="blog-temas">
         <div class="container">
             <div class="row">
-                <h1 class="h1-destinos">Encuentra destinos para conocer Perú</h1>
+                <h1 class="h1-destinos">Find destinations to discover Peru</h1>
             </div>
         </div>
     </div>
@@ -37,45 +35,42 @@
             <div class="row">
                 <div class="col-lg-12">
                     <br><br>
-                    <h2>Perú como destino turístico</h2>
-                    <i>Perú. País de tradiciones. País mestizo. País fuerte</i><br><br>
+                    <h2>Peru as a tourist destination</h2>
+                    <i>Peru, country of traditions, mixed country, strong country</i><br><br>
                     <p>
-                        El turismo en el <a target="_blanck" rel="no-follow" class="enlaces-tours"
-                            href="">Perú</a> está
-                        dirigida hacia los monumentos arqueológicos, pues cuenta con más de
-                        cien mil sitios de interés, el ecoturismo en la Amazonía peruana, el turismo cultural en las
-                        ciudades coloniales, turismo gastronómico, turismo de aventura y turismo de playa.<br><br>
+                        Tourism in<strong> Peru</strong> is directed towards archaeological monuments, as it has more
+                        than one hundred thousand sites of interest, ecotourism in the Peruvian Amazon, cultural tourism
+                        in colonial cities, gastronomic tourism, adventure tourism and beach tourism.<br><br>
+                        According to a study by the Peruvian government, the satisfaction rate of tourists after
+                        visiting Peru is 94%. It is the fastest growing industry in Peru.
+                    </p>
+                    <h3>Do you want to know why visit Peru?</h3>
+                    <p>
+                        The answer is simple and complex, like Peru itself. Visiting Peru is getting in touch with an
+                        amazing culture, with people capable of showing you the best of themselves in any circumstance,
+                        with landscapes that generate emotions, with emotions that are never forgotten. Peru is rich
+                        because its wealth is not based on material things, but is found in the smile of a child from
+                        Cusco, in the tip of a fork, in your feet on the sand, in the brush of some leaves in the
+                        jungle, in the breeze when you reach the top of that mountain, in the heat on your face when the
+                        sun hits you.
+                    </p>
+                    <h2>Tourist information and assistance</h2>
+                    <p>
+                        Peru has a free state service that works 7 days a week throughout the year, called <a
+                            target="_blanck" rel="no-follow" class="enlaces-tours"
+                            href="https://www.peru.travel/es/datos-utiles/iperu">Iperú</a>,
+                        Information and Tourist Assistance. This service is of great help to the national or foreign
+                        traveler before, during and after a trip to Peru. Likewise, it receives complaints and
+                        suggestions concerning tourist companies, attractions and in general about Peruvian tourism.
 
-                        De acuerdo con un estudio del gobierno peruano, el índice de satisfacción de los turistas
-                        después de visitar el Perú es del 94%. Es la industria de más rápido crecimiento en el Perú
                     </p>
-                    <h3>¿Quieres saber por qué visitar Perú?</h3>
+                    <h3>Most popular tourist destinations in Peru</h3>
                     <p>
-                        La respuesta es sencilla y compleja, como el Perú mismo. Visitar Perú es ponerte en contacto con
-                        una cultura asombrosa, con gente capaz de mostrarte lo mejor de sí misma en cualquier
-                        circunstancia, con paisajes que generan emociones, con emociones que no se olvidan nunca. Perú
-                        es rico porque su riqueza no está puesta en cosas materiales, sino que se halla en la sonrisa de
-                        un niño cusqueño, en la punta de un tenedor, en tus pies sobre la arena, en el roce de unas
-                        hojas en la selva, en la brisa al llegar a la cima de esa montaña, en el calor sobre tu rostro
-                        cuando el sol te da de frente.
+                        This country full of charm and mysticism has 3 natural regions Costa, Sierra and Selva that
+                        allow tourists to perform endless activities ranging from sports and outdoor activities to
+                        visits to cultural and natural sites, without a doubt an unmissable destination. . Below is a
+                        list of the 7 main tourist places in Peru.
                     </p>
-                    <h2>Información y asistencia al turista</h2>
-                    <p>
-                        Perú cuenta con un servicio estatal, gratuito que trabaja los 7 días de la semana durante todo
-                        el
-                        año, llamado <a target="_blanck" rel="no-follow" class="enlaces-tours"
-                            href="https://www.peru.travel/es/datos-utiles/iperu">
-                            Iperú,</a> Información y Asistencia al Turista. Este servicio es de gran ayuda para el
-                        viajero nacional o extranjero antes, durante y después de un viaje al Perú. Asimismo, recibe
-                        reclamos y sugerencias concernientes a empresas turísticas, atractivos y en general sobre el
-                        turismo
-                        peruano.
-                    </p>
-                    <h3>Destinos turísticos más populares en Perú</h3>
-                    <p>Este país lleno de encanto y misticismo posee 3 regiones naturales Costa, Sierra y Selva que
-                        permite al turista poder realizar un sinfín de actividades que van de los deportes y actividades
-                        al aire libre hasta las visitas a sitios culturales y naturales, sin duda un destino imperdible.
-                        A continuación una lista con los 7 principales lugares turísticos del Perú.</p>
                 </div>
 
                 <div class="col-lg-3 col-md-6">
@@ -87,7 +82,7 @@
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Cusco</h5>
-                            <p class="text-card">Ombligo del mundo</p>
+                            <p class="text-card">Navel of the world</p>
                             <a href="{{ route('cusco-navel-of-the-world') }}" class="boton-card">More details</a>
                         </div>
                     </div>
@@ -100,7 +95,7 @@
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Lima</h5>
-                            <p class="text-card">La ciudad de los reyes</p>
+                            <p class="text-card">The city of kings</p>
                             <a href="{{ route('lima-city-of-kings') }}" class="boton-card">More details</a>
                         </div>
                     </div>
@@ -114,61 +109,61 @@
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Arequipa</h5>
-                            <p class="text-card">La ciudad blanca</p>
+                            <p class="text-card">The white city</p>
                             <a href="{{ route('arequipa-the-white-city') }}" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <a href="#">
+                        <a href="{{route('puno-city')}}">
                             <img class="card-img-top" src="{{ asset('img/thumb/lago-titicaca.webp') }}"
                                 alt="lago Titicaca Puno" loading="lazy">
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Puno</h5>
-                            <p class="text-card">Capital del folklore</p>
-                            <a href="#" class="boton-card">More details</a>
+                            <p class="text-card">Capital of folklore</p>
+                            <a href="{{route('puno-city')}}" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <a href="{{route('ica-city')}}">
+                        <a href="{{ route('ica-city') }}">
                             <img class="card-img-top" src="{{ asset('img/thumb/Lineas-de-Nazca.webp') }}"
                                 alt="Ica city, Nazca" loading="lazy">
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Ica</h5>
-                            <p class="text-card">La ciudad del eterno sol</p>
-                            <a href="{{route('ica-city')}}" class="boton-card">More details</a>
+                            <p class="text-card">The city of the eternal sun</p>
+                            <a href="{{ route('ica-city') }}" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <a href="{{route('pisco-city')}}">
+                        <a href="{{ route('pisco-city') }}">
                             <img class="card-img-top" src="{{ asset('img/thumb/leon-marino.webp') }}"
                                 alt="Leon marino Ica - Paracas" loading="lazy">
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Pisco</h5>
-                            <p class="text-card">Ciudad que vio nacer a su homónima bebida</p>
-                            <a href="{{route('pisco-city')}}" class="boton-card">More details</a>
+                            <p class="text-card">City that gave birth to its homonymous drink</p>
+                            <a href="{{ route('pisco-city') }}" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
-                        <a href="{{route('puerto-maldonado-en')}}">
+                        <a href="{{ route('puerto-maldonado-en') }}">
                             <img class="card-img-top"
                                 src="{{ asset('img/thumb/rio-amazonas-selva-de-peru-pacha-mama-spirit.webp') }}"
                                 alt="Amazonas river - Puerto Maldonado" loading="lazy">
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Puerto Maldonado</h5>
-                            <p class="text-card">La exótica selva peruana</p>
-                            <a href="{{route('puerto-maldonado-en')}}" class="boton-card">More details</a>
+                            <p class="text-card">The exotic Peruvian jungle</p>
+                            <a href="{{ route('puerto-maldonado-en') }}" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>

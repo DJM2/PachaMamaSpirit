@@ -105,6 +105,6 @@
                                     <a href="paquetes-turisticos-peru" class="nav-link">Luxury Lodge</a>
                                 </li>
                                 <li>
-                                    <a href="blog-peru" class="nav-link">Blog</a>
+                                    <a href="{{route('peru-blog')}}" class="nav-link">Blog</a>
                                 </li>
                            

@@ -4,19 +4,22 @@
 <head>
     <!-- Required meta tags -->
     @include('layouts.estilos')
-    <title>La ciudad imperial del Cusco, ombligo del mundo y capital del mundo</title>
+    <title>The imperial city of Cusco, navel of the world and capital of the world</title>
     <meta name="description"
-        content="Si bien Cusco y Machu Picchu son destinos imprescindibles para un primer viaje a Perú, necesita saber más sobre la ciudad más grande de Cusco. Tours a Cusco" />
+        content="While Cusco and Machu Picchu are must-see destinations for a first trip to Peru, you need to know more about the larger city of Cusco. Tours to Cuzco" />
     <meta name="keywords"
-        content="Cusco, Cusco ombligo del mundo, cusco tour, cusco tours, viajar a cusco, paquetes a cusco, conoce cusco, cusco 3 dias, cusco 4 dias, cusco 5 dias" />
+        content="Cusco, Cusco navel of the world, cusco tour, cusco tours, travel to cusco, packages to cusco, get to know cusco, cusco 3 days, cusco 4 days, cusco 5 days" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The imperial city of Cusco, navel of the world and capital of the world">
     <meta property="og:image" content="https://pachamamaspirit.com/img/panoramico/cusco-ciudad-imperial.webp" />
-    <link rel="canonical" href="https://pachamamaspirit.com/es/destinos-en-peru/cusco-ombligo-del-mundo" />
+    <link rel="canonical" href="https://pachamamaspirit.com/en/destinies-peru/cusco-navel-of-the-world" />
 </head>
 
 <body>
     @include('layouts.menu')
     <li>
-        <button onclick="window.location='{{ route('cusco-ombligo-del-mundo') }}'" class="castellano-es">Español</button>
+        <button onclick="window.location='{{ route('cusco-ombligo-del-mundo') }}'"
+            class="castellano-es">Español</button>
     </li>
     @include('layouts.menu-2')
     <div class="cusco">
@@ -33,7 +36,8 @@
                 <div class="col-lg-12">
                     <div class="details">
                         <div class="location">
-                            <p><a href="{{route('index')}}">Home</a> / <a href="{{ route('destinies-peru') }}">Destinies</a> /
+                            <p><a href="{{ route('index') }}">Home</a> / <a
+                                    href="{{ route('destinies-peru') }}">Destinies</a> /
                                 <a>Cusco</a>
                             </p>
                         </div>
@@ -47,21 +51,22 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    Ombigo del mundo
+                                    Navel of the world
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    Cusco fue la capital de la gran cultura Inca. Debido a su majestuosidad se ha
-                                    considerado como la <strong>“Capital Arqueológica de América”</strong> Y también es
-                                    considera como
-                                    patrimonio cultural de la humanidad. Su nombre probablemente proviene de una palabra
-                                    quechua Qusqu o Qosqo que significa centro u ombligo esto porque, según la mitologia
-                                    inka, en ella confluían el mundo de abajo (Uku pacha) con el mundo visible (Kay
-                                    pacha) y el mundo superior (Hanan pacha). <br><br>De este modo, la ciudad fue y es
-                                    llamada el ombligo del mundo, en referencia al universo. Sin embargo, ninguna lengua
-                                    quechua moderna contiene dicho nombre asociado al mencionado significado.
+                                    Cusco was the capital of the great Inca culture. Due to its majesty, it has been
+                                    considered the <strong>"Archaeological Capital of America"</strong> and is also
+                                    considered a cultural heritage of humanity. Its name probably comes from a Quechua
+                                    word Qusqu or Qosqo which means center or navel because, according to Inka
+                                    mythology, the world below (Uku pacha) converged with the visible world (Kay pacha)
+                                    and the upper world (Hanan pacha).<br><br>
+
+                                    In this way, the city was and is called the navel of the world, in reference to the
+                                    universe. However, no modern Quechua language contains this name associated with the
+                                    aforementioned meaning.
                                 </div>
                             </div>
                         </div>
@@ -70,32 +75,33 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    Cusco o Cuzco
+                                    Cusco or Cuzco?
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <i>Oficial y legalmente "Cusco" </i><br>
-                                    A la antigua capital del imperio inca actualmente se le conoce por Cusco o Cuzco. Es
-                                    algo que causa confusión y les vamos a explicar brevemente cual el origen de esta
-                                    diferencia. La palabra Cusco es la más utilizada para los hispanohablantes, sin
-                                    embargo, para los anglosajones la expresión más utilizada es Cuzco. <br><br>
-                                    Según los investigadores, la forma correcta debería de ser Cuzco, debido a que es lo
-                                    más aproximado a como originalmente se llamaba a dicha ciudad. Con la llegada de los
-                                    españoles, la palabra utilizada para referirse a la ciudad era Cuzco, para que
-                                    tratasen de pronunciar el nombre de la ciudad de esa manera. No obstante, las élites
-                                    en Cusco intentaron suprimir durante décadas los rastros españoles, eliminando dicha
-                                    palabra en el año 1976. Además, en 1993 se agregó la palabra quechua Qosqo
-                                    (significa ombligo del mundo o centro del universo) y posteriormente se volvió a
-                                    significado es que veían a Cusco como centro ritual. <br><br>
-                                    Por esta razón sus alrededores son impresionantes, dada la devoción que tenían por
-                                    la naturaleza y sus dioses. Como conclusión, ambas palabras están aceptadas. La más
-                                    utilizada y aceptada por la gente
-                                    local de dicha región es Cusco, sin embargo para las personas de habla inglesa la
-                                    más usada es Cuzco. La altura de Cusco Peru es 3,399 msnm.
-                                    A continuación, describiremos algunos lugares más resaltantes que puedes conocer en
-                                    excursiones en Cusco con Incas Perú:
+                                    <i>Officially and legally "Cusco"</i><br>
+                                    The ancient capital of the Inca empire is currently known as Cusco or Cuzco. It is
+                                    something that causes confusion and we are going to briefly explain the origin of
+                                    this difference. The word Cusco is the most used for Spanish speakers, however, for
+                                    Anglo-Saxons the most used expression is Cuzco.<br><br>
+
+                                    According to the researchers, the correct form should be Cuzco, because it is the
+                                    closest thing to what the city was originally called. With the arrival of the
+                                    Spaniards, the word used to refer to the city was Cuzco, so that they tried to
+                                    pronounce the name of the city in that way. However, the elites in Cusco tried to
+                                    suppress Spanish traces for decades, eliminating said word in 1976. In addition, in
+                                    1993 the Quechua word Qosqo (meaning navel of the world or center of the universe)
+                                    was added and later it returned to its meaning. who saw Cusco as a ritual
+                                    center.<br><br>
+
+                                    For this reason, its surroundings are impressive, given the devotion they had for
+                                    nature and their gods. As a conclusion, both words are accepted. The most used and
+                                    accepted by the local people of that region is Cusco, however for English speakers
+                                    the most used is Cuzco. The height of Cusco Peru is 3,399 meters above sea level.
+                                    Next, we will describe some of the most outstanding places that you can visit on
+                                    excursions in Cusco with Incas Peru:
                                 </div>
                             </div>
                         </div>
@@ -110,24 +116,22 @@
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    Cuzco, oficial y legalmente Cusco (en quechua sureño: Qusqu o Qosqo, es
-                                    una ciudad del sureste del Perú ubicada en la vertiente oriental de
-                                    la <strong>cordillera de los Andes,</strong> en la cuenca del río Huatanay, afluente
-                                    del Vilcanota.
-                                    Es la capital del departamento del Cusco y, además, según está declarado en la
-                                    Constitución peruana, es la «capital histórica» del país.<br><br>
+                                    Cuzco, officially and legally Cusco (in southern Quechua: Qusqu or Qosqo, is a city
+                                    in southeastern Peru located on the eastern slope of the Andes mountain range, in
+                                    the Huatanay river basin, a tributary of the Vilcanota. It is the capital of the
+                                    department of Cusco and, furthermore, as declared in the Peruvian Constitution, it
+                                    is the "historical capital" of the country.<br><br>
 
-                                    La ciudad, según el INEI, es la séptima más poblada de Perú, y albergaba, en 2017,
-                                    una población de 437 538 habitantes. Antiguamente fue capital del <strong>Imperio
-                                        inca</strong> y una
-                                    de las ciudades más importantes del virreinato del Perú. Durante la época virreinal,
-                                    bajo la soberanía de la corona española, se construyeron diversas iglesias,
-                                    universidades, palacios y plazas barrocas y neoclásicas.<br><br>
-                                    Estas construcciones son los atractivos que hacen que la
-                                    ciudad sea el principal destino turístico del país. Fue declarada Monumento
-                                    Histórico Nacional en 1972 y Patrimonio de la Humanidad en 1983 por la Unesco. Y
-                                    suele ser denominada, debido a la gran cantidad de monumentos que posee, la «Roma de
-                                    América».
+                                    The city, according to the INEI, is the seventh most populous in Peru, and in 2017
+                                    it had a population of 437,538 inhabitants. It was formerly the capital of the Inca
+                                    Empire and one of the most important cities of the Viceroyalty of Peru. During the
+                                    colonial era, under the sovereignty of the Spanish crown, various churches,
+                                    universities, palaces and baroque and neoclassical squares were built.<br><br>
+
+                                    These constructions are the attractions that make the city the main tourist
+                                    destination in the country. It was declared a National Historical Monument in 1972
+                                    and a World Heritage Site in 1983 by UNESCO. And it is often called, due to the
+                                    large number of monuments it has, the “Rome of America”.
                                 </div>
                             </div>
                         </div>
@@ -136,196 +140,167 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFour" aria-expanded="false"
                                     aria-controls="flush-collapseFour">
-                                    Cusco Reseña Histórica
+                                    Cusco Historical Review
                                 </button>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    Los reyes incas, hijos del Sol, gobernaron un vasto imperio, el Tahuantinsuyo, cuyo
-                                    centro era Qosqo, que significa "ombligo". Y esta ciudad era, verdaderamente, el
-                                    centro del imperio, desde el cual partían los caminos que llevaban a las cuatro
-                                    "partes del universo".<br><br>
+                                    The Inca kings, sons of the Sun, governed a vast empire, the Tahuantinsuyo, whose
+                                    center was Qosqo, which means "navel". And this city was truly the center of the
+                                    empire, from which the roads leading to the four "parts of the universe"
+                                    started.<br><br>
 
-                                    Más abajo te presentamos un breve resumen de las principales etapas de la historia
-                                    de Cusco, pero antes queremos invitarte a conocerla en primera persona.
-                                    Dos son las leyendas sobre la fundación de Cusco y ambas se basan en un viaje
-                                    mítico. <br><br>
-                                    <h4>Fundación mitológica</h4>
-                                    La primera leyenda tiene como protagonistas a<strong> Manco Cápac y Mama
-                                        Ocllo,</strong> hijos de
-                                    Inti, el <strong> dios Sol, y Quilla, la diosa Luna.</strong> Los hermanos partieron
-                                    de la Isla del
-                                    Sol, en el lago Titicaca, en busca de un lugar para fundar una ciudad. El lugar
-                                    elegido fue aquel donde la vara de oro que llevaban consigo se clavó en la tierra de
-                                    un solo golpe.<br><br>
+                                    Below we present a brief summary of the main stages of the history of Cusco, but
+                                    first we want to invite you to get to know it in the first person. There are two
+                                    legends about the foundation of Cusco and both are based on a mythical
+                                    journey.<br><br>
+                                    <h4>Mythological foundation</h4>
+                                    LThe first legend has Manco Cápac and Mama Ocllo as protagonists, children of Inti,
+                                    the Sun god, and Quilla, the Moon goddess. The brothers set out from Isla del Sol,
+                                    on Lake Titicaca, in search of a place to found a city. The chosen place was the one
+                                    where the golden rod that they carried with them was stuck in the ground with a
+                                    single blow.<br><br>
 
-                                    En la segunda leyenda<strong> 'Leyenda de los hermanos Ayar'</strong> los
-                                    protagonistas son cuatro hermanos, compañeros de cuatro
-                                    hermanas: Mama Guaco y Ayar Cachi, Mama Cora y Ayar Uchu, Mama Rawa y Ayar Aucca,
-                                    Mama Ocllo y Ayar Manco. Ellos sobrevivieron al diluvio provocado por <strong>
-                                        Wiracocha</strong> y
-                                    salieron de unas cuevas en Pacaritambo, en el cerro Tampu Tocco, para repoblar la
-                                    Tierra.<br><br>
+                                    In the second legend 'Legend of the Ayar brothers' the protagonists are four
+                                    brothers, companions of four sisters: Mama Guaco and Ayar Cachi, Mama Cora and Ayar
+                                    Uchu, Mama Rawa and Ayar Aucca, Mama Ocllo and Ayar Manco. They survived the flood
+                                    caused by Wiracocha and came out of some caves in Pacaritambo, on the Tampu Tocco
+                                    hill, to repopulate the Earth.<br><br>
 
-                                    Por distintas circunstancias, tres de los hermanos abandonaron el viaje antes de
-                                    llegar a destino. Sólo <strong> Mama Ocllo y Ayar Manco</strong> siguieron viajando
-                                    hasta encontrar el
-                                    lugar en que la vara de oro que les había dado Wiracocha se hundió en la
-                                    tierra.<br><br>
+                                    Due to different circumstances, three of the brothers abandoned the trip before
+                                    reaching their destination. Only Mama Ocllo and Ayar Manco continued traveling until
+                                    they found the place where the golden rod that Wiracocha had given them sank into
+                                    the ground.<br><br>
                                     <img src="{{ asset('img/galeria/leyenda-de-los-hermanos-ayar.webp') }}"
-                                        alt="Leyenda de los hermanos Ayar, Cusco" width="100%" loading="lazy">
-                                    <i>Foto: Estudiantes de la universidad Andina del Cusco, escenifican 'la leyenda de
-                                        los hermanos Ayar'</i><br><br>
+                                        alt="Legend of the Ayar brothers, Cusco" width="100%" loading="lazy">
+                                    <i>Photo: Students from the Andean University of Cusco, stage 'the legend of the
+                                        Ayar brothers'</i><br><br>
 
-                                    Manco se valió de sus habilidades y enlazó al sol para que no se pusiera, creando
-                                    así la ciudad en un solo día. La ciudad se llamó Qosqo y la roca desde la cual
-                                    enlazó al sol, en Machu Picchu, fue bautizada como Intihuatana.<br><br>
+                                    Manco used his abilities and linked the sun so that it would not set, thus creating
+                                    the city in a single day. The city was called Qosqo and the rock from which he
+                                    linked to the sun, in Machu Picchu, was baptized as Intihuatana.<br><br>
 
-                                    En el centro de la nueva ciudad, diseñada con forma de puma yacente, Manco erigió un
-                                    templo en honor del dios Sol y rodeó la ciudad de montañas, para protegerla del
-                                    viento, dominado por su hermano Ayar Aucca. También organizó los primeros sembradíos
-                                    de maíz. Ayar Manco cambió su nombre a Manco Capac. Es considerado el primer Inka,
-                                    es decir, el primer rey del imperio.<br><br>
-                                    <h4>Origen histórico de Cusco</h4>
-                                    Se han encontrado objetos pre-cerámicos de unos 5000 años de antigüedad en el Se han
-                                    encontrado objetos pre-cerámicos de unos 5000 años de antigüedad en el Valle de
-                                    Cusco, pertenecientes a las culturas Yauri y Chumbivilcas. Todas las tribus que
-                                    dejaron su huella en el valle eran nómadas. Algunos de estos objetos se exhiben
-                                    actualmente en el Museo de Arte Precolombino.
+                                    In the center of the new city, designed in the shape of a recumbent puma, Manco
+                                    erected a temple in honor of the Sun god and surrounded the city with mountains, to
+                                    protect it from the wind, dominated by his brother Ayar Aucca. He also organized the
+                                    first corn fields. Ayar Manco changed his name to Manco Capac. He is considered the
+                                    first Inka, that is, the first king of the empire.<br><br>
+                                    <h4>Historical origin of Cusco</h4>
+                                    Pre-ceramic objects of about 5000 years old have been found in the Pre-ceramic
+                                    objects of about 5000 years old have been found in the Valley of Cusco, belonging to
+                                    the Yauri and Chumbivilcas cultures. All the tribes that left their mark on the
+                                    valley were nomads. Some of these objects are currently exhibited in the Museum of
+                                    Pre-Columbian Art. The first sedentary settlements were recorded, it is assumed,
+                                    around the year 1000 BC, in the area called Marcavalle. There were many cultures
+                                    that settled in the place in the form of waves: sawasiras, antasayas, wallas, maras,
+                                    tampus, mascas, chilkes... And almost all of them left their mark in ruins that can
+                                    still be seen in Piquillacta and Choquepuquio. The Mascas seem to have been the ones
+                                    who gave rise to what would later become the Inca Empire. Valley of Cusco, belonging
+                                    to the Yauri and Chumbivilcas cultures. All the tribes that left their mark on the
+                                    valley were nomads. Some of these objects are currently exhibited in the Museum of
+                                    Pre-Columbian Art.<br><br>
 
-                                    Los primeros asentamientos sedentarios se registraron, se supone, alrededor del año
-                                    1000 AC, en la zona llamada Marcavalle. Hubo muchas culturas que se asentaron en el
-                                    lugar en forma de oleadas: sawasiras, antasayas, wallas, maras, tampus, mascas,
-                                    chilkes... Y casi todas ellas dejaron su huella en ruinas que aún pueden verse en
-                                    Piquillacta y Choquepuquio. Los mascas parecen haber sido quienes dieron origen a lo
-                                    que más tarde sería el Imperio Inca.<strong>Valle de Cusco,</strong> pertenecientes
-                                    a las culturas Yauri y Chumbivilcas. Todas las tribus que dejaron su huella en el
-                                    valle eran nómadas. Algunos de estos objetos se exhiben actualmente en el Museo de
-                                    Arte Precolombino.<br><br>
-
-
-                                    Los primeros asentamientos sedentarios se registraron, se supone, alrededor del
-                                    año 1000 AC, en la zona llamada Marcavalle. Hubo muchas culturas que se asentaron en
-                                    el lugar en forma de oleadas:<strong> sawasiras, antasayas, wallas, maras, tampus,
-                                        mascas,
-                                        chilkes...</strong> Y casi todas ellas dejaron su huella en ruinas que aún
-                                    pueden verse
-                                    en Piquillacta y Choquepuquio. Los mascas parecen haber sido quienes dieron origen
-                                    a lo que más tarde sería el Imperio Inca.<br><br>
-                                    <h4>El Imperio Inca</h4>
+                                    The first sedentary settlements were recorded, it is assumed, around the year 1000
+                                    BC, in the area called Marcavalle. There were many cultures that settled in the
+                                    place in the form of waves: sawasiras, antasayas, wallas, maras, tampus, mascas,
+                                    chilkes... And almost all of them left their mark in ruins that can still be seen in
+                                    Piquillacta and Choquepuquio. The mascas seem to have been the ones who gave rise to
+                                    what would later become the Inca Empire.<br><br>
+                                    <h4>The Inca empire</h4>
                                     <img src="{{ asset('img/galeria/imperio-del-tahuantinsuyo-imperio-inca.webp') }}"
-                                        width="100%" alt="Ica Empire" loading="lazy"><br><br>
-                                    Alrededor del <strong>1200 DC</strong> surgió en el Valle de Cusco un señorío que
-                                    dominó, con el tiempo, al resto de los pueblos. El responsable de la creación de
-                                    este imperio fue Cusi Yupanqui, el 9º Capac Inka y 1º Inka del Tahuantinsuyo,
-                                    reconocido como tal alrededor de 1438. Fue nombrado Pacha Kutiy o<strong>
-                                        Pachacútec</strong>
-                                    Yupanqui Cápac Intichuri y coronado con la mascapaicha, corona imperial.<br><br>
+                                        width="100%" alt="Inca Empire" loading="lazy"><br><br>
+                                    Around 1200 AD a lordship arose in the Valley of Cusco that dominated, over time,
+                                    the rest of the towns. The person responsible for the creation of this empire was
+                                    Cusi Yupanqui, the 9th Capac Inka and 1st Inka of Tahuantinsuyo, recognized as such
+                                    around 1438. He was named Pacha Kutiy or Pachacútec Yupanqui Cápac Intichuri and
+                                    crowned with the mascapaicha, imperial crown.<br><br>
 
-                                    Durante el período de expansión, las dos regiones o suyos originales,
-                                    <strong>Huri(arriba) y Hanan (abajo) </strong> a ser cuatro: <strong>Chinchaysuyo,
-                                        Antisuyo, Qollasuyo y Kuntisuyo,</strong> y abarcaron también a los pueblos que
-                                    fueron conquistados en los 100 años que duró el imperio.<br><br>
+                                    During the period of expansion, the two original regions or theirs, Huri (above) and
+                                    Hanan (below) became four: Chinchaysuyo, Antisuyo, Qollasuyo and Kuntisuyo, and also
+                                    included the peoples that were conquered in the 100 years that the expansion period
+                                    lasted. empire.<br><br>
 
-                                    El territorio del Imperio Inca abarcaba desde el sur de Colombia hasta el centro de
-                                    Chile y el noroeste de Argentina, con centro en Cusco.
+                                    The territory of the Inca Empire extended from the south of Colombia to the center
+                                    of Chile and the northwest of Argentina, with a center in Cusco. In this time of
+                                    splendor, mythical cities were built, such as Machu Picchu; 23,000 kilometers of
+                                    road, among which is the famous Camino del Inca route; artificial irrigation
+                                    channels with amazing technology, such as those that can be seen in Moray;
+                                    fortresses, pyramids and temples.<br><br>
+                                    <h4>The Spanish conquest - Fall of the Empire</h4>
+                                    By the time Francisco Pizarro arrived in Cusco in 1532, the empire was weakened by a
+                                    bloody civil war. This would explain why an army of less than 200 men was able to
+                                    conquer and subdue an empire that had, at that time, around 15 million
+                                    inhabitants.<br><br>
 
-                                    En esta época de esplendor se construyeron ciudades míticas, como Machu Picchu;
-                                    23.000 kilómetros de camino, entre los cuales está el famoso recorrido Camino del
-                                    Inca; canales de riego artificiales con una asombrosa tecnología, como los que
-                                    pueden verse en Moray; fortalezas, pirámides y templos.<br><br>
-                                    <h4>La conquista española - Caída del Imperio</h4>
-                                    En el momento en que <strong>Francisco Pizarro</strong> llegó a Cusco, en 1532, el
-                                    imperio se hallaba
-                                    debilitado por una sangrienta guerra civil. Esto explicaría por qué un ejército de
-                                    menos de 200 hombres pudo conquistar y doblegar un imperio que tenía, en ese
-                                    momento, alrededor de 15 millones de habitantes.<br><br>
+                                    The confrontation between the Inca Tupac Kusi Wallpaq (Huascar) and his brother
+                                    Atahualpa ended with the triumph of the latter, who locked Huascar in prison. In
+                                    November 1532 Atahualpa was summoned to a meeting with Pizarro in the city of
+                                    Cajamarca, which the Inca attended with his unarmed troops, without suspecting that
+                                    it was an ambush. Allied with enemies of Atahualpa, Pizarro and his hosts killed a
+                                    large part of the Incas and arrested Atahualpa. From prison, the Inca king ordered
+                                    the death of his brother.<br><br>
 
-                                    El enfrentamiento entre el Inca Tupac Kusi Wallpaq (Huascar) y su hermano Atahualpa
-                                    finalizó con el triunfo de este último, quien encerró a Huascar en prisión.
+                                    Emperor Atahualpa promised the Spanish a large ransom for his release: two rooms
+                                    filled with silver and one with gold. Precious metals arrived from all corners of
+                                    the Empire during the nine months of the king's captivity. But, although the ransom
+                                    was paid, Atahualpa was executed in July 1533 and the gold and silver were sent in
+                                    part to Spain, and part distributed among Pizarro's soldiers.<br><br>
 
-                                    En noviembre de 1532 Atahualpa fue convocado a una reunión con Pizarro en la ciudad
-                                    de Cajamarca, a la que el Inca asistió con sus tropas desarmadas, sin sospechar que
-                                    se trataba de una emboscada. Aliado con enemigos de Atahualpa, Pizarro y sus huestes
-                                    asesinaron a gran parte de los incas y detuvieron a Atahualpa. Desde prisión, el rey
-                                    inca ordenó la muerte de su hermano.<br><br>
+                                    Pizarro left for Cusco and on the way he was met by Manco Inca Yupanqui, whom he
+                                    named the new king, with the intention of ruling the city through his ally. Together
+                                    they entered the city in November 1533. In March 1534 Pizarro founded the Spanish
+                                    "very noble and very loyal city of Cuzco".<br><br>
 
-                                    El emperador Atahualpa prometió a los españoles el pago de un gran rescate por su
-                                    liberación: dos habitaciones llenas de plata y una de oro. Los metales preciosos
-                                    llegaron desde todos los rincones del Imperio durante los nueve meses del cautiverio
-                                    del rey. Pero, a pesar de que el rescate fue pagado, Atahualpa fue ejecutado en
-                                    julio de 1533 y el oro y la plata fueron enviados en parte a España, y parte
-                                    repartida entre los soldados de Pizarro.<br><br>
+                                    The Spanish troops were greeted with joy, due to an ancient prophecy that the Inca
+                                    gods would come to earth from the water. Their strange weapons, their appearance and
+                                    their horses convinced the Incas that they were truly gods.<br><br>
+                                    <h4>The rebellion of Manco Inca</h4>
+                                    In 1536 Manco Inca, having seen what the true intentions of the Spanish were, began
+                                    an uprising against them that would last 37 years. The first confrontation, in
+                                    Acsayhuamán, culminated in the Spanish victory.<br><br>
 
-                                    Pizarro partió a Cusco y en el camino le salió al encuentro Manco Inca Yupanqui, a
-                                    quien nombró nuevo rey, con la intención de gobernar la ciudad a través de su
-                                    aliado. Juntos ingresaron a la ciudad en noviembre de 1533. En marzo de 1534 Pizarro
-                                    fundó la española "muy noble y muy leal ciudad del Cuzco".<br><br>
+                                    Pizarro first and his followers later, were achieving allies among different peoples
+                                    of the empire. In 1538, with his troops exhausted and decimated, Manco Inca took
+                                    refuge in Vilcabamba, where he established the seat of the Inca monarchy, while the
+                                    Spanish continued to advance and dominate the cities of the empire.<br><br>
 
-                                    Las tropas españolas fueron recibidas con alegría, debido a una antigua profecía que
-                                    decía que los dioses incas llegarían a la tierra desde el agua. Sus extrañas armas,
-                                    su apariencia y sus caballos convencieron a los incas de que se trataba
-                                    verdaderamente de dioses.<br><br>
-                                    <h4>La rebelión de Manco Inca</h4>
-                                    En <strong>1536</strong> Manco Inca, habiendo visto cuáles eran las verdaderas
-                                    intenciones de los
-                                    españoles, comenzó una sublevación en su contra que duraría 37 años. El primer
-                                    enfrentamiento, en <strong>acsayhuamán,</strong> culminó con el triunfo
-                                    español.<br><br>
+                                    Also between the Spaniards there were clashes. Diego de Almagro, having failed in
+                                    the conquest of Chile, went to Peru in search of gold, where he faced Gonzalo
+                                    Pizarro and Alfonso de Alvarado first, and Hernando Pizarro later, who defeated him.
+                                    The group called "almagrista" was the one that assassinated Francisco Pizarro in
+                                    1541.<br><br>
 
-                                    Pizarro primero y sus seguidores después, fueron logrando aliados entre distintos
-                                    pueblos del imperio. En 1538, con sus tropas agotadas y diezmadas, Manco Inca se
-                                    refugió en Vilcabamba, donde estableció la sede de la monarquía inca, mientras los
-                                    españoles seguían avanzando y dominando las ciudades del imperio.<br><br>
+                                    The Viceroyalty of Peru was established in 1542 and Cusco became the most important
+                                    city after Lima. The Inca rebellion ended in 1572, when Inca Tupac Amaru I, son of
+                                    Manco Inca, was executed in Cusco by order of Viceroy Francisco de Toledo. His
+                                    descendants were exiled to distant places to prevent further rebellions.<br><br>
 
-                                    También entre los españoles había enfrentamientos. <strong>Diego de
-                                        Almagro,</strong> habiendo
-                                    fracasado en la conquista de Chile, se dirigió a Perú en busca de oro, donde se
-                                    enfrentó a Gonzalo Pizarro y Alfonso de Alvarado primero, y a Hernando Pizarro
-                                    después, quien lo venció. El grupo denominado "almagrista" fue el que asesinó a
-                                    Francisco Pizarro en 1541.<br><br>
+                                    However, in 1780 a new uprising would take place, the so-called "Great Rebellion",
+                                    this time for the independence of Peru, led by a descendant of Tupac Amaru, the
+                                    caudillo José Gabriel Condorcanqui, known as Tupac Amaru II. Condorcanqui was
+                                    imprisoned and later tortured and executed by the Spanish, along with his wife and
+                                    his children and his followers, in the Plaza de Armas of Cusco, in 1781. The
+                                    independence of Peru would finally come in 1821.<br><br>
+                                    <h4>Colonial Cuzco</h4>
+                                    The Spanish occupation of Cusco produced a drastic change not only in religion,
+                                    customs and rituals, but also in architecture. Many temples and houses were simply
+                                    destroyed to use the stone for colonial construction. Others were used as "bases" on
+                                    which to erect churches, chapels and residences for the conquerors. On what was the
+                                    Royal Palace of the Inca Viracocha, for example, the Cathedral of Cusco was built.
+                                    Houses were even built in the space of the Plaza de Armas, considerably reducing it
+                                    in size.<br><br>
 
-                                    El Virreinato del Perú se estableció en 1542 y Cusco pasó a ser la ciudad más
-                                    importante, después de Lima.
+                                    An earthquake in the year 1650 left the city practically in ruins. The
+                                    reconstruction was done in a colonial style, with special emphasis on wood carving
+                                    decoration, as can still be seen in various chapels and churches in the
+                                    region.<br><br>
 
-                                    La rebelión inca terminó en 1572, cuando fue ejecutado en Cusco el <strong>Inca
-                                        Tupac Amaru
-                                        I,</strong> hijo de Manco Inca, por orden del virrey Francisco de Toledo. Sus
-                                    descendientes
-                                    fueron exiliados a lugares distantes para impedir nuevas rebeliones.<br><br>
-
-                                    Sin embargo, en 1780 se produciría un nuevo levantamiento, la llamada <strong>"Gran
-                                        Rebelión",</strong> esta vez por la independencia del Perú, liderado por un
-                                    descendiente de
-                                    Tupac Amaru, el caudillo José Gabriel Condorcanqui,conocido como <strong>Tupac Amaru
-                                        II.</strong>
-                                    Condorcanqui fue apresado y luego torturado y ejecutado por los españoles, junto con
-                                    su esposa e hijos y seguidores, en la Plaza de Armas de Cusco, en 1781. La
-                                    independencia de Perú llegaría, finalmente, en 1821.<br><br>
-                                    <h4>Cusco colonial</h4>
-                                    La ocupación española de Cusco produjo un drástico cambio no sólo en la religión,
-                                    las costumbres y los rituales, sino también en la arquitectura. <strong>Muchos
-                                        templos y
-                                        casas fueron simplemente destruidos para utilizar la piedra en construcciones
-                                        coloniales.</strong> Otros fueron usados como "base" sobre la cual erigir
-                                    iglesias, capillas
-                                    y residencias para los conquistadores. Sobre lo que fuera el Palacio Real del Inca
-                                    Viracocha, por ejemplo, fue construida la Catedral de Cusco. Incluso se construyeron
-                                    casas en el espacio de la Plaza de Armas, reduciéndola considerablemente de
-                                    tamaño.<br><br>
-
-                                    Un terremoto en el año 1650 dejó la ciudad prácticamente en ruinas. La
-                                    reconstrucción se hizo en estilo colonial, poniendo especial énfasis en la
-                                    decoración en talla de madera, como aún se puede ver en varias capillas e iglesias
-                                    de la región.<br><br>
-
-                                    La importancia de Cusco, más allá de lo turístico, reside en el significado
-                                    histórico de esta ciudad. Los incas nunca abandonaron totalmente sus tradiciones y
-                                    trataron de transmitirlas de generación en generación. Tras la muerte de
-                                    Condorcanqui, la resistencia pasó a ser el sello de identidad del Cusco. La historia
-                                    de este pueblo, sus dioses y sus héroes, aún se cuenta en sus tejidos, para quien
-                                    sepa leerla.
+                                    The importance of Cusco, beyond tourism, lies in the historical significance of this
+                                    city. The Incas never totally abandoned their traditions and tried to pass them down
+                                    from generation to generation. After the death of Condorcanqui, resistance became
+                                    the hallmark of Cusco. The history of this town, its gods and its heroes, is still
+                                    told in its fabrics, for those who know how to read it.
                                 </div>
                             </div>
                         </div>
@@ -334,167 +309,164 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFive" aria-expanded="false"
                                     aria-controls="flush-collapseFive">
-                                    Cusco como destino turístico
+                                    Cusco as a tourist destination
                                 </button>
                             </h2>
                             <div id="flush-collapseFive" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     No existe una forma sencilla de explicar la majestuosidad que representa el Cusco.
-                                    Esta región reúne historia, modernidad y aventura con una mística que envuelve desde
-                                    la plaza de armas cusqueña hasta los lugares más alejados de ella. Llénate de
-                                    energí­a en Moray, descubre la impresionante arquitectura de Ollantaytambo y Pisac y
-                                    siéntete un poco más cerca del cielo en la ciudadela inca de Machu Picchu. <br><br>
-                                    Y no solo
-                                    eso: el ombligo del mundo también está lleno de arte contemporáneo, una vida
-                                    nocturna de lunes a domingo y para los más aventureros, un bungee jumping que
-                                    asegura la adrenalina pura.<br><br>
-                                    <h3>10 Lugares imperdibles en Cusco</h3><br>
+                                    There is no easy way to explain the majesty that Cusco represents. This region
+                                    brings together history, modernity and adventure with a mystique that surrounds
+                                    everything from the Cusco main square to the farthest places from it. Fill yourself
+                                    with energy in Moray, discover the impressive architecture of Ollantaytambo and
+                                    Pisac and feel a little closer to heaven in the Inca citadel of Machu
+                                    Picchu.<br><br>
+
+                                    And not only that: the navel of the world is also full of contemporary art,
+                                    nightlife from Monday to Sunday and for the more adventurous, bungee jumping that
+                                    ensures pure adrenaline.<br><br>
+                                    <h3>10 unmissable places in Cusco</h3><br>
                                     <h4>1. Machu Picchu</h4>
-                                    Un viaje a Cusco no sería considerado como tal, pero va a la maravilla del
-                                    mundo.<br>
-                                    La ciudad Inca se levanta imponente entre la Cordillera de los Andes y la selva,
-                                    mostrándose al mundo como una de las más grandes obras del hombre y puede ser
-                                    disfrutada intacta aún hoy en día.
-                                    A pesar de su difícil ubicación, llegar a Machu Picchu es relativamente sencillo y
-                                    se puede hacer de muchas maneras, ya sea que te guste la comodidad o la
-                                    aventura.<br>
-                                    No hay excusa para no visitar la obra maestra de los Incas, de visita obligada para
-                                    todos los que llegan a Cusco.<br><br>
+                                    A trip to Cusco would not be considered as such, but it goes to the wonder of the
+                                    world.<br><br>
+                                    The Inca city rises imposing between the Andes Mountains and the jungle, showing
+                                    itself to the world as one of the greatest works of man and can be enjoyed intact
+                                    even today. Despite its difficult location, getting to Machu Picchu is relatively
+                                    easy and can be done in many ways, whether you like comfort or adventure.
+                                    There is no excuse not to visit the masterpiece of the Incas, a must for all who
+                                    come to Cusco.<br><br>
 
                                     <h4>2. Sacsayhuamán</h4>
-                                    La fortaleza de Sacsayhuamán es una de las construcciones más sorprendentes de los
-                                    Incas.<br>
-
-                                    Ubicado a 2 km de la ciudad del Cusco, destacan de manera muy notable sus increíbles
-                                    murallas ciclópeas, las torres ubicadas sobre las murallas en zigzag y las enormes
-                                    puertas trapezoidales. Puedes pasar un momento divertido deslizándote por los
-                                    Suchunas (rodando) o por las Chincanas (túneles).<br>
-
-                                    En Sacsayhuamán, cada 24 de junio, se realiza el Festival del Sol llamado Inti
-                                    Raymi.<br><br>
+                                    The Sacsayhuamán fortress is one of the most amazing constructions of the Incas.
+                                    Located 2 km from the city of Cusco, its incredible cyclopean walls, the towers
+                                    located on the zigzag walls and the enormous trapezoidal doors stand out in a very
+                                    remarkable way. You can have a fun time sliding down the Suchunas (rolling) or the
+                                    Chincanas (tunnels).<br><br>
+                                    In Sacsayhuamán, every June 24, the Festival of the Sun called Inti Raymi is
+                                    held.<br><br>
                                     <img src="{{ asset('img/galeria/know-sacsayhuaman-Cusco-Peru.webp') }}"
                                         width="100%" loading="lazy" alt="The fortress of Sacsayhuman">
                                     <i>Picture: Fortress of Sacsayhuaman</i><br><br>
-                                    <h4>3. Laguna Humantay</h4>
-                                    La Laguna Humantay (5,473 m.s.n.m.) es, sin duda, uno de los paisajes más increíbles
-                                    del Cusco. Este atractivo turístico natural se encuentra al pie de la montaña del
-                                    mismo nombre, camino al nevado Salkantay, por donde tambien hay un camino Inca para
-                                    llegar a la ciudadela de <strong>Machu Picchu.</strong>
-
-                                    Llegar allí es una aventura. Se camina a través de paisajes altoandinos donde se
-                                    pueden ver llamas, alpacas, vizcachas y otros animales. La laguna está rodeada de
-                                    picos nevados. Los visitantes que llegan allí dejan ‘apachetas’, ofrendas a la
-                                    Pachamama (Madre Tierra).<br><br>
+                                    <h4>3. Humantay lake</h4>
+                                    The Humantay Lagoon (5,473 meters above sea level) is, without a doubt, one of the
+                                    most incredible landscapes in Cusco. This natural tourist attraction is located at
+                                    the foot of the mountain of the same name, on the way to the snowy Salkantay, where
+                                    there is also an Inca trail to reach the citadel of Machu Picchu. Getting there is
+                                    an adventure. You walk through high Andean landscapes where you can see llamas,
+                                    alpacas, vizcachas and other animals. The lagoon is surrounded by snowy peaks.
+                                    Visitors who arrive there leave 'apachetas', offerings to Pachamama (Mother
+                                    Earth).<br><br>
 
                                     <h4>4. Maras & Moray</h4>
-                                    <h5>Salineras de Maras</h5>
-                                    Moray es un sitio arqueológico cercano a Cusco, ubicado en Maras. Esta construcción
-                                    incaica se caracteriza por estar formada por varios andenes circulares en una
-                                    especie de cráter y se encuentra a 3500 metros sobre el nivel del mar.<br><br>
+                                    <h5>Salt Mines of Maras</h5>
+                                    Moray is an archaeological site near Cusco, located in Maras. This Inca construction
+                                    is characterized by being formed by several circular platforms in a kind of crater
+                                    and is located 3,500 meters above sea level.<br><br>
                                     <h5>Moray</h5>
 
-                                    Según muchos arequólogos, este sitio fue utilizado por los incas para experimentar
-                                    con granos y plantas a diferentes alturas.<br><br>
-                                    Salineras de maras es un lugar único y muy instagrameable, hay miles de depósitos
-                                    naturales de sal que los lugareños utilizan para extraer la sal natural conocida
-                                    como «sal de maras» y que se utiliza en los restaurantes gourmet.<br><br>
-                                    <h4>5. Vinicunca: Montaña de 7 colores</h4>
+                                    According to many archaeologists, this site was used by the Incas to experiment with
+                                    grains and plants at different heights.
+
+                                    Salineras de maras is a unique and very instagrammable place, there are thousands of
+                                    natural salt deposits that the locals use to extract the natural salt known as “sal
+                                    de maras” and that is used in gourmet restaurants.<br><br>
+                                    <h4>5. Vinicunca: Mountain of 7 colors</h4>
                                     <ul>
-                                        <li>El atractivo turístico de moda en Cusco se llama Vinicunca, Montaña Arcoíris
-                                            o simplemente Montaña de los 7 colores.</li>
-                                        <li>La montaña Vinicunca está a unos 5,200 metros del nivel del mar (17,060 ft).
+                                        <li>The fashionable tourist attraction in Cusco is called Vinicunca, Rainbow
+                                            Mountain or simply Mountain of the 7 colors.</li>
+                                        <li>The Vinicunca mountain is about 5,200 meters above sea level (17,060 ft).
                                         </li>
-                                        <li>Se encuentra a los pies del nevado Ausangate, el más alto de Cusco.</li>
-                                        <li>Esta montaña se descubrió en los últimos años tras el deshielo que dejó
-                                            descubierto la belleza de sus minerales multicolores.</li>
-                                        <li>El hermoso paisaje que ofrece la montaña atrae cada día a cientos de
-                                            visitantes. El lugar se volvió unos de los atractivos turísticos más
-                                            fotografiados.</li>
-                                        <li>El tour incluye transporte, almuerzo, guía turístico y entrada. Para llegar
-                                            a la cima, los visitantes deben recorrer a pie 5 kilómetros,
-                                            aproximadamente. La otra opción es contratar un caballo a los pobladores
-                                            locales.</li>
-                                        <li>Se ubica en la Comunidad de Pampachiri, Canchis, Cusco.</li>
-                                        <li>Se realizan tours de un día de duraci+on para visitar Vinicunca.</li>
+                                        <li>It is located at the foot of the snowy Ausangate, the highest in Cusco.</li>
+                                        <li>This mountain was discovered in recent years after the melting of the ice
+                                            that revealed the beauty of its multicolored minerals.</li>
+                                        <li>The beautiful landscape offered by the mountain attracts hundreds of
+                                            visitors every day. The place became one of the most photographed tourist
+                                            attractions.</li>
+                                        <li>To reach the top, visitors must walk approximately 5 kilometers. The other
+                                            option is to hire a horse from local people.</li>
+                                        <li>The tour includes transportation, lunch, tour guide and entrance fee.</li>
+                                        <li>It is located in the Community of Pampachiri, Canchis, Cusco.</li>
+                                        <li>One-day tours are made to visit Vinicunca.</li>
                                     </ul>
-                                    <h4>6. Complejo Arqueológico de "Choquequirao"</h4>
-                                    Se encuentra ubicada en la Región Cusco, y se compone de nueve sectores, entre los
-                                    que destacan están: el centro político religioso, el sistema de fuentes y canales
-                                    con acueductos, y el grupo de las portadas.
-                                    <br><br>
-                                    Es preciso recalcar el carácter religioso de este complejo. La arquitectura se
-                                    encuentra distribuida alrededor de una explanada o plaza principal, y se complementa
-                                    por un muy bien conservado sistema de andenería agrícola. Los restos arqueológicos
-                                    se distribuyen en la parte descendente del cerro Choquequirao y se agrupan a manera
-                                    de pequeños barrios, un tanto separados entre sí, siguiendo un probable criterio de
-                                    fusión y rango social.
-                                    <h5>El sector residencial y las andenerías </h5>
-                                    La zona residencial se encuentra en la parte descendente, mientras que los flancos
-                                    de las montañas contienen las andenerías de cultivo. Algunas de ellas tuvieron
-                                    canales de riego y fueron usadas de manera permanente, mientras otras fueron, al
-                                    perecer, temporales.
-                                    <h5>El sector ceremonial</h5>
-                                    La zona ceremonial se encuentra en la parte denominada Plaza Principal, mientras
-                                    que en la parte alta destaca una serie de sofisticados edificios.<br><br>
+                                    <h4>6. Archaeological Complex of "Choquequirao"</h4>
+                                    It is located in the Cusco Region, and is made up of nine sectors, among which are:
+                                    the political-religious center, the system of fountains and channels with aqueducts,
+                                    and the group of the portals.<br><br>
+
+                                    It is necessary to emphasize the religious character of this complex. The
+                                    architecture is distributed around an esplanade or main square, and is complemented
+                                    by a very well preserved system of agricultural terraces. The archaeological remains
+                                    are distributed in the descending part of the Choquequirao hill and are grouped in
+                                    the form of small neighborhoods, somewhat separated from each other, following a
+                                    probable criterion of fusion and social rank.
+                                    <h5>The residential sector and the terraces</h5>
+                                    The residential area is found in the descending part, while the flanks of the
+                                    mountains contain the agricultural terraces. Some of them had irrigation canals and
+                                    were used permanently, while others were, when they perished, temporary.
+                                    <h5>The ceremonial area</h5>
+                                    The ceremonial area is located in the part called the Main Square, while a series of
+                                    sophisticated buildings stand out in the upper part.<br><br>
                                     <img src="{{ asset('img/galeria/choquequirao-amazing-trekking.webp') }}"
                                         width="100%" alt="Archaeological Center of Choquequirao" loading="lazy">
                                     <i>Picture: Archaeological Center of Choquequirao</i><br><br>
 
-                                    <h4>6. Aguas termales de Cocalmayo</h4>
-                                    Los visitantes que llegan a Machu Picchu a través de la ruta alterna por
-                                    Hidroeléctrica tienen la opción de relajarse en los baños termales de Cocalmayo.
-                                    Este atractivo natural se encuentra en el pueblo de Santa Teresa, a aproximadamente
-                                    20 kilómetros de Machu Picchu.<br><br>
+                                    <h4>6. Cocalmayo hot springs</h4>
+                                    Visitors who arrive at Machu Picchu through the alternate route through
+                                    Hydroelectric have the option of relaxing in the thermal baths of Cocalmayo. This
+                                    natural attraction is located in the town of Santa Teresa, approximately 20
+                                    kilometers from Machu Picchu.<br><br>
 
-                                    Las aguas termales de Cocalmayo poseen hasta 3 piscinas con temperaturas desde los
-                                    38ºC. hasta los 44ºC. Sus aguas son claras y tienen propiedades curativas y
-                                    relajantes. Muchos turistas llegan allí en su camino a Machu Picchu con el fin de
-                                    relajarse.<br><br>
+                                    The thermal waters of Cocalmayo have up to 3 pools with temperatures from 38ºC. up
+                                    to 44ºC. Its waters are clear and have healing and relaxing properties. Many
+                                    tourists arrive there on their way to Machu Picchu in order to relax.<br><br>
 
-                                    <h4>8. Plaza de Armas</h4>
-                                    Conocida por los pobladores de la época como Plaza Aucaypata, que en quechua
-                                    significa “Plaza del Guerrero”, fue uno de los escenarios más importantes para los
-                                    Incas quienes realizaban apoteósicas festividades como el Inti Raymi.
-                                    Su belleza destaca gracias al hermoso marco que le otorgan sus arquerías de piedra
-                                    de dos plantas, obra desarrollada con la llegada de los españoles al Perú.<br><br>
-                                    Este punto de la ciudad del Cusco, esta llena de restauranes, museos e iglesias
-                                    coloniales, construidos donde antiguamente los Incas enterrabana a sus ancestros.
-                                    Oculta estre sus calles incontables historias sobre la cultura antigua y la
-                                    moderna.<br><br>
+                                    <h4>8. Main Square Cuzco</h4>
+                                    Known by the inhabitants of the time as Plaza Aucaypata, which in Quechua means
+                                    "Plaza del Guerrero", it was one of the most important settings for the Incas who
+                                    carried out tremendous festivities such as the Inti Raymi. Its beauty stands out
+                                    thanks to the beautiful setting provided by its two-story stone arches, a work
+                                    developed with the arrival of the Spanish in Peru.<br><br>
+
+                                    This point of the city of Cusco is full of restaurants, museums and colonial
+                                    churches, built where the Incas once buried their ancestors. It hides countless
+                                    stories about ancient and modern culture in its streets.<br><br>
                                     <h4>9. Ollantaytambo </h4>
-                                    Considerado el “pueblo inca viviente”; este poblado nos recibe con el misterio que
-                                    encierra sus antepasados incas, viviendas intactas, en las cuales no parece haber
-                                    transcurrido el tiempo, diversos pisos ecológicos, andenerías incas y reservorios
-                                    de alimentos, y el puente inca camino a Pachar.<br><br>
-                                    Destacan, además, los monolitos de granito rosado ensamblados con impresionante
-                                    perfección y la Fortaleza de Ollantaytambo, edificación militar conformada por
-                                    terrazas de piedra labrada cuya finalidad, como la de otras fortalezas de la misma
-                                    naturaleza, era proteger el imperio desde otro ángulo.
-                                    En esta zona apreciaremos también otros monumentos como Mañaraucay, el Incahuatana y
-                                    los Baños de la Princesa.<br><br>
-                                    Pero el principal atractivo de esta región es su tradición y gente. Como suspendidos
-                                    en el tiempo y ataviado de la manera tradicional, nos remontaremos a los antepasados
-                                    incas, compartiendo con los guía locales y las comunidades mitos, leyendas y
-                                    costumbres que nos pintarán el panorama de un imperio poderoso y místico.<br><br>
+                                    Considered the <strong>"living Inca people"</strong>; This town welcomes us with the
+                                    mystery that
+                                    encloses its Inca ancestors, intact houses, in which time does not seem to have
+                                    passed, various ecological floors, Inca terraces and food reservoirs, and the Inca
+                                    bridge on the way to Pachar.<br><br>
+
+                                    Also noteworthy are the pink granite monoliths assembled with impressive perfection
+                                    and the Fortress of Ollantaytambo, a military building made up of carved stone
+                                    terraces whose purpose, like that of other fortresses of the same nature, was to
+                                    protect the empire from another angle. In this area we will also appreciate other
+                                    monuments such as Mañaraucay, the Incahuatana and the Baños de la Princesa.<br><br>
+
+                                    But the main attraction of this region is its tradition and people. As if suspended
+                                    in time and dressed in the traditional way, we will go back to the Inca ancestors,
+                                    sharing with the local guide and the communities myths, legends and customs that
+                                    will paint us the panorama of a powerful and mystical empire.<br><br>
                                     <h4>10. Pisac</h4>
                                     <ul>
-                                        <li>Pisac es uno de los pueblos más pintorescos del Valle Sagrado de los Incas.
+                                        <li>Pisac is one of the most picturesque towns in the Sacred Valley of the
+                                            Incas.
                                         </li>
-                                        <li>El mercado artesanal de Pisac lo sorprenderá con sus innumerables puestos de
-                                            venta en las calles hasta llegar a su plaza principal. En este mercado podrá
-                                            encontrar artesanías de todo tipo: polos, calzado, joyas, esculturas,
-                                            pinturas,
-                                            cerámicas, etc.</li>
+                                        <li>The Pisac artisan market will surprise you with its innumerable stalls in
+                                            the streets until you reach its main square. In this market you can find
+                                            handicrafts of all kinds: polo shirts, footwear, jewelry, sculptures,
+                                            paintings, ceramics, etc.</li>
                                         <li>En lo alto de la montaña podrá encontrar las construcciones incas del sitio
                                             arqueológico de Pisac.</li>
-                                        <li>Este sitio arqueológico es uno de los mejores conservados que existen, con
-                                            magníficas estructuras como el Templo del Sol o su espectacular sistema de
-                                            andenería.</li>
-                                        <li>Los paisajes que rodean Pisac así como las tradiciones de sus pobladores
-                                            atraen
-                                            al turista extranjero. La mayoría llega para visitar el mercado y el sitio
-                                            arqueológico.</li>
+                                        <li>At the top of the mountain you can find the Inca constructions of the
+                                            archaeological site of Pisac.</li>
+                                        <li>This archaeological site is one of the best preserved in existence, with
+                                            magnificent structures such as the Temple of the Sun or its spectacular
+                                            terrace system.</li>
+                                        <li>The landscapes that surround Pisac as well as the traditions of its
+                                            inhabitants attract foreign tourists. Most arrive to visit the market and
+                                            the archaeological site.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -504,177 +476,187 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseSix" aria-expanded="false"
                                     aria-controls="flush-collapseSix">
-                                    Fechas más importantes en Cusco
+                                    Most important dates in Cusco
                                 </button>
                             </h2>
                             <div id="flush-collapseSix" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <h3>1. Carnavales cusqueños</h3>
-                                    <p><strong>Fecha: Todos los domingos de febrero.</strong></p>
-                                    Los carnavales son una festividad que vino a nuestro país con la Colonia y se trata
-                                    de eventos de mucho colorido en donde el agua y la alegría siempre se encuentran
-                                    presentes. Cada región, provincia y distrito de nuestro Perú tiene su forma de
-                                    celebrarlos y en Cusco las tradiciones andinas se mezclan con esta fiesta traída de
-                                    occidente.<br><br>
-                                    El Carnaval cusqueño presenta una fecha movible, aunque por lo general se da entre
-                                    los meses de febrero y marzo. En este carnaval de esta parte del país, se sigue la
-                                    tradición de otros pueblos peruanos donde se destina una semana para los “Compadres”
-                                    y otro para las “Comadres”. El modo de festejos de esta semana para unos y otros es
-                                    típico y original en Cusco, durante estas semanas, en la primera las comadres
-                                    visitan a los compadres, estos son agasajados por las mujeres, pero a la vez son
-                                    víctimas de muchas burlas que estas les hacen, la semana siguiente sucederá lo
-                                    mismo, solo que de forma inversa. En estas ceremonias carnavalescas de agasajo
-                                    existe un plato constante y tradicional que es servido, se trata del puchero o
-                                    timpu.<br><br>
-                                    En la época del carnaval existen diferentes competencias, principalmente la de los
-                                    corsos donde los diferentes poblados se enfrentan con el gran colorido de sus
-                                    carrozas, vestimentas y danzas, últimas que permiten mantener aún vigentes las
-                                    tradiciones propias de esta región peruana y entre las que se hallan el Carnaval del
+                                    <h3>1. Cusco carnivals</h3>
+                                    <p><strong>Date: Every Sunday in February.</strong></p>
+                                    Carnivals are a festivity that came to our country with the Colony and they are very
+                                    colorful events where water and joy are always present. Each region, province and
+                                    district of our Peru has its way of celebrating them and in Cusco the Andean
+                                    traditions are mixed with this festival brought from the West.<br><br>
+
+                                    The Cusco Carnival has a movable date, although it usually takes place between the
+                                    months of February and March. In this carnival in this part of the country, the
+                                    tradition of other Peruvian towns is followed where one week is set aside for the
+                                    “Compadres” and another for the “Comadres”. The way of celebrating this week for
+                                    some and others is typical and original in Cusco, during these weeks, in the first
+                                    week the comadres visit the compadres, they are entertained by the women, but at the
+                                    same time they are victims of many jokes that these they do to them, the following
+                                    week the same thing will happen, only in reverse. In these carnival ceremonies of
+                                    entertainment there is a constant and traditional dish that is served, it is the
+                                    stew or timpu.<br><br>
+
+                                    At the time of the carnival there are different competitions, mainly that of the
+                                    corsicans where the different towns face each other with the great color of their
+                                    floats, clothing and dances, the latter that allow the traditions of this Peruvian
+                                    region to be kept in force and among which are they find the Carnival of
                                     Cusco.<br><br>
 
-                                    <h3>2. Fiesta religiosa en honor al Señor de los Temblores de Cusco</h3>
-                                    <p><strong>Fecha: Los lunes santo, que son normalmente cada primer lunes del mes de
-                                            abril</strong></p>
-                                    El Taytacha de los Temblores (Santo de los Temblores en idioma quechua) es una de
-                                    las imágenes religiosas más importantes del Cusco. Se trata de una efigie de
-                                    Jesucristo crucificado que posee una tez color oscura. El Señor de los Temblores es
-                                    considerado el ‘Patrón Jurado del Cusco’. La imagen detuvo una peste en la ciudad
-                                    después de ser llevada en procesión. Así mismo, cuando la ciudad era devastada por
-                                    terremotos, los pobladores cusqueños le rogaban a la imagen que detuviera las
-                                    desgracias. Fue así que fue conocido como ‘El señor de los Temblores’.<br><br>
-                                    Desde entonces y por muchos años, la imagen es venerada en la Catedral del Cusco. Es
-                                    llevada en procesión todos los ‘Lunes Santo’ en medio de una gran aglomeración de
-                                    feligreses. La procesión del ‘Taytacha de los Temblores’ se caracteriza por las
-                                    manifestaciones religiosas así como degustación de la gastronomía cusqueña.<br><br>
+                                    <h3>2. Religious festival in honor of the Lord of the Earthquakes of Cusco</h3>
+                                    <p><strong>Date: Holy Mondays, which are normally every first Monday of the month of
+                                            April</strong></p>
+                                    The Taytacha de los Temblores (Saint of the Tremors in the Quechua language) is one
+                                    of the most important religious images of Cusco. It is an effigy of Jesus Christ
+                                    crucified that has a dark complexion. The Lord of the Tremors is considered the
+                                    'Sworn Patron of Cusco'. The image stopped a plague in the city after being carried
+                                    in a procession. Likewise, when the city was devastated by earthquakes, the
+                                    inhabitants of Cusco begged the image to stop the misfortunes. It was thus that he
+                                    was known as 'The Lord of the Tremors'.<br><br>
 
-                                    <h3>3. El día de la Pachamama</h3>
-                                    <p><strong>Fecha: Cada primero de agosto</strong></p>
+                                    Since then and for many years, the image is venerated in the Cathedral of Cusco. It
+                                    is carried in procession every 'Holy Monday' in the midst of a large crowd of
+                                    parishioners. The procession of the 'Taytacha de los Temblores' is characterized by
+                                    religious manifestations as well as a tasting of Cusco cuisine.<br><br>
+
+                                    <h3>3. The day of the Pachamama</h3>
+                                    <p><strong>Date: Every first of August</strong></p>
                                     Cada 1 de agosto en todos los pueblos andinos de Perú, Bolivia, Ecuador y Argentina
                                     celebran el ‘Día de la Pachamama’. Esta celebración de origen inca revalora el culto
                                     a la ‘Madre tierra’, una entidad sagrada de quien creían que tiene vida y rige sobre
                                     la vida de la población.<br><br>
+
                                     En Cusco ese día se realizan los llamados ‘Pagos a la tierra’. Estas ceremonias
                                     tienen sus orígenes en la época incaica. Se trata de un ritual de agradecimiento a
                                     la ‘Pachamama’, en el cual se ofrendan hojas de coca, chicha, maíz y otros productos
                                     andinos.<br><br>
+
                                     Si bien los ‘Pagos a la tierra’ suelen realizarse en las altas montañas, también es
                                     posible realizarlo en casa. Estos rituales son realizados por un brujo o ‘chamán’
                                     que posee un conocimiento sobre el ritual transmitido por su familia. Los turistas
                                     también pueden participar del ‘Día de la Pachamama’ mediante paquetes turísticos que
                                     incluyen ceremonias de ‘Pago a la tierra’.<br><br>
 
-                                    <h3>4. Corpus Christi en Cusco</h3>
-                                    <p><strong>Fecha: Inicia el 04 de junio y dura 18 días</strong></p>
-                                    La celebración del Corpus Christi es uno de los eventos religiosos más importantes
-                                    del calendario católico. Cada pueblo tiene una manera diferente de celebrarlo, pero
-                                    dentro de los pueblos peruanos, sin lugar a dudas, es en el Cusco donde esta fiesta
-                                    religiosa tiene una mayor presencia y forma de manifestación.<br><br>
-                                    Entre las imágenes que seguirán el recorrido el día Jueves destinado a celebrar esta
-                                    fecha cristiana se encuentran al menos 16 entre Vírgenes y Santos que han sido
-                                    ataviados con bellísimos bordados de oro en sus vestiduras y que saldrán por las
-                                    calles tras el Santo Sacramento que es llevado por el Arzobispo de la ciudad hasta
-                                    la catedral, sitio en el que permanecerán todas las efigies durante una semana hasta
-                                    que vuelvan a salir el jueves siguiente. Aquel próximo jueves las imágenes saldrán
-                                    nuevamente en conjunto por las calles Cusqueñas para finalmente retirarse cada una a
-                                    su respectiva Iglesia (14 en total de donde provinieron).<br><br>
-                                    En esta festividad no existe discriminación de raza ni de estamento social pues
-                                    todos tienen derecho a acudir y rendir devoción a su patrono o santo.<br><br>
+                                    <h3>4. Corpus Christi in Cusco</h3>
+                                    <p><strong>Date: Starts June 4 and lasts 18 days</strong></p>
+                                    The celebration of Corpus Christi is one of the most important religious events in
+                                    the Catholic calendar. Each town has a different way of celebrating it, but within
+                                    the Peruvian towns, without a doubt, it is in Cusco where this religious festival
+                                    has a greater presence and form of manifestation.<br><br>
 
-                                    <h3>5. Señor de Qoyllority en Cusco</h3>
-                                    <p><strong>Fecha: Inicia el 14 de mayo y dura 47 días</strong></p>
-                                    El Señor de Qoyllority es un Cristo, cuya imagen se encuentra graficada en una roca.
-                                    Se trata de una divinidad Cristiano-andina que es adorada en la región del Cusco y
-                                    que congrega anualmente a un grupo de personas hasta su ubicación por la Cordillera
-                                    Vilcanota. <br><br>
-                                    Traducido al español “Señor de la Nieve Brillante”, este señor, según cuentan las
-                                    tradiciones del pueblo, habría aparecido años atrás en forma de niño a otro niño
-                                    indígena de la zona. Se dice que el niño Jesús venía disfrazado de niño pobre y
-                                    ambos pequeños se hicieron amigos. Se cuenta que cuando el niño volvió a casa los
-                                    padres vieron a éste y al niño vestidos de ricas vestimentas, y viendo la brillantez
-                                    del Niño Jesús dieron parte al párroco de la localidad quien decidió ir en su
-                                    búsqueda. La leyenda dice que el niño Jesús huyó siendo perseguido por el párroco
-                                    quien no logró capturarlo pues el niño Jesús se volvió entonces la imagen de la roca
-                                    a la que actualmente se peregrina.<br><br>
-                                    En esta celebración, lo pobladores que vienen a rendir ofrendas vienen de diferentes
-                                    partes del Cusco, realizando extensas caminatas imparables, la fecha de la
-                                    peregrinación no es exacta, pero quienes la hacen la tienen siempre presente ya que
-                                    sigue el calendario andino y se da entre los meses de Mayo y Junio. En este
-                                    recorrido no es de extrañar la presencia de procesiones junto con fuegos
-                                    artificiales, así como la presencia de alacitas, estas últimas son importantes ya
-                                    que son artesanías en miniaturas, aquellas representan diferentes cosas, entre
-                                    casas, autos, ganados, etc. y las personas las adquieren respondiendo a un ritual,
-                                    ya que se cree que si se tiene estas miniaturas también, en algún momento, se podrán
-                                    obtener de la misma forma los diferentes objetos en tamaños reales.<br><br>
+                                    Among the images that will follow the tour on Thursday destined to celebrate this
+                                    Christian date are at least 16 between Virgins and Saints who have been dressed with
+                                    beautiful gold embroidery on their garments and who will go out through the streets
+                                    after the Holy Sacrament that is carried by the Archbishop of the city to the
+                                    cathedral, where all the effigies will remain for a week until they come out again
+                                    the following Thursday. That next Thursday the images will go out again together
+                                    through the streets of Cusco to finally retire each one to their respective Church
+                                    (14 in total where they came from).<br><br>
 
-                                    <h3>6. Inti Raymi en Cusco</h3>
-                                    <p><strong>Fecha: Cada año los 24 de junio.</strong></p>
-                                    El Inti Raymi es una celebración tradicional en <strong>Cusco</strong> que congrega
-                                    a muchos
-                                    visitantes, no solo de las diferentes regiones del Perú, sino del mundo y que
-                                    simboliza en sí mismo la máxima festividad del sol, no en vano su traducción al
-                                    español resulta en <strong>“Fiesta del Sol”.</strong><br><br>
-                                    La celebración del Inti Raymi actual, se lleva a cabo cada 24 de junio en la Ciudad
-                                    del Cusco, en específico en la antigua Fortaleza Inca de
-                                    <strong>Sacsayhuamán.</strong> La ceremonia,
-                                    es una celebración religiosa a la hechura de la tradición Incaica en la que un
-                                    representante del Inca junto con diferentes representantes de los cuatro suyos y
-                                    figuras emblemáticas del antiguo imperio, hacen acto de presencia en la amplia
-                                    cancha de la fortaleza ya mencionada.<br><br>
-                                    Siguiendo con las celebraciones, el espectador va a poder apreciar también
-                                    diferentes rituales como el de la <strong>chicha de jora,</strong> junto con el que
-                                    podría llamarse
-                                    el más importante: El sacrificio de una llama, algo verdaderamente impresionante en
-                                    las fechas ya que consiste en arrancarle el corazón aún latiente al auquénido. Este
-                                    último ritual es llevado a cabo por un sacerdote Inca quien solicita la presencia
-                                    del animal sobre el usnu (o altar), el sacrificio es importante para la tradición ya
-                                    que las vísceras y la sangre del animal sacrificado son elementos necesarios para
-                                    poder conocer el futuro que le depara al pueblo y si es que el Sol favorecerá al
-                                    mismo.<br><br>
-                                    <h3>7. Festividad anual del Puente Q’eswachaka</h3>
-                                    <p><strong>Fecha: Cada año el segundo domingo de junio.</strong></p>
-                                    Las comunidades campesinas cercanas al pueblo de Q’ehue celebran cada año la
-                                    reconstrucción del puente inca de Q’eswachaka. Esta construcción rústica es uno de
-                                    los últimos puentes incas colgantes que siguen siendo utilizados en el Perú.<br><br>
-                                    Cada año, tanto hombres como mujeres de las comunidades de Huinchiri, Chaupibanda,
-                                    Ccollana, Q’ehue y Pelcaro trabajan en equipo por cuatro días para sustituir el
-                                    viejo puente inca por uno nuevo. Los trabajos son acompañados por música, danza y de
-                                    platos típicos cusqueños.<br><br>
-                                    La reconstrucción del puente inca es un evento turístico muy popular. Muchos
-                                    visitantes se animan a cruzar el puente colgante incaico suspendido 30 metros por
-                                    encima del río Apurímac. El Puente Q’eswachaka fue considerado ‘Patrimonio Cultural
-                                    de la Humanidad’ por la Unesco en el 2013.<br><br>
+                                    In this festival there is no discrimination of race or social class because everyone
+                                    has the right to attend and pay devotion to their patron or saint.<br><br>
 
-                                    <h3>8. Fiesta de aniversario de Machu Picchu</h3>
-                                    <p><strong>Fecha: 7 de julio</strong></p>
-                                    El 7 julio del 2007 Machu Picchu fue elegido como una de las nuevas maravillas del
-                                    mundo moderno en una votación mundial organizada por la organización New Open World
-                                    Corporation. La fiesta se caracteriza por eventos culturales en las calles del
-                                    pueblo de Aguas Calientes: concursos de dibujos, recitales, danzas, música y
-                                    más.<br><br>
-                                    Por la noche la población y los turistas se reúnen en el estadio del pueblo de Aguas
-                                    Calientes para un espectáculo de concierto de música con agrupaciones populares del
-                                    Perú. Los festejos continúan hasta la madrugada. <br><br>
-                                    Definitivamente visitar Machu Picchu y Aguas Calientes el 7 de julio es una buena
-                                    fecha para conocer mejor la cultura peruana. Machu Picchu recibe a más de 1,5
-                                    millones de personas cada año.<br><br>
+                                    <h3>5. Lord of Qoyllority in Cusco</h3>
+                                    <p><strong>Date: Starts on May 14 and lasts 47 days</strong></p>
+                                    The Lord of Qoyllority is a Christ, whose image is drawn on a rock. He is a
+                                    Christian-Andean divinity that is worshiped in the Cusco region and that annually
+                                    gathers a group of people to its location in the Cordillera Vilcanota.<br><br>
+
+                                    Translated into Spanish "Lord of the Brilliant Snow", this man, according to the
+                                    traditions of the town, would have appeared years ago in the form of a child to
+                                    another indigenous child in the area. It is said that the baby Jesus came disguised
+                                    as a poor child and both little ones became friends. It is said that when the child
+                                    returned home, the parents saw him and the child dressed in rich clothing, and
+                                    seeing the brilliance of the Child Jesus, they informed the local priest who decided
+                                    to go in search of him. The legend says that the child Jesus fled being persecuted
+                                    by the priest who was unable to capture him because the child Jesus then became the
+                                    image of the rock to which pilgrimage is currently made.<br><br>
+
+                                    In this celebration, the residents who come to offer offerings come from different
+                                    parts of Cusco, making extensive unstoppable walks, the date of the pilgrimage is
+                                    not exact, but those who do it always keep it in mind since it follows the Andean
+                                    calendar and occurs between the months of May and June. In this route it is not
+                                    surprising the presence of processions together with fireworks, as well as the
+                                    presence of wings, the latter are important since they are miniature crafts, those
+                                    represent different things, including houses, cars, cattle, etc. and people acquire
+                                    them by responding to a ritual, since it is believed that if you have these
+                                    miniatures, at some point, you will also be able to obtain the different objects in
+                                    real sizes in the same way.<br><br>
+
+                                    <h3>6. Inti Raymi in Cusco</h3>
+                                    <p><strong>Date: Every year on June 24.</strong></p>
+                                    The Inti Raymi is a traditional celebration in Cusco that brings together many
+                                    visitors, not only from the different regions of Peru, but from the world and that
+                                    symbolizes in itself the maximum festivity of the sun, not in vain its translation
+                                    into Spanish results in "Fiesta of the sun".<br><br>
+
+                                    The current Inti Raymi celebration takes place every June 24 in the City of Cusco,
+                                    specifically in the ancient Inca Fortress of Sacsayhuamán. The ceremony is a
+                                    religious celebration in the manner of the Inca tradition in which a representative
+                                    of the Inca along with different representatives of the four of his own and
+                                    emblematic figures of the ancient empire, make an appearance in the wide court of
+                                    the aforementioned fortress.<br><br>
+
+                                    Continuing with the celebrations, the viewer will also be able to appreciate
+                                    different rituals such as the chicha de jora, along with what could be called the
+                                    most important: The sacrifice of a llama, something truly impressive on the dates
+                                    since it consists of ripping out the heart still beating to the auquénido. This last
+                                    ritual is carried out by an Inca priest who requests the presence of the animal on
+                                    the usnu (or altar), the sacrifice is important for the tradition since the viscera
+                                    and the blood of the sacrificed animal are necessary elements to be able to know the
+                                    future. that it holds for the people and if the Sun will favor it.<br><br>
+                                    <h3>7. Annual festivity of the Q'eswachaka Bridge</h3>
+                                    <p><strong>Date: Every year on the second Sunday of June.</strong></p>
+                                    The peasant communities near the town of Q'ehue celebrate the reconstruction of the
+                                    Inca bridge of Q'eswachaka every year. This rustic construction is one of the last
+                                    hanging Inca bridges that are still used in Peru.<br><br>
+
+                                    Every year, both men and women from the Huinchiri, Chaupibanda, Ccollana, Q'ehue and
+                                    Pelcaro communities work as a team for four days to replace the old Inca bridge with
+                                    a new one. The works are accompanied by music, dance and typical dishes from
+                                    Cusco.<br><br>
+
+                                    The reconstruction of the Inca bridge is a very popular tourist event. Many visitors
+                                    are encouraged to cross the Inca suspension bridge suspended 30 meters above the
+                                    Apurimac River. The Q'eswachaka Bridge was considered a "Cultural Heritage of
+                                    Humanity" by UNESCO in 2013.<br><br>
+
+                                    <h3>8. Machu Picchu Anniversary Party</h3>
+                                    <p><strong>Date: July 7</strong></p>
+                                    On July 7, 2007 Machu Picchu was chosen as one of the new wonders of the modern
+                                    world in a global vote organized by the organization New Open World Corporation. The
+                                    festival is characterized by cultural events in the streets of the town of Aguas
+                                    Calientes: drawing contests, recitals, dances, music and more.<br><br>
+
+                                    At night the population and tourists gather in the stadium of the town of Aguas
+                                    Calientes for a music concert show with popular groups from Peru. The festivities
+                                    continue until dawn.<br><br>
+
+                                    Visiting Machu Picchu and Aguas Calientes on July 7 is definitely a good date to
+                                    learn more about Peruvian culture. Machu Picchu receives more than 1.5 million
+                                    people each year.<br><br>
 
                                     <h3>9. Santuranticuy</h3>
-                                    <p><strong>Fecha: Cada año el 24 de diciembre.</strong></p>
-                                    Una de las expresiones culturales propias del Cusco es, sin duda, la fiesta
-                                    costumbrista del Santuranticuy (‘Venta de Santos’ en lengua quechua). Esta
-                                    festividad es celebrada cada 24 de diciembre mediante una feria artística en donde
-                                    se comercializan imágenes de vírgenes, santos y demás figuras cristianas con
-                                    características andinas.<br><br>
-                                    Esta tradicional celebración se lleva a cabo en la Plaza de Armas del Cusco, la cual
-                                    se llena de gente incluidos artesanos, pobladores locales y turistas. En Cusco es
-                                    tradición que cada familia posea sus propios santos o vírgenes de distintos tamaños.
-                                    Durante el Santuranticuy estas personas se acercan a reparar sus imágenes religiosas
-                                    o renovarlas.<br><br>
-                                    Entre las imágenes religiosas más importantes del Cusco destacan los llamados ‘Niños
-                                    Manuelitos’, artesanías con características del ‘Niño Jesús’. Ese día también se
-                                    ofrecen pinturas, cerámicas, sourvenirs e incluso platos típicos del Cusco. Por la
-                                    noche, las familias cusqueñas degustan de una suculenta cena navideña.
+                                    <p><strong>Date: Every year on December 24.</strong></p>
+                                    One of the cultural expressions typical of Cusco is, without a doubt, the
+                                    costumbrista festival of Santuranticuy ('Sale of Saints' in the Quechua language).
+                                    This festival is celebrated every December 24 through an art fair where images of
+                                    virgins, saints and other Christian figures with Andean characteristics are sold.
+                                    <br><br>
+
+                                    This traditional celebration takes place in the Plaza de Armas of Cusco, which is
+                                    filled with people including artisans, local residents and tourists. In Cusco it is
+                                    a tradition that each family has its own saints or virgins of different sizes.
+                                    During the Santuranticuy these people come to repair their religious images or renew
+                                    them.<br><br>
+
+                                    Among the most important religious images of Cusco, the so-called 'Children
+                                    Manuelitos' stand out, handicrafts with characteristics of the 'Child Jesus'. That
+                                    day paintings, ceramics, souvenirs and even typical dishes of Cusco are also
+                                    offered. At night, Cusco families enjoy a succulent Christmas dinner.
                                 </div>
                             </div>
                         </div>

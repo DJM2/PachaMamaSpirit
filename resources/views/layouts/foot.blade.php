@@ -52,6 +52,12 @@
         </div>
     </footer>
 </section>
+<script type='text/javascript'
+    src='https://platform-api.sharethis.com/js/sharethis.js#property=633f37caf2bbcb00196d6f0f&product=inline-share-buttons'
+    async='async'></script>
+<script type="text/javascript"
+    src="https://platform-api.sharethis.com/js/sharethis.js#property=633f37caf2bbcb00196d6f0f&product=inline-share-buttons"
+    async="async"></script>
 <script src="{{asset('js/animation.js')}}"></script>
 <script type='text/javascript'
 src='https://platform-api.sharethis.com/js/sharethis.js#property=629958a2703b77001ade9c8c&product=sop' async='async'>

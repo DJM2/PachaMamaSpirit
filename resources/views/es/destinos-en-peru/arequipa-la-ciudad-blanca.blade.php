@@ -6,11 +6,11 @@
     @include('layouts.estilos')
     <title>La ciudad blanca de Arequipa, ciudad que descansa bajo un volván</title>
     <meta name="description"
-        content="Si bien Cusco y Machu Picchu son destinos imprescindibles para un primer viaje a Perú, necesita saber más sobre la ciudad más grande de Cusco. Tours a Cusco" />
+        content="Arequipa es conocida como la Ciudad Blanca debido a su arquitectura construida con piedra volcánica blanca" />
     <meta name="keywords"
-        content="turismo en lima, Lima turistico, Por que se le llama ciudad de reyes?, Lima metropolitana, Ciudad de reyes, Conoce que lugares visitar en Lima, Lima capital de perú" />
-    <meta property="og:image" content="https://pachamamaspirit.com/img/panoramico/cusco-ciudad-imperial.webp" />
-    <link rel="canonical" href="https://pachamamaspirit.com/es/destinos-en-peru/lima-ciudad-de-reyes" />
+        content="turismo en Arequipa, la ciudad blanca, rocoto relleno, viajar a arequipa, turismo en Arequipa, cañon del colca, vuelo de condores" />
+    <meta property="og:image" content="https://pachamamaspirit.com/img/galeria/Monasterio-de-Santa-Catalina-Arequipa.webp" />
+    <link rel="canonical" href="https://pachamamaspirit.com/es/destinos-en-peru/arequipa-la-ciudad-blanca" />
 </head>
 
 <body>

@@ -124,7 +124,7 @@ a:hover {
 .blog {
     height: 60vh;
     width: 100%;
-    background-image: url('../img/panoramico/blog-peru.webp');
+    background-image: url('../img/blog/camino-inca-temas-de-blog-from-Peru.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -281,6 +281,31 @@ a:hover {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.temasBlogs {
+    height: 300px;
+    width: 100%;
+    background: #343434;
+}
+
+.temasBlogs h1 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+    margin-top: 4em;
+}
+
+@media (max-width: 600px) {
+    .temasBlogs h1 {
+        font-size: 2em;
+        margin-top: 5em;
+    }
+    .blogs {
+        width: 100%;
+    }
 }
 
 .site-navbar-wrap {
