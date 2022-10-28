@@ -4,19 +4,25 @@
 <head>
     <!-- Required meta tags -->
     @include('layouts.estilos')
-    <title>La ciudad imperial del Cusco, ombligo del mundo y capital del mundo</title>
-    <meta name="description"
-        content="Si bien Cusco y Machu Picchu son destinos imprescindibles para un primer viaje a Perú, necesita saber más sobre la ciudad más grande de Cusco. Tours a Cusco" />
+    <title>The city of Puno, capital of Peruvian folklore</title>
+    <meta property="og:description"
+        content="Puno was recognized on November 7, 1985, as the Capital of Peruvian Folklore, in merit of its more than 350 dances that combine ancestral traditions." />
     <meta name="keywords"
-        content="Cusco, Cusco ombligo del mundo, cusco tour, cusco tours, viajar a cusco, paquetes a cusco, conoce cusco, cusco 3 dias, cusco 4 dias, cusco 5 dias" />
-    <meta property="og:image" content="https://pachamamaspirit.com/img/panoramico/cusco-ciudad-imperial.webp" />
-    <link rel="canonical" href="https://pachamamaspirit.com/es/destinos-en-peru/cusco-ombligo-del-mundo" />
+        content="tourism in Puno, city of puno, puno, capital of folklore, puno peru, puno location, lake titicaca, uros islands, puno titicaca, titikka, the deepest lake in the world" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The city of Puno, capital of Peruvian folklore">
+    <meta name="twitter:description"
+        content="Puno was recognized on November 7, 1985, as the Capital of Peruvian Folklore, in merit of its more than 350 dances that combine ancestral traditions.">
+    <meta name="twitter:image" content="https://pachamamaspirit.com/img/panoramico/viajar-a-puno.webp">
+    <meta property="og:image" content="https://pachamamaspirit.com/img/panoramico/viajar-a-puno.webp" />
+    <link rel="canonical" href="https://pachamamaspirit.com/es/destinos-en-peru/la-ciudad-de-puno" />
 </head>
 
 <body>
     @include('layouts.menu')
     <li>
-        <button onclick="window.location='{{route('cusco-ombligo-del-mundo')}}'" class="castellano-es">English</button>
+        <button onclick="window.location='{{ route('cusco-ombligo-del-mundo') }}'"
+            class="castellano-es">English</button>
     </li>
     @include('layouts.menu-2')
     <div class="puno">
@@ -33,7 +39,8 @@
                 <div class="col-lg-12">
                     <div class="details">
                         <div class="location">
-                            <p><a href="/">Home</a> / <a href="{{route('destinies-peru')}}">Destinies</a> / <a>Puno</a>
+                            <p><a href="/">Home</a> / <a href="{{ route('destinies-peru') }}">Destinies</a> /
+                                <a>Puno</a>
                             </p>
                         </div>
                     </div>
@@ -46,46 +53,48 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    Capital del folklore peruano
+                                    Capital of Peruvian folklore
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <strong>En efecto, es necesario precisar que la identidad de un país es
-                                        compleja,</strong> y se
-                                    manifiesta a través de diversas formas. La región Puno fue reconocida oficialmente,
-                                    el 7 de noviembre de 1985, como la Capital del Folclor peruano, en mérito a sus más
-                                    de 350 danzas que conjugan tradiciones ancestrales y mestizaje expresadas en baile,
-                                    música y arte interpretados con alegría y sentimiento desbordante que han cruzado
-                                    fronteras dentro y fuera del Perú.<br><br>
-                                    Por 18 días la ciudad de Puno, que esta a orillas del Lago Titicaca, ubicada
-                                    a 3.870 m.s.n.m, se convierte en la capital folklórica no solo de Perú, si no
-                                    también de
-                                    América, gracias a la fiesta de la VIRGEN DE LA CANDELARIA que se celebra cada año,
-                                    en ella se concentran más de 200 bandas de músicos y danzantes para celebrar a la
-                                    Mamacha Candelaria. Durante los nueve primeros días los mayordomos (encargados de
-                                    liderar los festejos) arreglan el templo y celebran misas, banquetes y juegos
-                                    pirotécnicos. El día central, 2 de febrero, la Virgen es conducida por la ciudad en
-                                    una colorida procesión; detrás de ella, guardando cuidadosa jerarquía, desfilan
-                                    curas, acólitos, fieles, cristianos y paganos: es el momento de la presentación de
-                                    conjuntos de músicos y danzantes que bailan por toda la ciudad.<br><br>
-                                    La fiesta está relacionada con los ciclos agrarios prehispánicos de la siembra y la
-                                    cosecha, así como con la actividad minera de la región, y es producto de la mezcla
-                                    entre la respetuosa alegría aymara y la gravedad ancestral quechua. La danza de los
-                                    diablos o diablada, supuestamente soñada por unos mineros atrapados en un socavón
-                                    que en su desesperación se encomendaron a la Virgen de la Candelaria, es la
-                                    principal de las comparsas folklóricas. Los danzantes hacen sus ofrendas a la tierra
-                                    <strong>(Pachamama)</strong> tocando zampoñas, vestidos con disfraces muy vistosos y
-                                    casi siempre
-                                    enmascarados. Las máscaras más impresionantes, por su efecto terrorífico, son las de
-                                    venados con largos cuernos retorcidos asociados al demonio y, también, al Jacancho o
-                                    dios de los minerales. En el cacharpari o despedida, las comparsas que van llenando
-                                    las calles se dirigen finalmente al cementerio para rendirle culto a los
-                                    muertos.<br><br>
+                                    Indeed, it is necessary to specify that the <strong>identity of a country is
+                                        complex</strong>, and manifests itself through various forms. The Puno region
+                                    was officially recognized, on November 7, 1985, as the Capital of Peruvian Folklore,
+                                    due to its more than 350 dances that combine ancestral traditions and miscegenation
+                                    expressed in dance, music and art performed with joy and overwhelming feeling that
+                                    have crossed borders inside and outside of Peru.<br><br>
+
+                                    For 18 days the city of Puno, which is on the shores of <strong>Lake
+                                        Titicaca</strong>, located at
+                                    3,870 meters above sea level, becomes the folkloric capital not only of Peru, but
+                                    also of America, thanks to the festival of the <strong>VIRGEN DE LA
+                                        CANDELARIA</strong> that takes
+                                    place celebrated every year, it gathers more than 200 bands of musicians and dancers
+                                    to celebrate Mamacha Candelaria. During the first nine days the mayordomos
+                                    (responsible for leading the festivities) fix the temple and celebrate masses,
+                                    banquets and fireworks. On the central day, February 2, the Virgin is led through
+                                    the city in a colorful procession; behind it, keeping careful hierarchy, parade
+                                    priests, acolytes, faithful, Christians and pagans: it is the moment of the
+                                    presentation of groups of musicians and dancers who dance throughout the
+                                    city.<br><br>
+
+                                    The festival is related to the pre-Hispanic agrarian cycles of planting and
+                                    harvesting, as well as the mining activity of the region, and is the product of the
+                                    mix between respectful Aymara joy and ancestral Quechua gravity. The dance of the
+                                    devils or <strong>diablada</strong>, supposedly dreamed of by some miners trapped in
+                                    a sinkhole who
+                                    in their desperation entrusted themselves to the Virgen de la Candelaria, is the
+                                    main folklore comparsa. The dancers make their offerings to the earth (Pachamama)
+                                    playing panpipes, dressed in very colorful costumes and almost always masked. The
+                                    most impressive masks, due to their terrifying effect, are those of deer with long
+                                    twisted horns associated with the devil and, also, with the Jacancho or god of
+                                    minerals. In the cacharpari or farewell, the troupes that fill the streets finally
+                                    go to the cemetery to pay homage to the dead.<br><br>
                                     <img src="{{ asset('img/galeria/PUNO-PERU-CANDELARIA-VIRGIN.webp') }}"
-                                        width="100%" alt="Danza Diablada Puno" loading="lazy">
-                                    <i>Foto: Virgen de la Candelaria en procesión</i>
+                                        width="100%" alt="Devil Dance Puno" loading="lazy">
+                                    <i>Virgin of Candelaria in procession</i>
                                 </div>
                             </div>
                         </div>
@@ -94,50 +103,55 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    Reseña histórica de Puno
+                                    Historical review of Puno
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        Antes de la llegada de los españoles, <strong>la ciudad de Puno</strong>, esta
-                                        era una aldea, tenía
-                                        como escenario la Bahía del <strong>Lago Titikaka,</strong> formaba una
-                                        población marginal
-                                        localizada entre los linderos de los territorios de los Kollas (Quechuas) al
-                                        norte y los Lupacas (Aymaras) al sur.<br><br>
-                                        A fines del Siglo XVI el sur de Puno, estuvo bajo el gobierno de los Lupacas
-                                        cuyo desarrollo alcanzó grandes avances en la agricultura, ganadería,
-                                        organización social y cultura. Por otro lado, la parte norte a partir de lo que
-                                        hoy es Juliaca, se encontraba en poder de los Kollas, cuyo dominio se proyectaba
-                                        desde los linderos del actual Puno, hasta las riberas del Rió Ramis en el lado
-                                        sur – oriental del Lago Titikaka.<br><br>
-                                        La ciudad de Puno era un modesto poblado de indios hasta que el Virrey Conde de
-                                        Lemos la convirtió en capital de la provincia de Paucarcolla, el 4 de noviembre
-                                        de 1668. Paralelamente cambió su antiguo nombre de San Juan Bautista de Puno por
-                                        el de San Carlos de Puno.<br><br>
-                                        El periodo de paz había terminado en 1781 cuando las revoluciones indias
-                                        lucharon por su independencia como el dirigido por Tupac Katari. En la guerra de
-                                        la independencia al principio del siglo XIX Puno se convirtió en una ciudad
-                                        importante de conexión entre el Perú y Rió de La Plata en Argentina.<br><br>
-                                        Después de la independencia en 1821 Puno fue la escena de la batalla entre Perú
-                                        y Bolivia, ocupando estos últimos los territorios peruanos hasta Tacna y
-                                        Moquegua, hasta la firma de la convención de 1847.<br><br>
-                                        El puerto de Puno cuenta con vapores que datan de inicios de la república, los
-                                        que fueron transportados desde Arica (Chile) hasta el Lago Titikaka para el
-                                        transporte del minerales y pasajeros desde Bolivia, los mismos que se conservan
-                                        el día de hoy, así mismo se construyó un ferrocarril que interconecta los
-                                        departamentos de Cuzco y Arequipa que igualmente siguen en servicio.
-                                        A segunda mitad del siglo XVII (1657) el Virrey Conde de Lemos (Pedro Fernández
-                                        de Castro) traslada el puerto de San Luís de Alba, hacia lo que hoy es Puno y
-                                        funda la villa de las Inmaculada Concepción y San Carlos de Puno el 9 de
-                                        noviembre de 1663 y el 4 de noviembre de ese año, lo declara capital de la
-                                        provincia de Paucarcolla (fecha que se celebra cada año). Luego de haber
-                                        sofocado un enfrentamiento entre españoles por las famosas minas de Laykacota,
-                                        las mismas que fueron enterradas y ejecutados los hermanos José y Gaspar
-                                        Salcedo.<br><br>
-                                        La provincia de Puno fue creada por un decreto del 2 de mayo de 1854 y es
-                                        capital del departamento hoy Región Puno.
+                                        Before the arrival of the Spaniards, the city of Puno, this was a village, had
+                                        the Bay of <strong>Lake Titikaka</strong> as its setting, it formed a marginal
+                                        population located
+                                        between the boundaries of the territories of the Kollas (Quechuas) to the north
+                                        and the Lupacas ( Aymara) to the south.<br><br>
+
+                                        At the end of the 16th century, the south of Puno was under the government of
+                                        the Lupacas whose development reached great advances in agriculture, livestock,
+                                        social organization and culture. On the other hand, the northern part from what
+                                        is now Juliaca, was in the hands of the <strong>Kollas</strong>, whose domain
+                                        extended from the
+                                        boundaries of present-day Puno, to the banks of the Ramis River on the
+                                        south-eastern side of Lake Titicaca.<br><br>
+
+                                        The city of Puno was a modest Indian town until the Viceroy Count of Lemos made
+                                        it the capital of the province of Paucarcolla, on November 4, 1668. At the same
+                                        time, it changed its old name from San Juan Bautista de Puno to San Carlos. from
+                                        Puno.<br><br>
+
+                                        The period of peace had ended in 1781 when the Indian revolutions fought for
+                                        their independence like the one led by Tupac Katari. In the war of independence
+                                        at the beginning of the 19th century, Puno became an important connecting city
+                                        between Peru and the Río de la <strong>Plata in Argentina</strong>.<br><br>
+
+                                        After independence in 1821 Puno was the scene of the battle between Peru and
+                                        Bolivia, the latter occupying the Peruvian territories as far as Tacna and
+                                        Moquegua, until the signing of the 1847 convention.<br><br>
+
+                                        The port of Puno has steamships that date back to the beginning of the republic,
+                                        which were transported from Arica (Chile) to Lake Titikaka for the transport of
+                                        minerals and passengers from Bolivia, the same ones that are preserved today, as
+                                        well A railway was built that interconnects the departments of Cuzco and
+                                        Arequipa, which are also still in service. In the second half of the 17th
+                                        century (1657) the Viceroy Count of Lemos (Pedro Fernández de Castro) moved the
+                                        port of San Luís de Alba to what is now Puno and founded the town of the
+                                        Immaculate Conception and San Carlos de Puno on 9 of November 1663 and on
+                                        November 4 of that year, he declares it the capital of the province of
+                                        Paucarcolla (date that is celebrated every year). After having suffocated a
+                                        confrontation between Spaniards over the famous Laykacota mines, the same ones
+                                        that the brothers José and Gaspar Salcedo were buried and executed.<br><br>
+
+                                        The province of Puno was created by a decree of May 2, 1854 and is the capital
+                                        of the department today Puno Region.
                                     </p>
                                 </div>
                             </div>
@@ -147,7 +161,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFour" aria-expanded="false"
                                     aria-controls="flush-collapseFour">
-                                    Danzas de Puno
+                                    Dances of Puno
                                 </button>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse"
@@ -155,45 +169,47 @@
                                 <div class="accordion-body">
                                     <h3>La diablada</h3>
                                     <p>
-                                        Entre las danzas mas emblemáticas se encuentra <strong>la Diablada,</strong>
-                                        expresión del sincretismo religioso andino-cristiano que representa la lucha
-                                        entre el bien y el mal. Su origen se remonta a 1577, cuando los jesuitas se
-                                        establecieron en Juli, actual capital de la provincia de Chucuito, donde en los
-                                        días festivos cristianos se presentaban comedias y autos sacramentales. A través
-                                        de estas manifestaciones teatrales los misioneros jesuitas enseñaron al pueblo
-                                        aimara los siete pecados capitales a modo de danza, y cómo los ángeles vencen a
-                                        los demonios.
+                                        Among the most emblematic dances is <strong>La Diablada</strong>, an expression
+                                        of
+                                        Andean-Christian religious syncretism that represents the fight between good and
+                                        evil. Its origin dates back to 1577, when the Jesuits settled in Juli, current
+                                        capital of the province of Chucuito, where comedies and sacramental plays were
+                                        presented on Christian holidays. Through these theatrical manifestations, the
+                                        Jesuit missionaries taught the Aymara people the seven deadly sins in the form
+                                        of a dance, and how angels defeat demons.
                                     </p>
-                                    <img src="{{ asset('img/galeria/danzantes-de-Diablada-Puno.webp') }}"
-                                        width="100%" alt="Danza Diablada Puno" loading="lazy">
-                                    <i>Foto: Danzantes de 'Diablada'</i><br><br>
+                                    <img src="{{ asset('img/galeria/danzantes-de-Diablada-Puno.webp') }}" width="100%"
+                                        alt="Danza Diablada Puno" loading="lazy">
+                                    <i>Dancers 'Diablada'</i><br><br>
 
                                     <h3>La Pandilla</h3>
                                     <p>
-                                        Otra de las expresiones dancísticas de gran raigambre popular en Puno es la
-                                        Pandilla, que a diferencia de otros bailes que llevan el mismo nombre en otras
-                                        regiones del Perú, se ejecuta de forma pausada y expresa la caballerosidad del
-                                        varón y la elegancia de la dama puneña.
+                                        Another of the dance expressions with great popular roots in Puno is the
+                                        Pandilla, which, unlike other dances that bear the same name in other regions of
+                                        Peru, is performed slowly and expresses the chivalry of the man and the elegance
+                                        of the Puno lady. .
                                     </p>
                                     <h3>Sikuris</h3>
                                     <p>
-                                        El sikuri es la expresión auténtica del poblador puneño. El siku o zampoña, es
-                                        un instrumento andino pentafónico está compuesto por diversos tubos sonoros de
-                                        distintos calibres de longitud y diámetro. A este instrumento se suma el bombo,
-                                        con el cual se genera una simbiosis musical que acompaña a los
-                                        intérpretes-danzantes que avanzan dando pasos hacia adelante y hacia atrás,
-                                        complementados con movimientos circulares.<br><br>
-                                        Este baile derivado de la Tuntuna se interpreta con trajes mucho más adornados y
-                                        vistosos y con movimientos aún más acrobáticos. La música de cada danza difiere
-                                        una de otra, conservando la misma línea melódica de inspiración afroperuana.
+                                        The sikuri is the authentic expression of the people of Puno. The siku or
+                                        zampoña, is a pentaphonic Andean instrument is composed of various sound tubes
+                                        of different calibers in length and diameter. Added to this instrument is the
+                                        bass drum, with which a musical symbiosis is generated that accompanies the
+                                        performers-dancers who advance by taking steps forwards and backwards,
+                                        complemented with circular movements.<br><br>
+
+                                        This dance derived from the Tuntuna is performed with much more ornate and
+                                        colorful costumes and with even more acrobatic movements. The music of each
+                                        dance differs from one another, keeping the same melodic line of Afro-Peruvian
+                                        inspiration.
                                     </p>
                                     <h3>Wifala</h3>
                                     <p>
-                                        Palabra que proviene del quechua, cuyo significado es “enseña” o “bandera”,
-                                        aunque también puede significar alegría. Tiene su origen en el distrito de
-                                        Ayaviri, provincia de Melgar, así como en los distritos de Asillo y Muñani, en
-                                        la provincia de Azángaro. Esta danza puneña fue declarada Patrimonio Cultural de
-                                        la Nación el 2 de octubre de 2014.
+                                        Word that comes from Quechua, whose meaning is "teaches" or "flag", although it
+                                        can also mean joy. It has its origin in the district of Ayaviri, province of
+                                        Melgar, as well as in the districts of Asillo and Muñani, in the province of
+                                        Azángaro. This Puno dance was declared Cultural Heritage of the Nation on
+                                        October 2, 2014.
                                     </p>
 
                                 </div>
@@ -204,113 +220,114 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Principales lugares turísticos en Puno
+                                    Main tourist places in Puno
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <h3>1. Islas flotantes de los Uros</h3>
-                                    <i>Vivir en un mundo hecho de totora, rodeado del hermoso Lago Titicaca.</i>
+                                    <h3>1. Uros floating islands</h3>
+                                    <i>Live in a world made of reeds, surrounded by the beautiful Lake Titicaca.</i>
                                     <p>
-                                        A 3,812 m.s.n.m, en el altiplano peruano se encuentra el lago navegable más alto
-                                        del mundo, el Lago Titicaca, en Puno. En él se pueden encontrar las Islas
-                                        Flotantes de los Uros, construidas de totora, una planta acuática que crece en
-                                        la superficie del Lago Titicaca. La totora es tejida y tendida sobre otra capa
-                                        de la misma para construir la superficie de cada isla.<br><br>
-                                        En el lago hay aproximadamente 100 islas flotantes, y la movilización se realiza
-                                        en balsas también a base de totora. Sus habitantes son hospitalarios y se
-                                        dedican al turismo, y puedes obtener una estampa en tu pasaporte en una de las
-                                        islas más grandes.<br><br>
-                                        Estas islas son habitadas por los Uros, una de las culturas más antiguas del
-                                        continente la cual se remonta a épocas anteriores a los Incas. Los habitantes de
-                                        esta comunidad flotante afirman ser dueños de las aguas del Lago Titicaca.
-                                        La subsistencia de la comunidad de los Uros se basa en la pesca y la caza;
-                                        también se dedican a la elaboración de tejidos de tapices de lana y al disecado
-                                        de animales. Por otro lado, participan de actividades turísticas: Existen tours
-                                        a las Islas Flotantes de los Uros de pocas horas, pero también experiencias
-                                        completas en las cuales te conviertes parte de la comunidad de los Uros.
+                                        At 3,812 meters above sea level, the highest navigable lake in the world is
+                                        located in the Peruvian highlands, Lake Titicaca, in Puno. In it you can find
+                                        the Floating Islands of the Uros, built of reeds, an aquatic plant that grows on
+                                        the surface of Lake Titicaca. The totora is woven and spread over another layer
+                                        of it to build the surface of each island.<br><br>
+
+                                        In the lake there are approximately 100 floating islands, and the mobilization
+                                        is carried out in rafts also based on reeds. Its inhabitants are hospitable and
+                                        dedicated to tourism, and you can get a stamp in your passport in one of the
+                                        largest islands.<br><br>
+
+                                        These islands are inhabited by the Uros, one of the oldest cultures on the
+                                        continent which dates back to times before the Incas. The inhabitants of this
+                                        floating community claim to own the waters of Lake Titicaca. The subsistence of
+                                        the Uros community is based on fishing and hunting; They are also dedicated to
+                                        the elaboration of wool tapestry fabrics and the stuffing of animals. On the
+                                        other hand, they participate in tourist activities: There are tours to the
+                                        Floating Islands of the Uros for a few hours, but also complete experiences in
+                                        which you become part of the Uros community.
                                     </p>
                                     <img src="{{ asset('img/galeria/Uros-island-Puno.webp') }}" width="100%"
-                                        alt="Isla de Uros" loading="lazy">
-                                    <i>Foto: Isla de Uros, Puno</i><br><br>
+                                        alt="Uros Island, Puno" loading="lazy">
+                                    <i>Uros Island, Puno</i><br><br>
 
-                                    <h3>2. Islas de Amantaní y Taquile</h3>
+                                    <h3>2. Amantani and Taquile Islands</h3>
                                     <p>
-                                        El encanto del Lago Titicaca se vive intensamente en islas como Taquile y
-                                        Amantaní, donde la historia que se guarda en la memoria de su gente se expresa
-                                        en maravillosos tejidos, verdaderas obras de arte reconocidas a nivel mundial.
-                                        En Taquile puedes subir 560 peldaños para llegar al pueblo, donde obtendrás
-                                        vistas únicas del lago.<br><br>
-                                        Amantaní es una buena opción para almorzar durante tu día, pues toda la comida
-                                        del lugar es cosechada en la misma isla, lo que le otorga un valor especial. De
-                                        la misma forma, es lo ideal disfrutar de una trucha, pues es uno de los
-                                        alimentos más importantes del Titicaca.
+                                        The charm of Lake Titicaca is lived intensely in islands such as Taquile and
+                                        Amantaní, where the history that is kept in the memory of its people is
+                                        expressed in wonderful fabrics, true works of art recognized worldwide. In
+                                        Taquile you can climb 560 steps to reach the town, where you will get unique
+                                        views of the lake.<br><br>
+
+                                        Amantaní is a good option for lunch during your day, since all the local food is
+                                        harvested on the same island, which gives it a special value. In the same way,
+                                        it is ideal to enjoy a trout, as it is one of the most important foods of
+                                        Titicaca.
                                     </p>
                                     <img src="{{ asset('img/galeria/Isla-Amantani-Puno.webp') }}" width="100%"
-                                        alt="Isla Amantani Puno" loading="lazy">
-                                    <i>Foto: Isla Amantani - Puno</i><br><br>
+                                        alt="Amantani Island - Puno" loading="lazy">
+                                    <i>Amantani Island - Puno</i><br><br>
 
-                                    <h3>3. Feria artesanal del puerto de Puno</h3>
+                                    <h3>3. Artisan fair of the port of Puno</h3>
                                     <p>
-                                        El mercado artesanal del Puerto de Puno, a orillas del lago Titicaca, es uno de
-                                        los mejores lugares para hacer compras de todo Perú.
-                                        Situado a orillas del lago Titicaca en su lado peruano, el Puerto de Puno es un
-                                        buen lugar para comprar artesanías tradicionales de las gentes del Altiplano. Si
-                                        visitas la ciudad, es casi obligado dar una vuelta por su feria artesanal y
-                                        hacer algunas compras de objetos únicos. Podrás presumir de haber adquirido un
-                                        recuerdo en uno de los puertos más altos del mundo, a más de 3800 metros de
-                                        altitud.<br><br>
-                                        Es bastante normal que, al existir tantos puestos, haya una competencia por los
-                                        clientes, volviendo los precios más asequibles para los turistas que deseen
-                                        algún recuerdo o regalo. Es un buen lugar para disfrutar de artesanías y
-                                        pintura, aunque también tiene lugares para almorzar, por lo que puedes dedicarle
-                                        un buen par de horas con toda calma.
-                                        De hecho, las gentes de Puno, tradicionalmente, solo han tenido dos fuentes de
-                                        riqueza; por un lado, la pesca y, por otro, la producción artesanal. Es decir,
-                                        que lo que compremos aquí tiene garantía de autenticidad.
+                                        The artisan market of the Port of Puno, on the shores of Lake Titicaca, is one
+                                        of the best places to shop in all of Peru. Located on the shores of Lake
+                                        Titicaca on its Peruvian side, the Port of Puno is a good place to buy
+                                        traditional handicrafts from the people of the Altiplano. If you visit the city,
+                                        it is almost obligatory to go around its craft fair and do some shopping for
+                                        unique objects. You can boast of having acquired a souvenir in one of the
+                                        highest ports in the world, at more than 3800 meters of altitude.<br><br>
+
+                                        It is quite normal that, since there are so many stalls, there is competition
+                                        for customers, making prices more affordable for tourists who want a souvenir or
+                                        gift. It is a good place to enjoy crafts and painting, although it also has
+                                        places to have lunch, so you can spend a good couple of hours calmly. In fact,
+                                        the people of Puno have traditionally only had two sources of wealth; on the one
+                                        hand, fishing and, on the other, artisanal production. In other words, what we
+                                        buy here has a guarantee of authenticity.
                                     </p><br><br>
 
                                     <div class="row">
                                         <div class="col-lg-9">
-                                            <h3>4. Mirador de Kuntur Wasi y Puma Uta</h3>
+                                            <h3>4. Kuntur Wasi and Puma Uta viewpoint</h3>
                                             <p>
                                                 ¿Quieres tener una idea de cómo se ve Puno desde las alturas? Entonces
-                                                es un
-                                                buen plan conocer los miradores de Kuntur Wasi y Puma Uta, ambos
-                                                imperdibles
-                                                lugares turísticos de Puno. Kuntur Wasi tiene en su cima un cóndor, el
-                                                patrono
-                                                vigilante de la ciudad. Desde aquí te puedes sentir como uno de ellos en
-                                                vuelo,
-                                                y obtener increíbles vistas de Puno y el Titicaca.<br><br>
+                                                es un buen plan conocer los miradores de Kuntur Wasi y Puma Uta, ambos
+                                                imperdibles lugares turísticos de Puno. Kuntur Wasi tiene en su cima un
+                                                cóndor, el patrono vigilante de la ciudad. Desde aquí te puedes sentir
+                                                como uno de ellos en vuelo, y obtener increíbles vistas de Puno y el
+                                                Titicaca.<br><br>
+
                                                 Puma Uta tiene una idea similar, pero esta vez con una escultura gigante
-                                                de un
-                                                puma (y otros animales) en un mirador ideal para divertirse y admirar la
-                                                magia
-                                                de estas tierras. Además, un poco de actividad física nunca viene mal.
+                                                de un puma (y otros animales) en un mirador ideal para divertirse y
+                                                admirar la magia de estas tierras. Además, un poco de actividad física
+                                                nunca viene mal.
                                             </p>
                                         </div>
                                         <div class="col-lg-3">
                                             <img src="{{ asset('img/galeria/Mirador-Puma-ata-Puno.webp') }}"
-                                                alt="Mirador de Puma Ata, Puno" loading="lazy" width="100%">
-                                            <i>Foto: Mirador de Puma Uta, Puno</i><br><br>
+                                                alt="Puma Ata viewpoint, Puno" loading="lazy" width="100%">
+                                            <i>Puma Ata viewpoint, Puno</i><br><br>
                                         </div>
                                     </div>
 
 
-                                    <h3>5. Iglesia de San Juan Bautista</h3>
+                                    <h3>5. Church of San Juan Bautista</h3>
                                     <p>
-                                        El hogar de la Virgen de la Candelaria no debiese quedar fuera de tu lista.
-                                        Tanto la virgen como el templo existen desde el año 1580. Sin embargo, un
-                                        incendio acabó con gran parte de la estructura, siendo reconstruido en 1887 en
-                                        su forma actual.<br><br>
-                                        Desde la construcción del Templo San Juan Bautista, siempre fue lugar de oración
-                                        de personas sufrientes, ya sea de mineros explotados, indígenas abusados, pobres
-                                        y marginados, siempre lugar de oración de gente pobre y humilde. La Imagen de la
-                                        Virgen de la Candelaria es venerada a partir del año 1580 en el Templo. La
-                                        construcción es de adobe y representa parte de la identidad de Puno, siendo la
-                                        virgen la patrona de Puno y recibiendo visitas de miles de fieles cada febrero.
+                                        The home of the Virgen de la Candelaria should not be left out of your list.
+                                        Both the virgin and the temple have existed since 1580. However, a fire
+                                        destroyed much of the structure, and it was rebuilt in 1887 in its current form.
+                                        <br><br>
+
+                                        Since the construction of the San Juan Bautista Temple, it has always been a
+                                        place of prayer for suffering people, whether it be exploited miners, abused
+                                        indigenous people, the poor and marginalized, always a place of prayer for poor
+                                        and humble people. The Image of the Virgin of Candelaria is venerated from the
+                                        year 1580 in the Temple. The construction is made of adobe and represents part
+                                        of the identity of Puno, the virgin being the patron saint of Puno and receiving
+                                        visits from thousands of faithful every February.
                                     </p>
                                 </div>
                             </div>
@@ -320,32 +337,30 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseSix" aria-expanded="false"
                                     aria-controls="flush-collapseSix">
-                                    Fechas más importantes en Puno
+                                    Most important dates in Puno
                                 </button>
                             </h2>
                             <div id="flush-collapseSix" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <p><strong>1. Fiesta ritual del Pago a la Tierra (Pacha Mama).</strong> <i>Fecha: 18
-                                            de enero</i></p>
+                                    <p><strong>1. Ritual festival of the Payment to the Earth (Pacha Mama).</strong> <i>Date: January 18</i></p>
 
-                                    <p><strong>2. Virgen de la Candelaria</strong> <i>Fecha: del 2 al 18 de febrero</i>
+                                    <p><strong>2. Virgen de la Candelaria</strong> <i>Date: from February 2 to 18</i>
                                     </p>
 
-                                    <p><strong>3. Semana Santa en Puno</strong> <i>Fecha: del 24 al 3 de marzo</i></p>
+                                    <p><strong>3. Holy Week in Puno</strong> <i>Date: from March 24 to 3</i></p>
 
-                                    <p><strong>4. Fiesta de Santiago apóstol</strong> <i>Fecha: 24 y 26 de julio</i></p>
+                                    <p><strong>4. Festival of Santiago apostle</strong> <i>Festival of Santiago apostle</i></p>
 
-                                    <p><strong>5. Fiestas patrias</strong> <i>Fecha: 28 de julio</i></p>
+                                    <p><strong>5. National Holidays</strong> <i>Date: July 28</i></p>
 
-                                    <p><strong>6. Escenificación de Capac Ccolla</strong> <i>Fecha: 7 de setiembre</i>
+                                    <p><strong>6. Capac Ccolla staging</strong> <i>Date: September 7</i>
                                     </p>
 
-                                    <p><strong>7. Aniversaio de fundación de Puno</strong> <i>Fecha: del 1 al 30 de
-                                            noviembre</i></p>
+                                    <p><strong>7. Anniversary of the foundation of Puno</strong> <i>Date: from November 1 to 30</i></p>
 
                                     <img src="{{ asset('img/galeria/353-aniversario-de-Puno.webp') }}"
-                                        alt="Pisco Sour, Peru" width="100%" loading="lazy">
+                                        alt="Puno aniversary" width="100%" loading="lazy">
                                 </div>
                             </div>
                         </div>
@@ -353,7 +368,7 @@
                 </div>
                 <div class="space"></div>
                 <div class="col-lg-12">
-                    <h2 class="h2-tierras">Tours más populares para Cusco:</h2>
+                    <h2 class="h2-tierras">Best selling tours</h2>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
@@ -365,35 +380,37 @@
                             <h5 class="card-title">Chquequirao, caminata 4 días </h5>
                             <p class="text-card">Cachicata o Inca Quarry es una de las antiguas canteras utilizadas
                                 por las civilizaciones Pre-Inca e Inca para construir el vasto complejo…</p>
-                            <a href="camino-inca-cantera-peru" class="boton-card">Más detalles</a>
+                            <a href="camino-inca-cantera-peru" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
                         <a href="#">
-                            <img class="card-img-top" src="{{ asset('img/thumb/City-Tour-en-Sacsayhuaman-Cusco-Peru.webp') }}"
+                            <img class="card-img-top"
+                                src="{{ asset('img/thumb/City-Tour-en-Sacsayhuaman-Cusco-Peru.webp') }}"
                                 alt="City tour en Cusco ciudad" loading="lazy">
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">City tour en Cusco</h5>
                             <p class="text-card">Antes del amanecer en el lago Titicaca, una neblina azul cubre
                                 nuestra vista. Muchos conejillos de indias corren para...</p>
-                            <a href="#" class="boton-card">Más detalles</a>
+                            <a href="#" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
                         <a href="viajar-a-puno">
-                            <img class="card-img-top" src="{{ asset('img/thumb/tour-a-la-laguna-de-humantay.webp') }}" alt="Tour a Puno"
+                            <img class="card-img-top"
+                                src="{{ asset('img/thumb/tour-a-la-laguna-de-humantay.webp') }}" alt="Tour a Puno"
                                 loading="lazy">
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Tour a la laguna Humantay</h5>
                             <p class="text-card">Puno es una de las ciudades más importantes de la orilla del lago
                                 Titicaca, el lago más navegable y...</p>
-                            <a href="viajar-a-puno" class="boton-card">Más detalles</a>
+                            <a href="viajar-a-puno" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -407,29 +424,14 @@
                             <h5 class="card-title">Tour gastronómico</h5>
                             <p class="text-card">Hasta hace poco, Vilcabamba era un rincón relativamente seguro y
                                 accesible de la...</p>
-                            <a href="vilcabamba" class="boton-card">Más detalles</a>
+                            <a href="vilcabamba" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="space"></div>
             </div>
         </div>
-    </section>
-    <!---banner--------->
-    <div class="banner-destinos">
-        <div class="banner-container">
-            <h3 class="h3-banner">Tours en peru 2022</h3>
-            <p class="p-banner">TOUR OPERATOR PERÚ</p>
-            <P class="p-banner">Pacha Mama Spirit es tour operador turístico desde 2012. Somos especialistas en
-                viajes de aventura y caminata. Reserve con nosotros su proxima visita a Perú. Conoce las mejores
-                opciones en tours alrededor de <strong>Perú</strong></P>
-            <P class="p-banner">
-                <a href="" class="a-reserva" data-toggle="modal" data-target="#exampleModal">¡Reserva
-                    ahora!</a>
-            </P>
-        </div>
-    </div>
-    @include('layouts.pop-up-booking')
+    </section>  
     @include('layouts.foot')
 </body>
 

@@ -8,7 +8,7 @@
     <meta property="og:description"
         content="Puno fue reconocida el 7 de noviembre de 1985, como la Capital del Folclor peruano, en mérito a sus más de 350 danzas que conjugan tradiciones ancestrales." />
     <meta name="keywords"
-        content="turismo en lima, Lima turistico, Por que se le llama ciudad de reyes?, Lima metropolitana, Ciudad de reyes, Conoce que lugares visitar en Lima, Lima capital de perú" />
+        content="turismo en Puno, ciudad de puno, puno, capital del floklore, puno peru, puno locacion, lago titicaca, islas uros, puno titicaca, titikka, el lago mas hondo del mundo" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="La ciudad blanca de Puno, capital del folklore peruano">
     <meta name="twitter:description"

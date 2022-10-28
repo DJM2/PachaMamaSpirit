@@ -127,47 +127,50 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFour" aria-expanded="false"
                                     aria-controls="flush-collapseFour">
-                                    Arequipa: Reseña Histórica
+                                    Arequipa: Historical Review
                                 </button>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    La región de Arequipa se encuentra poblada desde antes de la época incaica. Grupos
-                                    nómadas y pueblos como los collaguas, los chimbas y los yarabayas habitaban esta
-                                    zona.<br><br>
+                                    The Arequipa region has been populated since before the Inca times. Nomadic groups
+                                    and peoples such as the Collaguas, the Chimbas and the Yarabayas inhabited this
+                                    area.<br><br>
 
-                                    A partir de 1170, los incas se establecieron en estas tierras y ejercieron su
-                                    dominio. En 1540 los españoles lograrían asentarse para fundar la ciudad, con Juan
-                                    de la Torre y Díaz Chacón y Garcí Manuel de Carbajal como principales responsables y
-                                    a órdenes de Francisco Pizarro.<br><br>
-                                    El 15 de agosto de 1540, Don Garcí Manuel de Carvajal, Teniente de Gobernados y
-                                    Gobernador, por mandato del Conquistador Don Francisco Pizarro, fundó la Villa
-                                    Hermosa de Nuestra Señora de la Asunción, Arequipa en el sitio denominado La Chimba
-                                    (San Lázaro) a la margen izquierda del río. Al hallarse entre los fundadores y
-                                    vecinos, algunos nobles e hidalgos andaluces, extremeños y castellanos, la villa
-                                    inmediatamente fue elevada a la categoría de ciudad el 22 de septiembre de
-                                    1541.<br><br>
-                                    La actividad que pronto se hizo predominante fue la agricultura; se
-                                    habían aclimatado con gran éxito la vid y el olivo, iniciándose al poco tiempo una
-                                    próspera producción de vinos y aguardientes de uva, así como de aceite de oliva,
-                                    sobre todo en la zona de Yauca.<br><br>
-                                    Al usarse el sillar, un tipo de piedra volcánica abundante en la región, en las
-                                    construcciones, la urbe virreinal empezó a adquirir su característico aspecto,
-                                    llenándose paulatinamente de majestuosas casonas de hacendados, hermosos templos y
-                                    monumentales conventos, como el de Santa Catalina.<br><br>
-                                    Cuando los primeros vientos de la independencia empezaron a soplar, muchos
-                                    arequipeños de ilustres familias criollas se plegaron a la causa, aun en un medio
-                                    poco propicio, vinculándose con sociedades patrióticas de Argentina y otros países.
+                                    Starting in 1170, the Incas settled in these lands and exercised their dominion. In
+                                    1540 the Spaniards managed to settle down to found the city, with Juan de la Torre
+                                    and Díaz Chacón and Garcí Manuel de Carbajal as the main leaders and under the
+                                    orders of Francisco Pizarro.<br><br>
+
+                                    On August 15, 1540, Don Garcí Manuel de Carvajal, Lieutenant of Governors and
+                                    Governor, by order of the Conqueror Don Francisco Pizarro, founded the Villa Hermosa
+                                    de Nuestra Señora de la Asunción, Arequipa in the place called La Chimba (San
+                                    Lázaro) at the left bank of the river. Being among the founders and neighbors, some
+                                    Andalusian, Extremaduran and Castilian nobles and hidalgos, the town was immediately
+                                    elevated to the category of city on September 22, 1541.<br><br>
+
+                                    The activity that soon became predominant was agriculture; The vine and the olive
+                                    tree had been acclimatized with great success, and soon a prosperous production of
+                                    wines and grape spirits, as well as olive oil, began, especially in the Yauca
+                                    area.<br><br>
+
+                                    By using ashlar, a type of volcanic stone abundant in the region, in constructions,
+                                    the viceregal city began to acquire its characteristic appearance, gradually filling
+                                    itself with majestic landlord mansions, beautiful temples, and monumental convents,
+                                    such as Santa Catalina.<br><br>
+
+                                    When the first winds of independence began to blow, many Arequipeños from
+                                    illustrious Creole families joined the cause, even in an inauspicious environment,
+                                    linking up with patriotic societies in Argentina and other countries.
                                     <br><br>
                                     <img src="{{ asset('img/galeria/historia-sobre-arequipa-Perú.webp') }}"
-                                        width="80%" alt="Historia de Arequipa" loading="lazy">
-                                    <i>Foto: Tradiciones</i><br>
+                                        width="80%" alt="Historia de Arequipa" loading="lazy"><br><br>
                                     Uno de los sucesos más notables de la gesta emancipadora fue la campaña del cuzqueño
                                     Mateo García Pumacahua, quien salió hacia Arequipa en octubre de 1814 con un
                                     ejército de más de 5 mil hombres; tras derrotar a las filas realistas que comandaba
                                     el mariscal Francisco Picoaga, entró triunfante a la Ciudad Blanca y formó una junta
                                     provisional de gobierno.<br><br>
+
                                     Actualmente Arequipa mantiene su liderazgo económico en el sur del país y es una
                                     pujante urbe donde se concentran comercio, servicios, agricultura e industrias,
                                     aunque la lechera atraviesa por una momentánea retracción. Ha esta ciudad le fue muy
@@ -182,87 +185,85 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Principales lugares turísticos en Arequipa
+                                    Main tourist places in Arequipa
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    Arequipa es el destino perfecto para disfrutar de unas vacaciones llenas de
-                                    naturaleza, aventura, historia y deliciosa gastronomía. Nombrada como Patrimonio
-                                    Cultural de la Humanidad, esta ciudad es, sin duda, uno de esos lugares que hay que
-                                    visitar al menos una vez en la vida. Aquí te dejamos 10 lugares turísticos de
-                                    Arequipa que debes conocer.<br><br>
-                                    <h3>1. Volcán Misti</h3>
-                                    Arequipa tiene uno de los destinos más impresionantes para los viajeros más
-                                    atrevidos: el Misti, un volcán de 5.822 metros, con más de 800 mil años de
-                                    antigüedad y que se encuentra entre los 16 volcanes activos y potencialmente activos
-                                    del Perú. Si buscas un plan de máxima aventura, te recomendamos realizar el ascenso
-                                    al Volcán Misti, una travesía de dos días rodeada de increíbles paisajes, acampando
-                                    a más de 4.000 metros sobre el nivel del mar y con una llegada a la meta totalmente
-                                    única: la vista del cráter del Misti.<br><br>
+                                    Arequipa is the perfect destination to enjoy a vacation full of nature, adventure,
+                                    history and delicious cuisine. Named Cultural Heritage of Humanity, this city is,
+                                    without a doubt, one of those places that you have to visit at least once in your
+                                    life. Here we leave you 10 tourist places in Arequipa that you should know.<br><br>
+                                    <h3>1. Misti volcano</h3>
+                                    Arequipa has one of the most impressive destinations for the most daring travelers:
+                                    El Misti, a 5,822-meter volcano, over 800,000 years old and one of the 16 active and
+                                    potentially active volcanoes in Peru. If you are looking for a maximum adventure
+                                    plan, we recommend you make the ascent to the Misti Volcano, a two-day journey
+                                    surrounded by incredible landscapes, camping at more than 4,000 meters above sea
+                                    level and with a totally unique arrival at the finish line: the view from the Misti
+                                    crater.<br><br>
                                     <img src="{{ asset('img/galeria/volcan--misti-Arequipa-Peru-Pacha-Mama.webp') }}"
-                                        width="100%" alt="Volcán Misti Arequipa Perú" loading="lazy">
-                                    <i>Foto: Volcán Misti, Arequipa</i><br><br>
+                                        width="100%" alt="Misti Volcano Arequipa Peru" loading="lazy">
+                                    <i>Picture: Misti Volcano Arequipa Peru</i><br><br>
 
-                                    <h3>2. Monasterio de Santa Catalina</h3>
-                                    En pleno centro de la ciudad de Arequipa se encuentra una de las grandes obras
-                                    arquitectectónicas del Perú colonial. Se trata del Monasterio de Santa Catalina, un
-                                    convento de clausura construido en el siglo XVI y que cuenta con más de 20 mil
-                                    metros cuadrados que podrás explorar de punta a punta. Sus coloridas calles, su
-                                    interesante historia y su asombrosa arquitectura han convertido al Monasterio de
-                                    Santa Catalina en uno de los principales lugares turísticos de Arequipa.<br><br>
+                                    <h3>2. St. Catherine's Monastery</h3>
+                                    In the heart of the city of Arequipa is one of the great architectural works of
+                                    colonial Peru. It is the Santa Catalina Monastery, a cloistered convent built in the
+                                    16th century and which has more than 20,000 square meters that you can explore from
+                                    end to end. Its colorful streets, its interesting history and its amazing
+                                    architecture have made the Santa Catalina Monastery one of the main tourist places
+                                    in Arequipa.<br><br>
                                     <img src="{{ asset('img/galeria/Monasterio-de-Santa-Catalina-Arequipa.webp') }}"
-                                        width="100%" alt="Monasterio de Santa Catalina" loading="lazy">
-                                    <i>Foto: Monasterio de Santa Catalina</i><br><br>
+                                        width="100%" alt="St. Catherine's Monastery" loading="lazy">
+                                    <i>Picture: St. Catherine's Monastery</i><br><br>
 
-                                    <h3>3. Mirador de Yanahura</h3>
-                                    Si eres de esos a los que les gusta tener una vista 360 de la ciudad que visita,
-                                    tienes que conocer el Mirador de Yanahura. Situado en el pintoresco distrito del
-                                    mismo nombre, este mirador ofrece una de las vistas más espectaculares de Arequipa,
-                                    con la ciudad a los pies de sus tres volcanes más representativos: el Misti, el
-                                    Chachani y el Pichu Pichu. Además, otro de los atractivos de este lugar son sus
-                                    característicos arcos de sillar blanco, en los que podrás leer frases de personajes
-                                    ilustres de Perú.<br><br>
+                                    <h3>3. Yanahuara city sigth</h3>
+                                    If you are one of those who like to have a 360 view of the city you visit, you have
+                                    to visit the Yanahura Viewpoint. Located in the picturesque district of the same
+                                    name, this viewpoint offers one of the most spectacular views of Arequipa, with the
+                                    city at the foot of its three most representative volcanoes: Misti, Chachani and
+                                    Pichu Pichu. In addition, another of the attractions of this place are its
+                                    characteristic white ashlar arches, in which you can read phrases of famous people
+                                    from Peru.<br><br>
                                     <img src="{{ asset('img/galeria/mirador-de-Yanahuara-Arequipa.webp') }}"
-                                        width="100%" alt="Miradofr de Yanahuara" loading="lazy">
-                                    <i>Foto: Mirador de Yanahuara y volcán Misti</i><br><br>
+                                        width="100%" alt="Yanahuara city sigth" loading="lazy">
+                                    <i>Picture: Yanahuara city sigth & Misti</i><br><br>
 
-                                    <h3>4. Cañón del Colca</h3>
-                                    Uno de los principales destinos turísticos del Peru; además, considerado como uno de
-                                    los cañones más profundos de todo el mundo; este centro turístico ofrece paisajes
-                                    espectaculares, restos arqueológicos, pequeños poblados coloniales y lo más
-                                    interesante e importante el vuelo de cóndores andinos junto a la amanecida con el
-                                    reflejo del sol bajo el cielo azul.<br><br>
+                                    <h3>4. Colca Canyon</h3>
+                                    One of the main tourist destinations in Peru; also, considered one of the deepest
+                                    canyons in the world; This tourist center offers spectacular landscapes,
+                                    archaeological remains, small colonial towns and the most interesting and important
+                                    thing is the flight of Andean condors at dawn with the reflection of the sun under
+                                    the blue sky.<br><br>
 
-                                    Para apreciar todo lo que ofrece el cañón de Colca se debe viajar a valle de Colca
-                                    ubicado a 151 kilómetros de la Ciudad Blanca de Arequipa y por tres horas de viaje
-                                    en auto bus, normalmente es recomendable descansar una noche en el valle de Colca
-                                    (Chivay) para poder apreciar el fabuloso vuelo de los cóndores.<br><br>
+                                    To appreciate everything that the Colca Canyon offers, you must travel to the Colca
+                                    Valley located 151 kilometers from the White City of Arequipa and for a three-hour
+                                    trip by bus, it is normally advisable to rest one night in the Colca Valley (Chivay
+                                    ) to appreciate the fabulous flight of the condors.<br><br>
                                     <img src="{{ asset('img/galeria/COLCA-canyon-AREQUIPA--pacha-mama-Spirit.webp') }}"
-                                        alt="Cañon del Colca canyon" loading="lazy" width="100%">
-                                    <i>Foto: Mirador de cóndor, cañon del Colca</i><br><br>
+                                        alt="Colca canyon Arequipa" loading="lazy" width="100%">
+                                    <i>Photo: Condor Viewpoint, Colca Canyon</i><br><br>
 
-                                    <h3>5. Bosque de Piedras Choqolaqa</h3>
-                                    El Bosque de Piedras Choqolaqa parece un paisaje de otro planeta, el escenario de
-                                    una ficción marciana hollywoodense o incluso un cuadro surrealista de Dalí. Se le
-                                    conoce también como Nueva Arequipa, y es que la leyenda dice que un día sus
-                                    pobladores dejaron de guardar respeto a sus Apus y como castigo todo se volvió de
-                                    piedra.<br><br>
-                                    <h3>6. Las canteras de Sillar </h3>
-                                    La ciudad de Arequipa es conocida por sus construcciones a base de sillar. Esta roca
-                                    de color blanquecino fue utilizada por los Incas para edificaciones sagradas y,
-                                    posteriormente, por los españoles para construir casas e iglesias. Es así que, por
-                                    el uso del sillar, Arequipa es conocida como la Ciudad Blanca. Al visitar la Ruta
-                                    del Sillar, podrás descubrir la manera cómo fue trabajado este material que, por la
-                                    belleza y particularidad de las obras, te dejará impresionado.<br><br>
-                                    <h3>7. Plaza de Armas de Arequipa</h3>
-                                    La plaza mayor de Arequipa, se ubica en el Centro Histórico, es uno de los
-                                    principales lugares públicos de la ciudad Blanca, considerado como una de las plazas
-                                    más hermosas del Peru y de toda américa latina, rodeado de la catedral principal de
-                                    Arequipa al norte, los tres portales al este, sur y oeste; la iglesia de la compañía
-                                    al sur-este y en el centro de la plaza mayor presenta una hermosa fuente de bronce
-                                    de tres platos coronados con la figura de un soldado del siglo XVI.
+                                    <h3>5. Choqolaqa Stone Forest</h3>
+                                    The Choqolaqa Stone Forest looks like a landscape from another planet, the scene of
+                                    a Hollywood Martian fiction or even a surreal painting by Dalí. It is also known as
+                                    Nueva Arequipa, and the legend says that one day its inhabitants stopped respecting
+                                    their Apus and as punishment everything turned to stone.<br><br>
+                                    <h3>6. The quarries of Sillar</h3>
+                                    The city of Arequipa is known for its ashlar-based constructions. This
+                                    whitish-colored rock was used by the Incas for sacred buildings and, later, by the
+                                    Spanish to build houses and churches. Thus, due to the use of ashlar, Arequipa is
+                                    known as the White City. By visiting the Ruta del Sillar, you will be able to
+                                    discover the way in which this material was worked, which, due to the beauty and
+                                    particularity of the works, will leave you impressed.<br><br>
+                                    <h3>7. Arequipa Main Square</h3>
+                                    The main square of Arequipa, is located in the Historic Center, is one of the main
+                                    public places of the White City, considered one of the most beautiful squares in
+                                    Peru and all of Latin America, surrounded by the main cathedral of Arequipa to the
+                                    north. , the three portals to the east, south and west; the church of the company to
+                                    the south-east and in the center of the main square presents a beautiful bronze
+                                    fountain with three plates crowned with the figure of a 16th century soldier.
                                 </div>
                             </div>
                         </div>
@@ -271,67 +272,66 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseSix" aria-expanded="false"
                                     aria-controls="flush-collapseSix">
-                                    Fechas más importantes en Arequipa
+                                    Most important dates in Arequipa
                                 </button>
                             </h2>
                             <div id="flush-collapseSix" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <h3>1. Virgen de Chapi en Arequipa</h3>
-                                    <i>Fecha: 1 de mayo</i><br>
-                                    La fiesta de la Virgen de Chapi es una celebración cristiana que tiene una gran
-                                    acogida en el pueblo arequipeño. Su culto en esta zona tiene su origen hace casi
-                                    tres siglos y su fiesta clave y central es todos los años el día primero de Mayo,
-                                    aunque existen pueblos donde la fecha es movible y comparte escenario con otras
-                                    representaciones marianas.<br><br>
+                                    <h3>1. Virgin of Chapi in Arequipa</h3>
+                                    <i>Date: May 1</i><br>
+                                    The festival of the Virgin of Chapi is a Christian celebration that is very well
+                                    received in the town of Arequipa. Her cult in this area has its origin almost three
+                                    centuries ago and her key and central festival is every year on May 1, although
+                                    there are towns where the date is movable and shares the stage with other Marian
+                                    representations.<br><br>
 
-                                    <h3>2. Aniversario de La Fundación Española de La Ciudad de Arequipa en Arequipa
+                                    <h3>2. Anniversary of the Spanish Foundation of the City of Arequipa in Arequipa
                                     </h3>
-                                    <i>Fecha: 15 de agosto</i><br>
-                                    La Ciudad de Arequipa fue fundada por los españoles en el año 1540, un 15 de Agosto.
-                                    De ahí en adelante anualmente, en vísperas de dicha fecha Arequipa se viste de gala
-                                    para celebrar su aniversario.<br><br>
+                                    <i>Date: August 15</i><br>
+                                    The City of Arequipa was founded by the Spanish in the year 1540, on August 15. From
+                                    then on, annually, on the eve of said date, Arequipa dresses up to celebrate its
+                                    anniversary.<br><br>
 
-                                    Existe un programa que varía cada año, pero dentro del cual, por lo general, las
-                                    festividades dan comienzo con una semana de anticipación. Entre los eventos que se
-                                    encuentran para el día de apertura se hallan: Un pasacalle, que recorre las
-                                    principales avenidas de la ciudad.<br><br>
+                                    There is a program that varies each year, but within which, in general, the
+                                    festivities begin a week in advance. Among the events that are for the opening day
+                                    are: A parade, which runs through the main avenues of the city.<br><br>
 
-                                    <h3>3. Aniversario de Cotahuasi en Arequipa</h3>
-                                    <i>Fecha: 4 de mayo</i><br>
+                                    <h3>3. Anniversary of Cotahuasi in Arequipa</h3>
+                                    <i>Date: May 4</i><br>
                                     El aniversario de Cotahuasi es una importante celebración que en la actualidad se
                                     encuentra comprendida dentro de la Semana Turística de Cotahuasi y que tiene como
                                     fecha clave el día 4 de Mayo, fecha en la que se conmemora y festeja la creación
                                     política de la provincia de La Unión, a la que pertenece el distrito de Cotahuasi,
                                     en Arequipa.<br><br>
+
                                     Es común en la celebración encontrar diferentes ferias, además de las gastronómicas.
                                     Sobre estas otras, estas pueden ser ferias artesanales, aunque también existen
                                     exhibiciones de las danzas típicas de la zona, estas se dan en los corsos o también
                                     en el llamado “Llacta Tupay de la Reserva Paisajística de Cotahuasi”.<br><br>
 
-                                    <h3>4. Fiesta de La Inmaculada Concepción en Arequipa</h3>
-                                    <i>Fecha: 8 de diciembre</i><br>
-                                    La fiesta de la Inmaculada Concepción es una festividad religiosa mundial, pero que
-                                    presenta una interesante manera de celebración dentro del departamento de Arequipa,
-                                    en específico en las zonas de Arequipa (ciudad), Chuquibamba y Cayma donde es
-                                    llamada “Mamita Conchita” desde la aparición de la primera estatua allá por el siglo
-                                    XVIII cuando fuera traída por un grupo de soldados españoles y dejada en el lugar a
-                                    pedido de los habitantes de Chuquibamba. La fiesta es importante por el número de
-                                    feligreses que congrega, así como también, por poder apreciar en ella la asimilación
-                                    de una tradición occidental en un pueblo con influencias andinas.<br><br>
+                                    <h3>4. Feast of the Immaculate Conception in Arequipa</h3>
+                                    <i>Date: December 8</i><br>
+                                    The feast of the Immaculate Conception is a world religious festival, but it
+                                    presents an interesting way of celebrating within the department of Arequipa,
+                                    specifically in the areas of Arequipa (city), Chuquibamba and Cayma where it is
+                                    called "Mamita Conchita" since the apparition of the first statue back in the 18th
+                                    century when it was brought by a group of Spanish soldiers and left in place at the
+                                    request of the inhabitants of Chuquibamba. The festival is important for the number
+                                    of parishioners it gathers, as well as for being able to appreciate in it the
+                                    assimilation of a western tradition in a town with Andean influences.<br><br>
 
-                                    <h3>5. Carnaval Chuquibambino en Arequipa</h3>
-                                    <i>Fecha: primer sábado del mes de Febrero</i><br>
-                                    El carnaval de Chuquibamba, es una celebración colorida y divertida que tiene su
-                                    celebración el distrito del mismo nombre, dentro de la provincia de Condesuyos, en
-                                    el departamento de Arequipa. Como todo carnaval presenta una fecha movible, pero que
-                                    se puede seguir según calendario, y que la última vez se llevó a cabo durante el
-                                    periodo comprendido entre el 27 de febrero y el 6 de marzo, aunque la ciudad se
-                                    encuentra de carnaval desde el primero de febrero con los tradicionales juegos de
-                                    aguas infaltables en el país.<br><br>
+                                    <h3>5. Chuquibambino Carnival in Arequipa</h3>
+                                    <i>Date: first Saturday of February</i><br>
+                                    The Chuquibamba carnival is a colorful and fun celebration held in the district of
+                                    the same name, within the province of Condesuyos, in the department of Arequipa.
+                                    Like all carnivals, it has a movable date, but it can be followed according to the
+                                    calendar, and the last time it took place during the period between February 27 and
+                                    March 6, although the city has been in carnival since the first February with the
+                                    traditional water games that are inevitable in the country.<br><br>
                                     <img src="{{ asset('img/galeria/pisco-sour-peru.webp') }}" alt="Pisco Sour, Peru"
                                         width="100%" loading="lazy">
-                                    <i>Foto: Pisco Sour</i>
+                                    <i>Photo: Pisco Sour</i>
                                 </div>
                             </div>
                         </div>
@@ -339,7 +339,7 @@
                 </div>
                 <div class="space"></div>
                 <div class="col-lg-12">
-                    <h2 class="h2-tierras">Tours más populares para Cusco:</h2>
+                    <h2 class="h2-tierras">Popular Tours</h2>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
@@ -348,7 +348,7 @@
                                 alt="camino inca" loading="lazy">
                         </a>
                         <div class="card-body text-center">
-                            <h5 class="card-title">Chquequirao, caminata 4 días </h5>
+                            <h5 class="card-title">Choquequirao, caminata 4 días </h5>
                             <p class="text-card">Cachicata o Inca Quarry es una de las antiguas canteras utilizadas
                                 por las civilizaciones Pre-Inca e Inca para construir el vasto complejo…</p>
                             <a href="camino-inca-cantera-peru" class="boton-card">Más detalles</a>
@@ -403,8 +403,6 @@
             </div>
         </div>
     </section>
-
-    @include('layouts.pop-up-booking')
     @include('layouts.foot')
 </body>
 

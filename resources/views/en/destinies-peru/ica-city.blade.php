@@ -9,7 +9,7 @@
         content="Ica is considered the land of the eternal sun, the one where it will be difficult for you to wake up to see gray days since the king star never tires of illuminating..." />
     <meta name="keywords"
         content="city of Ica, Ica, ica city, city of the eternal sun, Ica city of the eternal sun, the city of pisco, ica pisco, pisco de ica, inca region, ica tourism, vacations in ica" />
-        <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary_large_image">
     <meta property="og:image" content="https://pachamamaspirit.com/img/panoramico/huacachina-ica-peru-tour.webp" />
     <meta name="twitter:image" content="https://pachamamaspirit.com/img/panoramico/huacachina-ica-peru-tour.webp">
     <link rel="canonical" href="https://pachamamaspirit.com/en/destinies-peru/ica-city" />
@@ -35,7 +35,8 @@
                 <div class="col-lg-12">
                     <div class="details">
                         <div class="location">
-                            <p><a href="{{route('index')}}">Home</a> / <a href="{{ route('destinies-peru') }}">Destinies</a> /
+                            <p><a href="{{ route('index') }}">Home</a> / <a
+                                    href="{{ route('destinies-peru') }}">Destinies</a> /
                                 <a>Ica</a>
                             </p>
                         </div>
@@ -49,44 +50,45 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    Ica, la ciudad del eterno sol
+                                    Ica, the city of the eternal sun
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <i>Ica, también conocida como la ciudad del eterno sol, cuna del pisco o ciudad del
-                                        sol</i>
+                                    <i>Ica, also known as the city of the eternal sun, cradle of pisco or city of the
+                                        sun</i>
                                     <p>
-                                        Ica es considerada la tierra del sol eterno, aquella donde será difícil que
-                                        despiertes para ver días grises ya que el astro rey no se cansa de iluminar sus
-                                        terrenos. Por esta y muchas otras razones, esta región del país, a pocas horas
-                                        de Lima, es la favorita para tomar unas vacaciones solo, en pareja, con amigos,
-                                        o con la familia.<br><br>
-                                        Debido a su proximidad con <a href="{{ route('lima-ciudad-de-reyes') }}"
-                                            title="Ciudad de Lima" target="_blank"> Lima</a>,
-                                        la capital del Perú, Ica es uno de los destinos
-                                        ideales para escaparse: esta región sureña está ubicada a (aproximadamente) 4
-                                        horas de la urbe limeña y tiene un sinnúmero de actividades, tan distintas como
-                                        divertidas, para los viajeros que se aventuren a recorrer su territorio.<br><br>
-                                        Porque en Ica, las dunas de sus enormes desiertos resguardan el legado cultural
-                                        e histórico de antiguas civilizaciones, como también son la locación de un oasis
-                                        que parece sacado de una película o un cuento de hadas. En Ica abundan las
-                                        hermosas playas con aguas refrescantes. Ese mismo mar que sirve para practicar
-                                        tus chapuzones con tu familia y amigos, también es el hábitat de hermosas
-                                        especies de fauna silvestre, que están ansiosas porque las visites.<br><br>
-                                        No es una exageración: en Ica hay una actividad distinta para cada tipo de
-                                        turista. Es un lugar donde el tiempo pasa volando, porque siempre hay algo qué
-                                        hacer.<br><br>
-                                        Ica es famosa por sus campiñas, centros vitivinícolas; por la calidad de su
-                                        vinos, encontrándose en esta zona los más importantes productores de vino.
-                                        Merece destacar la fiesta de la vendimia de Ica, llevado a cabo con gran consumo
-                                        de vino y cachina. En sus fértiles valles se cultiva el algodón, vid, tabaco y
-                                        lino.
+                                        Ica is considered the land of the eternal sun, the one where it will be
+                                        difficult for you to wake up to see gray days since the king star never tires of
+                                        illuminating its lands. For this and many other reasons, this region of the
+                                        country, a few hours from Lima, is the favorite to take a vacation alone, as a
+                                        couple, with friends, or with family.<br><br>
+                                        Due to its proximity to <strong>Lima</strong>, the capital of Peru, Ica is one
+                                        of the ideal
+                                        destinations to get away: this southern region is located (approximately) 4
+                                        hours from the city of Lima and has countless activities, as different as they
+                                        are fun, for travelers who venture to explore its territory.<br><br>
+
+                                        Because in Ica, the dunes of its enormous deserts protect the cultural and
+                                        historical legacy of ancient civilizations, as well as the location of an oasis
+                                        that seems to be taken from a movie or a fairy tale. In Ica, beautiful beaches
+                                        with refreshing waters abound. That same sea that is used to practice your dips
+                                        with your family and friends, is also the habitat of beautiful species of
+                                        wildlife, which are eager for you to visit them.<br><br>
+
+                                        It is not an exaggeration: in Ica there is a different activity for each type of
+                                        tourist. It is a place where time flies, because there is always something to
+                                        do.<br><br>
+
+                                        Ica is famous for its countryside, wine centers; for the quality of its wines,
+                                        being in this area the most important wine producers. It is worth highlighting
+                                        the harvest festival of Ica, carried out with great consumption of wine and
+                                        cachina. In its fertile valleys, cotton, vines, tobacco and linen are grown.
                                     </p>
                                     <img src="{{ asset('img/panoramico/huacachina-ica-peru-tour.webp') }}"
-                                        width="100%" alt="Oasis de Huacachina" loading="lazy">
-                                    <i>Foto: Oasis de Huacachina</i>
+                                        width="100%" alt="Huacachina oasis" loading="lazy">
+                                    <i>Photo: Huacachina Oasis</i>
                                 </div>
                             </div>
                         </div>
@@ -95,58 +97,56 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    Historia y origen de la ciudad de Ica
+                                    History and origin of the city of Ica
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        Los primeros habitantes se asentaron en la región Ica hace unos 9 000 años. El
-                                        <strong>“hombre de Paracas”</strong>, descubierto en las Pampas de Santo
-                                        Domingo, data del año 6
-                                        870 a.C. constituyendo el segundo horticultor más antiguo del Perú. Dos
-                                        importantes culturas pre inca se asentaron en la región, la cultura Paracas (600
-                                        a.C. al 100 d.C.) y la cultura Nazca (100-800 d.C.). De la primera quedan los
-                                        hermosos mantos de fibras de algodón y lana, conservados en sus colores y
-                                        textura por las condiciones climáticas y el suelo de la zona, así como los
-                                        fardos funerarios con momias en cuclillas que muestran el avance en la técnica
-                                        no sólo de la momificación sino también de conocimientos avanzados de medicina y
-                                        cirugía a través de la llamada trepanación. Estas momias fueron encontradas
-                                        principalmente en Cerro Colorado, en donde tallaron la roca en forma de copa
-                                        invertida para acondicionar subterráneamente cada fardo.<br><br>
-                                        <strong>La ciudad de Ica</strong> es la capital de la Región (o departamento) de
-                                        Ica, que se encuentra en el sur de Perú, ubicada en el río del mismo nombre a
-                                        unos 300 km al sur de Lima. Esta ciudad fundada en 1563 por el conquistador
-                                        español Gerónimo Luis de Cabrera (de origen andaluz), bajo el nombre de Villa de
-                                        Valverde. Se trata de una zona con una extensa e importante pasado histórico, ya
-                                        que los primeros pobladores se remontan a más de 10.000 años de
-                                        antigüedad.<br><br>
-                                        La ciudad fue el hogar de muchas culturas como por ejemplo la de los Paracas,
-                                        Wari, Ica o Nasca.
-                                        Luego de su fundación comenzaron a realizarse una buena cantidad de
-                                        edificaciones religiosas de gran importancia, y ya en el siglo 20 se llevó a
-                                        cabo la construcción del majestuoso Santuario de Luren, una de las más
-                                        conocidas.<br><br>
-                                        Ya acercándonos a datos más actuales, hasta el año 2005, en Ica había una
-                                        población estimada de más de 219.856 habitantes; sin embargo, la ciudad sufrió
-                                        grandes daños y la pérdida de un gran número de vidas durante el terremoto de
-                                        Perú en el año 2007.
-                                        Esta zona es una portante región agrícola, donde se cultivan uvas, algodón,
-                                        espárragos, aceitunas y otros productos para consumo local y para la
-                                        exportación. Es conocida por peruanos como la tierra del sol, y aunque se hacen
-                                        presentes las 4 estaciones del año, el cálido clima seco hace que se sienta como
-                                        en verano durante todo el año, algo que seguramente sabrán apreciar (y
-                                        sobretodo, aprovechar) los turistas.
-                                        En toda la región de Ica y sus alrededores los visitantes podrás visitar las
-                                        fábricas de producción de Pisco, ya que esta región vendría a ser la fuente
-                                        tradicional de Perú.<br><br>
-                                        La ciudad además se encuentra muy bien comunicada ya que cuenta con varios
-                                        canales de acceso, siendo la más conocida la carretera Panamericana. Por
-                                        ejemplo, si quieres hacer el viaje desde la ciudad de Lima hasta Ica (como hemos
-                                        dicho, habrá una distancia aproximada de unos 300 km), en tan sólo unas 4 horas
-                                        de viaje en auto ya estarás llegando a destino.
+                                        The first inhabitants settled in the Ica region about 9,000 years ago. The
+                                        <strong>“man
+                                            from Paracas”</strong>, discovered in the Pampas of Santo Domingo, dates
+                                        back to the year 6,870 BC. constituting the second oldest horticulturist in
+                                        Peru. Two important pre-Inca cultures settled in the region, the <strong>Paracas
+                                            culture</strong> (600 BC to 100 AD) and the Nazca culture (100-800 AD). From
+                                        the former remain the beautiful cloaks of cotton and wool fibers, preserved in
+                                        their colors and texture by the climatic conditions and the soil of the area, as
+                                        well as the funerary bundles with squatting mummies that show the advance in the
+                                        technique not only of mummification but also advanced knowledge of medicine and
+                                        surgery through the so-called trepanation. These mummies were found mainly in
+                                        Cerro Colorado, where they carved the rock in the shape of an inverted cup to
+                                        store each bundle underground.<br><br>
 
+                                        The city of Ica is the capital of the Region (or department) of Ica, which is
+                                        located in southern Peru, located on the river of the same name about 300 km
+                                        south of Lima. This city founded in 1563 by the Spanish conqueror Gerónimo Luis
+                                        de Cabrera (of Andalusian origin), under the name of Villa de Valverde. It is an
+                                        area with an extensive and important historical past, since the first settlers
+                                        date back more than 10,000 years.<br><br>
+
+                                        The city was home to many cultures such as the Paracas, Wari, Ica or Nasca.
+                                        After its foundation, a good number of religious buildings of great importance
+                                        began to be built, and already in the 20th century the majestic Sanctuary of
+                                        Luren, one of the best known, was built.<br><br>
+
+                                        Already approaching more current data, until the year 2005, in Ica there was an
+                                        estimated population of more than 219,856 inhabitants; however, the city
+                                        suffered extensive damage and the loss of a large number of lives during the
+                                        earthquake in Peru in 2007. This area is a major agricultural region, where
+                                        grapes, cotton, asparagus, olives and other products for consumption are grown.
+                                        local and for export. It is known by Peruvians as the land of the sun, and
+                                        although the 4 seasons of the year are present, the hot dry climate makes it
+                                        feel like summer throughout the year, something that tourists will surely
+                                        appreciate (and above all, take advantage of). . Throughout the Ica region and
+                                        its surroundings, visitors can visit the Pisco production factories, since this
+                                        region would become the traditional source of Peru.<br><br>
+
+                                        The city is also very well connected since it has several access channels, the
+                                        best known being the Pan-American Highway. For example, if you want to make the
+                                        trip from the city of Lima to Ica (as we have said, there will be an approximate
+                                        distance of about 300 km), in just about 4 hours of travel by car you will
+                                        already be arriving at your destination.
                                     </p>
                                 </div>
                             </div>
@@ -156,89 +156,87 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Ica, cuna del Pisco
+                                    Ica, cradle of Pisco
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        El Pisco nació en la región Ica a finales del siglo XVI, cuando los lugareños de
-                                        la zona empezaron a producir una bebida transparente obtenido de la destilación
-                                        de uvas, el mismo que embarcaban en el puerto de Pisco para distribuirlo a todas
-                                        las zonas ribereñas del Virreinato del Perú. El investigador Emilio Romero
-                                        apunta que en 1580 el pirata inglés Francis Drake incursionó en el puerto de
-                                        Pisco y pidió un rescate por los prisioneros que tomó; los aldeanos para
-                                        completar el rescate le pagaron con 300 botijas de Pisco. La primera
-                                        identificación de la bebida como Pisco habría sido realizada en 1630 por el
-                                        español Francisco López de Caravantes, al exponer en un manuscrito
-                                        datado en 1630, que “el valle de Pisco, sigue siendo el más abundante de
-                                        excelentes vinos de todo el Perú. Desde allí uno que compite con nuestro Jerez,
-                                        el llamado “aguardiente Pisco”, por extraerse de la uva pequeña, es una de las
-                                        bebidas más exquisitos que se bebe en el mundo.”<br><br>
+                                        Pisco was born in the Ica region at the end of the 16th century, when the locals
+                                        of the area began to produce a transparent drink obtained from the distillation
+                                        of grapes, the same that they shipped in the port of Pisco to distribute it to
+                                        all the riverside areas of the Viceroyalty. From Peru. Researcher Emilio Romero
+                                        points out that in 1580 the English pirate Francis Drake raided the port of
+                                        Pisco and asked for a ransom for the prisoners he took; the villagers to
+                                        complete the rescue paid him with 300 Pisco jars. The first identification of
+                                        the drink as Pisco would have been made in 1630 by the Spaniard Francisco López
+                                        de Caravantes, when he stated in a manuscript dated 1630 that “the valley of
+                                        Pisco continues to be the most abundant of excellent wines in all of Peru. From
+                                        there, one that competes with our Sherry, the so-called "Pisco brandy", because
+                                        it is extracted from the small grape, it is one of the most exquisite drinks
+                                        drunk in the world."<br>
                                     </p>
-                                    <h3>Pisco y su comercialización</h3>
+                                    <h3>Pisco and its commercialization</h3>
                                     <p>
-                                        Sobre este punto, un importante aporte es el que hizo Enrique Witt, un
-                                        comerciante alemán que llegó al Perú en 1824. En el diario que dejó sobre sus
-                                        recorridos por nuestro país, anotó que, cuando estaba en el valle de Quilca
-                                        (Arequipa), junto a sus compañeros tomaron “vino, pisco y chicha, una bebida
-                                        fermentada hecha de maíz”.<br><br>
+                                        On this point, an important contribution is made by Enrique Witt, a German
+                                        merchant who arrived in Peru in 1824. In the diary he left about his travels
+                                        through our country, he noted that, when he was in the Quilca Valley (Arequipa),
+                                        Together with his companions they drank "wine, pisco and chicha, a fermented
+                                        drink made from corn."<br><br>
 
-                                        Para corroborar más aún esta información, Witt, al llegar a Chincha Baja, acota
-                                        que “Pisco es el puerto de Ica, y desde aquí se exporta todo el brandy o
-                                        aguardiente del país que se produce y destila en ese lugar. De ahí proviene el
-                                        nombre de pisco, palabra con la que se conoce el brandy en todo el Perú”.
-                                        Además, describió los precios del pisco, así como su elaboración y transporte.
-                                        “La comercialización que la gente de Ica realiza del brandy llamado pisco, es
-                                        bastante considerable; proveen de este destilado a todos los departamentos del
-                                        norte del Perú, mientras que el brandy o aguardiente producido en los valles de
-                                        Majes, Vitor, Moquegua y otros, es consumido en el sur y exportado a
+                                        To further corroborate this information, Witt, upon arriving in Chincha Baja,
+                                        notes that “Pisco is the port of Ica, and from here all the country's brandy or
+                                        liquor that is produced and distilled in that place is exported. That's where
+                                        the name pisco comes from, a word by which brandy is known throughout Peru." In
+                                        addition, he described the prices of pisco, as well as its preparation and
+                                        transportation. “The commercialization that the people of Ica carry out of the
+                                        brandy called pisco, is quite considerable; supply this distillate to all the
+                                        departments of northern Peru, while the brandy or liquor produced in the valleys
+                                        of Majes, Vitor, Moquegua and others, is consumed in the south and exported to
                                         Bolivia”.<br><br>
                                         <img src="{{ asset('img/galeria/la-comercializacion-del-pisco.webp') }}"
-                                            width="100%" alt="Comercializacion del Pisco" loading="lazy">
-                                        <i>Foto: Comercialización del Pisco</i><br><br>
+                                            width="100%" alt="Pisco and its commercialization" loading="lazy">
+                                        <i>Photo: Pisco and its commercialization</i><br><br>
 
-                                        Por su parte, el marino sueco Carl Johan Skogman, que visitó el Perú a bordo de
-                                        la Fragata “Eugenie”, enviada por su gobierno a dar la vuelta al mundo entre
-                                        1851 y 1853, comentó sobre su paso por el puerto de Pisco: “allí se fabrica en
-                                        gran escala un aguardiente que tiene mucha aceptación en toda la costa
-                                        occidental y que se llama simplemente pisco”.
-                                        El científico suizo, Jacob Von Tshudi, que recorrió nuestro país entre 1838 y
-                                        1842, narró en su libro producto de sus investigaciones, sus impresiones de
-                                        Pisco, indicado que este puerto “es solo una especie de llave para la gran
-                                        ciudad de Ica”, y explica que lo que le ha dado importancia es la exportación de
-                                        aguardientes que se realiza por él.
+                                        For his part, the Swedish sailor Carl Johan Skogman, who visited Peru aboard the
+                                        “Eugenie” frigate, sent by his government to go around the world between 1851
+                                        and 1853, commented on his visit to the port of Pisco: “ There, a brandy is
+                                        manufactured on a large scale that is widely accepted throughout the western
+                                        coast and is simply called pisco.” The Swiss scientist, Jacob Von Tshudi, who
+                                        toured our country between 1838 and 1842, narrated in his book, product of his
+                                        research, his impressions of Pisco, indicating that this port "is just a kind of
+                                        key to the great city of Ica". and explains that what has given him importance
+                                        is the export of spirits that he carries out.
                                     </p>
                                     <h3>El pisco en la actualidad</h3>
                                     <p>
-                                        El Perú cuenta con varias empresas dedicadas a la producción de pisco; algunas
-                                        de ellas con la última tecnología, poseen equipos modernos y han contratado
-                                        especialistas de alto nivel en los diferentes campos de la producción y
-                                        comercialización. Esto ha permitido no solo recuperar el nivel que se tenía sino
-                                        superarlo. A nivel educacional, destaca también la creación de instituciones
-                                        como la primera Escuela de Ingeniería Enológica, y el Instituto del Vino y del
-                                        Pisco que cuenta con la sala de cata más moderna del país; así como otras
-                                        escuelas especializadas.<br><br>
-                                        Actualmente, nuestra bebida bandera llega a 33 mercados de América, Asia y
-                                        Europa. Estados Unidos es el principal con 46.2 % de participación, seguido de
-                                        España con el 15 %.
+                                        Peru has several companies dedicated to the production of pisco; some of them
+                                        with the latest technology, have modern equipment and have hired high-level
+                                        specialists in the different fields of production and marketing. This has
+                                        allowed not only to recover the level that was had but to overcome it. At an
+                                        educational level, it also highlights the creation of institutions such as the
+                                        first School of Oenological Engineering, and the Institute of Wine and Pisco,
+                                        which has the most modern tasting room in the country; as well as other
+                                        specialized schools.<br><br>
+
+                                        Currently, our flagship drink reaches 33 markets in America, Asia and Europe.
+                                        The United States is the main one with 46.2% participation, followed by Spain
+                                        with 15%.
                                     </p>
-                                    <h3>¿Sabías que?</h3>
+                                    <h3>Did you know?</h3>
                                     <ul>
-                                        <li>La denominación de Origen de Pisco es reconocida en 70 países y ha sido
-                                            merecedor de innumerables premios en los más importantes certámenes de
-                                            licores y bebidas espirituosas del mundo.
+                                        <li>The Pisco Designation of Origin is recognized in 70 countries and has been
+                                            awarded countless prizes in the most important liquor and spirits
+                                            competitions in the world.
                                         </li>
-                                        <li>A comienzos de 2019, el ministerio de Comercio Exterior y Turismo
-                                            (Mincetur), lanzó la marca sectorial “Pisco, Spirit of Peru”, lema que
-                                            acompañará a nuestra bebida de bandera en la conquista de los mercados del
-                                            mundo.
+                                        <li>At the beginning of 2019, the Ministry of Foreign Trade and Tourism
+                                            (Mincetur) launched the sector brand "Pisco, Spirit of Peru", a slogan that
+                                            will accompany our flag drink in the conquest of world markets.
                                         </li>
-                                        <li>En los últimos años, las exportaciones de Pisco vienen mostrando un
-                                            crecimiento sostenido. En el 2009 los envíos al exterior sumaron US$ 1.3
-                                            millones y en el 2018 acumularon US$ 5.7 millones, creciendo en 320% en este
-                                            periodo.
+                                        <li>In recent years, Pisco exports have shown sustained growth. In 2009
+                                            shipments abroad totaled US$1.3 million and in 2018 they accumulated US$5.7
+                                            million, growing by 320% in this period.
                                         </li>
                                     </ul>
                                 </div>
@@ -249,62 +247,60 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFive" aria-expanded="false"
                                     aria-controls="flush-collapseFive">
-                                    Principales Lugares Turísticos de Ica
+                                    Main Tourist Places of Ica
                                 </button>
                             </h2>
                             <div id="flush-collapseFive" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <h3>Líneas de Nazca</h3>
+                                    <h3>Nazca Lines</h3>
                                     <p>
-                                        Son geoglifos que se ubican en el desierto de Nazca. A la fecha no se conoce el
-                                        método que utilizaron las antiguas poblaciones para crear estas pictografías de
-                                        gran magnitud. Las líneas de Nazca se pueden visualizar desde miradores o al
-                                        contratar el servicio de sobrevuelos por la zona.
-                                        Llaman la atención entre los geoglifos del colibrí, el mono con nueve dedos, y
-                                        una extraña figura conocida como el hombre búho que algunos suelen identificar
-                                        con la silueta de un astronauta.
+                                        They are geoglyphs that are located in the Nazca desert. To date, the method
+                                        used by the ancient populations to create these large-scale pictographs is not
+                                        known. The Nazca lines can be viewed from viewpoints or by hiring the overflight
+                                        service in the area. They draw attention among the geoglyphs of the hummingbird,
+                                        the monkey with nine fingers, and a strange figure known as the owl man that
+                                        some people usually identify with the silhouette of an astronaut.
                                     </p>
                                     <img src="{{ asset('img/galeria/Overflight-of-the-Nazca-lines.webp') }}"
-                                        loading="lazy" width="100%" alt="Sobrevuelo en las lineas de Nazca">
-                                    <i>Foto: Sobrevuelo en las lineas de Nazca</i><br><br>
-                                    <h3>Reserva Nacional de Paracas</h3>
+                                        loading="lazy" width="100%" alt="Flight over the Nazca lines">
+                                    <i>Flight over the Nazca lines</i><br><br>
+                                    <h3>Paracas National Reserve</h3>
                                     <p>
-                                        Es un área natural de más de tres mil hectáreas. Es la única área protegida del
-                                        Perú que cuenta con un ecosistema marino. Se puede acceder a la reserva y
-                                        navegar por su mar para conocer la diversidad de especies que la habitan. Por
-                                        bote se puede conocer las Islas Ballestas y San Gallán que forman parte de este
-                                        atractivo.
+                                        It is a natural area of more than three thousand hectares. It is the only
+                                        protected area in Peru that has a marine ecosystem. You can access the reserve
+                                        and navigate its sea to learn about the diversity of species that inhabit it. By
+                                        boat you can visit the Ballestas and San Gallán Islands that are part of this
+                                        attraction.
                                     </p>
-                                    <h3>La Huacachina</h3>
+                                    <h3>The Huacachina</h3>
                                     <p>
-                                        Es un oasis en medio del desierto. Se pueden practicar diferentes actividades en
-                                        ella, como navegar en bote por la laguna. También se pueden dar paseos en
-                                        tubulares y animarse a deslizarse en tablas de sandboard por el desierto.
+                                        It is an oasis in the middle of the desert. You can practice different
+                                        activities in it, such as boating on the lagoon. You can also take tube rides
+                                        and dare to slide on sandboards through the desert.
                                     </p>
                                     <h3>Tambo Colorado</h3>
                                     <p>
-                                        Son restos arqueológicos incaicos. Recibe el nombre de “colorado” por el
-                                        predominio del rojo en sus estructuras. Su grado de conservación es
-                                        impresionante y permite comprender cómo vivieron los incas de las costas
-                                        peruanas. Tambo Colorado se sitúa en Pisco.
+                                        They are Inca archaeological remains. It receives the name "colorado" due to the
+                                        predominance of red in its structures. Its degree of conservation is impressive
+                                        and allows us to understand how the Incas of the Peruvian coasts lived. Tambo
+                                        Colorado is located in Pisco.
                                     </p>
                                     <h3>Cañón de los perdidos</h3>
                                     <p>
-                                        El atractivo turístico de Ica que se descubrió en 2011. El cañón tiene 600
-                                        metros de profundidad y cuenta en su parte más profunda con pequeñas lagunas. A
-                                        aquel se llega tras 2 horas de recorrido desde la capital de Ocucaje. Ha sido
-                                        comparado con el Cañón del Colorado en EE.UU.
-                                        En Ica existen muchos lugares más para conocer. En la misma ciudad se pueden
-                                        visitar atractivos arquitectónicos e históricos como la plaza de armas. También
-                                        es posible planear un tour por los principales viñedos de la región y degustar
-                                        su licor bandera: el pisco. Si se quiere conocer los misterios de Ica, una
-                                        visita a Cachiche también es una buena opción, las “brujas” de Cachiche te
-                                        contarán la leyenda de su pueblo y se animarán a leerte la suerte.
+                                        The tourist attraction of Ica that was discovered in 2011. The canyon is 600
+                                        meters deep and has small lagoons in its deepest part. It is reached after 2
+                                        hours of travel from the capital of Ocucaje. It has been compared to the
+                                        Colorado Canyon in the US In Ica there are many more places to visit. In the
+                                        same city you can visit architectural and historical attractions such as the
+                                        Plaza de Armas. It is also possible to plan a tour of the main vineyards in the
+                                        region and taste its flagship liquor: pisco. If you want to know the mysteries
+                                        of Ica, a visit to Cachiche is also a good option, the "witches" of Cachiche
+                                        will tell you the legend of their town and will be encouraged to read your luck.
                                     </p>
                                     <img src="{{ asset('img/galeria/canon-de-los-pasos-perdidos.webp') }}"
                                         width="100%" loading="lazy" alt="Cañon de los perdidos, Ica">
-                                        <i>Foto: Cañon de los perdidos</i>
+                                    <i>Photo: Cañon de los perdidos</i>
                                 </div>
                             </div>
                         </div>
@@ -313,86 +309,76 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseSix" aria-expanded="false"
                                     aria-controls="flush-collapseSix">
-                                    Actividades para realizar en Ica
+                                    Activities to do in Ica
                                 </button>
                             </h2>
                             <div id="flush-collapseSix" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        Lo primero es visitar el centro de la ciudad, aquí podrás recorrer las rústicas
-                                        calles y apreciar un poco de su historia plasmada en la arquitectura colonial.
-                                        Al llegar a la <strong>Plaza de Armas</strong> podrás visitar el Palacio
-                                        Municipal con sus
-                                        hermosos portales, en el segundo piso puedes apreciar el Salón Consistorial
-                                        donde podrás ver figuras ornamentales hechas de madera que representan las
-                                        estaciones del año.<br><br>
-                                        La Catedral también está en la Plaza de Armas justo en el cruce de las calles
-                                        Bolívar y Libertad, construida en el siglo XVIII ha sufrido varias reparaciones
-                                        por lo cual su fachada ha ido cambiando. También se puede conocer el
-                                        <strong>Museo Regional</strong> donde podrás ver restos arqueológicos de las
-                                        distintas culturas que habitaron la zona, además de lienzos y muebles de la
-                                        época virreinal y republicana.<br><br>
+                                        The first thing is to visit the city center, here you can walk the rustic
+                                        streets and appreciate a bit of its history embodied in colonial architecture.
+                                        Upon reaching the <strong>Plaza de Armas</strong> you can visit the Municipal
+                                        Palace with its
+                                        beautiful portals, on the second floor you can see the Town Hall where you can
+                                        see ornamental figures made of wood that represent the seasons of the year.
 
-                                        Por otro lado el <strong>Museo de Piedras</strong> también es un sitio
-                                        interesante donde se
-                                        expone piedras grabadas en las cuales se puede apreciar la vida que llevaban los
-                                        antiguos pobladores de la región. Luego de dar un paseo por el centro de la
-                                        ciudad de Ica se recomienda visitar la Laguna de la Huacachina un bello oasis
-                                        que está ubicado a 5 Km. al sur oeste de la ciudad de Ica al cual se puede
-                                        llegar en auto en solo 10 minutos.
-                                        En la <strong>Huacachina</strong> si le gusta la aventura y el deporte se
-                                        recomienda hacer sandboarding, disfrutará de un grato momento deslizándose por
-                                        la arena, también puede acceder a los carros tubulares que lo llevaran por un
-                                        paseo en las dunas a alta velocidad.<br><br>
-                                        Otro lugar majestuoso para visitar es la <strong>Reserva Nacional de
-                                            Paracas</strong> donde viven
-                                        lobos marinos, pingüinos de Humboldt, delfines, flamencos y gran cantidad de
-                                        aves. Durante el paseo por la reserva se puede observar el impresionante
-                                        Candelabro el cual lo dejará maravillado sobre todo por el enigma que encierra,
-                                        otras obras de la naturaleza como la Catedral y las lindas playas también
-                                        estarán a la vista.
+                                        The Cathedral is also in the Plaza de Armas, right at the intersection of
+                                        Bolívar and Libertad streets. It was built in the 18th century and has undergone
+                                        several repairs, for which its façade has been changing. You can also visit the
+                                        Regional Museum where you can see archaeological remains of the different
+                                        cultures that inhabited the area, as well as canvases and furniture from the
+                                        viceroyalty and republican times.<br><br>
+
+                                        On the other hand, the <strong>Museum of Stones</strong> is also an interesting
+                                        place where
+                                        engraved stones are exhibited in which you can appreciate the life that the
+                                        ancient inhabitants of the region led. After taking a walk through the center of
+                                        the city of Ica, it is recommended to visit the Laguna de la Huacachina, a
+                                        beautiful oasis that is located 5 km south west of the city of Ica, which can be
+                                        reached by car in just 10 minutes. . In <strong>Huacachina</strong> if you like
+                                        adventure and
+                                        sports, sandboarding is recommended, you will enjoy a pleasant moment sliding
+                                        through the sand, you can also access the tubular cars that will take you for a
+                                        ride in the dunes at high speed.<br><br>
+
+                                        Another majestic place to visit is the <strong>Paracas National Reserve</strong>
+                                        where sea lions,
+                                        Humboldt penguins, dolphins, flamingos and a large number of birds live. During
+                                        the walk through the reserve you can see the impressive Chandelier which will
+                                        leave you amazed above all by the enigma it contains, other works of nature such
+                                        as the Cathedral and the beautiful beaches will also be in sight.
                                     </p>
-                                    <h3>La Ruta del Pisco</h3>
+                                    <h3>The Pisco Route</h3>
                                     <p>
-                                        Ica cuenta con más de <strong>85 bodegas artesanales de vino y pisco</strong>
-                                        donde se elaboran
-                                        estas bebidas con una alta calidad, si te gusta vivir una experiencia diferente
-                                        esta ruta sin duda es para ti.
-                                        Podrás estar en el mismo sitio donde se elaboran las bebidas, desde recorrer las
-                                        plantaciones de uvas hasta realizar una pequeña cata de las distintas bebidas
-                                        que se elaboran en el lugar.<br><br>
-                                        A continuación, una lista de algunas de las principales bodegas:
+                                        Ica has more than 85 artisanal wine and pisco wineries where these high-quality
+                                        drinks are made. If you like to live a different experience, this route is
+                                        undoubtedly for you. You will be able to be in the same place where the drinks
+                                        are made, from touring the grape plantations to doing a small tasting of the
+                                        different drinks that are made on the spot.<br><br>
+
+                                        Here is a list of some of the main wineries:
                                     </p>
                                     <ul>
-                                        <li>La Caravedo de Ica</li>
-                                        <li>Bodega artesanal Lazo</li>
-                                        <li>El Catador</li>
-                                        <li>Bodega artesanal Lovera</li>
-                                        <li>Vista Alegre</li>
-                                        <li>Bodega Ocucaje</li>
-                                        <li>Bodega Tacama</li>
-                                        <li>Santiago Queirolo</li>
+                                        <li>The Caravedo of Ica</li>
+                                         <li>Lazo Artisanal Winery</li>
+                                         <li>The Taster</li>
+                                         <li>Lovera Artisanal Winery</li>
+                                         <li>Happy View</li>
+                                         <li>Ocucaje Winery</li>
+                                         <li>Tacama Winery</li>
+                                         <li>Santiago Queirolo</li>
                                     </ul>
-                                    <h3>Festividades importantes de Ica</h3>
+                                    <h3>Important festivities of Ica</h3>
                                     <ul>
-                                        <li><strong>Febrero:</strong> Fiesta de los carnavales de la Candelaria. Del 13
-                                            al 15 de febrero
-                                            Fiesta de la Sirena.</li>
-                                        <li><strong>Marzo:</strong> Del 8 al 18 de marzo Festival Internacional de la
-                                            Vendimia. Semana
-                                            Santa fecha movible.</li>
-                                        <li><strong>Abril:</strong> Semana Santa fecha movible.</li>
-                                        <li><strong>Mayo:</strong> Fiesta de las Cruces Fechas diversas. Segunda semana
-                                            de mayo Semana
-                                            Nacional del Pisco.</li>
-                                        <li><strong>Septiembre:</strong> Última semana de septiembre Semana turística de
-                                            la ciudad.</li>
-                                        <li><strong>Octubre:</strong> Primer jueves y tercer lunes de octubre Festividad
-                                            del Señor de
-                                            Luren.</li>
-                                        <li><strong>Noviembre:</strong> 01 de noviembre Fiesta de Todos los Santos.</li>
-                                        <li><strong>Diciembre:</strong> 25 de diciembre Paseo de los Negritos.</li>
+                                        <li><strong>February:</strong> Festival of the carnivals of Candelaria. From February 13 to 15 Feast of the Mermaid.</li>
+                                        <li><strong>March:</strong> From March 8 to 18 International Harvest Festival. Easter movable date.</li>
+                                        <li><strong>April:</strong> Easter movable date.</li>
+                                        <li><strong>May:</strong> FFiesta de las Cruces Various dates. Second week of May National Pisco Week.</li>
+                                        <li><strong>September:</strong> ÚLast week of September City tourist week.</li>
+                                        <li><strong>October:</strong>First Thursday and third Monday of October Feast of the Lord of Luren.</li>
+                                        <li><strong>November:</strong> November 1 Feast of All Saints.</li>
+                                        <li><strong>December:</strong> December 25 Paseo de los Negritos.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -401,7 +387,7 @@
                 </div>
                 <div class="space"></div>
                 <div class="col-lg-12">
-                    <h2 class="h2-tierras">Tours más populares para Cusco:</h2>
+                    <h2 class="h2-tierras">Popular tours</h2>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
@@ -413,7 +399,7 @@
                             <h5 class="card-title">Chquequirao, caminata 4 días </h5>
                             <p class="text-card">Cachicata o Inca Quarry es una de las antiguas canteras utilizadas
                                 por las civilizaciones Pre-Inca e Inca para construir el vasto complejo…</p>
-                            <a href="camino-inca-cantera-peru" class="boton-card">Más detalles</a>
+                            <a href="camino-inca-cantera-peru" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -428,7 +414,7 @@
                             <h5 class="card-title">City tour en Cusco</h5>
                             <p class="text-card">Antes del amanecer en el lago Titicaca, una neblina azul cubre
                                 nuestra vista. Muchos conejillos de indias corren para...</p>
-                            <a href="#" class="boton-card">Más detalles</a>
+                            <a href="#" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -442,7 +428,7 @@
                             <h5 class="card-title">Tour a la laguna Humantay</h5>
                             <p class="text-card">Puno es una de las ciudades más importantes de la orilla del lago
                                 Titicaca, el lago más navegable y...</p>
-                            <a href="viajar-a-puno" class="boton-card">Más detalles</a>
+                            <a href="viajar-a-puno" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -456,7 +442,7 @@
                             <h5 class="card-title">Tour gastronómico</h5>
                             <p class="text-card">Hasta hace poco, Vilcabamba era un rincón relativamente seguro y
                                 accesible de la...</p>
-                            <a href="vilcabamba" class="boton-card">Más detalles</a>
+                            <a href="vilcabamba" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -464,8 +450,6 @@
             </div>
         </div>
     </section>
-    <!---banner--------->
-    @include('layouts.pop-up-booking')
     @include('layouts.foot')
 </body>
 

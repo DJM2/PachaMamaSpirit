@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-center">la feria gastronómica Mistura</h2>
+                    <h2 class="text-center">The gastronomic fair Mistura</h2>
                     <div class="linea-blogs"></div>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
@@ -53,27 +53,29 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    Introducción a los productos peruanos
+                                    Introduction to Peruvian products
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        Esta feria de gastronomía peruana e internacional se celebra anualmente en Lima
-                                        cada primera mitad del mes de setiembre y es una de las despensas más
-                                        fascinantes de América Sur.<br><br>
-                                        Esta riqueza se debe a la mano del hombre peruano como a la inmensa cantidad de
-                                        productos que nos ofrecen los suelos peruanos, gracias a su diversidad ecológica
-                                        por la cordillera de los Andes que permiten que Perú tenga 85 tipos de geografía
-                                        y con esto que tenga igual cantidad de climas.<br><br>
-                                        Organizada por la Sociedad Peruana de Gastronomía (Apega), asociación civil y
-                                        sin rubros de lucro que fue fundada por el reconocido chef peruano Gastón
-                                        Acurio. Es reconocida como el festival de comida más importante en América
-                                        Latina.
+                                        This Peruvian and <strong>international gastronomy fair</strong> is held
+                                        annually in Lima every
+                                        first half of September and is one of the most fascinating pantries in South
+                                        America.<br><br>
+
+                                        This wealth is due to the hand of the Peruvian man as well as to the immense
+                                        amount of products that Peruvian soils offer us, thanks to its ecological
+                                        diversity by the Andes mountain range that allow Peru to have 85 types of
+                                        geography and with this that it has the same number of climates.<br><br>
+
+                                        Organized by the Peruvian Society of Gastronomy (Apega), a civil and non-profit
+                                        association that was founded by the renowned Peruvian chef Gastón Acurio. It is
+                                        recognized as the most important food festival in Latin America.
                                     </p>
-                                    <img src="{{asset('img/blog/productos-peruanos-gastronomia.webp')}}" loading="lazy"
-                                        alt="Productos peruanos" width="100%">
+                                    <img src="{{ asset('img/blog/productos-peruanos-gastronomia.webp') }}"
+                                        loading="lazy" alt="Peruvian products" width="100%">
                                 </div>
                             </div>
                         </div>
@@ -82,32 +84,36 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    La cocina peruana
+                                    Peruvian cuisine
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        La comida peruana tiene tuvo una gran historia con el pasar de los años. Cada
-                                        vez se ha ido recopilando recetas y sabores de distintos lugares del mundo, para
-                                        poder tener la particular comida peruana.<br><br>
-                                        La gastronomía peruana fue reconocida como ‘Patrimonio Cultural de las Américas
-                                        para el mundo’ gracias a la ‘Organización de los EEUU’. Es una de las comidas
-                                        mas importantes del mundo y un gran ejemplo de la cocina fusión.<br><br>
-                                        La comida peruana se puso muy de moda en Europa en los últimos tiempos,
-                                        especialmente en países como España. La comida peruana tiene mucha historia y
-                                        mestizaje, también lleno de tradiciones y costumbres.<br><br>
-                                        La gastronomía peruana es la que más platos típicos tiene en el mundo. Solo la
-                                        costa tiene registrado alrededor de 2500 diferentes tipos de sopas y 250
-                                        postres. Perú también es conocida por tener la mayor cantidad de papas en el
-                                        mundo contando con más de 3 mil tipos de papas. Lima es reconocida como la
-                                        capital gastronómica de América.<br><br>
-                                        Para agregar aún más prestigio a la gastronomía de este país, Perú habría ganado
-                                        cinco veces el primer lugar en la lista The World's 50 Best Restaurants en
-                                        Latinoamérica, con el Restaurante ‘Central’, los años 2014, 2015, 2016, 2021 y
-                                        2022. La Central también se posiciono como el 4to mejor restaurante del mundo en
-                                        el año 2021 y 2do en 2022.
+                                        Peruvian food has had a great history over the years. Every time recipes and
+                                        flavors from different parts of the world have been compiled, in order to have
+                                        the particular Peruvian food.<br><br>
+
+                                        Peruvian gastronomy was recognized as 'Cultural Heritage of the Americas for the
+                                        world' thanks to the 'Organization of the USA'. It is one of the most important
+                                        foods in the world and a great example of fusion cuisine.<br><br>
+
+                                        Peruvian food has become very fashionable in Europe in recent times, especially
+                                        in countries like Spain. Peruvian food has a lot of history and miscegenation,
+                                        also full of traditions and customs.<br><br>
+
+                                        Peruvian cuisine is the one with the most typical dishes in the world. Only the
+                                        coast has registered around 2,500 different types of soups and 250 desserts.
+                                        Peru is also known for having the largest amount of potatoes in the world, with
+                                        more than 3 thousand types of potatoes. Lima is recognized as the gastronomic
+                                        capital of America.<br><br>
+
+                                        To add even more prestige to the gastronomy of this country, Peru would have won
+                                        five times the first place in The World's 50 Best Restaurants in Latin America
+                                        list, with the 'Central' Restaurant, in 2014, 2015, 2016, 2021 and 2022. La
+                                        Central was also positioned as the 4th best restaurant in the world in 2021 and
+                                        2nd in 2022.
                                     </p>
                                     <img src="{{ asset('img/blog/arroz-con-pollo-Comida-peruana.webp') }}"
                                         width="100%" alt="Arroz con pollo" loading="lazy">
@@ -120,30 +126,28 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Curiosidades de Mistura
+                                    Curiosities of Mistura
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <ul>
-                                        <li>Mistura significa ‘mezcla’. </li>
-                                        <li>Se paga la entrada a esta gran feria gastronómica y dependiendo del día,
-                                            esta puede costar entre 15 y 25 soles (entre 5 y 8 dólares).</li>
-                                        <li>Se tiene que adquirir boletos o tickets para poder degustar de la comida en
-                                            cada puesto.</li>
-                                        <li>Dentro de la feria, te encontrarás con una gran variedad de carpas de
-                                            comidas.</li>
-                                        <li>Se puede también adquirir distintos tipos de productos típicos de las
-                                            regiones del Perú dentro del mercado de la feria.</li>
-                                        <li>Se da origen desde el año 2007 en Lima, Perú.</li>
-                                        <li>Mistura es la feria gastronómica mas grande y reconocida de toda
-                                            Latinoamérica. Es una feria organizada por la Sociedad Peruana de
-                                            Gastronomía (APEGA)</li>
+                                        <li>Mistura means 'mixture'. </li>
+                                        <li>The entrance to this great gastronomic fair is paid and depending on the
+                                            day, it can cost between 15 and 25 soles (between 5 and 8 dollars).</li>
+                                        <li>You have to buy tickets or tickets to be able to taste the food at each
+                                            stall.</li>
+                                        <li>Inside the fair, you will find a wide variety of food tents.</li>
+                                        <li>You can also buy different types of typical products from the regions of
+                                            Peru within the fair market.</li>
+                                        <li>It originates from the year 2007 in Lima, Peru.</li>
+                                        <li>Mistura is the largest and most recognized gastronomic fair in all of Latin
+                                            America. It is a fair organized by the Peruvian Society of Gastronomy
+                                            (APEGA)</li>
                                     </ul>
-                                    <img src="{{ asset('img/blog/Mistura-2017.webp') }}" width="100%"
-                                        loading="lazy" alt="Feria Mistura">
-                                    <i>Feria Mistura</i>
+                                    <img src="{{ asset('img/blog/Mistura-2017.webp') }}" width="100%" loading="lazy"
+                                        alt="Feria Mistura">
                                 </div>
                             </div>
                         </div>
@@ -152,40 +156,41 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFive" aria-expanded="false"
                                     aria-controls="flush-collapseFive">
-                                    Clasisficación de comidas en Mistura
+                                    Food classification in Mistura
                                 </button>
                             </h2>
                             <div id="flush-collapseFive" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        Mistura a organizado en varios ‘Mundos’ la comida que se expone. Cada carpa
-                                        representa un ‘Mundo’ con una propuesta gastronómica especifica de cada región.
-                                        Se clasifican en:
+                                        Mistura has organized the food that is exhibited into various 'Worlds'. Each
+                                        tent represents a 'World' with a specific gastronomic proposal from each region.
+                                        They are classified in:
                                     </p>
                                     <ul>
-                                        <li>Brasas y anticuchos</li>
+                                        <li>Embers and anticuchos</li>
                                         <li>Ceviches</li>
                                         <li>Chifa y Nikkei</li>
-                                        <li>Andino y Amazónico</li>
-                                        <li>Dulces</li>
-                                        <li>Sánguches</li>
-                                        <li>Carretillas</li>
-                                        <li>Bares</li>
-                                        <li>Pisco & Vino</li>
-                                        <li>Cervecero</li>
+                                        <li>Andean and Amazonian</li>
+                                        <li>Sweet</li>
+                                        <li>Sandwiches</li>
+                                        <li>Wheelbarrows</li>
+                                        <li>Pubs</li>
+                                        <li>Pisco & Wine</li>
+                                        <li>Brewer</li>
                                     </ul>
                                     <p>
-                                        Con este ejemplo puedes darte cuenta que la feria Mistura es enorme y por
-                                        supuesto podrás encontrar lugares en los que puedas sentarte cómodamente a
-                                        degustar de estos exquisitos platos.<br><br>
-                                        Entre las bebidas más famosas se puede encontrar el Pisco sour y el chilcano. Al
-                                        final de toda la feria se puede encontrar el punto cervecero, donde podrás
-                                        encontrar las mejores cervezas de Perú, es en este punto donde se presentan
-                                        diariamente grupos de música para alegra aun más la feria gastronómica.
+                                        With this example you can realize that the Mistura fair is huge and of course
+                                        you can find places where you can sit comfortably to taste these exquisite
+                                        dishes.<br><br>
+
+                                        Among the most famous drinks you can find the Pisco sour and the chilcano. At
+                                        the end of the entire fair you can find the beer point, where you can find the
+                                        best beers in Peru, it is at this point where music groups perform daily to
+                                        further enliven the gastronomic fair.
                                     </p>
                                     <img src="{{ asset('img/blog/Ceviche-Peruano-pacha-mama-Spirit.webp') }}"
-                                        alt="Peruvian ceviche" loading="lazy" width="100%">
+                                        alt="Peruvian-ceviche" loading="lazy" width="100%">
                                     <i>Peruvian ceviche</i>
                                 </div>
                             </div>
@@ -194,47 +199,46 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="sticky">
-                        <h3 class="text-center">More topics</h3>
-                        <div class="row blogSpace">
-                            <div class="col-4">
-                                <img src="{{ asset('img/blog/thumb/fiestas-patrias-Peru-Pacha-Mama-Spirit.webp') }}"
-                                    alt="Fiestas patrias Perú" class="imgCuadrada">
+                        <h3 class="text-center">Other themes</h3>
+                        <a href="{{ route('national-holidays-peru') }}">
+                            <div class="row blogSpace">
+                                <div class="col-4">
+                                    <img src="{{ asset('img/blog/thumb/fiestas-patrias-Peru-Pacha-Mama-Spirit.webp') }}"
+                                        alt="Fiestas patrias Perú" class="imgCuadrada" loading="lazy">
+                                </div>
+                                <div class="col-8">
+                                    <p>The national holidays in Peru are celebrated in a big way around the whole
+                                        country</p>
+                                </div>
                             </div>
-                            <div class="col-8">
-                                <a href="">
-                                    <p>Las fiestas patrias en Perú se celebran a lo grande alrededor de todo el país
-                                    </p>
-                                </a>
+                        </a>
+                        <a href="{{ route('santa-rosa-de-lima-en') }}">
+                            <div class="row blogSpace">
+                                <div class="col-4">
+                                    <img src="{{ asset('img/blog/thumb/santa-rosa-de-Lima-Pacha-Mama-Spirit.webp') }}"
+                                        alt="Playas de Perú" class="imgCuadrada" loading="lazy">
+                                </div>
+                                <div class="col-8">
+                                    <p>The complete life of Santa Rosa de Lima and her canonization</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row blogSpace">
-                            <div class="col-4">
-                                <img src="{{ asset('img/blog/thumb/the-best-beaches-of-Peru.webp') }}"
-                                    alt="Fiestas patrias Perú" class="imgCuadrada">
+                        </a>
+                        <a href="{{ route('the-best-beaches-peru') }}">
+                            <div class="row blogSpace">
+                                <div class="col-4">
+                                    <img src="{{ asset('img/blog/thumb/the-best-beaches-of-Peru.webp') }}"
+                                        alt="Las mejores playas de Perú" class="imgCuadrada" loading="lazy">
+                                </div>
+                                <div class="col-8">
+                                    <p>Get to know a list of the best beaches that Peru has to offer</p>
+                                </div>
                             </div>
-                            <div class="col-8">
-                                <a href="">
-                                    <p>En este Blog encontraras una guía completa con las mejores playas de Perú.
-                                    </p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row blogSpace">
-                            <div class="col-4">
-                                <img src="{{ asset('img/blog/thumb/mistura-lima-peru-Pacha-mama-Spirit.webp') }}"
-                                    alt="Fiestas patrias Perú" class="imgCuadrada">
-                            </div>
-                            <div class="col-8">
-                                <a href="">
-                                    <p>Texto de muestra para ver resultado de ejemplo para Blog</p>
-                                </a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="space"></div>
                 <div class="col-lg-12">
-                    <h2 class="h2-tierras">Tours más populares para Cusco:</h2>
+                    <h2 class="h2-tierras">popular tours in Perú:</h2>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
@@ -298,8 +302,6 @@
             </div>
         </div>
     </section>
-
-    @include('layouts.pop-up-booking')
     @include('layouts.foot')
 </body>
 

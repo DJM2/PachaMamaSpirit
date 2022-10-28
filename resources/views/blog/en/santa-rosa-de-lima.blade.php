@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-center">"Santa Rosa de Lima: La patrona de América"</h2>
+                    <h2 class="text-center">"Saint Rose of Lima: The patron saint of America"</h2>
                     <div class="linea-blogs"></div>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
@@ -53,49 +53,50 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    ¿Quíen fué Santa Rosa de Lima?
+                                    Who was Santa Rosa de Lima?
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <i>
-                                        “Santa Rosa de Lima”, patrona de la policía nacional del
-                                        Perú, y representante de las enfermeras peruanas, a la cual se le atribuyen una
-                                        serie de milagros e interesantes historias, representa el motivo de muchas
-                                        tradiciones en el Perú, el día 30 de agosto de cada año, miles de peruanos y
-                                        peruanas le rinden homenaje a la mejor conocida “Patrona de América”.
-                                        Conoceremos estos y muchos datos más de la primera mujer de América latina
-                                        declarada santa por la iglesia católica.
+                                        "Santa Rosa de Lima", patron saint of the national police of Peru, and
+                                        representative of Peruvian nurses, to whom a series of miracles and interesting
+                                        stories are attributed, represents the reason for many traditions in Peru, on
+                                        the 30th of August of each year, thousands of Peruvians pay tribute to the best
+                                        known "Patron of America". We will know these and many more facts about the
+                                        first woman in Latin America declared a saint by the Catholic Church.
                                     </i><br><br>
                                     <p>
-                                        Santa Rosa de Lima, cuyo verdadero nombre era Isabel Flores de Oliva, fue una
-                                        mujer cristiana terciaria dominica, canonizada en 1671 por el papa Clemente X.
-                                        Resaltó siempre por su belleza y noble corazón, ya que consagraba su vida a la
-                                        atención de enfermos, ancianos, niños, y realizaba prácticas ascéticas, lo cual
-                                        llevo por muchos lugares su fama de santidad.<br><br>
-                                        Aún en vida ella ya era muy venerada, ya que poseía ciertos dones, se le
-                                        atribuían visiones místicas y una serie de milagros. Por esta razón en un poco
-                                        más de medio siglo la iglesia católica la canonizó declarándola patrona de Lima
-                                        y Perú, y poco tiempo después patrona de América, Filipinas e Indias Orientales.
+                                        Santa Rosa de Lima, whose real name was Isabel Flores de Oliva, was a Dominican
+                                        tertiary Christian woman, canonized in 1671 by Pope Clement X. She always stood
+                                        out for her beauty and noble heart, since she devoted her life to caring for the
+                                        sick, elderly, children, and performed ascetic practices, which led to many
+                                        places his fame of holiness.<br><br>
+
+                                        Even in her lifetime she was already highly revered, since she possessed certain
+                                        gifts, mystical visions and a series of miracles were attributed to her. For
+                                        this reason, in a little more than half a century, the Catholic Church canonized
+                                        her, declaring her patron saint of Lima and Peru, and a short time later patron
+                                        saint of America, the Philippines and the East Indies.
                                     </p>
                                     <img src="{{ asset('img/blog/santa-rosa-de-Lima-Pacha-Mama-Spirit.webp') }}"
                                         width="100%" alt="Santa Rosa de Lima Pacha Mama Spirit" loading="lazy">
-                                    <i>Foto: Santa Rosa de Lima</i><br><br>
-                                    <h3>Historia de su nacimiento y origen de su nombre: Santa Rosa de Lima</h3>
+                                    <i>Photo: Santa Rosa de Lima</i><br><br>
+                                    <h3>History of her birth and origin of her name: Santa Rosa de Lima</h3>
                                     <p>
-                                        Santa Rosa de Lima nació el 20 de abril de 1586 en la vecindad del hospital del
-                                        Espíritu Santo de la ciudad de Lima, que en esa época era la capital del
-                                        virreinato del Perú. Fue la cuarta de los 12 hijos de Gaspar Flores (un
-                                        arcabucero de la guardia virreinal natural de San Juan de Puerto Rico) y de la
-                                        limeña María de Oliva.<br><br>
-                                        Al nacer ella fue bautizada como Isabel Flores de Oliva, pero en el momento de
-                                        su confirmación le dieron el nombre de “Rosa”, ya que éste era el nombre que
-                                        toda su familia empleaba hacia ella prácticamente desde su nacimiento, ¿El
-                                        motivo? su excepcional belleza tan resaltante , pero también por una visión que
-                                        tuvo su madre, en la cual ella observó que el rostro de su pequeña niña se
-                                        convertía en una rosa. Por esas razones Santa Rosa asumiría definitivamente ese
-                                        nombre.
+                                        Santa Rosa de Lima was born on April 20, 1586 in the vicinity of the Hospital of
+                                        the Holy Spirit in the city of Lima, which at that time was the capital of the
+                                        Viceroyalty of Peru. She was the fourth of the 12 children of Gaspar Flores (an
+                                        arquebusier of the viceroyalty guard from San Juan, Puerto Rico) and Maria de
+                                        Oliva from Lima.<br><br>
+
+                                        At birth she was baptized as Isabel Flores de Oliva, but at the time of her
+                                        confirmation she was given the name "Rosa", since this was the name that her
+                                        entire family used for her practically since her birth. The reason? her
+                                        exceptional beauty so outstanding, but also because of a vision that her mother
+                                        had, in which she observed that the face of her little girl turned into a rose.
+                                        For those reasons, Santa Rosa would definitely assume that name.
                                     </p>
                                 </div>
                             </div>
@@ -105,30 +106,31 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    El inicio de la vación de Santa Rosa de Lima
+                                    The beginning of the vocation of Santa Rosa de Lima
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        Desde su infancia había ya indicios que manifestaban en la futura santa su
-                                        vocación religiosa, así como una singular elevación espiritual. Había aprendido
-                                        música, canto y poesía, dotes que fueron aprendidas de su madre, ya que ella se
-                                        dedicaba a instruir a las hijas de la nobleza en aquellos tiempos.
-                                        Cerca a los 10 años Rosa realizaba peculiares actividades: ayunaba a pan y agua,
-                                        colocaba maderos en su cama, virutas y cañas en su almohada, también utilizó
-                                        cilicios para flagelar su frágil cuerpo, todo esto, con la convicción de su
-                                        fidelidad a Cristo.<br><br>
-                                        En realidad, desde muy pequeña, ella mostró su vocación por ayudar a los demás,
-                                        por esta razón añadiendo a las acciones de ayuno o autoflagelo que ella
-                                        realizaba, sus padre intentaron desviarla de este camino cristiano e incluso
-                                        empezaron a buscarle algún matrimonio conveniente, pero Rosa, nunca cedió a esas
-                                        pretensiones. Incluso, en su adolescencia Santa Rosa se sintió atraída con
-                                        fuerza por el modelo de la dominica Santa Catalina de Siena (mística toscana del
-                                        siglo XIV) y siguiendo el ejemplo de ésta, se despojó de su atractiva cabellera
-                                        e hizo un voto de castidad perpetua, contrariando así definitivamente los planes
-                                        de sus padres para ella.
+                                        From her childhood there were already indications that manifested in the future
+                                        saint her religious vocation, as well as a singular spiritual elevation. She had
+                                        learned music, singing and poetry, skills that were learned from her mother,
+                                        since she was dedicated to instructing the daughters of the nobility in those
+                                        times. Around the age of 10, Rosa carried out peculiar activities: she fasted on
+                                        bread and water, placed logs on her bed, shavings and reeds on her pillow, she
+                                        also used hair shirts to flog her fragile body, all this, with the conviction of
+                                        her fidelity to Christ.<br><br>
+
+                                        Actually, from a very young age, she showed her vocation to help others, for
+                                        this reason, adding to the actions of fasting or self-flagellation that she
+                                        carried out, her parents tried to divert her from this Christian path and even
+                                        began to look for a suitable marriage for her, but Rosa never gave in to those
+                                        claims. Even in her adolescence, Santa Rosa felt strongly attracted to the model
+                                        of the Dominican Saint Catherine of Siena (Tuscan mystic of the fourteenth
+                                        century) and following her example, she stripped off her attractive hair and
+                                        made a vow of perpetual chastity, thus definitely contrary to her parents' plans
+                                        for her.
                                     </p>
                                 </div>
                             </div>
@@ -138,82 +140,86 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Milagros atribuidos a Santa Rosa
+                                    Miracles attributed to Santa Rosa
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        En toda la historia se le atribuyeron muchos milagros a Santa Rosa de Lima,
-                                        destacaremos 5 de ellos:
+                                        Throughout history many miracles are attributed to Santa Rosa de Lima, we will
+                                        highlight 5 of them:
                                     </p>
-                                    <h3>Protección de la ciudad de Lima del corsario holandés Joris Spitberg</h3>
+                                    <h3>Protection of the city of Lima from the Dutch corsair Joris Spitberg</h3>
                                     <p>
-                                        En 1615, la ciudad de Lima corría el peligro inminente de ser saqueada por el
-                                        pirata holandés Joris Spitberg quien fue contratado por Holanda para tomar por
-                                        asalto el virreinato del Perú, sus planes eran desembarcar en el Callao y
-                                        saquear Lima con la ayuda de 300 hombres, que navegaban junto a él en seis
-                                        navíos a su cargo.<br><br>
-                                        Al llegar el corsario holandés a El Callao se corrió el rumor de que tomaría el
-                                        convento de Santo Domingo para profanarlo y robar sus tesoros. Entonces, la
-                                        joven Isabel Flores con 29 años en ese entonces, corrió decidida al templo para
-                                        protegerlo con su propio cuerpo, ella estaba dispuesta a morir en defensa de los
-                                        valores católicos, por lo que empezó a suplicar por la protección de Lima a la
-                                        Virgen del Rosario.<br><br>
-                                        Spitberg decidió no desembarcar en El Callao ni atacar la ciudad de Lima. Siguió
-                                        su rumbo hacia Paita y Acapulco y nunca más regresó. El pueblo limeño entonces
-                                        atribuyó estas acciones a las plegarias y súplicas de la Santa.
+                                        EnIn 1615, the city of Lima was in imminent danger of being sacked by the Dutch
+                                        pirate Joris Spitberg, who was hired by the Netherlands to take the Viceroyalty
+                                        of Peru by storm. His plans were to land in Callao and loot Lima with the help
+                                        of 300 men. , who sailed with him in six ships under his charge.<br><br>
+
+                                        When the Dutch corsair arrived in El Callao, the rumor spread that he would take
+                                        the convent of Santo Domingo to desecrate it and steal its treasures. Then, the
+                                        young Isabel Flores, 29 years old at the time, ran determined to the temple to
+                                        protect it with her own body, she was willing to die in defense of Catholic
+                                        values, so she began to beg for the protection of Lima to the Virgin
+                                        Rosary.<br><br>
+
+                                        Spitberg decided not to land at El Callao or attack the city of Lima. He
+                                        continued on his way to Paita and Acapulco and never returned. The people of
+                                        Lima then attributed these actions to the prayers and supplications of the
+                                        Saint.
                                     </p>
-                                    <h3>Lluvia de flores perfumadas frente al Papa Clemente IX</h3>
+                                    <h3>Rain of scented flowers in front of Pope Clement IX</h3>
                                     <p>
-                                        Este es uno de los milagros más conocidos de la santa limeña. Según los relatos,
-                                        el Papa Clemente IX, tenía dudas acerca de los poderes y milagros de Santa Rosa
-                                        y quería cerciorarse de ellos antes de beatificarla.<br><br>
-                                        Luego de oír los relatos de sus milagros, el Sumo Pontífice habría dicho:
-                                        “¿Patrona y Santa? ¿Flores y Rosas?, entonces que lluevan flores sobre mi
-                                        escritorio si esto verdad”. Fue asi cuando entonces comenzó a caer sobre la mesa
-                                        del Papa una lluvia de rosas que lo dejó estupefacto. Fue así entonces como
-                                        aprobó su canonización, y la joven Isabel Flores de Oliva
-                                        pasó a llamarse Santa Rosa de Lima.
+                                        This is one of the best known miracles of the saint from Lima. According to the
+                                        stories, Pope Clement IX had doubts about the powers and miracles of Santa Rosa
+                                        and wanted to make sure of them before beatifying her.<br><br>
+
+                                        After hearing the stories of her miracles, the Supreme Pontiff would have said:
+                                        “Patron and Saint? Flowers and Roses? Then let it rain flowers on my desk if
+                                        this is true”. That was when a shower of roses began to fall on the Pope's table
+                                        that left him stupefied. It was then that he approved her canonization, and the
+                                        young Isabel Flores de Oliva was renamed Santa Rosa de Lima.
                                     </p>
-                                    <h3>La aparición al pueblo filipino y su protección durante la II Guerra Mundial
+                                    <h3>Appearance to the Filipino people and their protection during World War II
                                     </h3>
                                     <p>
-                                        Otra de las historias que se cuentan de Santa Rosa es el milagro de su aparición
-                                        a varios centenares de filipinos que huían del asedio japonés durante la guerra.
-                                        Mientras las tropas del Ejército imperial avanzaban cerca de ese lugar, la santa
-                                        peruana hizo su aparición y los condujo hasta un templo cercano donde les
-                                        ofreció refugio y alimento. Se dice que una hermosa dama vestida con una túnica
-                                        blanca y negra los guió hasta la iglesia, en la parroquia de Santa Rosa.<br><br>
-                                        Cuando estaban dentro, ella les ofreció abundante pescado y arroz. Agradecidos,
-                                        todos caían de rodillas al ingresar al templo y reconocer su imagen en el altar.
-                                        Posteriormente las tropas japonesas llegaron hasta la iglesia. Los oficiales que
-                                        encabezaban el pelotón intentaron ingresar montados en sus caballos, pero fue en
-                                        vano porque los animales se resistían.
+                                        Another of the stories told about Santa Rosa is the miracle of its appearance to
+                                        several hundred Filipinos fleeing the Japanese siege during the war. While the
+                                        troops of the Imperial Army advanced near that place, the Peruvian saint made
+                                        her appearance and led them to a nearby temple where she offered them shelter
+                                        and food. It is said that a beautiful lady dressed in a black and white robe led
+                                        them to the church, in the parish of Santa Rosa.<br><br>
+
+                                        When they were inside, she offered them plenty of fish and rice. Grateful,
+                                        everyone fell to their knees as they entered the temple and recognized her image
+                                        on the altar. Japanese troops later reached the church. The officers leading the
+                                        platoon tried to enter on their horses, but to no avail because the animals
+                                        resisted.
                                     </p>
-                                    <h3>Curaba a los enfermos con la imagen del Niño Jesús</h3>
+                                    <h3>He healed the sick with the image of the Child Jesus</h3>
                                     <p>
-                                        Otro de los milagros por los cuales creció la fé de los limeños hacia Santa Rosa
-                                        fue la sanación de los enfermos, utilizando una estampita de Jesús al que
-                                        llamaba “niño doctorcito” y rezaba diariamente. Según las historias que se
-                                        cuentan sobre estos milagros, Santa Rosa era devota del Niño Jesús y tenía en su
-                                        casa una imagen del Divino Niño.<br><br>
-                                        Los enfermos acudían a ella en busca de cura para sus males. Ella amablemente
-                                        encomendaba su curación al “niño doctorcito”. A partir de ese punto, la fe
-                                        católica en el Divino Niño se extendió por todo el continente.
+                                        Another of the miracles for which the faith of the people of Lima towards Santa
+                                        Rosa grew was the healing of the sick, using a holy card of Jesus whom he called
+                                        "doctor boy" and prayed daily. According to the stories that are told about
+                                        these miracles, Santa Rosa was devoted to the Child Jesus and she had an image
+                                        of the Divine Child in her house.
+
+                                        The sick came to her in search of a cure for her ills. She kindly entrusted her
+                                        healing to the "doctor boy". From that point, the Catholic faith in the Divine
+                                        Child spread throughout the continent.
                                     </p>
-                                    <h3>El matrimonio místico con Jesús</h3>
+                                    <h3>The mystical marriage with Jesus</h3>
                                     <p>
-                                        Santa Rosa contrajo un matrimonio místico con Jesús de Nazareth, en el convento
-                                        de Santo Domingo de Lima. A este milagro también se le conoce como el
-                                        “desposorio místico” entre Jesús y Santa Rosa de Lima.
-                                        Ocurrió en 1617 durante el Domingo de Ramos; ella tenía 31 años. Ese día ella no
-                                        recibió ninguna palma, por lo cual pensó que Dios estaba molesto con ella por
-                                        alguna ofensa.
-                                        Entonces se dirigió a la Capilla del Rosario donde lloró y suplicó por perdón a
-                                        Jesús, y este le respondió: “Rosa de mi corazón, yo te quiero por esposa”. Ella
-                                        contestó al Señor que sería su más “humilde esclava”.
+                                        Santa Rosa contracted a mystical marriage with Jesus of Nazareth, in the convent
+                                        of Santo Domingo de Lima. This miracle is also known as the "mystical betrothal"
+                                        between Jesus and Santa Rosa de Lima. It happened in 1617 during Palm Sunday;
+                                        she was 31 years old.<br><br>
+
+                                        That day she did not receive any palm, so she thought that God was upset with
+                                        her for some offense. She then went to the Chapel of the Rosary where she wept
+                                        and begged Jesus for forgiveness, and he replied: "Rose of my heart, I want you
+                                        as a wife." She answered the Lord that she would be his most "humble slave."
                                     </p>
                                 </div>
                             </div>
@@ -223,54 +229,55 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFive" aria-expanded="false"
                                     aria-controls="flush-collapseFive">
-                                    Ultimos años, muerte y canonización
+                                    Last years, death and canonization
                                 </button>
                             </h2>
                             <div id="flush-collapseFive" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        En 1615, y con la ayuda de su hermano favorito, Hernando Flores de Herrera,
-                                        construyó una pequeña celda o ermita en el jardín de la casa de sus padres.
-                                        Allí, en un espacio de poco más de dos metros cuadrados (que aun hoy es posible
-                                        apreciar), Santa Rosa se recogía a orar y a hacer penitencia, practicando su
-                                        severo ascetismo, con una corona de espinas bajo su velo, sus cabellos clavados
-                                        a la pared para no quedarse dormida, bebía hielo, y hacía ayunos
-                                        rigurosos.<br><br>
-                                        Sus biógrafos cuentan que sus experiencias místicas y estados de éxtasis eran
-                                        muy frecuentes. Según parece, cada semana ella experimentaba un estado de
-                                        éxtasis parecido al de Santa Catalina de Ricci, se dice que cada jueves por la
-                                        mañana se encerraba en su oratorio y no volvía en sí hasta el sábado. Se le
-                                        atribuyeron asimismo varios dones, como el de la profecía (según la tradición,
-                                        profetizó su muerte un año antes).<br><br>
-                                        Pero, Santa Rosa sufrió en ese tiempo la incomprensión de su familia y amigos y
-                                        padeció etapas de mucho vacío, pero todo ello fructificó sus intensas
-                                        experiencias espirituales, llenas de éxtasis y prodigios, como la comunicación
-                                        con plantas y animales, sin perder jamás la alegría de su espíritu (aficionado a
-                                        componer canciones de amor con simbolismo místico) y la belleza de su rostro.
+                                        In 1615, and with the help of his favorite brother, Hernando Flores de Herrera,
+                                        he built a small cell or hermitage in the garden of his parents' house. There,
+                                        in a space of just over two square meters (which can still be seen today), Santa
+                                        Rosa would gather to pray and do penance, practicing her severe asceticism, with
+                                        a crown of thorns under her veil, her hair pinned to the wall to keep from
+                                        falling asleep, drank ice, and did rigorous fasts.<br><br>
+
+                                        Her biographers say that her mystical experiences and states of ecstasy were
+                                        very frequent. Apparently, every week she experienced a state of ecstasy similar
+                                        to that of Santa Catalina de Ricci, it is said that every Thursday morning she
+                                        locked herself in her oratory and did not come to until Saturday. She was also
+                                        credited with various gifts, such as prophecy (according to tradition, she
+                                        prophesied her death a year earlier).<br><br>
+
+                                        But, Santa Rosa suffered at that time the misunderstanding of his family and
+                                        friends and suffered stages of great emptiness, but all this borne fruit his
+                                        intense spiritual experiences, full of ecstasy and wonders, such as
+                                        communication with plants and animals, without ever losing joy. of his spirit (a
+                                        fan of composing love songs with mystical symbolism) and the beauty of his face.
                                     </p>
-                                    <h3>El Día de su Muerte:</h3>
+                                    <h3>The Day of his Death:</h3>
                                     <p>
-                                        Santa Rosa de Lima cayó gravemente enferma y quedó afectada por una aguda
-                                        hemiplejía. La virgen limeña entregó así su alma a Dios, el 24 de agosto de
-                                        1617, en las primeras horas de la madrugada; tenía sólo 31 años.<br><br>
-                                        El mismo día de su muerte, por la tarde, se efectuó el traslado del cadáver de
-                                        Santa Rosa al convento grande de los dominicos, llamado de Nuestra Señora del
-                                        Rosario.
+                                        Santa Rosa de Lima fell seriously ill and was affected by acute hemiplegia. The
+                                        Lima virgin thus gave her soul to God, on August 24, 1617, in the early hours of
+                                        the morning; she was only 31 years old.<br><br>
+
+                                        The same day of her death, in the afternoon, Santa Rosa's body was transferred
+                                        to the large Dominican convent, called Our Lady of the Rosary.
                                     </p>
 
-                                    <h3>Canonización</h3>
+                                    <h3>Canonization</h3>
                                     <p>
-                                        El proceso que condujo a la beatificación y canonización de Rosa de Lima empezó
-                                        de inmediato en 1617-1618 por el arzobispo de Lima, Bartolomé Lobo Guerrero.
-                                        Tras cinco décadas de procedimiento, el papa Clemente IX la beatificó en 1668, y
-                                        un año después la declaró patrona de Lima y de Perú. Luego, Clemente X, la
-                                        canonizó en 1671 y además la declaró patrona principal de América, Filipinas y
-                                        las Indias Orientales.<br><br>
+                                        The process that led to the beatification and canonization of Rosa de Lima began
+                                        immediately in 1617-1618 by the Archbishop of Lima, Bartolomé Lobo Guerrero.
+                                        After five decades of proceedings, Pope Clement IX beatified her in 1668, and a
+                                        year later she declared her the patron saint of Lima and Peru. After her,
+                                        Clement X of her, canonized her in 1671 and besides her declared her the main
+                                        patron saint of America, the Philippines and the East Indies.<br><br>
 
-                                        Es así como cada 30 de agosto se declara feriado en el Perú, por motivo de
-                                        celebración y homenaje a La patrona Santa Rosa de Lima, sin duda una mujer llena
-                                        de virtudes y dones incomparables.
+                                        This is how every August 30 is declared a holiday in Peru, due to the
+                                        celebration and homage to the patron saint Santa Rosa de Lima, without a doubt a
+                                        woman full of incomparable virtues and gifts.
                                     </p>
                                     <img src="{{ asset('img/blog/canonizacion-de-santa-rosa-de-Lima.webp') }}"
                                         alt="Canonización de Santa Rosa de Lima" loading="lazy" width="100%">
@@ -282,20 +289,19 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseSix" aria-expanded="false"
                                     aria-controls="flush-collapseSix">
-                                    El pozo de los deseos de Santa Rosa de Lima
+                                    The wishing well of Santa Rosa de Lima
                                 </button>
                             </h2>
                             <div id="flush-collapseSix" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        En la actualidad en la ciudad de Lima, exactamente en el Cercado de Lima, donde
-                                        vivía antiguamente la familia de Isabel Flores de Oliva, se ubica el santuario
-                                        de Santa Rosa, que tiene como mayor atracción el llamado Pozo de los deseos,
-                                        donde cada año, miles de peruanos devotos se aproximan a rendir homenaje a la
-                                        Santa Limeña, y se tiene por tradición escribir una carta, pidiendo un deseo o
-                                        una petición especial y luego se arroja la carta al interior del pozo, esperando
-                                        así que la petición sea cumplida por ella.
+                                        Currently in the city of Lima, exactly in the Cercado de Lima, where the family
+                                        of Isabel Flores de Oliva used to live, is the sanctuary of Santa Rosa, whose
+                                        main attraction is the so-called Well of Desires, where every year , thousands
+                                        of devout Peruvians come to pay homage to Santa Limeña, and it is traditional to
+                                        write a letter, asking for a wish or a special request and then the letter is
+                                        thrown into the well, hoping that the request will be fulfilled by she.
                                     </p>
                                 </div>
                             </div>
@@ -305,39 +311,41 @@
                 <div class="col-lg-4">
                     <div class="sticky">
                         <h3 class="text-center">More topics</h3>
-                        <div class="row blogSpace">
-                            <div class="col-4">
-                                <img src="{{ asset('img/blog/thumb/fiestas-patrias-Peru-Pacha-Mama-Spirit.webp') }}"
-                                    alt="Fiestas patrias Perú" class="imgCuadrada">
+                        <a href="{{ route('national-holidays-peru') }}">
+                            <div class="row blogSpace">
+                                <div class="col-4">
+                                    <img src="{{ asset('img/blog/thumb/fiestas-patrias-Peru-Pacha-Mama-Spirit.webp') }}"
+                                        alt="Fiestas patrias Perú" class="imgCuadrada">
+                                </div>
+                                <div class="col-8">
+                                    <p>The national holidays in Peru are celebrated in a big way around the whole
+                                        country
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-8">
-                                <a href="">
-                                    <p>Las fiestas patrias en Perú se celebran a lo grande alrededor de todo el país</p>
-                                </a>
+                        </a>
+                        <a href="{{ route('the-best-beaches-peru') }}">
+                            <div class="row blogSpace">
+                                <div class="col-4">
+                                    <img src="{{ asset('img/blog/thumb/the-best-beaches-of-Peru.webp') }}"
+                                        alt="Fiestas patrias Perú" class="imgCuadrada">
+                                </div>
+                                <div class="col-8">
+                                    <p>In this Blog you will find a complete guide with the best beaches in Peru.</p>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row blogSpace">
-                            <div class="col-4">
-                                <img src="{{ asset('img/blog/thumb/the-best-beaches-of-Peru.webp') }}"
-                                    alt="Fiestas patrias Perú" class="imgCuadrada">
+                        </a>
+                        <a href="{{ route('mistura-en') }}">
+                            <div class="row blogSpace">
+                                <div class="col-4">
+                                    <img src="{{ asset('img/blog/thumb/mistura-lima-peru-Pacha-mama-Spirit.webp') }}"
+                                        alt="Mistura fair" class="imgCuadrada">
+                                </div>
+                                <div class="col-8">
+                                    <p>The largest gastronomic fair in Latinomaerica</p>
+                                </div>
                             </div>
-                            <div class="col-8">
-                                <a href="">
-                                    <p>En este Blog encontraras una guía completa con las mejores playas de Perú.</p>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row blogSpace">
-                            <div class="col-4">
-                                <img src="{{ asset('img/blog/thumb/mistura-lima-peru-Pacha-mama-Spirit.webp') }}"
-                                    alt="Fiestas patrias Perú" class="imgCuadrada">
-                            </div>
-                            <div class="col-8">
-                                <a href="">
-                                    <p>Texto de muestra para ver resultado de ejemplo para Blog</p>
-                                </a>
-                            </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="space"></div>
@@ -376,8 +384,9 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
                         <a href="viajar-a-puno">
-                            <img class="card-img-top" src="{{ asset('img/thumb/tour-a-la-laguna-de-humantay.webp') }}"
-                                alt="Tour a Puno" loading="lazy">
+                            <img class="card-img-top"
+                                src="{{ asset('img/thumb/tour-a-la-laguna-de-humantay.webp') }}" alt="Tour a Puno"
+                                loading="lazy">
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Tour a la laguna Humantay</h5>
