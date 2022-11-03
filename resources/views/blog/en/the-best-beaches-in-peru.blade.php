@@ -326,7 +326,7 @@
                                         alt="Santa Rosa de Lima thumb" class="imgCuadrada">
                                 </div>
                                 <div class="col-8">
-                                    <p>The complete life of Santa Rosa de Lima and her canonization<< /p>
+                                    <p>The complete life of Santa Rosa de Lima and her canonization</p>
                                 </div>
                             </div>
                         </a>
@@ -345,7 +345,7 @@
                 </div>
                 <div class="space"></div>
                 <div class="col-lg-12">
-                    <h2 class="h2-tierras">Tours más populares para Cusco:</h2>
+                    <h2 class="h2-tierras">Popular Tours</h2>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
@@ -409,8 +409,6 @@
             </div>
         </div>
     </section>
-
-    @include('layouts.pop-up-booking')
     @include('layouts.foot')
 </body>
 

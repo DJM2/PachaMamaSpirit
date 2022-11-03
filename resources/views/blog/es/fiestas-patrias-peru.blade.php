@@ -101,7 +101,7 @@
                                         Antiguamente los municipios ponían multas a los hogares que no colocaban dicha
                                         decoración en sus hogares.
                                     </p>
-                                    <h3>Cambio de guardia de los Usares de Junin: </h3>
+                                    <h3>Cambio de guardia de los Húsares de Junin: </h3>
                                     <p>
                                         Oficialmente son llamados ‘Regimiento de Caballería «Glorioso Húsares de Junín’,
                                         es una histórica unidad de Perúe integrante de la legión Peruana de la Guardia,
@@ -203,7 +203,7 @@
                                         del Perú’, es una composición poética musical de 7 estrofas y un coro, todas
                                         relacionadas a gestas libertarias. Entonada por primera vez el 23 de septiembre
                                         de 1821 por Rosa Merino.<br><br>
-                                        L versión actual del himno nacional de Perú fue adoptada por el músico
+                                        La versión actual del himno nacional de Perú fue adoptada por el músico
                                         Claudio Rebagliati en 1869. Hubo una demanda por parte de congresistas de la
                                         república en el 2004 hacia la primera estrofa (Largo tiempo el peruano oprimido/
                                         La ominosa cadena arrastró), ya que consideraban apócrifa y que contenía frases

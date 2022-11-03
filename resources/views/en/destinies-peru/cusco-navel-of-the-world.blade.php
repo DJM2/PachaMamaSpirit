@@ -727,8 +727,6 @@
             </div>
         </div>
     </section>
-    <!---banner--------->
-    @include('layouts.pop-up-booking')
     @include('layouts.foot')
 </body>
 

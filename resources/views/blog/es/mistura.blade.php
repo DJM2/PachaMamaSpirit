@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <h2 class="text-center">la feria gastronómica Mistura</h2>
+                    <h2 class="text-center">La feria gastronómica Mistura</h2>
                     <div class="linea-blogs"></div>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
@@ -72,8 +72,8 @@
                                         Acurio. Es reconocida como el festival de comida más importante en América
                                         Latina.
                                     </p>
-                                    <img src="{{asset('img/blog/productos-peruanos-gastronomia.webp')}}" loading="lazy"
-                                        alt="Productos peruanos" width="100%">
+                                    <img src="{{ asset('img/blog/productos-peruanos-gastronomia.webp') }}"
+                                        loading="lazy" alt="Productos peruanos" width="100%">
                                 </div>
                             </div>
                         </div>
@@ -141,8 +141,8 @@
                                             Latinoamérica. Es una feria organizada por la Sociedad Peruana de
                                             Gastronomía (APEGA)</li>
                                     </ul>
-                                    <img src="{{ asset('img/blog/Mistura-2017.webp') }}" width="100%"
-                                        loading="lazy" alt="Feria Mistura">
+                                    <img src="{{ asset('img/blog/Mistura-2017.webp') }}" width="100%" loading="lazy"
+                                        alt="Feria-Mistura">
                                     <i>Feria Mistura</i>
                                 </div>
                             </div>
@@ -185,49 +185,52 @@
                                         diariamente grupos de música para alegra aun más la feria gastronómica.
                                     </p>
                                     <img src="{{ asset('img/blog/Ceviche-Peruano-pacha-mama-Spirit.webp') }}"
-                                        alt="Ceviche peruano" loading="lazy" width="100%">
-                                    <i>Ceviche peruano</i>
+                                        alt="Peruvian ceviche" loading="lazy" width="100%">
+                                    <i>Peruvian ceviche</i>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-4">
                     <div class="sticky">
-                        <h3 class="text-center">Otros Temas</h3>
-                        <a href="{{ route('fiestas-patrias-peru') }}">
-                            <div class="row blogSpace">
-                                <div class="col-4">
-                                    <img src="{{ asset('img/blog/thumb/fiestas-patrias-Peru-Pacha-Mama-Spirit.webp') }}"
-                                        alt="Fiestas patrias Perú" class="imgCuadrada" loading="lazy">
-                                </div>
-                                <div class="col-8">
-                                    <p>Las fiestas patrias en Perú se celebran a lo grande alrededor de todo el país</p>
-                                </div>
+                        <h3 class="text-center">More topics</h3>
+                        <div class="row blogSpace">
+                            <div class="col-4">
+                                <img src="{{ asset('img/blog/thumb/fiestas-patrias-Peru-Pacha-Mama-Spirit.webp') }}"
+                                    alt="Fiestas patrias Perú" class="imgCuadrada">
                             </div>
-                        </a>
-                        <a href="{{ route('santa-rosa-de-lima-es') }}">
-                            <div class="row blogSpace">
-                                <div class="col-4">
-                                    <img src="{{ asset('img/blog/thumb/santa-rosa-de-Lima-Pacha-Mama-Spirit.webp') }}"
-                                        alt="Playas de Perú" class="imgCuadrada" loading="lazy">
-                                </div>
-                                <div class="col-8">
-                                    <p>La vida completa de Santa Rosa de Lima y su canonización</p>
-                                </div>
+                            <div class="col-8">
+                                <a href="">
+                                    <p>Las fiestas patrias en Perú se celebran a lo grande alrededor de todo el país
+                                    </p>
+                                </a>
                             </div>
-                        </a>
-                        <a href="{{ route('las-mejores-playas-peru') }}">
-                            <div class="row blogSpace">
-                                <div class="col-4">
-                                    <img src="{{ asset('img/blog/thumb/the-best-beaches-of-Peru.webp') }}"
-                                        alt="Las mejores playas de Perú" class="imgCuadrada" loading="lazy">
-                                </div>
-                                <div class="col-8">
-                                    <p>Conoce una lista con las mejores playas que Perú tiene para ofrecer</p>
-                                </div>
+                        </div>
+                        <div class="row blogSpace">
+                            <div class="col-4">
+                                <img src="{{ asset('img/blog/thumb/the-best-beaches-of-Peru.webp') }}"
+                                    alt="Fiestas patrias Perú" class="imgCuadrada">
                             </div>
-                        </a>
+                            <div class="col-8">
+                                <a href="">
+                                    <p>En este Blog encontraras una guía completa con las mejores playas de Perú.
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row blogSpace">
+                            <div class="col-4">
+                                <img src="{{ asset('img/blog/thumb/mistura-lima-peru-Pacha-mama-Spirit.webp') }}"
+                                    alt="Fiestas patrias Perú" class="imgCuadrada">
+                            </div>
+                            <div class="col-8">
+                                <a href="">
+                                    <p>Texto de muestra para ver resultado de ejemplo para Blog</p>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="space"></div>

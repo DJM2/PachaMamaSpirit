@@ -4,13 +4,16 @@
 <head>
     <!-- Required meta tags -->
     @include('layouts.estilos')
-    <title>La ciudad imperial del Cusco, ombligo del mundo y capital del mundo</title>
+    <title>Lima, considered the city of kings, capital of Peru</title>
     <meta name="description"
-        content="Si bien Cusco y Machu Picchu son destinos imprescindibles para un primer viaje a Perú, necesita saber más sobre la ciudad más grande de Cusco. Tours a Cusco" />
+        content="Lima is the capital city of the Republic of Peru. It is located on the central coast of the country, on the shores of the Pacific Ocean." />
     <meta name="keywords"
-        content="turismo en lima, Lima turistico, Por que se le llama ciudad de reyes?, Lima metropolitana, Ciudad de reyes, Conoce que lugares visitar en Lima, Lima capital de perú" />
+        content="tourism in lima, tourist lima, why is it called city of kings?, metropolitan lima, city of kings, know what places to visit in lima, lima capital of peru" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lima, considered the city of kings, capital of Peru">
     <meta property="og:image" content="https://pachamamaspirit.com/img/panoramico/cusco-ciudad-imperial.webp" />
-    <link rel="canonical" href="https://pachamamaspirit.com/es/destinos-en-peru/lima-ciudad-de-reyes" />
+    <meta name="twitter:image" content="https://pachamamaspirit.com/img/panoramico/cusco-ciudad-imperial.webp">
+    <link rel="canonical" href="https://pachamamaspirit.com/en/destinies-peru/lima-city-of-kings" />
 </head>
 
 <body>
@@ -22,7 +25,7 @@
     <div class="lima">
         <div class="container">
             <div class="row">
-                <h1 class="h1-destinos">Lima, Ciudad de reyes</h1>
+                <h1 class="h1-destinos">Lima, City of Kings</h1>
             </div>
         </div>
     </div>
@@ -47,27 +50,29 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    ¿Por qué se le llama Ciudad de reyes?
+                                    Why is it called the City of Kings?
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    Cuando al conquistador <strong>Francisco Pizarro</strong> se le asignó la tarea de
-                                    elegir la capital del Virreinato español, tomó en cuenta que esta capital debía
-                                    estar cerca al mar. Y así se decidió por un hermoso valle al lado del río Rímac,
-                                    donde finalmente fundó la ciudad de Lima, hecho que quedó oficializado el 18 de
-                                    enero de 1535.<br><br>
-                                    Según los historiadores, esta fecha coincide con el mes de la bajada de los reyes
-                                    magos, y por eso Pizarro la bautizó como la <strong>“Ciudad de los Reyes”</strong>.
-                                    Han pasado 486 años y, desde entonces, Lima ha cambiado mucho desde la óptica
-                                    territorial, demográfica y cultural.<br><br>
-                                    A pesar de esas transformaciones, Lima todavía cuenta con espacios
-                                    naturales que merecen ser conservados, pues son los pulmones de una ciudad de mil
-                                    rostros que hoy alberga más de 10 millones de personas.<br><br>
+                                    When the conqueror <strong>Francisco Pizarro</strong> was assigned the task of
+                                    choosing the capital of the Spanish Viceroyalty, he took into account that this
+                                    capital had to be close to the sea. And so he decided on a beautiful valley next to
+                                    the Rímac River, where he finally founded the city of Lima, a fact that became
+                                    official on January 18, 1535.
+
+                                    According to historians, this date coincides with the month of the descent of the
+                                    wise men, and for this reason Pizarro baptized it as the <strong>"City of
+                                        Kings"</strong>. 486 years have passed and, since then, Lima has changed a lot
+                                    from a territorial, demographic and cultural point of view.
+
+                                    Despite these transformations, Lima still has natural spaces that deserve to be
+                                    preserved, since they are the lungs of a city of a thousand faces that today houses
+                                    more than 10 million people.<br><br>
                                     <img src="{{ asset('img/panoramico/ciudad-de-reyes-lima.webp') }}"
-                                        alt="Ciudad de Lima, Miraflores" width="100%" loading="lazy">
-                                    <i>Foto: Miraflores, Lima</i>
+                                        alt="City of Lima, Miraflores" width="100%" loading="lazy">
+                                    <i>City of Lima, Miraflores</i>
                                 </div>
                             </div>
                         </div>
@@ -76,31 +81,31 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    La ciudad de Lima Metropolitana
+                                    The city of Metropolitan Lima
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    Lima es la ciudad capital de la República del Perú. Se encuentra situada en la costa
-                                    central del país, a orillas del océano Pacífico, conformando una extensa y populosa
-                                    área urbana conocida como Lima Metropolitana, flanqueada por el desierto costero y
-                                    extendida sobre los valles de los ríos Chillón, Rímac y Lurín. Según el Censo
-                                    Nacional del año 2017, el departamento con mayor población en el país es Lima, al
-                                    totalizar 9 millones 485 mil 405 habitantes.<br><br>
-                                    En la actualidad se le considera como el centro político, financiero y
-                                    comercial del país. A nivel internacional, la ciudad ocupa el quinto lugar dentro de
-                                    las ciudades más pobladas de América Latina y es una de las treinta aglomeraciones
-                                    urbanas más pobladas del mundo. Por su importancia geoestratégica, ha sido definida
-                                    como una ciudad global de «clase beta».<br><br>
-                                    <h3>La comunidad más grande de Latinoamérica</h3>
-                                    Actualmente, más de un millón de personas de descendencia china viven en el Perú y
-                                    cerca de 200 mil en Lima. Se trata de la mayor colonia que tiene el país asiático en
-                                    el mundo. Llegaron a trabajar hace tres generaciones cuando la abolición de la
-                                    esclavitud dejó un vacío en la fuerza laboral.
-                                    El barrio chino de Lima, ubicado en el centro de la capital, es una concurrida zona
-                                    comercial con mercados, tiendas y chifas -restaurantes de comida fusión oriental- de
-                                    deliciosa comida que los peruanos han llegado a amar.
+                                    Lima is the capital city of the Republic of Peru. It is located on the central coast
+                                    of the country, on the shores of the Pacific Ocean, forming an extensive and
+                                    populous urban area known as Metropolitan Lima, flanked by the coastal desert and
+                                    extending over the valleys of the Chillón, Rímac and Lurín rivers. According to the
+                                    2017 National Census, the department with the largest population in the country is
+                                    Lima, with a total of 9,485,405 inhabitants.<br><br>
+
+                                    Today it is considered the political, financial and commercial center of the
+                                    country. Internationally, the city ranks fifth among the most populous cities in
+                                    Latin America and is one of the thirty most populous urban agglomerations in the
+                                    world. Due to its geostrategic importance, it has been defined as a “beta class”
+                                    global city.<br><br>
+                                    <h3>The largest community in Latin America</h3>
+                                    Currently, more than a million people of Chinese descent live in Peru and about 200
+                                    thousand in Lima. It is the largest colony that the Asian country has in the world.
+                                    They came to work three generations ago when the abolition of slavery left a gap in
+                                    the workforce. Lima's Chinatown, located in the center of the capital, is a busy
+                                    commercial area with markets, shops and chifas - oriental fusion restaurants - of
+                                    delicious food that Peruvians have come to love.
                                 </div>
                             </div>
                         </div>
@@ -109,36 +114,35 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFour" aria-expanded="false"
                                     aria-controls="flush-collapseFour">
-                                    Lima: Reseña Histórica
+                                    Lima: Historical Review
                                 </button>
                             </h2>
                             <div id="flush-collapseFour" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    Lima <strong>(que proviene del quechua Limaq)</strong> es la capital del Perú. Se
-                                    encuentra situada
-                                    en la costa central del país, a orillas del Océano Pacífico, flanqueada por el
-                                    desierto costero y extendida sobre los valles de los ríos Chillón, Rímac y Lurín.
-                                    Fue fundada el 18 de enero de 1535 con el nombre “La Ciudad de los Reyes” en la
-                                    región agrícola que hasta entonces era conocida por los indígenas como
-                                    Limaq.<br><br>
+                                    Lima <strong>(which comes from Quechua Limaq)</strong> is the capital of Peru. It is
+                                    located on the central coast of the country, on the shores of the <strong>Pacific
+                                        Ocean</strong>, flanked by the coastal desert and extending over the valleys of
+                                    the Chillón, Rímac and Lurín rivers. It was founded on January 18, 1535 with the
+                                    name <strong>"The City of the Kings"</strong> in the agricultural region that until
+                                    then was known by the indigenous people as Limaq.<br><br>
 
-                                    Lima fue la capital del Virreinato del Perú y la ciudad más grande e importante de
-                                    América del Sur durante el régimen español; después de la Independencia, pasó a ser
-                                    la capital de la República.<br><br>
+                                    Lima was the capital of the Viceroyalty of Peru and the largest and most important
+                                    city in <strong>South America</strong> during the Spanish regime; after
+                                    Independence, it became the capital of the Republic.<br><br>
 
-                                    Por su expansión y populosa área urbana, hoy se le denomina Lima Metropolitana, y
-                                    cuenta con una población mayor a 9 millones 320 mil habitantes, quienes representan
-                                    el 30% de la población peruana. Esta cifra la ha convertido en la ciudad más poblada
-                                    del país, la quinta de América Latina y el Caribe y en una de las treinta
-                                    aglomeraciones urbanas más pobladas del mundo. Asimismo, Lima es considerada como el
-                                    centro comercial, financiero, cultural y político del país.<br><br>
+                                    Due to its expansion and populous urban area, today it is called
+                                    <strong>Metropolitan Lima</strong>, and has a population of more than 9 million 320
+                                    thousand inhabitants, who represent 30% of the Peruvian population. This figure has
+                                    made it the most populous city in the country, the fifth in Latin America and the
+                                    Caribbean, and one of the thirty most populous urban agglomerations in the world.
+                                    Likewise, Lima is considered the commercial, financial, cultural and political
+                                    center of the country.<br><br>
 
-                                    Jurisdiccionalmente, la metrópoli se extiende mayoritariamente dentro de la
-                                    provincia de Lima y en una porción menor, hacia el oeste, dentro de la provincia
-                                    Constitucional del Callao, donde se encuentran el puerto marítimo y el Aeropuerto
-                                    Internacional Jorge Chávez. Ambas provincias cuentan con autonomía regional desde el
-                                    año 2002.
+                                    Jurisdictionally, the metropolis extends mainly within the province of Lima and in a
+                                    smaller portion, to the west, within the Constitutional province of Callao, where
+                                    the seaport and the Jorge Chávez International Airport are located. Both provinces
+                                    have regional autonomy since 2002.
                                 </div>
                             </div>
                         </div>
@@ -147,64 +151,64 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Lugares turísticos en Lima
+                                    Tourist places in Lima
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <h3>Centro histórico de Lima</h3>
-                                    <i>El linaje de una capital con tradición</i><br>
-                                    Una de las principales atracciones de las ciudades más longevas a lo largo del mundo
-                                    entero, es la visita a su Centro Histórico. Y el de la majestuosa ciudad de Lima no
-                                    podría ser la excepción: en las calles, iglesias y edificios, puedes dar un salto y
-                                    visitar el pasado en primera persona. Como si se tratase de una máquina del tiempo a
-                                    la cual acudes para ver la antigua Lima, esa que guarda su toque colonial hasta hoy
-                                    en día.<br><br>
-                                    Ser la única capital de Sudamérica con salida al Océano Pacífico tiene su atractivo:
-                                    en los acantilados de la Costa Verde puedes ver una Lima moderna, que está a la
-                                    vanguardia tal como las ciudades más importantes del globo terráqueo. Pero si
-                                    quieres conectarte con la Lima histórica, la visita al centro de la ciudad es
-                                    indispensable.<br><br>
+                                    <h3>Historical center of lima</h3>
+                                    <i>The lineage of a capital with tradition</i><br>
+                                    One of the main attractions of the oldest cities throughout the world is the visit
+                                    to its Historic Center. And that of the majestic city of Lima could not be the
+                                    exception: in the streets, churches and buildings, you can take a leap and visit the
+                                    past in the first person. As if it were a time machine to which you go to see the
+                                    old Lima, the one that keeps its colonial touch until today.<br><br>
+
+                                    Being the only capital in South America with access to the Pacific Ocean has its
+                                    appeal: on the cliffs of the Costa Verde you can see a modern Lima, which is at the
+                                    forefront just like the most important cities on the globe. But if you want to
+                                    connect with historic Lima, a visit to the city center is essential.<br><br>
                                     <img src="{{ asset('img/galeria/tour-caballos-en-centro-de-lima.webp') }}"
-                                        alt="Tour con caballos en el centro de Lima" width="100%" loading="lazy">
-                                    <i>Foto: Tour en caballos, centro de Lima</i><br><br>
+                                        alt="Tour with horses in the center of Lima" width="100%" loading="lazy">
+                                    <i>Tour with horses in the center of Lima</i><br><br>
 
-                                    <h3>Miraflores y Costa Verde</h3>
-                                    <i>Ventana al Pacífico</i><br>
-                                    Lima es la única capital sudamericana frente al mar y el barrio de Miraflores sí que
-                                    sabe sacarle provecho; sobre todo cuando la Costa Verde cruza debajo de sus
-                                    acantilados acercando a los turistas a las olas y a una oferta gastronómica que
-                                    incluye sunsets a la carta.<br><br>
-                                    Miraflores combina esta mágica cercanía al Pacífico con sus casonas de antaño, que
-                                    sobreviven intercaladas con modernos edificios y sitios arqueológicos, y un malecón
-                                    privilegiado: aquí se encuentra desde un exclusivo centro comercial hasta preciosos
-                                    parques y decenas de parapentes jugando con el viento. Simplemente precioso.<br><br>
+                                    <h3>Miraflores and Costa Verde</h3>
+                                    <i>window to the pacific</i><br>
+                                    Lima is the only South American capital facing the sea and the Miraflores
+                                    neighborhood does know how to take advantage of it; especially when the Costa Verde
+                                    crosses under its cliffs, bringing tourists closer to the waves and a gastronomic
+                                    offer that includes à la carte sunsets.<br><br>
 
-                                    <h3>Museo Larco</h3>
-                                    <i>Cita con 5000 años de historia</i><br>
-                                    Rodeada por hermosos jardines, una mansión virreinal del siglo XVIII resguarda una
-                                    impresionante colección privada de piezas del Perú precolombino. Dentro de la
-                                    muestra permanente del museo destaca la Sala de Oro y Joyas con
-                                    maravillosas piezas hechas por virtuosos orfebres del antiguo Perú para honrar a sus
-                                    dioses. No menos atención capta la sala de huacos eróticos, que nos muestra su
-                                    interesante visión sobre la sexualidad.<br>
+                                    Miraflores combines this magical proximity to the Pacific with its mansions of
+                                    yesteryear, which survive interspersed with modern buildings and archaeological
+                                    sites, and a privileged boardwalk: here you can find everything from an exclusive
+                                    shopping center to beautiful parks and dozens of paragliders playing with the wind.
+                                    Just beautiful.<br><br>
 
-                                    Definitivamente, visitar el museo Larco es conectarse y reconectarse con la
-                                    cosmovisión andina.<br><br>
-                                    <strong>Información general:</strong>
+                                    <h3>Larco Museum</h3>
+                                    <i>Appointment with 5000 years of history</i><br>
+                                    Surrounded by beautiful gardens, an 18th-century viceregal mansion houses an
+                                    impressive private collection of pieces from pre-Columbian Peru. Within the
+                                    permanent exhibition of the museum, the Gold and Jewelry Room stands out with
+                                    wonderful pieces made by virtuous goldsmiths of ancient Peru to honor their gods. No
+                                    less attention is captured by the erotic huacos room, which shows us his interesting
+                                    vision of sexuality.
+                                    Definitely, visiting the Larco museum is connecting and reconnecting with the Andean
+                                    worldview.<br><br>
+                                    <strong>General information:</strong>
                                     <table class="table">
                                         <thead>
                                             <tr>
-                                                <th scope="col">Precio</th>
-                                                <th scope="col">Clima</th>
-                                                <th scope="col">Horario</th>
-                                                <th scope="col">Altura</th>
+                                                <th scope="col">Price</th>
+                                                <th scope="col">Weather</th>
+                                                <th scope="col">Hours</th>
+                                                <th scope="col">Altitude</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>- Adultos: S/30 <br>- Mayores de 65: S/25 <br>- Estudiantes: S/15
+                                                <td>- Adults: S/30 <br>- Over 65: S/25 <br>- Students: S/15
                                                 </td>
                                                 <td>mín. 17,3 ℃/ máx.: 21,5 ℃</td>
                                                 <td>10:00 hrs a 19:00 hrs</td>
@@ -213,19 +217,18 @@
                                         </tbody>
                                     </table><br>
                                     <img src="{{ asset('img/galeria/Museo-Larco-lima-Pacha-Mama-Spirit.webp') }}"
-                                        alt="Museo de Larco Herrera, Lima" width="100%" loading="lazy">
-                                    <i>Foto: Museo de Larco Herrera, Lima</i>
+                                        alt="Larco Herrera Museum, Lima" width="100%" loading="lazy">
+                                    <i>Larco Herrera Museum, Lima</i>
                                     <br><br>
-                                    <h3>Museos en Lima</h3>
-                                    <i>Punto de encuentro de conocedores y cosmopolitas</i><br>
-                                    La mejor manera de comprender la historia del Perú es visitando los Museos de Lima.
-                                    En ellos se conserva el mayor patrimonio cultural del país.
-
-                                    Algunas de las mejores colecciones de la época prehispánica las tienen el Museo
-                                    Nacional de Antropología y Arqueología, el Museo Larco y el Museo Amano; el Museo de
-                                    Arte de Lima (MALI) resume todas las manifestaciones artísticas el país; y el MAC y
-                                    el MATE (que exhibe la obra del fotógrafo peruano Mario Testino) son excelentes
-                                    opciones de arte moderno. Simplemente imperdibles.
+                                    <h3>Museums in Lima</h3>
+                                    <i>Meeting point for connoisseurs and cosmopolitans</i><br>
+                                    The best way to understand the history of Peru is by visiting the Museums of Lima.
+                                    In them the greatest cultural heritage of the country is preserved. Some of the best
+                                    collections from the pre-Hispanic era are held by the National Museum of
+                                    Anthropology and Archaeology, the Larco Museum and the Amano Museum; the Lima Art
+                                    Museum (MALI) summarizes all the artistic manifestations in the country; and the MAC
+                                    and the MATE (which exhibits the work of Peruvian photographer Mario Testino) are
+                                    excellent options for modern art. Simply unmissable.
                                 </div>
                             </div>
                         </div>
@@ -234,151 +237,149 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseSix" aria-expanded="false"
                                     aria-controls="flush-collapseSix">
-                                    Fechas más importantes en Lima
+                                    Most important dates in Lima
                                 </button>
                             </h2>
                             <div id="flush-collapseSix" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <h3>1. Aniversario de Lima</h3>
-                                    <p><strong>Fecha: 18 de enero</strong></p>
-                                    Lima es la capital del Perú. Esta tiene como fecha de fundación el día 18 de enero,
-                                    cuando allá en el año 1535 fuera fundado por el conquistador <strong>Francisco
-                                        Pizarro.</strong> Este
-                                    es un evento muy importante para los habitantes de la región ya que son muchas las
-                                    actividades que se programan para tal fecha además de los días que la anteceden.
-                                    Programa que cambia según el gobernante a cargo, pero que en esencia conserva el
-                                    espíritu de todos los limeños.<br><br>
+                                    <h3>1. Lima Anniversary</h3>
+                                    <p><strong>Date: January 18</strong></p>
+                                    <strong>Lima is Peru's capital</strong>. This date of foundation is January 18, when
+                                    back in 1535 it was founded by the conqueror <strong>Francisco Pizarro</strong>.
+                                    This is a very important event for the inhabitants of the region since there are
+                                    many activities that are scheduled for that date in addition to the days that
+                                    precede it. Program that changes according to the ruler in charge, but that
+                                    essentially preserves the spirit of all Lima.<br><br>
 
-                                    Las celebraciones por el aniversario de la Capital dan comienzo con diferentes
-                                    actividades culturales, entre ellas conferencias cuyo motivo varía cada año. Además
-                                    de ello se ha vuelto una tradición la presencia de una impresionante Serenata por
-                                    Lima, misma que se realiza en la Plaza de Armas y en la que se exhiben los talentos
-                                    musicales de personas de nuestro país, quienes expresan su música de los géneros
-                                    modernos y tradicionales.<br><br>
+                                    The celebrations for the anniversary of the Capital begin with different cultural
+                                    activities, including conferences whose reason varies each year. In addition to
+                                    this, the presence of an impressive Serenade through Lima has become a tradition,
+                                    which takes place in the <strong>Plaza de Armas</strong> and in which the musical
+                                    talents of people from our country are exhibited, who express their music of modern
+                                    genres and traditional.<br><br>
 
-                                    Es común también para estas celebraciones la organización de diferentes pasacalles,
-                                    en estos queda expuesto el colorido de las danzas tradicionales de Lima, donde es
-                                    infaltable la presencia de la marinera, también se ven tonderos, festejos y
-                                    sayas.<br><br>
+                                    It is also common for these celebrations the organization of different parades, in
+                                    these the color of the traditional dances of Lima is exposed, where the presence of
+                                    the marinera is inevitable, tonderos, festivities and skirts are also seen.<br><br>
 
-                                    Además se encuentran las infaltables ferias gastronómicas donde las exquisiteces y
-                                    amplia variedad de la culinaria local quedan exhibidas y puestas a la disposición
-                                    del consumidor. Platos de fondo como arroz con pollo o pato, lomo saltado, causa
-                                    rellena, entre muchos otros vienen acompañados de exquisitos postres infaltables
-                                    como mazamorra morada, suspiro a la limeña y demás para entretener al estómago de
-                                    nuestros visitantes.<br><br>
+                                    In addition, there are the inevitable gastronomic fairs where the delicacies and
+                                    wide variety of local cuisine are exhibited and made available to the consumer. Main
+                                    dishes such as rice with chicken or duck, salted loin, stuffed cause, among many
+                                    others, are accompanied by exquisite desserts such as <strong>purple
+                                        mazamorra</strong>, sigh a la Lima and others to entertain the stomach of our
+                                    visitors.<br><br>
 
                                     <h3>2. Santa Rosa de Lima</h3>
-                                    <p><strong>Fecha: 30 de agosto</strong></p>
-                                    Santa Rosa de Lima es la santa protectora de las Américas y de las Filipinas,
-                                    protectora además de la Policía Nacional de nuestro país, cuya fecha de
-                                    celebraciones presentan como día central el 30 de Agosto.<br><br>
+                                    <p><strong>Date: August 30</strong></p>
+                                    <a href="{{ route('santa-rosa-de-lima-en') }}"
+                                        title="Read complete info about Santa Rosa">Santa Rosa de Lima</a> is the
+                                    patron saint of the Americas and the Philippines,
+                                    protector in addition to the National Police of our country, whose date of
+                                    celebrations is presented as the central day on August 30.<br><br>
 
-                                    Cuenta la historia de esta Santa, cuyo nombre verdadero era Isabel Flores de Oliva
-                                    que aquella, nacida en el año de 1586 vivió una vida llena de hechos
-                                    extraordinarios. Entre ellos el milagro de las rosas que le diera el nombre ya que,
-                                    se cuenta que para entonces en Lima no se cultivaban este tipo de plantas y que fue
-                                    milagrosamente en el huerto de su casa donde surgieron espontáneamente estas flores.
-                                    Otro motivo que caracteriza a las rosas como símbolo de la Santa es el milagro por
-                                    el cual el Papa Clemente IX la canonizara ya que, según se dice, en el momento en el
-                                    que aquel dudara de la santidad de limeña esta hizo llover rosas sobre su
-                                    escritorio, motivo por el cual, el Sumo Pontífice realizara posteriormente muchas
-                                    disposiciones en su honor, aunque fuera su sucesor Clemente X quien finalmente
-                                    lograra canonizarla.<br><br>
+                                    It tells the story of this Saint, whose real name was I<strong>sabel Flores de
+                                        Oliva</strong>, who
+                                    was born in 1586 and lived a life full of extraordinary events. Among them the
+                                    miracle of the roses that she gave him her name since, it is said that at that time
+                                    in Lima these types of plants were not cultivated and that she was miraculously in
+                                    the garden of her house where these flowers spontaneously arose. Another reason
+                                    that characterizes roses as a symbol of the Saint is the miracle by which
+                                    <strong>Pope Clement IX</strong> canonized her since, it is said, at the moment in
+                                    which he doubted the sanctity of Lima, it rained roses on his desk, which is why the
+                                    Supreme Pontiff later made many provisions in her honor, even though it was his
+                                    successor Clement X who finally managed to canonize her.<br><br>
 
-                                    Para las celebraciones en conmemoración por esta Santa se llevan a cabo
-                                    peregrinaciones hasta su templo. En este se realiza la práctica de un acto
-                                    tradicional que es depositar una carta en el llamado “Pozo de los deseos” ya que se
-                                    dice que aquello que uno le pida a la Santa se le va a volver realidad si se le
-                                    solicita con mucho fervor.<br><br>
+                                    For the celebrations in commemoration of this Saint, pilgrimages are carried out to
+                                    her temple. In this, the practice of a traditional act is carried out, which is to
+                                    deposit a letter in the so-called "Wishing Well" since it is said that what one asks
+                                    of the Saint will come true if it is requested with great fervor. .<br><br>
 
-                                    <h3>3. Concurso Nacional de Caballo Peruano de Paso</h3>
-                                    <p><strong>Fecha: Mes de abril</strong></p>
-                                    El Concurso Nacional de Caballo Peruano de Paso es un evento que se lleva a cabo en
-                                    Mamacona que se localiza en el distrito de Lurín dentro de la provincia y región de
-                                    Lima. El concurso ha cumplido para el año 2011 su XLVI presentación misma que se
-                                    realiza entre los meses de Marzo o Abril y que presenta una semana de duración.
-
-                                    El Concurso convoca a cientos de amantes de estos equinos, tal es el grado de la
-                                    recepción que presenta este concurso que son más de 700 los animales que son
-                                    presentados en esta competencia Nacional, y que son la representación de los mejores
-                                    caballos de esta raza que son oriundos del país, pero que son criados tanto en
-                                    ámbito nacional como en países vecinos de Bolivia, Ecuador y otros estados de
-                                    Centroamérica.
-
-                                    En la actualidad la importancia de este concurso es tal que se ha creado dentro del
-                                    Fundo Mamacona el Local de Exhibiciones de Mamacona que se trata del primer museo en
-                                    honor a esta especie aborigen y que ha surgido gracias a la colaboración de los
-                                    interesados.
-
-                                    En el último día de las celebraciones se realiza dentro del establecimiento la
-                                    premiación de los ganadores de las diferentes categorías que existen, entre las
-                                    cuales se pueden reconocer: <br>
+                                    <h3>3. National Peruvian Paso Horse Contest</h3>
+                                    <p><strong>Date: April</strong></p>
+                                    The <strong>National Peruvian Paso Horse Contest</strong> is an event that takes
+                                    place in Mamacona, which is located in the district of Lurín within the province and
+                                    region of Lima.<br><br>
+                                    The contest has completed its XLVI presentation for 2011, which takes place between
+                                    the months of March or April and lasts a week.<br><br>
+                                    The Contest summons hundreds of lovers of these equines, such is the degree of
+                                    reception that this contest presents that there are more than 700 animals that are
+                                    presented in this National competition, and that they are the representation of the
+                                    best horses of this breed that They are natives of the country, but they are raised
+                                    both nationally and in neighboring countries of Bolivia, Ecuador and other Central
+                                    American states.<br><br>
+                                    At present, the importance of this contest is such that the <strong>Mamacona
+                                        Exhibition Hall</strong> has been created within the Mamacona Estate, which is
+                                    the first museum in honor of
+                                    this aboriginal species and which has emerged thanks to the collaboration of those
+                                    interested. On the last day of the celebrations, the winners of the different
+                                    categories that exist are awarded within the establishment, among which the
+                                    following can be recognized:<br>
                                     <ul>
-                                        <li>“Maestro Enfrenador”</li>
-                                        <li>Prueba de Menores de 10 a 12 años con la subdivisión de niños y niñas</li>
-                                        <li>Premio a la Mejor Potranca Presentada al Cabestro</li>
-                                        <li>Campeona de Bozal Hembra</li>
-                                        <li>Premio Pisos Para Yeguas</li>
-                                        <li>Premio Progenie de Madre</li>
-                                        <li>Premio Madre e Hija</li>
-                                        <li>Premio Conjunto de Yeguas</li>
-                                        <li>Premio Mérito Zootécnico Hembra</li>
-                                        <li>Categoría de Potrillos al Cabestro</li>
-                                        <li>Categoría de Potrillos de Bozal</li>
-                                        <li>Premio Afición, entre otros.</li>
+                                        <li>“Master Bracer”</li>
+                                        <li>Trial for Minors from 10 to 12 years old with the subdivision of boys and
+                                            girls</li>
+                                        <li>Award for Best Filly Presented to Halter</li>
+                                        <li>Female Muzzle Champion</li>
+                                        <li>Flats Award for Mares</li>
+                                        <li>Mother's Progeny Award</li>
+                                        <li>Mother and Daughter Award</li>
+                                        <li>Mares Joint Award</li>
+                                        <li>Female Zootechnical Merit Award</li>
+                                        <li>Category of Halter Foals</li>
+                                        <li>Category of Muzzle Foals</li>
+                                        <li>Hobby Award, among others.</li>
                                     </ul>
-                                    <h3>Día de La Canción Criolla</h3>
-                                    <i><strong>Fecha: 31 de octubre</strong></i><br>
-                                    El día de la canción criolla se celebra todos los años el 31 de Octubre, esta fecha
-                                    fue instaurada dentro del calendario de festividades peruanas durante el gobierno de
-                                    Manuel Prado y Ugarteche en la década del cuarenta.<br><br>
+                                    <h3>Day of the Creole song</h3>
+                                    <i><strong>Date: October 31</strong></i><br>
+                                    The day of the Creole song is celebrated every year on October 31, this date was
+                                    established within the calendar of Peruvian festivities during the government of
+                                    Manuel Prado y Ugarteche in the forties.<br><br>
 
-                                    La canción criolla y los intérpretes de la misma, a quienes se homenajea en esta
-                                    fecha, tienen una historia importante que presenta su periodo de apogeo en los años
-                                    veinte y a cuyos integrantes se ha denominado “la guardia vieja”.<br><br>
+                                    The Creole song and its interpreters, who are honored on this date, have an
+                                    important history that presents its peak period in the twenties and whose members
+                                    have been called <strong>"the old guard"</strong>.<br><br>
 
-                                    La Guardia Vieja comprende a los clásicos del criollismo entre los que cabe destacar
-                                    a José Sabas Libornio-Ibarra, a Juan Peña Lobatón, Julio Flores, Óscar Molina, entre
-                                    otros. Y a quienes seguirían importantes intérpretes y compositores de la década del
-                                    treinta al cuarenta con una gran influencia de Felipe Pinglo quien dejara en la
-                                    memoria de la música peruana hermosas composiciones como es el caso de “El plebeyo”,
-                                    “El Huerto de mi amada”, “El espejo de mi vida” y que darían pie a la expansión de
-                                    la popularidad de este tipo de música entonada y creada por voces como las de Jesús
-                                    Vásquez, Lucha Reyes, Oscar Avilés, Luis Abanto Morales o la recordada y gran
-                                    Chabuca Granda.<br><br>
-                                    Las Celebraciones que se dan en tiempos actuales por el Día de la Canción Criolla se
-                                    concentran principalmente en las diferentes peñas criollas que se celebran a lo
-                                    largo del país y en especial en la capital. O también gracias serenatas y conciertos
-                                    que organizan ya sean las autoridades de cada uno de los distritos, o particulares
-                                    adeptos a esta importante celebración.<br><br>
+                                    The Old Guard includes the classics of criollismo, among which José Sabas
+                                    Libornio-Ibarra, Juan Peña Lobatón, Julio Flores, Óscar Molina, among others, stand
+                                    out. And who would be followed by important performers and composers from the
+                                    thirties to forties with a great influence from Felipe Pinglo who left in the memory
+                                    of Peruvian music beautiful compositions such as <strong>“El plebeyo”</strong>, “El
+                                    Huerto de mi
+                                    amada” , "The mirror of my life" and that would give rise to the expansion of the
+                                    popularity of this type of music sung and created by voices such as those of Jesús
+                                    Vásquez, Lucha Reyes, Oscar Avilés, Luis Abanto Morales or the remembered and great
+                                    Chabuca Granda .<br><br>
 
-                                    <h3>Día Nacional del Pisco Sour</h3>
-                                    <i><strong>Fecha: primer sábado del mes de Febrero</strong></i><br>
-                                    El pisco sour se ha vuelto en los últimos años la bebida bandera del Perú, se trata
-                                    de un trago exquisito a base de pisco de las tierras iqueñas que cada vez adquiere
-                                    también más fuerza y reconocimiento en el extranjero. Por tales atributos el Estado
-                                    ha reconocido un Día Nacional del Pisco Sour como tributo a esta exquisita bebida y
-                                    que tiene como fecha central el primer sábado del mes de Febrero y se viene
-                                    celebrando desde el año 2004.<br><br>
+                                    The Celebrations that take place in current times for the Day of the Creole Song are
+                                    mainly concentrated in the different Creole clubs that are celebrated throughout the
+                                    country and especially in the capital. Or also thanks to serenades and concerts
+                                    organized either by the authorities of each of the districts, or by individuals who
+                                    are followers of this important celebration.<br><br>
+
+                                    <h3>National Pisco Sour Day</h3>
+                                    <i><strong>Date: first Saturday of February</strong></i><br>
+                                    The pisco sour has become in recent years the flagship drink of Peru, it is an
+                                    exquisite drink based on pisco from the lands of Ica that is also gaining more
+                                    strength and recognition abroad. Due to these attributes, the State has recognized a
+                                    National Pisco Sour Day as a tribute to this exquisite drink and whose central date
+                                    is the first Saturday of February and has been celebrated since 2004.<br><br>
                                     <img src="{{ asset('img/galeria/pisco-sour-peru.webp') }}" alt="Pisco Sour, Peru"
                                         width="100%" loading="lazy">
-                                        <i>Foto: Pisco Sour</i><br><br>
+                                    <i>Pisco Sour</i><br><br>
 
-                                    Si bien el pisco es una bebida tradicional que se origina en la región de Ica, es el
-                                    Lima y sus diferentes distritos en lo que esta celebración cobra más fuerza, siendo
-                                    uno de los distritos seleccionado como sede oficial cada año de celebración.<br><br>
+                                    Salthough pisco is a traditional drink that originates in the Ica region, it is Lima
+                                    and its different districts where this celebration gains more strength, being one of
+                                    the districts selected as the official venue each year of celebration.<br><br>
 
-                                    Cada distrito presenta una manera diferente de celebrar este día, por ejemplo, en
-                                    Barranco, las actividades principales se desarrollan en el Museo de Arte
-                                    Contemporáneo en donde se realiza la exhibición y venta de este licor
-                                    peruano.<br><br>
+                                    Each district presents a different way of celebrating this day, for example, in
+                                    Barranco, the main activities take place in the Museum of Contemporary Art where the
+                                    exhibition and sale of this Peruvian liquor takes place.<br><br>
 
-                                    En otros distritos como en Pueblo Libre se llevan a cabo además diferentes shows
-                                    artísticos para amenizar el día, entre ellos competencias de bailes, junto con
-                                    competencias de barman, además de la obligatoria venta de este licor junto con
-                                    platos típicos de la zona.
+                                    In other districts such as Pueblo Libre, different artistic shows are also held to
+                                    liven up the day, including dance competitions, along with barman competitions, in
+                                    addition to the obligatory sale of this liquor along with typical dishes of the
+                                    area.
                                 </div>
                             </div>
                         </div>
@@ -386,7 +387,7 @@
                 </div>
                 <div class="space"></div>
                 <div class="col-lg-12">
-                    <h2 class="h2-tierras">Tours más populares para Cusco:</h2>
+                    <h2 class="h2-tierras">Popular Tours</h2>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
@@ -398,7 +399,7 @@
                             <h5 class="card-title">Chquequirao, caminata 4 días </h5>
                             <p class="text-card">Cachicata o Inca Quarry es una de las antiguas canteras utilizadas
                                 por las civilizaciones Pre-Inca e Inca para construir el vasto complejo…</p>
-                            <a href="camino-inca-cantera-peru" class="boton-card">Más detalles</a>
+                            <a href="camino-inca-cantera-peru" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -413,7 +414,7 @@
                             <h5 class="card-title">City tour en Cusco</h5>
                             <p class="text-card">Antes del amanecer en el lago Titicaca, una neblina azul cubre
                                 nuestra vista. Muchos conejillos de indias corren para...</p>
-                            <a href="#" class="boton-card">Más detalles</a>
+                            <a href="#" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -428,22 +429,21 @@
                             <h5 class="card-title">Tour a la laguna Humantay</h5>
                             <p class="text-card">Puno es una de las ciudades más importantes de la orilla del lago
                                 Titicaca, el lago más navegable y...</p>
-                            <a href="viajar-a-puno" class="boton-card">Más detalles</a>
+                            <a href="viajar-a-puno" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
                         <a href="vilcabamba">
-                            <img class="card-img-top"
-                                src="{{ asset('img/thumb/ceviche-peruano-gastronomy.webp') }}"
+                            <img class="card-img-top" src="{{ asset('img/thumb/ceviche-peruano-gastronomy.webp') }}"
                                 alt="Llactapata inca trail" loading="lazy">
                         </a>
                         <div class="card-body text-center">
                             <h5 class="card-title">Tour gastronómico</h5>
                             <p class="text-card">Hasta hace poco, Vilcabamba era un rincón relativamente seguro y
                                 accesible de la...</p>
-                            <a href="vilcabamba" class="boton-card">Más detalles</a>
+                            <a href="vilcabamba" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -451,8 +451,6 @@
             </div>
         </div>
     </section>
-
-    @include('layouts.pop-up-booking')
     @include('layouts.foot')
 </body>
 

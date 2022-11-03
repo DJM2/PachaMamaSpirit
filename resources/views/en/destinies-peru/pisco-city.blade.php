@@ -9,7 +9,7 @@
         content="Pisco is a port city on the southern coast of Peru, known for its grape brandy of the same name. It is the entrance to the uninhabited Ballestas Islands." />
     <meta name="keywords"
         content="city of Pisco, Pisco city, Pisco sour, Islas ballestas, Pisco chandelier, Boat ride, pisco nature reserve, sea lions, boat tour to pisco, tourism in Pisco, tour to ballestas islands" />
-        <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:card" content="summary_large_image">
     <meta property="og:image" content="https://pachamamaspirit.com/img/panoramico/pisco-city-tourism.webp" />
     <meta name="twitter:image" content="https://pachamamaspirit.com/img/panoramico/pisco-city-tourism.webp">
     <link rel="canonical" href="https://pachamamaspirit.com/en/destinies-peru/pisco-city" />
@@ -35,7 +35,8 @@
                 <div class="col-lg-12">
                     <div class="details">
                         <div class="location">
-                            <p><a href="{{route('index')}}">Home</a> / <a href="{{ route('destinies-peru') }}">Destinies</a> /
+                            <p><a href="{{ route('index') }}">Home</a> / <a
+                                    href="{{ route('destinies-peru') }}">Destinies</a> /
                                 <a>Pisco</a>
                             </p>
                         </div>
@@ -49,51 +50,46 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseOne" aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    Pisco, cuna de la bandera y puerta de la libertad
+                                    Pisco, cradle of the flag and door of freedom
                                 </button>
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <div class="text-center">
-                                        <i>¡Pisco cuna de la bandera y puerta d ela libertad!<br>
-                                            Cada año se celebra con fervor patriótico el desembarco de la expedición
-                                            libertadora al mando del general Don José de San Martín en la bahía de
-                                            Paracas. Porque en Pisco nació la libertad del Perú...
+                                        <i>Pisco cradle of the flag and door of freedom!
+                                            Every year the landing of the liberating expedition under the command of
+                                            General Don José de San Martín in the Bay of Paracas is celebrated with
+                                            patriotic fervor. Because in Pisco the freedom of Peru was born...
                                         </i><br><br>
                                         <p>
-                                            El desembarco del general don José de San Martín en Paracas, cerca al puerto
-                                            de Pisco, el 8 de setiembre de 1820, es uno de los hitos más importantes de
-                                            la historia del Perú. Representó, para el pueblo peruano, el punto de
-                                            conexión y el deseo común por sentirse parte del ejército libertador y
-                                            sumarse así a la causa independista.
-
-                                            Un día antes, el 7 de setiembre de hace 200 años, el general José de San
-                                            Martín (1778-1850), al mando de la Expedición Libertadora, llega a las
-                                            costas de la bahía de Paracas. El ejército libertador estaba compuesto por
-                                            más de 4,000 hombres, entreargentinos, chilenos y peruanos patriotas.
-
-                                            El objetivo era apoyar a los patriotas peruanos en su lucha por liberarse
-                                            del dominio español y sellar la independencia de las colonias españolas en
-                                            Sudamérica.
-
-                                            La primera bandera del Perú nació en Pisco, gracias a una disposición del
-                                            general libertador argentino, José de San Martín, quien daba así una
-                                            descripción de cómo debería ser confeccionado el primer símbolo patrio de
-                                            los peruanos:
+                                            The landing of General José de San Martín in Paracas, near the port of
+                                            Pisco, on September 8, 1820, is one of the most important milestones in the
+                                            history of Peru. It represented, for the Peruvian people, the connection
+                                            point and the common desire to feel part of the liberating army and thus
+                                            join the independence cause. A day earlier, on September 7, 200 years ago,
+                                            General José de San Martín (1778-1850), in command of the Liberating
+                                            Expedition, reached the shores of Paracas Bay. <br><br>
+                                            The liberating army was made
+                                            up of more than 4,000 men, including patriotic Argentines, Chileans and
+                                            Peruvians. The objective was to support the Peruvian patriots in their
+                                            struggle to free themselves from Spanish rule and seal the independence of
+                                            the Spanish colonies in South America. The first flag of Peru was born in
+                                            Pisco, thanks to a provision of the Argentine liberator general, José de San
+                                            Martín, who thus gave a description of how the first national symbol of
+                                            Peruvians should be made:
                                         </p>
                                         <div class="text-center">
-                                            <i>"Se adoptará por bandera nacional del país una de seda, o lienzo, de ocho
-                                                pies de largo, y seis de ancho, dividida por líneas diagonales en cuatro
-                                                campos, blancos los dos de los extremos superior e inferior, y
-                                                encarnados los Laterales; con una corona de laurel ovalada, y dentro de
-                                                ella un Sol, saliendo por detrás de sierras escarpadas que se elevan
-                                                sobre un mar tranquilo. El escudo puede ser pintado, o bordado, pero
-                                                conservando cada objeto su color: a saber, la corona de laurel ha de ser
-                                                verde, y atada en la parte inferior con una cinta de color de oro; azul
-                                                la parte superior que representa el firmamento; amarillo el Sol con sus
-                                                rayos; las montañas de un color pardo oscuro, y el mar entre azul y
-                                                verde”.</i>
+                                            <i>"The national flag of the country shall be adopted as one of silk or
+                                                canvas, eight feet long and six wide, divided by diagonal lines into
+                                                four fields, white both at the upper and lower ends, and red on the
+                                                sides; with an oval laurel wreath, and within it a Sun, rising from
+                                                behind steep ridges rising above a calm sea.The escutcheon may be
+                                                painted, or embroidered, but each object retaining its colour: namely,
+                                                the laurel wreath It must be green, and tied at the bottom with a
+                                                gold-colored ribbon; the upper part, which represents the firmament, is
+                                                blue; the Sun with its rays is yellow; the mountains are dark brown, and
+                                                the sea is between blue and green. ”.</i>
                                         </div>
                                     </div>
                                 </div>
@@ -104,51 +100,55 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseTwo" aria-expanded="false"
                                     aria-controls="flush-collapseTwo">
-                                    Historia de la provincia de Pisco
+                                    History of the province of Pisco
                                 </button>
                             </h2>
                             <div id="flush-collapseTwo" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <h3>¿Qué significa la palabra Pisco?</h3>
+                                    <h3>What does the word pisco mean?</h3>
                                     <p>
-                                        Pisco, nombre quechua que significa “pájaro”, es un lugar que se encontraba
-                                        dentro del territorio de las culturas prehispánicas Paracas y Nazca, incluso
-                                        hacia el 1000 a. c. se produjo el primer asentamiento sedentario debido a las
-                                        ingentes riquezas marinas que los antiguos habitantes recogían. En ese sentido,
-                                        sus vestigios culturales e históricos son amplios.
+                                        Pisco, a Quechua name that means “bird”, is a place that was within the
+                                        territory of the pre-Hispanic Paracas and Nazca cultures, even around 1000 BC.
+                                        c. the first sedentary settlement was produced due to the enormous marine riches
+                                        that the ancient inhabitants collected. In that sense, its cultural and
+                                        historical vestiges are extensive.
                                     </p>
-                                    <h3>¿Cómo nace la ciudad de Pisco?</h3>
+                                    <h3>How was the city of Pisco born?</h3>
                                     <p>
-                                        Con el establecimiento del virreinato del Perú, el puerto de Pisco sirvió como
-                                        punto de salida del azogue de Huancavelica y del pisco que se producía en los
-                                        valles cercanos. Durante el gobierno del virrey del Perú Pedro Álvarez de Toledo
-                                        y Leiva, marqués de Mancera, Pisco fue fundada como “villa”, bajo el nombre de
-                                        “Villa de San Clemente de Mancera”, aunque popularmente fue siempre conocida
-                                        como “Villa de Pisco”. Era un antiguo asiento indígena relacionado con la
-                                        extracción de guano de las islas, muy apreciado como fertilizante en el Perú
-                                        prehispánico.<br><br>
-                                        En 1820, arribó a Pisco la Expedición Libertadora al mando de José de San Martín
-                                        y Bernardo O’Higgins Riquelme, desembarcando en la bahía de Paracas, lugar donde
-                                        se creó la primera bandera y el primer escudo nacional del Perú. En
-                                        consideración a lo anterior, en 1832, tras un acuerdo de la Junta Departamental
-                                        de Lima en orden a que la Villa de Pisco recibiera el título de “Villa y Puerto
-                                        de la Independencia”, el Congreso del Perú dispuso por ley que ésta se
-                                        denominaría con dicho nombre, haciendo extensivo tal calificativo tanto al
-                                        pueblo, como a la población ribereña.<br><br>
-                                        En 1868 la Villa de Pisco fue designada capital de la nueva provincia de Chincha
-                                        y en 1898 fue elevada al rango de “ciudad”. Al respecto, en 1947, el historiador
-                                        pisqueño Mamerto Castillo Negrón expresó que Pisco había recibido en su historia
-                                        dos agregados que hacían honores justos a su merecimiento: primero que era
-                                        “Villa y Puerto de la Independencia” y, segundo, el reconocimiento como capital
-                                        de provincia.<br><br>
-                                        El 15 de agosto de 2007 la ciudad fue sacudida a las 18:40 por un fuerte
-                                        terremoto de 8.0 grados en la escala de Richter que la dejó en ruinas, en dicha
-                                        tragedia murieron 519 personas y 16.000 casas fueron destruidas según cifras del
-                                        INDECI (Instituto Nacional de Defensa Civil). Actualmente se prevé la
-                                        construcción de diferentes edificaciones en la ciudad, que incluye la renovación
-                                        del aeropuerto así como del puerto de Pisco.
+                                        With the establishment of the viceroyalty of Peru, the port of Pisco served as a
+                                        point of departure for the quicksilver of Huancavelica and the pisco that was
+                                        produced in the nearby valleys. During the government of the viceroy of Peru
+                                        Pedro Álvarez de Toledo y Leiva, Marquis of Mancera, Pisco was founded as a
+                                        "villa", under the name of <strong>"Villa de San Clemente de Mancera"</strong>,
+                                        although
+                                        popularly it was always known as "Villa de Pisco". . It was an ancient
+                                        indigenous seat related to the extraction of guano from the islands, highly
+                                        valued as a fertilizer in pre-Hispanic Peru.<br><br>
 
+                                        In 1820, the Liberating Expedition led by <strong>José de San Martín</strong>
+                                        and Bernardo
+                                        O'Higgins Riquelme arrived in Pisco, landing in the Bay of Paracas, where the
+                                        first flag and the first national coat of arms of Peru were created. In
+                                        consideration of the above, in 1832, after an agreement of the Departmental
+                                        Board of Lima in order for the Villa de Pisco to receive the title of "Villa y
+                                        Puerto de la Independencia", the Congress of Peru established by law that it
+                                        would be called with that name, extending such qualification both to the town
+                                        and to the riverside population.<br><br>
+
+                                        In 1868 the Villa de Pisco was designated capital of the new province of Chincha
+                                        and in 1898 it was elevated to the rank of "city". In this regard, in 1947, the
+                                        historian from Pisque Mamerto Castillo Negrón stated that Pisco had received in
+                                        its history two additions that did fair honors to its merit: first, that it was
+                                        "Villa y Puerto de la Independencia" and, second, the recognition as capital of
+                                        Province.<br><br>
+
+                                        On August 15, 2007, the city was shaken at 6:40 p.m. by a strong earthquake of
+                                        8.0 degrees on the Richter scale that left it in ruins, in said tragedy 519
+                                        people died and 16,000 houses were destroyed according to figures from INDECI
+                                        (Instituto National Civil Defense). Currently, the construction of different
+                                        buildings in the city is planned, which includes the renovation of the airport
+                                        as well as the port of Pisco.
                                     </p>
                                 </div>
                             </div>
@@ -158,42 +158,45 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Pisco, como destino turístico
+                                    Pisco, as a tourist destination
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
                                     <p>
-                                        ¿Quieres saber un poco más sobre la ciudad de Pisco? ¿Estás organizando un viaje
-                                        a Paracas e Islas Ballestas y necesitas más información sobre estos maravillosos
-                                        lugares de la costa sur del Perú? Basta solo decir que Pisco es una de las
-                                        ciudades más importantes del Perú, ya que no sólo vio nacer a la emblemática
-                                        bebida nacional peruana, el pisco, sino que también fue la cuna de la primera
-                                        bandera del Perú, creada en las costas de Paracas por el libertador José de San
-                                        Martín. Pisco ciudad comprende dos zonas: “Pisco Pueblo”, que incluye la zona
-                                        del centro histórico y los distritos aledaños a la autopista Panamericana Sur;
-                                        “Pisco Playa”, que abarca a los distritos y las zonas aledañas a la orilla del
-                                        mar. ¡Descubre más de Pisco en las siguientes líneas!.<br><br>
+                                        Do you want to know a little more about the city of Pisco? Are you organizing a
+                                        trip to Paracas and Ballestas Islands and need more information about these
+                                        wonderful places on the southern coast of Peru? Suffice it to say that Pisco is
+                                        one of the most important cities in Peru, since it not only saw the birth of the
+                                        emblematic Peruvian national drink, pisco, but it was also the cradle of the
+                                        first flag of Peru, created on the shores of Paracas. <br><br>
+                                        By the liberator José de
+                                        San Martín. Pisco city comprises two zones: “Pisco Pueblo”, which includes the
+                                        historic downtown area and the districts bordering the South Pan-American
+                                        highway; “Pisco Playa”, which covers the districts and the areas surrounding the
+                                        seashore. Discover more about Pisco in the following lines!<br><br>
                                         <img src="{{ asset('img/galeria/turists-places-in-Pisco.webp') }}"
-                                            alt="Pisco como destino turístico" width="100%" loading="lazy">
-                                        <i>Islas Balestas</i><br><br>
+                                            alt="Ballestas Islands" width="100%" loading="lazy">
+                                        <i>Ballestas Islands</i><br><br>
 
-                                        Ubicada a 231 kilómetros al sur de la ciudad de Lima, la provincia de Pisco es
-                                        una de las preferidas por los turistas que visitan la región Ica. Alberga a la
-                                        Reserva Nacional de Paracas, así como otros atractivos de cautivante belleza
-                                        paisajística y natural que cuentan con el sello Safe Travels como destinos
-                                        bioseguros. Y tiene también una singular herencia histórica al ser el escenario
-                                        del desembarco de la expedición libertadora en 1820, liderada por el general
-                                        José de San Martín.<br><br>
+                                        Located 231 kilometers south of the city of Lima, the province of Pisco is one
+                                        of the favorites for tourists who visit the Ica region. It houses the
+                                        <strong>Paracas
+                                            National Reserve</strong>, as well as other attractions of captivating
+                                        landscape and
+                                        natural beauty that have the<strong>Safe Travels</strong> seal as biosafe
+                                        destinations. And it
+                                        also has a unique historical heritage as it was the scene of the landing of the
+                                        liberating expedition in 1820, led by General José de San Martín.<br><br>
 
-                                        Aunque este año no se realizará la tradicional Semana Turística por prevención
-                                        ante la posibilidad de una tercera ola de covid-19, sí es posible visitar la
-                                        provincia de Pisco gracias a su cercanía a Lima y disfrutar de unos días de sus
-                                        magníficos escenarios naturales, encabezados por la Reserva Nacional de Paracas,
-                                        el candelabro, las islas Ballestas, el museo Julio C. Tello, el oasis de Morón,
-                                        recorrer su histórica Plaza de Armas, y saborear las delicias de su gastronomía.
-
+                                        Although this year the traditional Tourist Week will not be held due to
+                                        prevention of the possibility of a third wave of covid-19, it is possible to
+                                        visit the province of Pisco thanks to its proximity to Lima and enjoy a few days
+                                        of its magnificent natural settings, headed through the Paracas National
+                                        Reserve, the chandelier, the Ballestas Islands, the Julio C. Tello museum, the
+                                        Morón oasis, tour its historic Plaza de Armas, and savor the delights of its
+                                        gastronomy.
                                     </p>
                                 </div>
                             </div>
@@ -203,118 +206,125 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseFive" aria-expanded="false"
                                     aria-controls="flush-collapseFive">
-                                    Principales Lugares y actividades turísticas en Pisco
+                                    Main places and tourist activities in Pisco
                                 </button>
                             </h2>
                             <div id="flush-collapseFive" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <h3>Islas Ballestas</h3>
+                                    <h3>Ballestas Islands</h3>
                                     <p>
-                                        Las islas Ballestas forman parte de una de las áreas naturales protegidas
-                                        ideales para visitar y conocer, porque ofrecen una conexión especial por su
-                                        belleza natural y paisaje, además de tener una fauna marino costera biodiversa y
-                                        un valor histórico en el desarrollo de la economía del país.
-                                        Allí se pueden observar lobos marinos, pingüinos, aves guaneras y otras especies
-                                        residentes y visitantes a este conjunto de islas que forman parte de la Reserva
-                                        Nacional de Paracas.<br><br>
-                                        El recorrido turístico al interior del área natural protegida islas Ballestas se
-                                        realizará manteniendo una distancia no menor a 50 metros entre embarcaciones.
-                                        Para fines de bioseguridad y cumplimiento de los parámetros establecidos, la
-                                        capacidad de carga dentro de la ruta turística de las islas Ballestas será de 45
-                                        embarcaciones por día.
+                                        The Ballestas Islands are part of one of the ideal protected natural areas to
+                                        visit and learn about, because they offer a special connection due to their
+                                        natural beauty and landscape, in addition to having a biodiverse coastal marine
+                                        fauna and historical value in the development of the country's economy. There
+                                        you can see sea lions, penguins, guano birds and other resident species and
+                                        visitors to this set of islands that are part of the Paracas National Reserve.
+                                        <br><br>
+
+                                        The tourist tour inside the Ballestas Islands protected natural area will be
+                                        carried out maintaining a distance of no less than 50 meters between boats. For
+                                        biosafety purposes and compliance with the established parameters, the cargo
+                                        capacity within the Ballestas Islands tourist route will be 45 boats per day.
                                     </p>
                                     <h3>El Candelabro</h3>
                                     <p>
-                                        Famoso geoglifo llamado también “Tres Cruces” o “Tridente”, está ubicado sobre
-                                        una colina de arena en el sector norte de la península de Paracas. La figura
-                                        mide 177 metros de largo y 54 metros de ancho. Se calcula que tiene unos 2,500
-                                        años. Su significado sigue siendo un misterio, aunque existen teorías que lo
-                                        vinculan a los geoglifos de Nasca y las Pampas de Jumaná.<br><br>
-                                        El trabajo de hacer este geoglifo en la arena fue muy preciso considerando que
-                                        la zona es de mucho viento. La dirección del Candelabro, junto con el viento y
-                                        el agua marina han conformado una gruesa capa cristalina que lo ha mantenido
-                                        intacto desde su creación. Para apreciar el Candelabro se tiene que navegar a
-                                        cierta distancia de la costa, por lo que forma parte de los circuitos de visita
-                                        a las islas Ballestas.
+                                        Famous geoglyph also called <strong>"Three Crosses" or "Trident"</strong>, is
+                                        located on a sand
+                                        hill in the northern sector of the Paracas peninsula. The figure measures 177
+                                        meters long and 54 meters wide. It is estimated that it is about 2,500 years
+                                        old. Its meaning remains a mystery, although there are theories that link it to
+                                        the Nasca and Pampas de Jumaná geoglyphs.<br><br>
+
+                                        The work of making this <strong>geoglyph</strong> in the sand was very precise
+                                        considering that
+                                        the area is very windy. The direction of <strong>El candelabro</strong>,
+                                        together with the wind
+                                        and sea water, have formed a thick crystalline layer that has kept it intact
+                                        since its creation. To appreciate the Chandelier you have to navigate a certain
+                                        distance from the coast, which is why it is part of the circuits to visit the
+                                        Ballestas Islands.
                                     </p>
                                     <img src="{{ asset('img/galeria/Paracas-Candelabra.webp') }}" width="100%"
                                         alt="Candelabro Pisco" loading="lazy">
-                                    <i>El candelabro: mide 177 metros de largo y 54 de ancho</i><br><br>
+                                    <i>The chandelier: measures 177 meters long and 54 wide</i><br><br>
 
                                     <h3>La Catedral</h3>
                                     <p>
-                                        Es una importante formación rocosa tiene una antigüedad de 28 a 40 millones de
-                                        años y se asemejaba, como su nombre lo indica, a una gigantesca catedral. El
-                                        derrumbe parcial que sufrió en el terremoto que asoló Pisco en el año 2007 no ha
-                                        limitado la majestuosidad del paisaje limitado la majestuosidad del paisaje que
-                                        se observa desde ahí.
-                                        Desde este mirador natural se observa fauna característica de acantilados como
-                                        piqueros, zarcillos, chuitas, ostreros negros, nutrias marinas y delfines.
+                                        It is an important rock formation that is 28 to 40 million years old and
+                                        resembled, as its name indicates, a gigantic cathedral. The partial collapse
+                                        that it suffered in the earthquake that devastated Pisco in 2007 has not limited
+                                        the majesty of the landscape, limited the majesty of the landscape that can be
+                                        seen from there. From this natural viewpoint you can see the characteristic
+                                        fauna of the cliffs such as boobies, tendrils, chuitas, black oystercatchers,
+                                        sea otters and dolphins.
                                     </p>
-                                    <h3>Playas Raspón y La Mina</h3>
+                                    <h3>Raspon and La Mina Beaches</h3>
                                     <p>
-                                        Son las playas más visitadas de la Reserva Nacional de Paracas debido a su gran
-                                        belleza paisajística, donde destacan acantilados rocosos algo elevados, aguas
-                                        mansas y cristalinas y arena blanca y fina.<br><br>
-                                        El nombre La Mina proviene de una antigua mina de carbón que existía al extremo
-                                        sur de la playa. Llegar a Raspón era, hasta hace un tiempo, una aventura algo
-                                        riesgosa, pues los visitantes debían descender por una cuesta rocosa empinada,
-                                        de ahí su nombre, ya que quienes caían en el intento terminaban con algunos
-                                        raspones. Hoy en día el acceso es sencillo y no implica problema alguno.
+                                        on the most visited beaches of the Paracas National Reserve due to its great
+                                        scenic beauty, where somewhat elevated rocky cliffs, calm and crystalline waters
+                                        and fine white sand stand out.<br><br>
+
+                                        The name La Mina comes from an old coal mine that existed at the southern end of
+                                        the beach. Getting to Raspón was, until a while ago, a somewhat risky adventure,
+                                        since visitors had to descend a steep rocky slope, hence its name, since those
+                                        who fell in the attempt ended up with some scrapes. Today access is simple and
+                                        does not imply any problem.
                                     </p>
-                                    <h3>Playa Lagunillas</h3>
+                                    <h3>Lagunillas Beach</h3>
                                     <p>
-                                        Playa de arena con pequeñas formaciones rocosas. Los visitantes pueden acercarse
-                                        a la caleta de pescadores que se encuentra próxima, donde desembarcan peces como
-                                        cabrilla, cabinza, bonito, pejerrey y jurel, entre otros, así como choros,
-                                        lapas, chanque, pulpo, cangrejo, etc. Antes de llegar a Lagunillas se cruza un
-                                        puesto de control y vigilancia del Sernanp con guardaparques de la Reserva
-                                        Nacional de Paracas.
+                                        Playa Lagunillas Sandy beach with small rock formations. Visitors can visit the
+                                        nearby fishermen's cove, where they land fish such as cabrilla, cabinza, bonito,
+                                        mackerel and mackerel, among others, as well as mussels, limpets, chanque,
+                                        octopus, crab, etc. Before reaching Lagunillas, you will cross a Sernanp control
+                                        and surveillance post with park rangers from the Paracas National Reserve.
                                     </p>
-                                    <h3>Playa Yumaque</h3>
+                                    <h3>Yumaque Beach</h3>
                                     <p>
-                                        Es una pequeña ensenada en forma de media luna tiene aproximadamente 2
-                                        kilómetros de largo. Su nombre proviene del quechua y significa “lugar donde se
-                                        saca con la mano”, pues es posible extraer pequeños moluscos conocidos como
-                                        “palabritas”.<br><br>
-                                        En esta zona se descubrió al pingüino gigante, denominado Inkayacu paracasensis,
-                                        en honor a la Reserva Nacional de Paracas. Existe una réplica de esta especie en
-                                        el Centro de Interpretación.
+                                        It is a small crescent-shaped cove that is approximately 2 kilometers long. Its
+                                        name comes from Quechua and means "place where it is removed by hand", since it
+                                        is possible to extract small molluscs known as "palabritas".
+                                        <br><br>
+                                        The giant penguin, called Inkayacu paracasensis, in honor of the Paracas
+                                        National Reserve, was discovered in this area. There is a replica of this
+                                        species in the Interpretation Center.
                                     </p>
                                     <h3>Playa Roja</h3>
                                     <p>
-                                        El color rojizo de la orilla imprime al lugar de una singular belleza. Este
-                                        color se debe a su cercanía al macizo de Punta Santa María, formado por rocas
-                                        que contienen en su interior magma solidificado. La acción de las olas sobre el
-                                        macizo arrastra los fragmentos rojizos de las rocas, que se van acumulando en la
-                                        orilla, dando así origen al nombre de la playa.
+                                        The reddish color of the shore gives the place a unique beauty. This color is
+                                        due to its proximity to the Punta Santa María massif, formed by rocks that
+                                        contain solidified magma inside. The action of the waves on the massif drags the
+                                        reddish fragments of the rocks, which accumulate on the shore, thus giving rise
+                                        to the name of the beach.
                                     </p>
                                     <img src="{{ asset('img/galeria/playa-roja-pisco.webp') }}" alt="Playa roja"
                                         width="100%" loading="lazy">
                                     <i>Playa roja</i><br><br>
-                                    <h3>Museo Julio C. Tello</h3>
+                                    <h3>Julio C. Tello Museum</h3>
                                     <p>
-                                        El Museo de Sitio Julio C. Tello está situado en la Reserva Nacional de Paracas,
-                                        a la altura del kilómetro 27 de la carretera Pisco-Puerto San Martín, a 22
-                                        kilómetros al sur de la ciudad de Pisco.<br><br>
-                                        Alberga 120 piezas, entre cerámica, tejidos y utensilios de la civilización
-                                        Paracas, que abarca desde los períodos iniciales, alrededor de 700 años a.C.,
-                                        hasta el año 200 d.C. aproximadamente.<br><br>
-                                        Asimismo, destacan los fardos funerarios que contienen restos óseos en buen
-                                        estado de conservación. También hay cráneos deformados que evidencian las
-                                        operaciones quirúrgicas conocidas como "trepanaciones" y demuestran el gran
-                                        conocimiento de esta cultura ancestral en el campo de la medicina.<br><br>
-                                        El recinto cultural cuenta también con una sala de proyección de material
-                                        audiovisual y una Sala de Exposición Temporal. El primer ambiente que
-                                        proporciona una introducción sobre la civilización Paracas, el medio ambiente
-                                        árido que habitaron (la península de Paracas), así como su cosmovisión del mundo
-                                        y objetos materiales utilitarios, como sus célebres tejidos de extraordinaria
-                                        técnica y colorido, cerámicos e instrumentos diversos.<br><br>
-                                        El Museo de Sitio Julio C. Tello fue galardonado, en octubre de 2018, como el
-                                        “Mejor museo de Latinoamérica”, en la quinta edición de los Leading Culture
-                                        Destinations Awards, realizada en South Kensington Club, en la ciudad de
-                                        Londres.
+                                        The Julio C. Tello Site Museum is located in the Paracas National Reserve, at
+                                        kilometer 27 of the Pisco-Puerto San Martín highway, 22 kilometers south of the
+                                        city of Pisco.<br><br>
+
+                                        It houses 120 pieces, including ceramics, fabrics and utensils from the Paracas
+                                        civilization, which ranges from the initial periods, around 700 years BC, to 200
+                                        AD. about.<br><br>
+
+                                        Likewise, the funerary bundles that contain bone remains in a good state of
+                                        conservation stand out. There are also deformed skulls that show the surgical
+                                        operations known as "trepanations" and demonstrate the great knowledge of this
+                                        ancient culture in the field of medicine.<br><br>
+
+                                        The cultural venue also has a projection room for audiovisual material and a
+                                        Temporary Exhibition Room. The first environment that provides an introduction
+                                        to the Paracas civilization, the arid environment they inhabited (the Paracas
+                                        peninsula), as well as their worldview and utilitarian material objects, such as
+                                        their famous textiles of extraordinary technique and color, ceramics and various
+                                        instruments.<br><br>
+
+                                        The Julio C. Tello Site Museum was awarded, in October 2018, as the "Best museum
+                                        in Latin America", in the fifth edition of the Leading Culture Destinations
+                                        Awards, held at the South Kensington Club, in the city of London.
                                     </p>
                                 </div>
                             </div>
@@ -324,54 +334,54 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseSix" aria-expanded="false"
                                     aria-controls="flush-collapseSix">
-                                    10 datos curiosos que no sabías del pisco peruano
+                                    10 curious facts that you did not know about Peruvian pisco
                                 </button>
                             </h2>
                             <div id="flush-collapseSix" class="accordion-collapse collapse"
                                 aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
                                 <div class="accordion-body">
-                                    <h3>1. La producción de pisco peruano rompió un récord en 2016</h3>
+                                    <h3>1. Peruvian pisco production broke a record in 2016</h3>
                                     <p>
-                                        Histórica. Así fue denominó el Ministerio de la Producción la cantidad de pisco
-                                        que se fabricó en Perú durante 2016. La cartera reportó que los más de 10
-                                        millones de litros elaborados el año pasado rompieron el récord de las
-                                        producciones en periodos anteriores. Además, las exportaciones aumentaron un
-                                        12,6% en volumen, en especial las que llegan a nuevos destinos como India,
-                                        Israel, Bélgica, Noruega y República Dominicana.
+                                        Historical. This is how the Ministry of Production called the amount of pisco
+                                        that was manufactured in Peru during 2016. The portfolio reported that the more
+                                        than 10 million liters produced last year broke the production record in
+                                        previous periods. In addition, exports increased by 12.6% in volume, especially
+                                        those that reach new destinations such as India, Israel, Belgium, Norway and the
+                                        Dominican Republic.
                                     </p>
-                                    <h3>2. Chile es el principal país de exportación del pisco peruano</h3>
+                                    <h3>2. Chile is the main export country for Peruvian pisco</h3>
                                     <p>
-                                        Pese a la rencilla que mantienen Chile y Perú por el nombre del pisco –y que
-                                        reeditó su última batalla a finales de mayo por la participación en un concurso
-                                        internacional–, el país austral es el principal destino de exportación de la
-                                        bebida que se produce en territorio peruano. De hecho, el año pasado las ventas
-                                        hacia ese país crecieron un 13,5%.
+                                        Despite the quarrel between Chile and Peru over the name of pisco –and which
+                                        reissued its last battle at the end of May for participation in an international
+                                        contest–, the southern country is the main export destination for the drink
+                                        produced in Peruvian territory. In fact, last year sales to that country grew by
+                                        13.5%.
                                     </p>
-                                    <h3>3. Curiosamente, el pisco no es la bebida alcohólica que más consumen los
-                                        peruanos</h3>
+                                    <h3>3. Curiously, pisco is not the alcoholic drink that Peruvians consume the most.
+                                    </h3>
                                     <p>
-                                        En febrero pasado, se reveló que el pisco en sus diferentes presentaciones, como
-                                        el pisco sour o el chilcano, logró posicionarse como la tercera bebida que más
-                                        consumen los peruanos, después de la cerveza y el vino.
+                                        Last February, it was revealed that pisco in its different presentations, such
+                                        as pisco sour or chilcano, managed to position itself as the third most consumed
+                                        beverage by Peruvians, after beer and wine.
                                     </p>
-                                    <h3>4. El pisco es Patrimonio Cultural de Perú</h3>
+                                    <h3>4. Pisco is Cultural Heritage of Peru</h3>
                                     <p>
-                                        Desde el 7 de abril de 1988, el país declaró patrimonio cultural a la palabra
-                                        pisco. Sin embargo, la reglamentación de esta bebida había empezado desde 1932
-                                        cuando se emitió una resolución suprema en la que se limitaba el uso de la
-                                        denominación aguardiente de uva y exigía etiquetas. En 1940 se prohibió “la
-                                        internación de alcoholes de caña” a la zona “vitivinícola” de Pisco. Para 1946
-                                        ya se empezaron a diferenciar las denominaciones de pisco, aguardiente de uva y
-                                        coñac. En 1990, se declaró finalmente que el pisco “es una denominación de
-                                        origen peruana para los productos obtenidos por la destilación de vinos
-                                        derivados de la fermentación de uvas frescas, en la costa de los departamentos
-                                        de Lima, Ica, Arequipa, Moquegua y los valles de Locumba, Sama y Caplina, en el
-                                        departamento de Tacna.
+                                        Since April 7, 1988, the country declared the word pisco cultural heritage.
+                                        However, the regulation of this drink had begun in 1932 when a supreme
+                                        resolution was issued limiting the use of the name grape brandy and requiring
+                                        labels.<br><br>
+                                        In 1940, "the importation of cane alcohol" into the "wine-growing" area of Pisco
+                                        was prohibited. By 1946, the denominations of pisco, grape brandy and cognac
+                                        began to be differentiated. In 1990, it was finally declared that pisco "is a
+                                        Peruvian denomination of origin for the products obtained by the distillation of
+                                        wines derived from the fermentation of fresh grapes, on the coast of the
+                                        departments of Lima, Ica, Arequipa, Moquegua and the valleys. of Locumba, Sama
+                                        and Caplina, in the department of Tacna
                                     </p>
                                     <img src="{{ asset('img/galeria/la-comercializacion-del-pisco.webp') }}"
-                                            width="100%" alt="Comercializacion del Pisco" loading="lazy">
-                                        <i>Foto: Comercialización del Pisco</i><br><br>
-                                    <h3>5. El pisco sour es tan popular que también tiene su propio día nacional</h3>
+                                        width="100%" alt="Marketing of Pisco" loading="lazy">
+                                    <i>Marketing of Pisco</i><br><br>
+                                    <h3>5. Pisco sour is so popular that it also has its own national day</h3>
                                     <p>
                                         Este popular coctel también fue declarado Patrimonio Cultural de Perú en 2007 y
                                         su día nacional se celebra el primer sábado de cada febrero. Lo curioso es que
@@ -387,70 +397,74 @@
                                         en algunos de los bares más tradicionales alcanza los 500 vasos en un promedio
                                         de 750 por día.
                                     </p>
-                                    <h3>6. El primer museo del pisco en Perú abrió sus puertas hace sólo cuatro años
+                                    <h3>6. The first pisco museum in Peru opened its doors only four years ago
                                     </h3>
                                     <p>
-                                        Paracas, al sur del Perú, abrió las puertas del primer Museo del Pisco del país
-                                        en febrero de 2013. El lugar cuenta con 10 salas de exhibición, en una de las
-                                        cuales se reconoce a todos aquellos que aportaron a la difusión del pisco y su
-                                        cultura, así como otra dedicada a los ganadores de los concursos nacionales e
-                                        internacionales. También hay un recorrido histórico por el proceso que ha tenido
-                                        la bebida y los visitantes pueden degustar y comprarla.
+                                        Paracas, in the south of Peru, opened the doors of the first Pisco Museum in the
+                                        country in February 2013. The place has 10 exhibition halls, one of which
+                                        recognizes all those who contributed to the dissemination of pisco and its
+                                        culture, as well as another dedicated to the winners of national and
+                                        international competitions. There is also a historical tour of the process that
+                                        the drink has had and visitors can taste and buy it.
                                     </p>
-                                    <h3>7. Lima es la región con más empresas productoras de pisco</h3>
+                                    <h3>7. Lima is the region with the most pisco producing companies</h3>
                                     <p>
-                                        Se reportó que hasta 2016 había un total aproximado de 523 empresas productoras
-                                        de pisco, de las cuales el 48,8% están en Lima. Le sigue la región de Ica con un
-                                        34,6%. Así como las exportaciones y la producción, las empresas fabricantes de
-                                        esta bebida también aumentaron con respecto a 2015: un 15%.
+                                        It was reported that until 2016 there were a total of approximately 523
+                                        pisco-producing companies, of which 48.8% are in Lima. It is followed by the Ica
+                                        region with 34.6%. As well as exports and production, the manufacturers of this
+                                        drink also increased compared to 2015: 15%.
                                     </p>
-                                    <h3>8. La banda Café Tacuba tuvo su propia botella de pisco, cortesía de los fans
+                                    <h3>8. The band Café Tacuba had its own bottle of pisco, courtesy of the fans
                                     </h3>
                                     <p>
-                                        Los fanáticos peruanos de Café Tacuba le quisieron dar un regalo muy especial a
-                                        la banda, cuando cumplió sus primeros 20 años de vida. En julio 2009, el grupo
-                                        hacía una gira musical por el aniversario y en Perú prepararon una botella de
-                                        pisco con una etiqueta inspirada en los integrantes. Según reportó Andina en su
-                                        momento, la marca elegida fue “Viejo Tonel” y la presentación incluía “una
-                                        lujosa etiqueta con la cara de todos los integrantes de la banda en fondo blanco
-                                        y el logo oficial del aniversario”. En la parte posterior estaba la historia del
-                                        pisco peruano y su origen. “Esta es nuestra muestra de cariño para que los
-                                        chicos puedan celebrar estos 20 años como debe ser. Es un regalo peruano y nos
-                                        decidimos por esto porque sabemos que la banda es fanática de este licor”,
-                                        explicó a Andina en ese entonces Roberto Orellana, presidente del club de fans
-                                        de Café Tacuba en Perú.
+                                        The Peruvian fans of Café Tacuba wanted to give the band a very special gift,
+                                        when it celebrated its first 20 years of life. In July 2009, the group was on a
+                                        musical tour for the anniversary and in Peru they prepared a bottle of pisco
+                                        with a label inspired by the members.<br><br>
+
+                                        As reported by Andina at the time, the chosen brand was<strong> "Old
+                                            Tonel"</strong> and the
+                                        presentation included "a luxurious label with the faces of all the members of
+                                        the band on a white background and the official logo of the anniversary." On the
+                                        back was the history of Peruvian pisco and its origin. “This is our show of
+                                        affection so that the boys can celebrate these 20 years as it should be. It is a
+                                        Peruvian gift and we decided on this because we know that the band is a fan of
+                                        this liquor,” Roberto Orellana, president of the Café Tacuba fan club in Peru,
+                                        explained to Andina at the time.
                                     </p>
-                                    <h3>9. Los primeros viñedos para el pisco llegaron desde las Islas Canarias</h3>
+                                    <h3>9. The first vineyards for pisco came from the Canary Islands</h3>
                                     <p>
-                                        La historia sobre la llegada del pisco y de los viñedos a Perú se le atribuye a
-                                        los conquistadores españoles que alcanzaron a mediados del siglo XVI las tierras
-                                        que habitaban los Incas. Según el relato recogido por una ley de la región de
-                                        Arequipa, los historiadores coinciden en que “las primeras uvas y los primeros
-                                        cultivos de viñedos las trajo el Marqués Francisco de Caravantes, muy
-                                        probablemente de las islas Canarias”. La normativa añade que en pocas décadas
-                                        ese licor se convirtió en el preferido por las multitudes y en un elemento de
-                                        socialización. Tanto que para el siglo siguiente la producción del vino y del
-                                        pisco “llegó a niveles de gran escala en las regiones de Ica, Lima, Moquegua,
-                                        Tacna” y Arequipa, “desarrollándose una intensa actividad vitivinícola durante
-                                        los siglos XVII y XVIII”.
+                                        The story of the arrival of pisco and vineyards in Peru is attributed to the
+                                        <strong>Spanish conquerors</strong> who reached the lands inhabited by the Incas
+                                        in the mid-16th
+                                        century. According to the story collected by a law of the Arequipa region,
+                                        historians agree that "the first grapes and the first vineyard crops were
+                                        brought by the Marquis Francisco de Caravantes, most likely from the Canary
+                                        Islands."<br><br>
+
+                                        The regulations add that in a few decades this liquor became the favorite of the
+                                        crowds and an element of socialization. So much so that for the following
+                                        century the production of wine and pisco "reached large-scale levels in the
+                                        regions of Ica, Lima, Moquegua, Tacna" and Arequipa, "developing an intense
+                                        viticultural activity during the 17th and 18th centuries."
                                     </p>
-                                    <h3>10. No hay un solo tipo de pisco:</h3>
-                                    <p>La Comisión Nacional del Pisco explicó que existen cuatro tipos de pisco:</p>
+                                    <h3>10. There is not just one type of pisco:</h3>
+                                    <p>The National Pisco Commission explained that there are four types of pisco:</p>
                                     <ul>
-                                        <li><strong>Pisco puro:</strong> obtenido exclusivamente de una sola variedad de
-                                            uva pisquera.</li>
-                                        <li><strong>Pisco mosto verde:</strong> obtenido de la destilación de mostos
-                                            frescos de uvas
-                                            pisqueras con fermentación interrumpida.</li>
-                                        <li><strong>Pisco acholado:</strong> pisco obtenido de tres clases de mezclas.
+                                        <li><strong>Pure Pisco:</strong> obtained exclusively from a single pisco grape
+                                            variety.</li>
+                                        <li><strong>Mosto verde Pisco:</strong> obtained from the distillation of fresh
+                                            musts from Pisco grapes with interrupted fermentation.</li>
+                                        <li><strong>Pisco acholado:</strong> ppisco obtained from three kinds of
+                                            mixtures.
                                             <ul>
-                                                <li>Uvas pisqueras, aromáticas y/o no aromáticas.</li>
-                                                <li>Mostos de uvas pisqueras aromáticas y/o no aromáticas.</li>
-                                                <li>Mostos frescos completamente fermentados (vinos frescos) de uvas
-                                                    pisqueras aromáticas y/o no aromáticas.</li>
+                                                <li>Pisco grapes, aromatic and/or non-aromatic.</li>
+                                                <li>Aromatic and/or non-aromatic pisco grape musts..</li>
+                                                <li>Fully fermented fresh musts (fresh wines) from aromatic and/or
+                                                    non-aromatic Pisco grapes.</li>
                                             </ul>
                                         </li>
-                                        <li>Piscos provenientes de uvas pisqueras aromáticas y/o no aromáticas.</li>
+                                        <li>Piscos from aromatic and/or non-aromatic pisco grapes.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -459,7 +473,7 @@
                 </div>
                 <div class="space"></div>
                 <div class="col-lg-12">
-                    <h2 class="h2-tierras">Tours más populares para Cusco:</h2>
+                    <h2 class="h2-tierras">Popular tours</h2>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
@@ -471,7 +485,7 @@
                             <h5 class="card-title">Chquequirao, caminata 4 días </h5>
                             <p class="text-card">Cachicata o Inca Quarry es una de las antiguas canteras utilizadas
                                 por las civilizaciones Pre-Inca e Inca para construir el vasto complejo…</p>
-                            <a href="camino-inca-cantera-peru" class="boton-card">Más detalles</a>
+                            <a href="camino-inca-cantera-peru" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -486,7 +500,7 @@
                             <h5 class="card-title">City tour en Cusco</h5>
                             <p class="text-card">Antes del amanecer en el lago Titicaca, una neblina azul cubre
                                 nuestra vista. Muchos conejillos de indias corren para...</p>
-                            <a href="#" class="boton-card">Más detalles</a>
+                            <a href="#" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -500,7 +514,7 @@
                             <h5 class="card-title">Tour a la laguna Humantay</h5>
                             <p class="text-card">Puno es una de las ciudades más importantes de la orilla del lago
                                 Titicaca, el lago más navegable y...</p>
-                            <a href="viajar-a-puno" class="boton-card">Más detalles</a>
+                            <a href="viajar-a-puno" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
@@ -514,7 +528,7 @@
                             <h5 class="card-title">Tour gastronómico</h5>
                             <p class="text-card">Hasta hace poco, Vilcabamba era un rincón relativamente seguro y
                                 accesible de la...</p>
-                            <a href="vilcabamba" class="boton-card">Más detalles</a>
+                            <a href="vilcabamba" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>
