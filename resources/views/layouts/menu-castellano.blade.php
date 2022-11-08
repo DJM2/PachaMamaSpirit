@@ -42,7 +42,6 @@
                         <a href="https://www.youtube.com/channel/UCR5v94oQX3budGLKTRL4BBQ" rel="no-follow"
                             target="_blank" class="p-2 pl-0"><span class="icon-youtube-play"></span></a>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -52,7 +51,7 @@
         <div class="container">
             <div class="row align-items-center row-menu">
                 <div class="col-2">
-                    <a href="../../inicio">
+                    <a href="{{route('inicio')}}">
                         <img src="{{ asset('img/pacha-mama-spirit-logo.png') }}" alt="Tierras Vivas"
                             class="logo">
                     </a>

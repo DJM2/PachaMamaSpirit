@@ -40,12 +40,12 @@
                                 <input type="text" class="form-control" id="name" placeholder="Nombre" required>
                             </div>
                             <div class="form-group col-md-2">
-                                <input class="form-control" type="text" name="da"
-                                    placeholder="Fecha de viaje:" onfocus="(this.type='date')"
-                                    onblur="(this.type='text')">
+                                <input class="form-control" type="text" name="da" placeholder="Fecha de viaje:"
+                                    onfocus="(this.type='date')" onblur="(this.type='text')">
                             </div>
                             <div class="form-group col-md-2">
-                                <input type="number" class="form-control" id="adultos" placeholder="Cantidad de días">
+                                <input type="number" class="form-control" id="adultos"
+                                    placeholder="Cantidad de días">
                             </div>
                             <div class="form-group col-md-2">
                                 <input type="number" class="form-control" id="adultos" placeholder="Adultos">
@@ -90,6 +90,70 @@
                 <div class="col-lg-12">
                     <h2 class="h2-tierras">Tours a Machu Picchu:</h2>
                 </div>
+
+
+                <!-----Prueba--->
+                @foreach ($tours as $tour)
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card card-new" style="width: 18rem;">
+                            <a href="destinos/camino-inca-cantera-peru">
+                                <img class="card-img-top" src="img/buscador/{{ $tour->img }}"
+                                    alt="Camino Inca 4 dias" loading="lazy">
+                            </a>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">{{ $tour->nombre }}</h5>
+                                <p class="text-card">{{ $tour->descripcion }}</p>
+                                <div class="row iconos-tours">
+                                    <div class="col-4" style="float: left">
+                                        <span class="icon-clock-o"> {{ $tour->dias }} días</span>
+                                    </div>
+                                    <div class="col-4" style="float:right">
+                                        <span class="icon-map-marker"> {{ $tour->ubicacion }}</span>
+                                    </div>
+                                    <div class="col-4" style="float:right">
+                                        <span class="icon-usd"><strong>{{ $tour->precio }}</strong></span>
+                                    </div>
+                                </div>
+                                <a href="destinos/camino-inca-cantera-peru" class="boton-card">Más detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                @endforeach
+                <!-----Fin orueba--->
+
+                @foreach ($tours as $tour)
+                    @if ($tour->id = 2)
+                        <div class="col-lg-3 col-md-6">
+                            <div class="card card-new" style="width: 18rem;">
+                                <a href="destinos/camino-inca-cantera-peru">
+                                    <img class="card-img-top" src="img/buscador/{{ $tour->img }}"
+                                        alt="Camino Inca 4 dias" loading="lazy">
+                                </a>
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">{{ $tour->nombre }}</h5>
+                                    <p class="text-card">{{ $tour->descripcion }}</p>
+                                    <div class="row iconos-tours">
+                                        <div class="col-4" style="float: left">
+                                            <span class="icon-clock-o"> {{ $tour->dias }} días</span>
+                                        </div>
+                                        <div class="col-4" style="float:right">
+                                            <span class="icon-map-marker"> {{ $tour->ubicacion }}</span>
+                                        </div>
+                                        <div class="col-4" style="float:right">
+                                            <span class="icon-usd"><strong>{{ $tour->precio }}</strong></span>
+                                        </div>
+                                    </div>
+                                    <a href="destinos/camino-inca-cantera-peru" class="boton-card">Más detalles</a>
+                                </div>
+                            </div>
+                        </div>
+                    @endif
+                @endforeach
+
+
+
+
+
                 <div class="col-lg-3 col-md-6">
                     <div class="card card-new" style="width: 18rem;">
                         <a href="destinos/camino-inca-cantera-peru">

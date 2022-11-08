@@ -1,10 +1,15 @@
 <?php
 
+use App\Http\Controllers\TourController;
+use App\Http\Controllers\ToursenController;
+
 use Illuminate\Support\Facades\Route;
 
+Route::resource('tours', 'App\Http\Controllers\TourController'); 
+Route::resource('toursen', ToursenController::class); 
 
 /*Español*/
-Route::get('inicio', function () {return view('inicio');})->name('inicio');
+Route::get('inicio', [TourController::class, "mostrar"])->name('inicio');
 Route::get('arma-tu-viaje', function () {return view('arma-tu-viaje');})->name('armar-viaje');
 Route::get('peru-blog', function () {return view('peru-blog');})->name('peru-blog');
 //Destinos
