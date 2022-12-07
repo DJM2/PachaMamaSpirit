@@ -10,8 +10,7 @@
                         Tours con Machu Picchu Incluido
                     </h1>
                     <p style="color: #fff" class="text-center">Esta es una lista de todos nuestros tours que incluyen la
-                        ciudadela de Machu
-                        Picchu</p>
+                        ciudadela de Machu Picchu</p>
                 </div>
             </div>
         </div>
@@ -51,23 +50,24 @@
                                         @endif
                                         @if (Str::contains($tour->categoria, 'around'))
                                             <p style="display: none">
-                                                {{$peru='Perú'}}
+                                                {{ $peru = 'Perú' }}
                                             </p>
-                                            <a class="enlaceAround" href="{{route('peru')}}"> 
+                                            <a class="enlaceAround" href="{{ route('peru') }}">
                                                 {{ $peru }}
                                             </a>
                                         @endif
                                         @if (Str::contains($tour->categoria, 'luxury'))
-                                        <p style="display:none">
-                                            {{ $luxury = 'Privado' }}
-                                        </p>
-                                            <a class="enlaceLuxury" href="{{route('luxury')}}"> {{ $luxury }}</a>
+                                            <p style="display:none">
+                                                {{ $luxury = 'Privado' }}
+                                            </p>
+                                            <a class="enlaceLuxury" href="{{ route('luxury') }}"> {{ $luxury }}</a>
                                         @endif
                                         @if (Str::contains($tour->categoria, 'fullday'))
-                                        <p style="display:none">
-                                            {{ $fullday = 'Full Day' }}
-                                        </p>
-                                            <a class="enlaceFullday" href="{{route('fullday')}}"> {{ $fullday }}</a>
+                                            <p style="display:none">
+                                                {{ $fullday = 'Full Day' }}
+                                            </p>
+                                            <a class="enlaceFullday" href="{{ route('fullday') }}">
+                                                {{ $fullday }}</a>
                                         @endif
                                     </div>
 

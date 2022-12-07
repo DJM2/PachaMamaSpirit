@@ -2,12 +2,12 @@
 
 @section('content')
     @include('layouts.menu')
-    <div class="blog">
+    <div class="machu">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 text-center">
                     <h1 style="padding-top: 250px;color:#fff">
-                        Tours with Machu Picchu included
+                        Tours with Machu Picchu Included
                     </h1>
                     <p style="color: #fff" class="text-center">This is a list of all our tours that include the citadel of Machu Picchu</p>
                 </div>

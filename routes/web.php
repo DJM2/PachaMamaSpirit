@@ -43,6 +43,8 @@ Route::get('around-peru', [EnlacesCategorias::class, 'around'])->name('around');
 Route::get('private', [EnlacesCategorias::class, 'private'])->name('private');
 Route::get('full-day-tours', [EnlacesCategorias::class, 'fulldayen'])->name('fulldayen');
 
+Route::get('lodge-pacha-mama-spirit-en', [EnlacesCategorias::class, 'lodgen'])->name('lodgen');
+
 
 //Paginas estaticas español:
 Route::get('arma-tu-viaje', function () {return view('arma-tu-viaje');})->name('armar-viaje');

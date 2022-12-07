@@ -11,6 +11,7 @@ class EnlacesCategorias extends Controller
 {
     public function machuPicchu(){
         $tours=Tour::all();
+        //muestra
         return view('es.machu-picchu', compact('tours'));
     }
     public function caminata(){
@@ -55,5 +56,9 @@ class EnlacesCategorias extends Controller
     public function fulldayen(){
         $tours=Toursen::all();
         return view('en.full-day-tours', compact('tours'));
+    }
+    public function lodgen(){
+        $tours=Tour::all();
+        return view('en.pacha-mama-spirit-lodge', compact('tours'));
     }
 }

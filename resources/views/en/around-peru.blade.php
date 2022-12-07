@@ -2,16 +2,14 @@
 
 @section('content')
     @include('layouts.menu')
-    <div class="blog">
+    <div class="destinos">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 text-center">
                     <h1 style="padding-top: 250px;color:#fff">
-                        Tours con Machu Picchu Incluido
+                        Tours around Peru
                     </h1>
-                    <p style="color: #fff" class="text-center">Esta es una lista de todos nuestros tours que incluyen la
-                        ciudadela de Machu
-                        Picchu</p>
+                    <p style="color: #fff" class="text-center">This is a list of tours that visit 2 or more cities within the Peruvian territory</p>
                 </div>
             </div>
         </div>
@@ -20,7 +18,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 pt-5 pb-4">
-                    <h2>Tours con Machu Picchu incluido:</h2>
+                    <h2>List of Tours around Peru:</h2>
                 </div>
                 <!-----Fin orueba--->
                 @foreach ($tours as $tour)

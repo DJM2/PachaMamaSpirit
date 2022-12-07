@@ -5,11 +5,10 @@
     @include('layouts.logeado')
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-10">
+        <div class="col-10 mt-5">
             <div class="row">
                 <div class="col-7 float-left">
                     <h2>Lista de tours en ingles:</h2>
-                   
                 </div>
                 <div class="col-5">
                     <a href="toursen/create" class="btn btn-primary float-end mr-2">Nuevo Tour</a>

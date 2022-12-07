@@ -5,15 +5,15 @@
     @include('layouts.logeado')
     <div class="row">
         <div class="col-1"></div>
-        <div class="col-10">
+        <div class="col-10 mt-5">
             <div class="row">
                 <div class="col-6 float-left">
                     <h2>Lista de tours en español:</h2>
                 </div>
                 <div class="col-6">
-                    <a href="{{ url('tours/create') }}" class="btn btn-primary float-end mr-2">Nuevo Tour</a>
-                    <a href="/toursen" class="btn btn-info float-end mr-2">Tours en inglés</a>
-                    <a href="{{ route('inicio') }}" class="btn btn-success float-end mr-2">Volver a inicio</a>
+                    <a href="{{ url('tours/create') }}" class="btn btn-primary btn-sm float-end mr-2">Nuevo Tour</a>
+                    <a href="/toursen" class="btn btn-info btn-sm float-end mr-2">Tours en inglés</a>
+                    <a href="{{ route('inicio') }}" class="btn btn-success btn-sm float-end mr-2">Volver a inicio</a>
                 </div>
                 <div class="col-lg-12">
                     @if (session('status'))

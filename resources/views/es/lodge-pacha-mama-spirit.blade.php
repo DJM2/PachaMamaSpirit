@@ -24,6 +24,7 @@
                         Nuestro lodge actualmente se encuentra en construcción, pronto ofreceremos a nuestros visitantes
                         esta extraordinaria experiencia.
                     </p>
+                    <P style="height: 20vh"></P>
                 </div>
                 <!-----Fin orueba--->
                 @foreach ($tours as $tour)

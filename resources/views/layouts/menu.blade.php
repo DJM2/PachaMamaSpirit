@@ -93,16 +93,16 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="tours-de-aventura-peru" class="nav-link">Do you like hikes?</a>
+                                    <a href="{{route('hikes')}}" class="nav-link">Do you like hikes?</a>
                                 </li>
                                 <li>
-                                    <a href="tours-imperdibles-en-peru" class="nav-link">Tours to Machu Picchu</a>
+                                    <a href="{{route('mapien')}}" class="nav-link">Tours to Machu Picchu</a>
                                 </li>
                                 <li>
-                                    <a href="tours-machu-picchu" class="nav-link">Around Perú</a>
+                                    <a href="{{route('around')}}" class="nav-link">Around Perú</a>
                                 </li>
                                 <li>
-                                    <a href="paquetes-turisticos-peru" class="nav-link">Luxury Lodge</a>
+                                    <a href="{{route('lodgen')}}" class="nav-link">Luxury Lodge</a>
                                 </li>
                                 <li>
                                     <a href="{{route('peru-blog')}}" class="nav-link">Blog</a>
