@@ -1,14 +1,11 @@
-@extends('layouts.app')
-@section('titulo', 'Muestrs')
+@extends('layouts.admin')
+@section('titulo', 'Usuarios registrados')
 
-@section('content')
-    @include('layouts.logeado')
+@section('contenido')
     <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
-            <h1>Usuarios registrados:</h1>
-            <a href="register" class="btn btn-primary">Nuevo Usuario</a>
-            <a href="{{ route('index') }}" class="btn btn-success">Volver a inicio</a>
+        <div class="col-12">
+            <h1 class="float-left">Usuarios registrados:</h1>
+            <a href="register" class="btn btn-primary float-right">Nuevo Usuario</a>
             <table class="table mt-4 table-hover">
                 <thead class="thead-dark">
                     <tr>
@@ -24,7 +21,7 @@
                             <td>{{ $user->id }}</td>
                             <td>{{ $user->name }}</td>
                             <td>{{ $user->email }}</td>
-                             <td>
+                            <td>
                                 <form action="{{ route('users.destroy', $user->id) }}" method="POST">
                                     @csrf
                                     @method('DELETE')
@@ -32,11 +29,10 @@
                                     <button type="submit" class="btn btn-danger">Eliminar</button>
                                 </form>
                             </td>
-                        </tr> 
+                        </tr>
                     @endforeach
                 </tbody>
             </table>
         </div>
-        <div class="col-1"></div>
     </div>
 @endsection

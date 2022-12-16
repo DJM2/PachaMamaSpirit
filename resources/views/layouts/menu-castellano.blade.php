@@ -17,11 +17,11 @@
             <div class="row align-items-center">
                 <div class="col-6">
                     <div class="d-flex mr-auto">
-                        <a href="mailto:info@tierrasvivas.com" class="d-flex align-items-center mr-4">
+                        <a href="mailto:info@pachamamaspirit.com" class="d-flex align-items-center mr-4">
                             <span class="icon-envelope mr-2"></span>
                             <span class="d-none d-md-inline-block">info@pachamamaspirit.com</span>
                         </a>
-                        <a href="https://bit.ly/WhatsappTierraViva" class="d-flex align-items-center mr-auto">
+                        <a href="https://api.whatsapp.com/send?phone=51921136755&app=facebook&entry_point=page_cta" target="_blank" class="d-flex align-items-center mr-auto">
                             <span class="icon-phone mr-2"></span>
                             <span class="d-none d-md-inline-block">+51 921 136 755</span>
                         </a>
@@ -52,7 +52,7 @@
             <div class="row align-items-center row-menu">
                 <div class="col-2">
                     <a href="{{ route('inicio') }}">
-                        <img src="{{ asset('img/pacha-mama-spirit-logo.png') }}" alt="Tierras Vivas" class="logo">
+                        <img src="{{ asset('img/pacha-mama-spirit-logo.png') }}" alt="Logo Pacha Mama Spirit" class="logo">
                     </a>
                 </div>
                 <div class="col-10">

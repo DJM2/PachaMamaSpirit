@@ -1,24 +1,18 @@
-@extends('layouts.app')
+@extends('layouts.admin')
+@section('titulo', 'Editar tour en inglés')
 
-@section('content')
+@section('contenido')
     @if (session('status'))
         <div class="text-success">
             <h4>{{ session('status') }}</h4>
         </div>
     @endif
-    @include('layouts.logeado')
     <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
-            <div class="row text-white bg-secondary" style="padding: 1em; border-radius: 10px;">
-                <div class="col-lg-6 float-left">
-                    <h3>Crear Nuevo Tour en Inglés</h3>
-                </div>
-                <div class="col-lg-6 float-right">
-                    <a href="/tours/create" class="btn btn-primary">Crear tour en Español</a>
-                </div>
-            </div>
-            
+        <div class="col-lg-12">
+            <h3 class="float-left">Crear Nuevo Tour en Inglés</h3>
+            <a href="{{ route('toursen.index') }}" class="btn btn-primary float-right">Volver</a>
+        </div>
+        <div class="col-12 mt-2">
             <form action="/toursen" method="post" enctype="multipart/form-data" class="bg-light" style="padding: 1em">
                 @csrf
                 <div class="row">
@@ -43,17 +37,22 @@
                         <textarea class="ckeditor form-control" name="contenido" id="contenido"></textarea>
                         </textarea>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-12">
+                        <label for="resumen" class="form-label">Resumen:</label>
+                        <textarea class="ckeditor form-control" name="resumen" id="resumen" required></textarea>
+                        </textarea>
+                    </div>
+                    <div class="col-lg-12">Detallado:</label>
+                        <textarea class="ckeditor form-control" name="detallado" id="detallado" required></textarea>
+                        </textarea>
+                    </div>
+                    <div class="col-lg-6">
                         <label for="incluidos" class="form-label">Incluye: <small>Solo listas</small> </label>
                         <textarea class="ckeditor form-control" name="incluidos" id="incluidos" required></textarea>
                         </textarea>
                     </div>
-                    <div class="col-lg-4">
-                        <label for="noincluidos" class="form-label">No incluye: <small>Solo listas</small> </label>
-                        <textarea class="ckeditor form-control" name="noincluidos" id="noincluidos" required></textarea>
-                        </textarea>
-                    </div>
-                    <div class="col-lg-4">
+
+                    <div class="col-lg-6">
                         <label for="importante" class="form-label">Importante: <small>Solo listas</small></label>
                         <textarea class="ckeditor form-control" name="importante" id="importante"></textarea>
                         </textarea>
@@ -62,12 +61,12 @@
                         <label for="img" class="form-label">Imagen:</label>
                         <input type="file" id="img" name="img" class="form-control" accept="image/*" required>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <label for="" class="form-label">Clase:<small>(Clase que tomara la imagen)</small></label>
                         <input type="text" id="clase" name="clase" class="form-control" required>
                     </div>
-                    
-                    <div class="col-lg-3">
+
+                    <div class="col-lg-4">
                         <label for="" class="form-label">Categoría:</label>
                         <select multiple="multiple" name="categoria[]" id="categoria" class="form-select">
                             <option value="caminata">Hikes</option>
@@ -77,7 +76,7 @@
                             <option value="fullday">Full day</option>
                         </select>
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <label for="" class="form-label">Ubicación:</label>
                         <input type="text" id="ubicacion" name="ubicacion" class="form-control" required>
                     </div>
@@ -91,21 +90,14 @@
                         <input type="text" id="slug" name="slug" class="form-control" required>
                     </div>
                 </div>
-                <a href="/toursen" class="btn btn-secondary mt-4">Cancelar</a>
+                <a href="{{route('toursen.index')}}" class="btn btn-secondary mt-4">Cancelar</a>
                 <button class="btn btn-primary mt-4" type="submit">Guardar</button>
             </form>
         </div>
-        <div class="col-2"></div>
     </div>
     <script type="text/javascript">
         $(document).ready(function() {
             $('.ckeditor').ckeditor();
         });
     </script>
-    {{-- <script>
-        CKEDITOR.replace('contenido', {
-            filebrowserUploadUrl: "{{ route('upload', ['_token' => csrf_token()]) }}",
-            filebrowserUploadMethod: 'form'
-        });
-    </script> --}}
 @endsection

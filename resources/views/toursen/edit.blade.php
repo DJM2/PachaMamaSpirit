@@ -1,23 +1,18 @@
-@extends('layouts.app')
+@extends('layouts.admin')
+@section('titulo', 'Editar tour en inglés')
 
-@section('content')
+@section('contenido')
     @if (session('status'))
         <div class="text-success">
             <h4>{{ session('status') }}</h4>
         </div>
     @endif
-    @include('layouts.logeado')
     <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8">
-            <div class="row text-white bg-secondary" style="padding: 1em; border-radius: 10px;">
-                <div class="col-lg-6 float-left">
-                    <h3>Actualizar tour: {{ $tour->nombre }}</h3>
-                </div>
-                <div class="col-lg-6">
-                    <a href="/toursen/create" class="btn btn-primary float-end">Crear tour en Ingles</a>
-                </div>
-            </div><br><br>
+        <div class="col-lg-12">
+            <h3 class="float-left">Actualizar tour: {{ $tour->nombre }}</h3>
+            <a href="{{route('toursen.create')}}" class="btn btn-primary float-right">Crear tour en Ingles</a>
+        </div>
+        <div class="col-12">
             <form action="/toursen/{{ $tour->id }}" method="post" enctype="multipart/form-data" class="bg-light"
                 style="padding: 1em">
                 @csrf
@@ -48,17 +43,23 @@
                         <textarea class="ckeditor form-control" name="contenido" id="contenido">{!! Request::old('content', $tour->contenido) !!}</textarea>
                         </textarea>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-12">
+                        <label for="resumen" class="form-label">Resumen del tour:</label>
+                        <textarea class="ckeditor form-control" name="resumen" id="resumen">{!! Request::old('content', $tour->resumen) !!}</textarea>
+                        </textarea>
+                    </div>
+                    <div class="col-lg-12">
+                        <label for="detallado" class="form-label">Detalle del tour:</label>
+                        <textarea class="ckeditor form-control" name="detallado" id="detallado">{!! Request::old('content', $tour->detallado) !!}</textarea>
+                        </textarea>
+                    </div>
+                    <div class="col-lg-6">
                         <label for="incluidos" class="form-label">Incluidos:</label>
                         <textarea class="ckeditor form-control" name="incluidos" id="incluidos">{!! Request::old('content', $tour->incluidos) !!}</textarea>
                         </textarea>
                     </div>
-                    <div class="col-lg-4">
-                        <label for="incluidos" class="form-label">No Incluidos:</label>
-                        <textarea class="ckeditor form-control" name="noincluidos" id="noincluidos">{!! Request::old('content', $tour->noincluidos) !!}</textarea>
-                        </textarea>
-                    </div>
-                    <div class="col-lg-4">
+
+                    <div class="col-lg-6">
                         <label for="incluidos" class="form-label">Importante:</label>
                         <textarea class="ckeditor form-control" name="importante" id="importante">{!! Request::old('content', $tour->importante) !!}</textarea>
                         </textarea>
@@ -69,7 +70,7 @@
                             value="{{ $tour->img }}">
                         <img src="../../img/buscador/{{ $tour->img }}" width="220px"><br>
                     </div>
-                    
+
                     <div class="col-lg-6">
                         <label for="" class="form-label">Categoría:</label>
                         <select name="categoria[]" id="categoria" class="form-select" aria-label="Default select example"
@@ -103,7 +104,6 @@
                 <button class="btn btn-primary mt-4" type="submit">Guardar</button>
             </form>
         </div>
-        <div class="col-2"></div>
     </div>
     <script type="text/javascript">
         $(document).ready(function() {

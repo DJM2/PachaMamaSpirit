@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.appen')
 @section('titulo', $tour->nombre)
 @include('layouts.metas')
 @section('content')
@@ -31,6 +31,22 @@
     <section>
         <div class="container pt-5">
             <div class="row justify-content-center">
+                <div class="col-lg-12">
+                    @if (session('status'))
+                        <div class="text-success text-center">
+                            <div class="alert alert-success" role="alert">
+                                {{ session('status') }}
+                            </div>
+                        </div>
+                    @endif
+                    <div class="details">
+                        <div class="location">
+                            <p><a href="{{ route('inicio') }}">Inicio</a> / <a>{{ $tour->ubicacion }}</a>
+                                / <a>{{ $tour->nombre }}</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-lg-8">
                     <p class="text-justify">{!! $tour->contenido !!}</p>
                     <br>
@@ -38,41 +54,55 @@
                         <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
-                                    type="button" role="tab" aria-controls="home" aria-selected="true">Incluye</button>
+                                    type="button" role="tab" aria-controls="home"
+                                    aria-selected="true">Overview</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                                    type="button" role="tab" aria-controls="profile" aria-selected="false">No
-                                    incluye</button>
+                                    type="button" role="tab" aria-controls="profile" aria-selected="false">Program
+                                    detailed</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
                                     type="button" role="tab" aria-controls="contact"
-                                    aria-selected="false">Recomendaciones</button>
+                                    aria-selected="false">Included</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="importante-tab" data-bs-toggle="tab"
+                                    data-bs-target="#importante" type="button" role="tab" aria-controls="importante"
+                                    aria-selected="false">Important</button>
                             </li>
                         </ul>
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel"
                                 aria-labelledby="home-tab">
-                                {!! $tour->incluidos !!}</div>
+                                {!! $tour->resumen !!}
+                            </div>
                             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                                {!! $tour->noincluidos !!}
+                                {!! $tour->detallado !!}
                             </div>
                             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                {!! $tour->incluidos !!}
+                            </div>
+                            <div class="tab-pane fade" id="importante" role="tabpanel" aria-labelledby="importante-tab">
                                 {!! $tour->importante !!}
                             </div>
                         </div>
+                    </div>
+                    <div class="share">
+                        <h3>Share</h3>
+                        <div class="sharethis-inline-share-buttons"></div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="div-form-tours">
                         <h3 class="text-center">Book now!</h3>
-                        <form class="djmFormShow">
+                        <form class="djmFormShow" action="mensajePacha" method="POST">
                             @csrf
                             <div class="form-row">
                                 <div class="form-group col-md-12">
                                     <label for="inputEmail4">Nombre:</label>
-                                    <input type="email" class="form-control" id="nombre" name="nombre"
+                                    <input type="text" class="form-control" id="nombre" name="nombre"
                                         placeholder="Inca Pachacutec">
                                 </div>
                                 <div class="form-group col-md-12">
@@ -86,7 +116,7 @@
                                     <input type="number" class="form-control" id="inputAddress" placeholder="Number">
                                 </div>
                                 <div class="form-group col-md-6">
-                                    <label for="inputAddress2" title="Children under 3 years old do not pay">Childs:
+                                    <label for="inputAddress2" data-title="Children under 3 years old don't pay">Childs:
                                         ⓘ</label>
                                     <input type="number" class="form-control" id="inputAddress2" placeholder="Number">
                                 </div>
@@ -111,10 +141,12 @@
                             </div>
                         </form>
                         <div class="card align-items-center">
-                            <div class="card-bod">
+                            <div class="card-bod m-2">
                                 <h4 class="text-center">Soporte al Cliente:</h4>
-                                <p class="text-center"><i class="icon-whatsapp"></i> +51 921 136 755</p>
-                                <p class="text-center"><i class="icon-envelope"></i> info@pachamamaspirit.com</p>
+                                <p class="text-center">
+                                    <i class="icon-whatsapp"></i> +51 921 136 755 <br>
+                                    <i class="icon-envelope"></i> info@pachamamaspirit.com
+                                </p>
                             </div>
                         </div>
                     </div>

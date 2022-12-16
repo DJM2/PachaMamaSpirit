@@ -1,19 +1,15 @@
-@extends('layouts.app')
-@section('titulo', 'Muestrs')
+@extends('layouts.admin')
+@section('titulo', 'Tours en español')
 
-@section('content')
-    @include('layouts.logeado')
+@section('contenido')
     <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10 mt-5">
+        <div class="col-12 mt-2">
             <div class="row">
                 <div class="col-6 float-left">
                     <h2>Lista de tours en español:</h2>
                 </div>
                 <div class="col-6">
-                    <a href="{{ url('tours/create') }}" class="btn btn-primary btn-sm float-end mr-2">Nuevo Tour</a>
-                    <a href="/toursen" class="btn btn-info btn-sm float-end mr-2">Tours en inglés</a>
-                    <a href="{{ route('inicio') }}" class="btn btn-success btn-sm float-end mr-2">Volver a inicio</a>
+                    <a href="{{ url('tours/create') }}" class="btn btn-primary btn-sm float-right mr-2">Nuevo Tour</a>
                 </div>
                 <div class="col-lg-12">
                     @if (session('status'))
@@ -54,16 +50,16 @@
                             <td>{{ $tour->ubicacion }}</td>
                             <td>{{ $tour->slug }}</td>
                             <td>{{ $tour->clase }}</td>
-                            <td style="width: 125px">
+                            <td style="width: 140px">
                                 <form action="{{ route('tours.destroy', $tour->id) }}" method="POST">
                                     @csrf
                                     @method('DELETE')
                                     <a href="/tours/{{ $tour->id }}/edit" class="btn btn-info btn-sm" title="Editar">
-                                        <i class="icon-edit"></i> </a>
+                                        <i class="fa fa-edit"></i> </a>
                                     <a href="{{ route('tours.show', ['id' => $tour->id, 'slug' => $tour->slug]) }}"
-                                        class="btn btn-success btn-sm" title="Ver tour"><i class="icon-eye"></i></a>
+                                        class="btn btn-success btn-sm" title="Ver tour"><i class="fa fa-eye"></i></a>
                                     <button type="submit" class="btn btn-danger btn-sm" title="Eliminar"
-                                        onclick="alerta();"><i class="icon-delete"></i></button>
+                                        onclick="alerta();"><i class="fa fa-trash"></i></button>
                                 </form>
                             </td>
                         </tr>
@@ -81,7 +77,6 @@
                 alert('Desea aliminar?');
             }
         </script>
-        <div class="col-1"></div>
-    </div>
+
     </div>
 @endsection

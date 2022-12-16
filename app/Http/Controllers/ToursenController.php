@@ -45,10 +45,13 @@ class ToursenController extends Controller
         $tours->id = $request->get('id');
         $tours->nombre = $request->get('nombre');
         $tours->descripcion = $request->get('descripcion');
+
+        $tours->resumen = $request->get('resumen');
+        $tours->detallado = $request->get('detallado');
         $tours->contenido = $request->get('contenido'); 
-        $tours->incluidos = $request->get('incluidos');
-        $tours->noincluidos = $request->get('noincluidos');
-        $tours->importante = $request->get('importante');      
+        $tours->incluidos = $request->get('incluidos');        
+        $tours->importante = $request->get('importante');  
+
         $tours->precio = $request->get('precio');
         $tours->dias = $request->get('dias');
         $tours->ubicacion = $request->get('ubicacion');
@@ -107,10 +110,13 @@ class ToursenController extends Controller
 
         $tour->nombre = $request->get('nombre');
         $tour->descripcion = $request->get('descripcion');
-        $tour->contenido = $request->get('contenido');
-        $tour->incluidos = $request->get('incluidos');
-        $tour->noincluidos = $request->get('noincluidos');
-        $tour->importante = $request->get('importante');
+        
+        $tour->resumen = $request->get('resumen');
+        $tour->detallado = $request->get('detallado');
+        $tour->contenido = $request->get('contenido'); 
+        $tour->incluidos = $request->get('incluidos');        
+        $tour->importante = $request->get('importante'); 
+
         $tour->precio = $request->get('precio');
         $tour->dias = $request->get('dias');
         $cat = $request->get('categoria');

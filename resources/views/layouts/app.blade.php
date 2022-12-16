@@ -22,14 +22,11 @@
     <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/estilos-bootstrap.css') }}">
-
     @yield('metas')
-    <!-- CSS only -->
-    {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> --}}
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=629958a2703b77001ade9c8c&product=sop'
+        async='async'></script>
 
-    <!-- Scripts -->
-    {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
 </head>
 
 <body>
@@ -112,7 +109,8 @@
                         <h5> Copiryght 2022 © todos los derechos reservados | Pacha Mama Spirit | Hecho por <a
                                 href="https://www.facebook.com/DjmWebMaster" class="djm2" target="_blank"
                                 rel="no-follow">
-                                DJM2</a></h5>
+                                DJM2</a>
+                        </h5>
                     </div>
                 </div>
             </div>
@@ -120,12 +118,11 @@
     </section>
     <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
     <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ asset('js/popper.min.js') }}"></script>
+    {{-- <script src="{{ asset('js/popper.min.js') }}"></script> --}}
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/jquery.sticky.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
     <script src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
-
 </body>
 
 </html>

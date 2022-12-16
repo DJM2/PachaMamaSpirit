@@ -21,7 +21,7 @@
                             <span class="icon-envelope mr-2"></span>
                             <span class="d-none d-md-inline-block">info@pachamamaspirit.com</span>
                         </a>
-                        <a href="https://bit.ly/WhatsappTierraViva" class="d-flex align-items-center mr-auto">
+                        <a href="https://api.whatsapp.com/send?phone=51921136755&app=facebook&entry_point=page_cta" target="_blank" class="d-flex align-items-center mr-auto">
                             <span class="icon-phone mr-2"></span>
                             <span class="d-none d-md-inline-block">+51 921 136 755</span>
                         </a>

@@ -23,9 +23,11 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/estilos-bootstrap.css') }}">
     @yield('metas')
+    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=629958a2703b77001ade9c8c&product=sop' async='async'></script>
 
-    <!-- Scripts -->
-    {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
+    {{-- ReCaptcha --}}
+ 
+    
 </head>
 
 <body>
@@ -59,12 +61,13 @@
 
     <section>
         <div class="display-foot">
-            <img src="{{asset('img/paisaje-cerros-silueta.png')}}" alt="Paisaje cerros silueta" width="100%">
+            <img src="{{ asset('img/paisaje-cerros-silueta.png') }}" alt="Paisaje cerros silueta" width="100%">
         </div>
-       <div class="display-foot-2">
-        <img src="{{asset('img/paisaje-cerros-silueta-responsive.png')}}" alt="Paisaje cerros silueta" width="100%">
-       </div>
-        
+        <div class="display-foot-2">
+            <img src="{{ asset('img/paisaje-cerros-silueta-responsive.png') }}" alt="Paisaje cerros silueta"
+                width="100%">
+        </div>
+
         <footer>
             <div class="container">
                 <div class="row">
@@ -105,7 +108,8 @@
                 <div class="col-12">
                     <div class="copy">
                         <h5> Copiryght 2022 © All rights reserved | Pacha Mama Spirit | Made by <a
-                                href="https://www.facebook.com/DjmWebMaster" class="djm2" target="_blank" rel="no-follow"> DJM2</a></h5>
+                                href="https://www.facebook.com/DjmWebMaster" class="djm2" target="_blank"
+                                rel="no-follow"> DJM2</a></h5>
                     </div>
                 </div>
             </div>
@@ -118,7 +122,7 @@
     <script src="{{ asset('js/jquery.sticky.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
-    
+
 </body>
 
 </html>

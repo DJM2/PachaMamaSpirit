@@ -52,26 +52,22 @@ class TourController extends Controller
         $tours->id = $request->get('id');
         $tours->nombre = $request->get('nombre');
         $tours->descripcion = $request->get('descripcion');
+
         $tours->contenido = $request->get('contenido');
+        $tours->resumen = $request->get('resumen');
+        $tours->detallado = $request->get('detallado');
         $tours->incluidos = $request->get('incluidos');
-        $tours->noincluidos = $request->get('noincluidos');
         $tours->importante = $request->get('importante');
+
         $tours->precio = $request->get('precio');
         $tours->dias = $request->get('dias');
         $tours->ubicacion = $request->get('ubicacion');
 
         $img = $request->file('img');
         $rutaImg = public_path("img/buscador/");
-        $imgTour = /* time() . "." .  */$img->getClientOriginalExtension();
+        $imgTour = /* time() . "." .  */$img->getClientOriginalName();
         $img->move($rutaImg, $imgTour);
         $tours['img'] = "$imgTour";
-
-
-        /* $img = $request->file('img');
-        $rutaImg = public_path("img/buscador/");
-        $imgTour = time() . "." . $img->getClientOriginalExtension();
-        $img->move($rutaImg, $imgTour);
-        $tours['img'] = "$imgTour"; */
 
         $cat = $request->get('categoria');
         $tours->categoria= implode(',', $cat);
@@ -122,8 +118,9 @@ class TourController extends Controller
         $tour->nombre = $request->get('nombre');
         $tour->descripcion = $request->get('descripcion');
         $tour->contenido = $request->get('contenido');
+        $tour->resumen = $request->get('resumen');
+        $tour->detallado = $request->get('detallado');
         $tour->incluidos = $request->get('incluidos');
-        $tour->noincluidos = $request->get('noincluidos');
         $tour->importante = $request->get('importante');
         $tour->precio = $request->get('precio');
         $tour->dias = $request->get('dias');
