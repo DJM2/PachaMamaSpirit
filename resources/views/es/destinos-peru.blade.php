@@ -1,7 +1,11 @@
 @extends('layouts.app')
-
+@php $titulo="Encuentra los mejores destinos turísticos en Perú" @endphp
+@php $descripcion="Perú tiene muchos lugares tur´siticos para conocer en su territorio, descubreos en esta sección." @endphp
+@php $keywords="Camino inca, Machu Picchu tour, viajar a Peru, Conocer Peru" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/trekking-peru.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 @section('content')
-    @include('layouts.menu-castellano')
     <div class="blog-temas">
         <div class="container">
             <div class="row">

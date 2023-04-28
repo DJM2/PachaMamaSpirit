@@ -15,10 +15,36 @@ html {
 
 .tab-content {
     background: #c3c3c3;
-    border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #80808012;
+    /* border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #80808012; */
+}
+
+.compartir a {
+    background: #43cfcf;
+    color: #fff;
+    padding: 0.3em;
+    margin-left: 0.6em;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    border: solid 1px #43cfcf;
+    font-size: 16px;
+    transition: 0.6s;
+}
+
+.compartir a:hover {
+    background: #fff;
+    color: #43cfcf;
+    border: 1px solid #43cfcf;
+    transition: 0.6s;
+}
+
+.compartir a i {
+    line-height: 20px;
 }
 
 .menupacha {
@@ -81,7 +107,7 @@ html {
 .contenidoindex p {
     text-align: center;
     font-weight: bold;
-    text-shadow: 4px 1px #202020a6;
+    text-shadow: 4px 1px rgba(32, 32, 32, 0.6509803922);
 }
 
 .contenidoindex a {
@@ -157,6 +183,12 @@ html {
 .img-card {
     width: 100%;
     height: 180px;
+}
+
+.card-img-top {
+    width: 100%!important;
+    height: 180px!important;
+    object-fit: cover;
 }
 
 .enlacesCategoria {
@@ -538,7 +570,7 @@ h3 {
     background-color: #333;
     color: #fff;
     font-weight: 800;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     font-size: 14px;
     position: absolute;
     text-align: left;
@@ -584,46 +616,46 @@ h3 {
 }
 
 .uno:hover .oscuro {
-    background: #00000087;
+    background: rgba(0, 0, 0, 0.5294117647);
     transition: 1s;
 }
 
 .uno {
-    background: url('../img/thumb/salkantay-trek.webp');
+    background: url("../img/thumb/salkantay-trek.webp");
     background-size: cover;
     background-position: center center;
 }
 
 .dos {
-    background: url('../img/thumb/machu-picchu-travel-tour.webp');
+    background: url("../img/thumb/machu-picchu-travel-tour.webp");
     background-size: cover;
     background-position: center center;
 }
 
 .tres {
-    background: url('../img/thumb/turismo-en-peru.webp');
+    background: url("../img/thumb/turismo-en-peru.webp");
     background-size: cover;
     background-position: center center;
 }
 
 .cuatro {
-    background: url('../img/thumb/tejedora-chinchero.webp');
+    background: url("../img/thumb/tejedora-chinchero.webp");
     background-size: cover;
     background-position: center center;
 }
 
 .dos:hover .oscuro {
-    background: #00000087;
+    background: rgba(0, 0, 0, 0.5294117647);
     transition: 1s;
 }
 
 .tres:hover .oscuro {
-    background: #00000087;
+    background: rgba(0, 0, 0, 0.5294117647);
     transition: 1s;
 }
 
 .cuatro:hover .oscuro {
-    background: #00000087;
+    background: rgba(0, 0, 0, 0.5294117647);
     transition: 1s;
 }
 
@@ -752,7 +784,7 @@ h3 {
 }
 
 .blogs:hover .black {
-    background: #00000080;
+    background: rgba(0, 0, 0, 0.5019607843);
 }
 
 .black {
@@ -853,6 +885,20 @@ h3 {
     background-position: center center;
 }
 
+.semanasanta {
+    background: url(../img/blog/thumb/santo_sepulcro.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.actividades {
+    background: url(../img/blog/thumb/actividades-turisticas-cusco.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .boton-card {
     background: #2fa69b;
     padding: 10px 10px 10px 10px;
@@ -930,7 +976,7 @@ footer p {
 .banner {
     height: 400px;
     width: 100%;
-    background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/panoramico/lares-trek.webp);
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6588235294), rgba(0, 0, 0, 0.4588235294)), url(../img/panoramico/lares-trek.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -940,7 +986,7 @@ footer p {
 .banner-destinos {
     height: 400px;
     width: 100%;
-    background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/panoramico/los-mejores-destinos-para-peru.webp);
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6588235294), rgba(0, 0, 0, 0.4588235294)), url(../img/panoramico/los-mejores-destinos-para-peru.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -950,7 +996,7 @@ footer p {
 .banner-imperdible {
     height: 500px;
     width: 100%;
-    background: linear-gradient(to bottom right, #00000036, #00000026), url(../img/panoramico/cusco-imperdible-tierras-vivas.webp);
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.2117647059), rgba(0, 0, 0, 0.1490196078)), url(../img/panoramico/cusco-imperdible-tierras-vivas.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -960,7 +1006,7 @@ footer p {
 .banner-aventuras {
     height: 500px;
     width: 100%;
-    background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/panoramico/camino-inca-reserva.webp);
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6588235294), rgba(0, 0, 0, 0.4588235294)), url(../img/panoramico/camino-inca-reserva.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -998,7 +1044,7 @@ footer p {
     border-top-style: solid;
     border-width: 0.1px;
     padding-bottom: 2em;
-    border-top-color: #ffffff57;
+    border-top-color: rgba(255, 255, 255, 0.3411764706);
 }
 
 .copy h5 {
@@ -1047,7 +1093,7 @@ footer p {
 
 @media (min-width: 768px) and (max-width: 1199px) {
     .logo {
-        margin-left: -1.5em
+        margin-left: -1.5em;
     }
     .h1-destinos {
         margin-top: 7em;
@@ -1091,7 +1137,7 @@ footer p {
         font-size: 2.4em;
     }
     .banner {
-        background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/responsive/reservas-camino-inca-peru.webp);
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6588235294), rgba(0, 0, 0, 0.4588235294)), url(../img/responsive/reservas-camino-inca-peru.webp);
         background-repeat: no-repeat;
         background-position: center;
         align-content: center;
@@ -1099,17 +1145,20 @@ footer p {
         height: 600px;
     }
     .banner-destinos {
-        background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/responsive/los-mejores-destinos-para-peru.webp);
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6588235294), rgba(0, 0, 0, 0.4588235294)), url(../img/responsive/los-mejores-destinos-para-peru.webp);
         background-repeat: no-repeat;
         background-position: center;
         align-content: center;
         background-size: cover;
     }
     .banner-aventuras {
-        background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/responsive/camino-inca-reserva.webp);
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6588235294), rgba(0, 0, 0, 0.4588235294)), url(../img/responsive/camino-inca-reserva.webp);
         background-repeat: no-repeat;
         background-position: center;
         align-content: center;
         background-size: cover;
     }
 }
+
+
+/*# sourceMappingURL=estilos.css.map */

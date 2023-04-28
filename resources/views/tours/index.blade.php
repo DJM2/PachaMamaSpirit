@@ -1,7 +1,10 @@
 @extends('layouts.admin')
 @section('titulo', 'Tours en español')
-
+@section('css')
+@endsection
 @section('contenido')
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
+
     <div class="row">
         <div class="col-12 mt-2">
             <div class="row">
@@ -21,7 +24,7 @@
                     @endif
                 </div>
             </div>
-            <table class="table mt-4 table-hover">
+            <table id="tabladatos" class="table mt-4 table-hover">
                 <thead class="thead-dark">
                     <tr>
                         <th scope="col">ID</th>
@@ -56,8 +59,10 @@
                                     @method('DELETE')
                                     <a href="/tours/{{ $tour->id }}/edit" class="btn btn-info btn-sm" title="Editar">
                                         <i class="fa fa-edit"></i> </a>
-                                    <a href="{{ route('tours.show', ['id' => $tour->id, 'slug' => $tour->slug]) }}"
-                                        class="btn btn-success btn-sm" title="Ver tour"><i class="fa fa-eye"></i></a>
+                                    {{-- <a href="{{ route('tours.show', ['slug' => $tour->slug]) }}"
+                                        class="btn btn-success btn-sm" title="Ver tour"><i class="fa fa-eye"></i></a> --}}
+                                        <a href="{{ route('tours.show', $tour->slug) }}" class="btn btn-success btn-sm" title="Ver tour"><i class="fa fa-eye"></i></a>
+                                        
                                     <button type="submit" class="btn btn-danger btn-sm" title="Eliminar"
                                         onclick="alerta();"><i class="fa fa-trash"></i></button>
                                 </form>
@@ -66,17 +71,25 @@
                     @endforeach
                 </tbody>
             </table>
-            <div class="row">
-                <div class="col-lg-12">
-                    {{ $tours->links() }}
-                </div>
-            </div>
         </div>
+
         <script>
             function alerta() {
                 alert('Desea aliminar?');
             }
         </script>
-
     </div>
+    <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        /*  $(document).ready(function() {
+                $('#tabladatos').DataTable();
+            }); */  
+        var j = jQuery.noConflict();
+        j(document).ready(function() {
+            j('#tabladatos').DataTable();
+        });
+    </script>
 @endsection

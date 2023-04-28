@@ -10,16 +10,12 @@
     <link rel="shortcut icon" href="{{ asset('img/icono-home.png') }}">
     <link href="{{ asset('admin/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('admin/css/sb-admin-2.min.css') }}" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
-
     <div id="wrapper">
-
-        <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
-            <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('index') }}">
                 <img src="{{ asset('img/Pacha-Mama-Spirit-Blanco.png') }}" width="100%" alt="">
             </a>
@@ -150,7 +146,9 @@
         <i class="fas fa-angle-up"></i>
     </a>
 
-    <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+    <script src="//cdn.ckeditor.com/4.14.1/plugins/youtube/plugin.js"></script>
+    <script src="//cdn.ckeditor.com/4.14.1/full/ckeditor.js"></script>
+    
     <script src="{{ asset('admin/vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('admin/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('admin/vendor/jquery-easing/jquery.easing.min.js') }}"></script>

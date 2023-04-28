@@ -71,7 +71,7 @@
                         <img src="../../img/buscador/{{ $tour->img }}" width="220px"><br>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
                         <label for="" class="form-label">Categoría:</label>
                         <select name="categoria[]" id="categoria" class="form-select" aria-label="Default select example"
                             required multiple="multiple">
@@ -84,13 +84,40 @@
                             <option value="fullday">Full day</option>
                         </select>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-4">
+                        <label for="" class="form-label">Clase:</label>
+                            <select name="clase" id="clase" class="form-control">
+                                <option value="{{ $tour->clase }}" selected style="text-transform: capitalize">
+                                    Humantay <small>(Seleccionado)</small></option>
+                                <option value="aventuras">Camino Inca Salkantay</option>
+                                <option value="imperdible">Plaza de armas Cusco</option>
+                                <option value="machu">Machu Picchu</option>
+                                <option value="ollantaytambo">Ollantaytambo</option>
+                                <option value="pachamamalodge">Vista Valle Sagrado</option>
+                                <option value="valle">Vista Valle Sagrado 2</option>
+                                <option value="santuaryLodge">Hotel Sanctuary Lodge</option>
+                                <option value="puno">Balsa en Lago Titicaca</option>                                
+                                <option value="selva">Rio Amazonas</option>
+                                <option value="caminata">Caminata Salkantay</option>
+                                <option value="nazca">Lineas de Nazca</option>
+                                <option value="lima">Ciudad de Lima</option>
+                                <option value="arequipa">Ciudad de Arequipa</option>
+                                <option value="huchuy">Huchuy Qosqo</option>
+                                <option value="choque">Choquequirao</option>
+                                <option value="humantay">Laguna Humantay</option>
+                                <option value="vinicunca">Vinicunca</option>
+                                <option value="ica">Huacachina</option>
+                                <option value="pisco">Reserva Nacional Paracas</option>
+                                <option value="puerto">Puerto Maldonado</option>
+                            </select>
+                    </div>
+                    <div class="col-lg-4">
                         <label for="" class="form-label">Ubicación:</label>
                         <input type="text" id="ubicacion" name="ubicacion" class="form-control" required
                             value="{{ $tour->ubicacion }}">
                     </div>
                     <div class="col-lg-12">
-                        <label for="" class="form-label">Slug:</label>
+                        <label for="" class="form-label">Keywords:</label>
                         <input type="text" id="keywords" name="keywords" class="form-control" required
                             value="{{ $tour->keywords }}">
                     </div>

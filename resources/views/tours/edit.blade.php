@@ -18,20 +18,47 @@
                 @csrf
                 @method('PUT')
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <label for="nombre" class="form-label">Nombre:</label>
                         <input type="text" id="nombre" name="nombre" class="form-control" required
                             value="{{ $tour->nombre }}">
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <label for="" class="form-label">Precio:</label>
                         <input type="text" id="precio" name="precio" class="form-control" required
                             value="{{ $tour->precio }}">
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-3">
                         <label for="" class="form-label">Ubicación:</label>
                         <input type="text" id="ubicacion" name="ubicacion" class="form-control" required
                             value="{{ $tour->ubicacion }}">
+                    </div>
+                    <div class="col-lg-3">
+                        <label for="" class="form-label">Clase:</label>
+                            <select name="clase" id="clase" class="form-control">
+                                <option value="{{ $tour->clase }}" selected style="text-transform: capitalize">
+                                    {{ $tour->clase }} <small>(Seleccionado)</small></option>
+                                <option value="aventuras">Camino Inca Salkantay</option>
+                                <option value="imperdible">Plaza de armas Cusco</option>
+                                <option value="machu">Machu Picchu</option>
+                                <option value="ollantaytambo">Ollantaytambo</option>
+                                <option value="pachamamalodge">Vista Valle Sagrado</option>
+                                <option value="valle">Vista Valle Sagrado 2</option>
+                                <option value="santuaryLodge">Hotel Sanctuary Lodge</option>
+                                <option value="puno">Balsa en Lago Titicaca</option>                                
+                                <option value="selva">Rio Amazonas</option>
+                                <option value="caminata">Caminata Salkantay</option>
+                                <option value="nazca">Lineas de Nazca</option>
+                                <option value="lima">Ciudad de Lima</option>
+                                <option value="arequipa">Ciudad de Arequipa</option>
+                                <option value="huchuy">Huchuy Qosqo</option>
+                                <option value="choque">Choquequirao</option>
+                                <option value="humantay">Laguna Humantay</option>
+                                <option value="vinicunca">Vinicunca</option>
+                                <option value="ica">Huacachina</option>
+                                <option value="pisco">Reserva Nacional Paracas</option>
+                                <option value="puerto">Puerto Maldonado</option>
+                            </select>
                     </div>
                     <div class="col-lg-12">
                         <label for="descripcion" class="form-label">Descripción:</label>

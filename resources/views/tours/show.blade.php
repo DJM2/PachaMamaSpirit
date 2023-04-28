@@ -3,18 +3,23 @@
 @include('layouts.metas')
 @section('content')
     @include('layouts.menu-castellano')
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=629958a2703b77001ade9c8c&product=sop'
+        async='async'></script>
     <div class="blog" id="blog">
         <!----Variable de clase------>
         <div id="sarah" style="opacity: 0">
+            
             {{ $tour->clase }}
+            <script>                
+                var $nombre = document.getElementById('sarah').innerText;
+                var $insertar = document.getElementById("blog");
+                $insertar.classList.remove("blog");
+                $insertar.classList.add($nombre);
+            </script>      
         </div>
         <!----Fin Variable de clase------>
-        <script>
-            var $nombre = document.getElementById('sarah').innerText;
-            var $insertar = document.getElementById("blog");
-            $insertar.classList.remove("blog");
-            $insertar.classList.add($nombre);
-        </script>
+        
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -51,14 +56,15 @@
                     <p class="text-justify">{!! $tour->contenido !!}</p>
                     <br>
                     <div>
-                        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                        <ul class="nav nav-tabs justify-content-center nav-fill" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
                                     type="button" role="tab" aria-controls="home" aria-selected="true">Resumen</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
-                                    type="button" role="tab" aria-controls="profile" aria-selected="false">Programa detallado</button>
+                                    type="button" role="tab" aria-controls="profile" aria-selected="false">Programa
+                                    detallado</button>
                             </li>
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact"
@@ -66,8 +72,8 @@
                                     aria-selected="false">Incluye</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="importante-tab" data-bs-toggle="tab" data-bs-target="#importante"
-                                    type="button" role="tab" aria-controls="importante"
+                                <button class="nav-link" id="importante-tab" data-bs-toggle="tab"
+                                    data-bs-target="#importante" type="button" role="tab" aria-controls="importante"
                                     aria-selected="false">Importante</button>
                             </li>
                         </ul>
@@ -81,7 +87,7 @@
                             </div>
                             <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
                                 {!! $tour->incluidos !!}
-                             </div>
+                            </div>
                             <div class="tab-pane fade" id="importante" role="tabpanel" aria-labelledby="importante-tab">
                                 {!! $tour->importante !!}
                             </div>
@@ -137,8 +143,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="mensaje">Mensaje:</label>
-                                    <textarea class="form-control" name="mensaje" id="mensaje" placeholder="Escriba acá su mensaje">
-
+                                    <textarea class="form-control" name="mensaje" id="mensaje">
                                     </textarea>
                                 </div>
                             </div>
@@ -149,8 +154,10 @@
                         <div class="card align-items-center">
                             <div class="card-bod">
                                 <h4 class="text-center">Soporte al Cliente:</h4>
-                                <p class="text-center"><i class="icon-whatsapp"></i> +51 921 136 755</p>
-                                <p class="text-center"><i class="icon-envelope"></i> info@pachamamaspirit.com</p>
+                                <p class="text-center"><i class="icon-whatsapp">
+                                    </i> +51 921 136 755<br>
+                                    </i> info@pachamamaspirit.com
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -158,93 +165,7 @@
                 </div>
                 <div class="space"></div>
                 <div class="col-lg-12">
-                    <h2 class="h2-tierras">Tours a Machu Picchu:</h2>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="destinos/camino-inca-cantera-peru">
-                            <img class="card-img-top" src="{{ asset('img/thumb/machu-picchu-travel-tour.webp') }}"
-                                alt="Camino Inca 4 dias" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Camino Inca Clásico</h5>
-                            <p class="text-card">El Camino Inca de 4 días a Machu Picchu es la caminata más popular
-                                de la ruta turistica de Perú</p>
-                            <div class="row iconos-tours">
-                                <div class="col-6" style="float: left">
-                                    <span class="icon-clock-o"> 4 días</span>
-                                </div>
-                                <div class="col-6" style="float:right">
-                                    <span class="icon-map-marker"> Cusco</span>
-                                </div>
-                            </div>
-                            <a href="destinos/camino-inca-cantera-peru" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="">
-                            <img class="card-img-top" src="{{ asset('img/thumb/caminata-a-choquequirao.webp') }}"
-                                alt="Camino Inca 2 dias" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Choquequirao</h5>
-                            <p class="text-card">Esta ruta es conocida por sus increibes vistas, ardua caminata y el
-                                centro arqueologico que hace que todo valga la pena </p>
-                            <div class="row iconos-tours">
-                                <div class="col-6" style="float: left">
-                                    <span class="icon-clock-o"> 4 días</span>
-                                </div>
-                                <div class="col-6" style="float:right">
-                                    <span class="icon-map-marker"> Cusco</span>
-                                </div>
-                            </div>
-                            <a href="destinos/camino-inca-cantera-peru" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ asset('img/thumb/salkantay-trek.webp') }}"
-                            alt="Card image cap">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Salkantay Machu Picchu 5 Días/ 4 Noches</h5>
-                            <p class="text-card">El Camino a Salkantay de 5 días es una caminata alternativa al
-                                Camino Inca de 4 Dias...</p>
-                            <div class="row iconos-tours">
-                                <div class="col-6" style="float: left">
-                                    <span class="icon-clock-o"> 4 días</span>
-                                </div>
-                                <div class="col-6" style="float:right">
-                                    <span class="icon-map-marker"> Cusco</span>
-                                </div>
-                            </div>
-                            <a href="#" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top"
-                            src="{{ asset('img/thumb/ollantaytambo-Sacred-valley-of-the-incas.webp') }}"
-                            alt="Card image cap">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Valle Sagrado a Machu Picchu</h5>
-                            <p class="text-card">El tour de 2 días del Valle Sagrado a Machu Picchu implica la
-                                experiencia de visitar el famoso mercado de Pisac</p>
-                            <div class="row iconos-tours">
-                                <div class="col-6" style="float: left">
-                                    <span class="icon-clock-o"> 4 días</span>
-                                </div>
-                                <div class="col-6" style="float:right">
-                                    <span class="icon-map-marker"> Cusco</span>
-                                </div>
-                            </div>
-                            <a href="#" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
+                    <h2 class="h2-tierras">Tours populares</h2>
                 </div>
                 <div class="space"></div>
             </div>

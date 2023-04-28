@@ -1,7 +1,11 @@
 @extends('layouts.app')
-
+@php $titulo="Pacha Mama Spirit Lodge" @endphp
+@php $descripcion="Perú tiene muchos lugares tur´siticos para conocer en su territorio, descubreos en esta sección." @endphp
+@php $keywords="Lodge de lujo, Machu Picchu lodge, sky lodge, Pacha Mama Lodge" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/Pacha-mama-spirit-lodge.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 @section('content')
-    @include('layouts.menu-castellano')
     <div class="pachamamalodge">
         <div class="container">
             <div class="row align-items-center">

@@ -1,7 +1,11 @@
 @extends('layouts.appen')
-
+@php $titulo="Arequipa - The white city | Peru cities" @endphp
+@php $descripcion="Arequipa is known as the White City due to its architecture built with white volcanic stone" @endphp
+@php $keywords="Arequipa, areuipa tour, arequipa 2024" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/la-ciudad-blanca-de-arequipa.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 @section('content') 
-    @include('layouts.menu')
     <div class="arequipa">
         <div class="container">
             <div class="row">
@@ -143,7 +147,7 @@
                                     linking up with patriotic societies in Argentina and other countries.
                                     <br><br>
                                     <img src="{{ asset('img/galeria/historia-sobre-arequipa-Perú.webp') }}"
-                                        width="80%" alt="Historia de Arequipa" loading="lazy"><br><br>
+                                        width="100%" alt="Historia de Arequipa" loading="lazy"><br><br>
                                     Uno de los sucesos más notables de la gesta emancipadora fue la campaña del cuzqueño
                                     Mateo García Pumacahua, quien salió hacia Arequipa en octubre de 1814 con un
                                     ejército de más de 5 mil hombres; tras derrotar a las filas realistas que comandaba
@@ -313,68 +317,6 @@
                                     <i>Photo: Pisco Sour</i>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="space"></div>
-                <div class="col-lg-12">
-                    <h2 class="h2-tierras">Popular Tours</h2>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="camino-inca-cantera-peru">
-                            <img class="card-img-top" src="{{ asset('img/thumb/caminata-a-choquequirao.webp') }}"
-                                alt="camino inca" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Choquequirao, caminata 4 días </h5>
-                            <p class="text-card">Cachicata o Inca Quarry es una de las antiguas canteras utilizadas
-                                por las civilizaciones Pre-Inca e Inca para construir el vasto complejo…</p>
-                            <a href="camino-inca-cantera-peru" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="#">
-                            <img class="card-img-top"
-                                src="{{ asset('img/thumb/City-Tour-en-Sacsayhuaman-Cusco-Peru.webp') }}"
-                                alt="City tour en Cusco ciudad" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">City tour en Cusco</h5>
-                            <p class="text-card">Antes del amanecer en el lago Titicaca, una neblina azul cubre
-                                nuestra vista. Muchos conejillos de indias corren para...</p>
-                            <a href="#" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="viajar-a-puno">
-                            <img class="card-img-top"
-                                src="{{ asset('img/thumb/tour-a-la-laguna-de-humantay.webp') }}" alt="Tour a Puno"
-                                loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Tour a la laguna Humantay</h5>
-                            <p class="text-card">Puno es una de las ciudades más importantes de la orilla del lago
-                                Titicaca, el lago más navegable y...</p>
-                            <a href="viajar-a-puno" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="vilcabamba">
-                            <img class="card-img-top" src="{{ asset('img/thumb/ceviche-peruano-gastronomy.webp') }}"
-                                alt="Llactapata inca trail" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Tour gastronómico</h5>
-                            <p class="text-card">Hasta hace poco, Vilcabamba era un rincón relativamente seguro y
-                                accesible de la...</p>
-                            <a href="vilcabamba" class="boton-card">Más detalles</a>
                         </div>
                     </div>
                 </div>

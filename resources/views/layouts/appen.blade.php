@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<!DOCTYPE html>
+<html lang="En">
 
 <head>
     <meta charset="utf-8">
@@ -8,32 +8,163 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Pacha Mama Spirit @yield('titulo') </title>
+    <title> @yield('titulo') </title>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="{{ asset('img/icono-home.png') }}">
     <link rel="stylesheet" href="{{ asset('fonts/icomoon/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('css/estilos.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/estilos.css') }}" type="text/css" defer>
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/estilos-bootstrap.css') }}">
     @yield('metas')
-    <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=629958a2703b77001ade9c8c&product=sop' async='async'></script>
 
     {{-- ReCaptcha --}}
- 
-    
+
+
 </head>
 
 <body>
-    {{-- <div id="app"> --}}
+    <div class="btn-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=51921136755" target="_blank">
+            <img src="{{ asset('img/whatsapp.png') }}" alt="WhatsaApp de Pacha Mama Spirit" width="80%"
+                title="Whatsapp Pacha Mama Spirit">
+        </a>
+    </div>
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="icon-close2 js-menu-toggle"></span>
+            </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+    <div class="site-navbar-wrap">
+        <div class="site-navbar-top">
+            <div class="container py-3">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <div class="d-flex mr-auto">
+                            <a href="mailto:info@pachamamaspirit.com" class="align-items-center mr-4">
+                                <span class="icon-envelope mr-2"></span>
+                                <span class="d-none d-md-inline-block">info@pachamamaspirit.com</span>
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=51921136755&app=facebook&entry_point=page_cta"
+                                target="_blank" class="d-flex align-items-center mr-auto">
+                                <span class="icon-phone mr-2"></span>
+                                <span class="d-none d-md-inline-block">+51 921 136 755</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-6 text-right">
+                        <div class="mr-auto">
+                            <a href="https://twitter.com/PachaSpirit" target="_blank" rel="no-follow"
+                                class="p-2 pl-0"><span class="icon-twitter"></span></a>
+                            <a href="https://www.facebook.com/PachaMamaSpiritMountain" rel="no-follow" target="_blank"
+                                class="p-2 pl-0"><span class="icon-facebook"></span></a>
+                            <a href="https://www.pinterest.com/spiritpachamama/_saved/" rel="no-follow" target="_blank"
+                                class="p-2 pl-0"><span class="icon-pinterest"></span></a>
+                            <a href="https://www.instagram.com/pachamamaspiritmountain/" rel="no-follow" target="_blank"
+                                class="p-2 pl-0"><span class="icon-instagram"></span></a>
+                            <a href="#" target="_blank" rel="no-follow" class="p-2 pl-0"><span
+                                    class="icon-tripadvisor"></span></a>
+                            <a href="https://www.youtube.com/channel/UCR5v94oQX3budGLKTRL4BBQ" rel="no-follow"
+                                target="_blank" class="p-2 pl-0"><span class="icon-youtube-play"></span></a>
+                        </div>
 
-    {{-- <main class="py-4"> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="site-navbar site-navbar-target js-sticky-header">
+            <div class="container">
+                <div class="row align-items-center row-menu">
+                    <div class="col-2">
+                        <a href="{{ route('index') }}">
+                            <img src="{{ asset('img/pacha-mama-spirit-logo.png') }}" alt="Pacha mama Spirit logo"
+                                class="logo" title="Logo Pacha Mama Spirit">
+                        </a>
+                    </div>
+                    <div class="col-10">
+                        <nav class="site-navigation" role="navigation">
+                            <div class="container">
+                                <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3 icon-menu">
+                                    <a href="#" class="site-menu-toggle js-menu-toggle text-white">
+                                        <span class="icon-menu h3"></span>
+                                    </a>
+                                </div>
+                                <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
+                                    <li class="has-children">
+                                        <a href="{{ route('destinies-peru') }}" class="nav-link"
+                                            @if (request()->is('destinies')) id="active" @endif>Destinies</a>
+                                        <ul class="dropdown arrow-top">
+                                            <li>
+                                                <a href="{{ route('cusco-navel-of-the-world') }}"
+                                                    class="nav-link">Cusco</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('lima-city-of-kings') }}" class="nav-link">Lima</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('arequipa-the-white-city') }}"
+                                                    class="nav-link">Arequipa</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('puno-city') }}" class="nav-link">Puno</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('ica-city') }}" class="nav-link">Ica</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('pisco-city') }}" class="nav-link">Pisco</a>
+                                            </li>
+                                            <li>
+                                                <a href="{{ route('puerto-maldonado-en') }}" class="nav-link">Puerto
+                                                    Maldonado</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('hikes') }}" class="nav-link">Do you like hikes?</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('mapien') }}" class="nav-link">Tours to Machu Picchu</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('around') }}" class="nav-link">Around Perú</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('lodgen') }}" class="nav-link">Luxury Lodge</a>
+                                    </li>
+                                    <li>
+                                        <a href="{{ route('peru-blog') }}" class="nav-link">Blog</a>
+                                    </li>
+                                    <li>
+                                        <button type="button"
+                                            onclick="window.location='{{ URL::route('inicio') }}'"
+                                            class="castellano-es">Español</button>
+                                    </li>
+                                    <li>
+                                        <div class="row">
+                                            <div class="col">
+                                                <i class="icon-search botonsearch" data-toggle="modal"
+                                                    data-target="#exampleModal"></i>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     @yield('content')
     {{-- </main> --}}
     {{-- </div> --}}
@@ -61,11 +192,12 @@
 
     <section>
         <div class="display-foot">
-            <img src="{{ asset('img/paisaje-cerros-silueta.png') }}" alt="Paisaje cerros silueta" width="100%">
+            <img src="{{ asset('img/paisaje-cerros-silueta.png') }}" alt="Paisaje cerros silueta"
+                title="Paisaje cerros sombra viajes" width="100%">
         </div>
         <div class="display-foot-2">
-            <img src="{{ asset('img/paisaje-cerros-silueta-responsive.png') }}" alt="Paisaje cerros silueta"
-                width="100%">
+            <img src="{{ asset('img/paisaje-cerros-silueta-responsive.png') }}"
+                title="Paisaje cerros sombra viajes min" alt="Paisaje cerros silueta" width="100%">
         </div>
 
         <footer>
@@ -92,12 +224,12 @@
                         <div class="text-center social-foot">
                             <a href="https://twitter.com/PachaSpirit" target="_blank" rel="no-follow"
                                 class="p-2 pl-0"><span class="icon-twitter"></span></a>
-                            <a href="https://www.facebook.com/PachaMamaSpiritMountain" rel="no-follow" target="_blank"
-                                class="p-2 pl-0"><span class="icon-facebook"></span></a>
-                            <a href="https://www.pinterest.com/spiritpachamama/_saved/" rel="no-follow" target="_blank"
-                                class="p-2 pl-0"><span class="icon-pinterest"></span></a>
-                            <a href="https://www.instagram.com/pachamamaspiritmountain/" rel="no-follow" target="_blank"
-                                class="p-2 pl-0"><span class="icon-instagram"></span></a>
+                            <a href="https://www.facebook.com/PachaMamaSpiritMountain" rel="no-follow"
+                                target="_blank" class="p-2 pl-0"><span class="icon-facebook"></span></a>
+                            <a href="https://www.pinterest.com/spiritpachamama/_saved/" rel="no-follow"
+                                target="_blank" class="p-2 pl-0"><span class="icon-pinterest"></span></a>
+                            <a href="https://www.instagram.com/pachamamaspiritmountain/" rel="no-follow"
+                                target="_blank" class="p-2 pl-0"><span class="icon-instagram"></span></a>
                             <a href="#" target="_blank" rel="no-follow" class="p-2 pl-0"><span
                                     class="icon-tripadvisor"></span></a>
                             <a href="https://www.youtube.com/channel/UCR5v94oQX3budGLKTRL4BBQ" rel="no-follow"
@@ -115,9 +247,9 @@
             </div>
         </footer>
     </section>
-    <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+
     <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ asset('js/popper.min.js') }}"></script>
+    {{-- <script src="{{ asset('js/popper.min.js') }}"></script> --}}
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/jquery.sticky.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>

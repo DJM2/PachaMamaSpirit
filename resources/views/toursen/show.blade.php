@@ -3,6 +3,9 @@
 @include('layouts.metas')
 @section('content')
     @include('layouts.menu')
+    <script type='text/javascript'
+        src='https://platform-api.sharethis.com/js/sharethis.js#property=629958a2703b77001ade9c8c&product=sop'
+        async='async'></script>
     <div class="blog" id="blog">
         <!----Variable de clase------>
         <div id="sarah" style="opacity: 0">
@@ -21,7 +24,7 @@
                     <h1 style="padding-top: 250px;color:#fff">{{ $tour->nombre }}</h1>
                     <div class="col-lg-12 text-center font-weight-bold" style="color: #fff">
                         <span><i class="icon-map-marker"></i> {{ $tour->ubicacion }}</span>&nbsp;&nbsp;
-                        <span><i class="icon-clock-o"></i> {{ $tour->dias }} días</span>&nbsp;&nbsp;
+                        <span><i class="icon-clock-o"></i> {{ $tour->dias }} days</span>&nbsp;&nbsp;
                         <span><i class="icon-usd"></i> {{ $tour->precio }}.00</span>&nbsp;&nbsp;
                     </div>
                 </div>
@@ -51,7 +54,7 @@
                     <p class="text-justify">{!! $tour->contenido !!}</p>
                     <br>
                     <div>
-                        <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                        <ul class="nav nav-tabs justify-content-center nav-fill" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home"
                                     type="button" role="tab" aria-controls="home"
@@ -97,15 +100,15 @@
                 <div class="col-lg-4">
                     <div class="div-form-tours">
                         <h3 class="text-center">Book now!</h3>
-                        <form class="djmFormShow" action="mensajePacha" method="POST">
+                        <form class="djmFormShow" action="{{ route('mensajePachaEn') }}" method="POST">
                             @csrf
                             <div class="form-row">
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="inputEmail4">Nombre:</label>
                                     <input type="text" class="form-control" id="nombre" name="nombre"
                                         placeholder="Inca Pachacutec">
                                 </div>
-                                <div class="form-group col-md-12">
+                                <div class="form-group col-md-6">
                                     <label for="inputEmail4">Email:</label>
                                     <input type="email" class="form-control" id="email" name="email"
                                         placeholder="hijo-del-sol@gmail.com">
@@ -113,17 +116,17 @@
 
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress">Adults:</label>
-                                    <input type="number" class="form-control" id="inputAddress" placeholder="Number">
+                                    <input type="number" class="form-control" name="adultos" id="adultos" placeholder="Number">
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="inputAddress2" data-title="Children under 3 years old don't pay">Childs:
                                         ⓘ</label>
-                                    <input type="number" class="form-control" id="inputAddress2" placeholder="Number">
+                                    <input type="number" class="form-control" name="childs" id="inputAddress2" placeholder="Number">
                                 </div>
 
                                 <div class="form-group col-md-6">
                                     <label for="inputCity">Date arrival in Peru:</label>
-                                    <input type="date" class="form-control" id="inputCity">
+                                    <input type="date" class="form-control" id="date" name="date">
                                 </div>
 
                                 <div class="form-group col-md-6">
@@ -132,8 +135,13 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="tour">Tour:</label>
-                                    <input type="text" class="form-control" id="tour"
+                                    <input type="text" class="form-control" name="tour" id="tour"
                                         value="{{ $tour->nombre }}" readonly>
+                                </div>
+                                <div class="form-group col-lg-12">
+                                    <label for="mensaje">Message:</label>
+                                    <textarea type="text" name="mensaje" id="mensaje" class="form-control" id="mensaje">
+                                    </textarea>
                                 </div>
                             </div>
                             <div class="text-center">
@@ -141,11 +149,11 @@
                             </div>
                         </form>
                         <div class="card align-items-center">
-                            <div class="card-bod m-2">
-                                <h4 class="text-center">Soporte al Cliente:</h4>
-                                <p class="text-center">
-                                    <i class="icon-whatsapp"></i> +51 921 136 755 <br>
-                                    <i class="icon-envelope"></i> info@pachamamaspirit.com
+                            <div class="card-bod">
+                                <h4 class="text-center">Customer Support:</h4>
+                                <p class="text-center"><i class="icon-whatsapp">
+                                    </i> +51 921 136 755<br>
+                                    </i> info@pachamamaspirit.com
                                 </p>
                             </div>
                         </div>
@@ -154,93 +162,7 @@
                 </div>
                 <div class="space"></div>
                 <div class="col-lg-12">
-                    <h2 class="h2-tierras">Tours a Machu Picchu:</h2>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="destinos/camino-inca-cantera-peru">
-                            <img class="card-img-top" src="{{ asset('img/thumb/machu-picchu-travel-tour.webp') }}"
-                                alt="Camino Inca 4 dias" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Camino Inca Clásico</h5>
-                            <p class="text-card">El Camino Inca de 4 días a Machu Picchu es la caminata más popular
-                                de la ruta turistica de Perú</p>
-                            <div class="row iconos-tours">
-                                <div class="col-6" style="float: left">
-                                    <span class="icon-clock-o"> 4 días</span>
-                                </div>
-                                <div class="col-6" style="float:right">
-                                    <span class="icon-map-marker"> Cusco</span>
-                                </div>
-                            </div>
-                            <a href="destinos/camino-inca-cantera-peru" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="">
-                            <img class="card-img-top" src="{{ asset('img/thumb/caminata-a-choquequirao.webp') }}"
-                                alt="Camino Inca 2 dias" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Choquequirao</h5>
-                            <p class="text-card">Esta ruta es conocida por sus increibes vistas, ardua caminata y el
-                                centro arqueologico que hace que todo valga la pena </p>
-                            <div class="row iconos-tours">
-                                <div class="col-6" style="float: left">
-                                    <span class="icon-clock-o"> 4 días</span>
-                                </div>
-                                <div class="col-6" style="float:right">
-                                    <span class="icon-map-marker"> Cusco</span>
-                                </div>
-                            </div>
-                            <a href="destinos/camino-inca-cantera-peru" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ asset('img/thumb/salkantay-trek.webp') }}"
-                            alt="Card image cap">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Salkantay Machu Picchu 5 Días/ 4 Noches</h5>
-                            <p class="text-card">El Camino a Salkantay de 5 días es una caminata alternativa al
-                                Camino Inca de 4 Dias...</p>
-                            <div class="row iconos-tours">
-                                <div class="col-6" style="float: left">
-                                    <span class="icon-clock-o"> 4 días</span>
-                                </div>
-                                <div class="col-6" style="float:right">
-                                    <span class="icon-map-marker"> Cusco</span>
-                                </div>
-                            </div>
-                            <a href="#" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <img class="card-img-top"
-                            src="{{ asset('img/thumb/ollantaytambo-Sacred-valley-of-the-incas.webp') }}"
-                            alt="Card image cap">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Valle Sagrado a Machu Picchu</h5>
-                            <p class="text-card">El tour de 2 días del Valle Sagrado a Machu Picchu implica la
-                                experiencia de visitar el famoso mercado de Pisac</p>
-                            <div class="row iconos-tours">
-                                <div class="col-6" style="float: left">
-                                    <span class="icon-clock-o"> 4 días</span>
-                                </div>
-                                <div class="col-6" style="float:right">
-                                    <span class="icon-map-marker"> Cusco</span>
-                                </div>
-                            </div>
-                            <a href="#" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
+                    <h2 class="h2-tierras">Popular tours:</h2>
                 </div>
                 <div class="space"></div>
             </div>

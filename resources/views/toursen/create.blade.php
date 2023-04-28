@@ -63,7 +63,28 @@
                     </div>
                     <div class="col-lg-4">
                         <label for="" class="form-label">Clase:<small>(Clase que tomara la imagen)</small></label>
-                        <input type="text" id="clase" name="clase" class="form-control" required>
+                        <select name="clase" id="clase" class="form-control" required>
+                            <option value="aventuras">Camino Inca Salkantay</option>
+                            <option value="imperdible">Plaza de armas Cusco</option>
+                            <option value="machu">Machu Picchu</option>
+                            <option value="ollantaytambo">Ollantaytambo</option>
+                            <option value="pachamamalodge">Vista Valle Sagrado</option>
+                            <option value="valle">Vista Valle Sagrado 2</option>
+                            <option value="santuaryLodge">Hotel Sanctuary Lodge</option>
+                            <option value="puno">Balsa en Lago Titicaca</option>
+                            <option value="selva">Rio Amazonas</option>
+                            <option value="caminata">Caminata Salkantay</option>
+                            <option value="nazca">Lineas de Nazca</option>
+                            <option value="lima">Ciudad de Lima</option>
+                            <option value="arequipa">Ciudad de Arequipa</option>
+                            <option value="huchuy">Huchuy Qosqo</option>
+                            <option value="choque">Choquequirao</option>
+                            <option value="humantay">Laguna Humantay</option>
+                            <option value="vinicunca">Vinicunca</option>
+                            <option value="ica">Huacachina</option>
+                            <option value="pisco">Reserva Nacional Paracas</option>
+                            <option value="puerto">Puerto Maldonado</option>
+                        </select>
                     </div>
 
                     <div class="col-lg-4">
@@ -90,7 +111,7 @@
                         <input type="text" id="slug" name="slug" class="form-control" required>
                     </div>
                 </div>
-                <a href="{{route('toursen.index')}}" class="btn btn-secondary mt-4">Cancelar</a>
+                <a href="{{ route('toursen.index') }}" class="btn btn-secondary mt-4">Cancelar</a>
                 <button class="btn btn-primary mt-4" type="submit">Guardar</button>
             </form>
         </div>

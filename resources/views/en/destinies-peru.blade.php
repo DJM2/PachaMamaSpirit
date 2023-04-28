@@ -1,7 +1,11 @@
 @extends('layouts.appen')
-
+@php $titulo="The most beautiful cities to visit in Peru" @endphp
+@php $descripcion="Welcome to our section of top tourist destinations in Peru. You will find a list of the most beautiful cities to visit in this country." @endphp
+@php $keywords="Inca Trail, Machu Picchu tour, travel to Peru, Discover Peru" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/trekking-peru.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 @section('content') 
-    @include('layouts.menu')
     <div class="blog-temas">
         <div class="container">
             <div class="row">

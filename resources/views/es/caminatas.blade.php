@@ -1,7 +1,11 @@
 @extends('layouts.app')
-
+@php $titulo="Tours de caminatas alrededor de Perú" @endphp
+@php $descripcion="Descubre las mejores caminatas hacia centros arqueologicos y a machu Picchu que puede existir en Peru." @endphp
+@php $keywords="camino inca 2024, camino inca peru, camino inca machu picchu" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/trekking-peru.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 @section('content')
-    @include('layouts.menu-castellano')
     <div class="caminata">
         <div class="container">
             <div class="row align-items-center">

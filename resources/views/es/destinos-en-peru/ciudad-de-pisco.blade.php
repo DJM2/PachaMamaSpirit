@@ -1,7 +1,11 @@
 @extends('layouts.app')
-
+@php $titulo="Pisco, cuna de la bandera y puerta de la libertad" @endphp
+@php $descripcion="Cada año se celebra con fervor patriótico el desembarco de la expedición libertadora al mando del general Don José de San Martín en la bahía de Paracas." @endphp
+@php $keywords="Pisco, Pisco ciudad, Pisco Peru, Pisco cuna de la bandera de Peru" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/pisco-city-tourism.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 @section('content')
-    @include('layouts.menu-castellano')
     <div class="pisco">
         <div class="container">
             <div class="row">
@@ -435,67 +439,6 @@
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="space"></div>
-                <div class="col-lg-12">
-                    <h2 class="h2-tierras">Tours más populares para Cusco:</h2>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="camino-inca-cantera-peru">
-                            <img class="card-img-top" src="{{ asset('img/thumb/caminata-a-choquequirao.webp') }}"
-                                alt="camino inca" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Chquequirao, caminata 4 días </h5>
-                            <p class="text-card">Cachicata o Inca Quarry es una de las antiguas canteras utilizadas
-                                por las civilizaciones Pre-Inca e Inca para construir el vasto complejo…</p>
-                            <a href="camino-inca-cantera-peru" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="#">
-                            <img class="card-img-top"
-                                src="{{ asset('img/thumb/City-Tour-en-Sacsayhuaman-Cusco-Peru.webp') }}"
-                                alt="City tour en Cusco ciudad" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">City tour en Cusco</h5>
-                            <p class="text-card">Antes del amanecer en el lago Titicaca, una neblina azul cubre
-                                nuestra vista. Muchos conejillos de indias corren para...</p>
-                            <a href="#" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="viajar-a-puno">
-                            <img class="card-img-top" src="{{ asset('img/thumb/tour-a-la-laguna-de-humantay.webp') }}"
-                                alt="Tour a Puno" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Tour a la laguna Humantay</h5>
-                            <p class="text-card">Puno es una de las ciudades más importantes de la orilla del lago
-                                Titicaca, el lago más navegable y...</p>
-                            <a href="viajar-a-puno" class="boton-card">Más detalles</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="vilcabamba">
-                            <img class="card-img-top" src="{{ asset('img/thumb/ceviche-peruano-gastronomy.webp') }}"
-                                alt="Llactapata inca trail" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Tour gastronómico</h5>
-                            <p class="text-card">Hasta hace poco, Vilcabamba era un rincón relativamente seguro y
-                                accesible de la...</p>
-                            <a href="vilcabamba" class="boton-card">Más detalles</a>
                         </div>
                     </div>
                 </div>

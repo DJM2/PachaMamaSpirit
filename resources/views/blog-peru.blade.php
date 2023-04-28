@@ -1,4 +1,10 @@
 @extends('layouts.app')
+@php    $titulo="Perú Blog" @endphp
+@php    $descripcion="Conozca en el blog temas relacionados con el Perú, con mucha información importante y datos culturales." @endphp
+@php    $keywords="peru blog, peru blog 2024" @endphp
+@php $img="https://pachamamaspirit.com//blog-peru" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 
 @section('content')
     @include('layouts.menu-castellano')
@@ -10,7 +16,6 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <section>
         <div class="container">
@@ -27,6 +32,25 @@
         </div>
         <div class="container-fluid">
             <div class="row">
+                <div class="blogs actividades">
+                    <div class="black">
+                        <h2>10 Actividades turísticas recomendadas en Cusco</h2>
+                        <div class="fecha"><i class="icon-calendar"></i><span> 25/04/2023</span></div>
+                        <p>Conoce y disfruta de muchas actividades turísticas en la
+                            ciudad del Cusco
+                        </p>
+                        <a href="{{ route('actividadescusco') }}">Leer artículo</a>
+                    </div>
+                </div>
+                <div class="blogs semanasanta">
+                    <div class="black">
+                        <h2>Semana Santa Cusco</h2>
+                        <div class="fecha"><i class="icon-calendar"></i><span> 15/04/2023</span></div>
+                        <p>La feria gastronómica más grande del Perú
+                        </p>
+                        <a href="{{ route('semanasanta') }}">Leer artículo</a>
+                    </div>
+                </div>                
                 <div class="blogs santaRosa">
                     <div class="black">
                         <h2>Santa Rosa de Lima</h2>
@@ -61,7 +85,7 @@
                         </p>
                         <a href="{{ route('mistura-es') }}">Leer artículo</a>
                     </div>
-                </div>
+                </div>                
             </div>
         </div>
     </section>

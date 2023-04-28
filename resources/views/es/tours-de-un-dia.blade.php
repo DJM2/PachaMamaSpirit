@@ -1,7 +1,11 @@
 @extends('layouts.app')
-
+@php $titulo="Tours de un dia para Perú" @endphp
+@php $descripcion="Agrega estos increibles tours de un día a tu itinenrario en Perú" @endphp
+@php $keywords="Vinicunca, Humantay, motana de colores, City tour" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/trekking-peru.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 @section('content')
-    @include('layouts.menu-castellano')
     <div class="ollantaytambo">
         <div class="container">
             <div class="row align-items-center">

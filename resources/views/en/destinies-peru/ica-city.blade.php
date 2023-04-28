@@ -1,7 +1,11 @@
 @extends('layouts.appen')
-
-@section('content') 
-    @include('layouts.menu')
+@php $titulo="Ica, city of the eternal sun | Peru cities" @endphp
+@php $descripcion="Ica, also known as the city of the eternal sun, cradle of pisco or city of the sun" @endphp
+@php $keywords="ICa, Peru cities, tourist cities peru" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/huacachina-ica-peru-tour.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
+@section('content')
     <div class="ica">
         <div class="container">
             <div class="row">
@@ -67,8 +71,8 @@
                                         the harvest festival of Ica, carried out with great consumption of wine and
                                         cachina. In its fertile valleys, cotton, vines, tobacco and linen are grown.
                                     </p>
-                                    <img src="{{ asset('img/panoramico/huacachina-ica-peru-tour.webp') }}"
-                                        width="100%" alt="Huacachina oasis" loading="lazy">
+                                    <img src="{{ asset('img/panoramico/huacachina-ica-peru-tour.webp') }}" width="100%"
+                                        alt="Huacachina oasis" loading="lazy">
                                     <i>Photo: Huacachina Oasis</i>
                                 </div>
                             </div>
@@ -243,8 +247,8 @@
                                         the monkey with nine fingers, and a strange figure known as the owl man that
                                         some people usually identify with the silhouette of an astronaut.
                                     </p>
-                                    <img src="{{ asset('img/galeria/Overflight-of-the-Nazca-lines.webp') }}"
-                                        loading="lazy" width="100%" alt="Flight over the Nazca lines">
+                                    <img src="{{ asset('img/galeria/Overflight-of-the-Nazca-lines.webp') }}" loading="lazy"
+                                        width="100%" alt="Flight over the Nazca lines">
                                     <i>Flight over the Nazca lines</i><br><br>
                                     <h3>Paracas National Reserve</h3>
                                     <p>
@@ -279,8 +283,8 @@
                                         of Ica, a visit to Cachiche is also a good option, the "witches" of Cachiche
                                         will tell you the legend of their town and will be encouraged to read your luck.
                                     </p>
-                                    <img src="{{ asset('img/galeria/canon-de-los-pasos-perdidos.webp') }}"
-                                        width="100%" loading="lazy" alt="Cañon de los perdidos, Ica">
+                                    <img src="{{ asset('img/galeria/canon-de-los-pasos-perdidos.webp') }}" width="100%"
+                                        loading="lazy" alt="Cañon de los perdidos, Ica">
                                     <i>Photo: Cañon de los perdidos</i>
                                 </div>
                             </div>
@@ -342,88 +346,31 @@
                                     </p>
                                     <ul>
                                         <li>The Caravedo of Ica</li>
-                                         <li>Lazo Artisanal Winery</li>
-                                         <li>The Taster</li>
-                                         <li>Lovera Artisanal Winery</li>
-                                         <li>Happy View</li>
-                                         <li>Ocucaje Winery</li>
-                                         <li>Tacama Winery</li>
-                                         <li>Santiago Queirolo</li>
+                                        <li>Lazo Artisanal Winery</li>
+                                        <li>The Taster</li>
+                                        <li>Lovera Artisanal Winery</li>
+                                        <li>Happy View</li>
+                                        <li>Ocucaje Winery</li>
+                                        <li>Tacama Winery</li>
+                                        <li>Santiago Queirolo</li>
                                     </ul>
                                     <h3>Important festivities of Ica</h3>
                                     <ul>
-                                        <li><strong>February:</strong> Festival of the carnivals of Candelaria. From February 13 to 15 Feast of the Mermaid.</li>
-                                        <li><strong>March:</strong> From March 8 to 18 International Harvest Festival. Easter movable date.</li>
+                                        <li><strong>February:</strong> Festival of the carnivals of Candelaria. From
+                                            February 13 to 15 Feast of the Mermaid.</li>
+                                        <li><strong>March:</strong> From March 8 to 18 International Harvest Festival.
+                                            Easter movable date.</li>
                                         <li><strong>April:</strong> Easter movable date.</li>
-                                        <li><strong>May:</strong> FFiesta de las Cruces Various dates. Second week of May National Pisco Week.</li>
+                                        <li><strong>May:</strong> FFiesta de las Cruces Various dates. Second week of May
+                                            National Pisco Week.</li>
                                         <li><strong>September:</strong> ÚLast week of September City tourist week.</li>
-                                        <li><strong>October:</strong>First Thursday and third Monday of October Feast of the Lord of Luren.</li>
+                                        <li><strong>October:</strong>First Thursday and third Monday of October Feast of the
+                                            Lord of Luren.</li>
                                         <li><strong>November:</strong> November 1 Feast of All Saints.</li>
                                         <li><strong>December:</strong> December 25 Paseo de los Negritos.</li>
                                     </ul>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="space"></div>
-                <div class="col-lg-12">
-                    <h2 class="h2-tierras">Popular tours</h2>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="camino-inca-cantera-peru">
-                            <img class="card-img-top" src="{{ asset('img/thumb/caminata-a-choquequirao.webp') }}"
-                                alt="camino inca" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Chquequirao, caminata 4 días </h5>
-                            <p class="text-card">Cachicata o Inca Quarry es una de las antiguas canteras utilizadas
-                                por las civilizaciones Pre-Inca e Inca para construir el vasto complejo…</p>
-                            <a href="camino-inca-cantera-peru" class="boton-card">More details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="#">
-                            <img class="card-img-top"
-                                src="{{ asset('img/thumb/City-Tour-en-Sacsayhuaman-Cusco-Peru.webp') }}"
-                                alt="City tour en Cusco ciudad" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">City tour en Cusco</h5>
-                            <p class="text-card">Antes del amanecer en el lago Titicaca, una neblina azul cubre
-                                nuestra vista. Muchos conejillos de indias corren para...</p>
-                            <a href="#" class="boton-card">More details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="viajar-a-puno">
-                            <img class="card-img-top" src="{{ asset('img/thumb/tour-a-la-laguna-de-humantay.webp') }}"
-                                alt="Tour a Puno" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Tour a la laguna Humantay</h5>
-                            <p class="text-card">Puno es una de las ciudades más importantes de la orilla del lago
-                                Titicaca, el lago más navegable y...</p>
-                            <a href="viajar-a-puno" class="boton-card">More details</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="card card-new" style="width: 18rem;">
-                        <a href="vilcabamba">
-                            <img class="card-img-top" src="{{ asset('img/thumb/ceviche-peruano-gastronomy.webp') }}"
-                                alt="Llactapata inca trail" loading="lazy">
-                        </a>
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Tour gastronómico</h5>
-                            <p class="text-card">Hasta hace poco, Vilcabamba era un rincón relativamente seguro y
-                                accesible de la...</p>
-                            <a href="vilcabamba" class="boton-card">More details</a>
                         </div>
                     </div>
                 </div>

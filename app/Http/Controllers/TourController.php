@@ -65,12 +65,12 @@ class TourController extends Controller
 
         $img = $request->file('img');
         $rutaImg = public_path("img/buscador/");
-        $imgTour = /* time() . "." .  */$img->getClientOriginalName();
+        $imgTour = /* time() . "." .  */ $img->getClientOriginalName();
         $img->move($rutaImg, $imgTour);
         $tours['img'] = "$imgTour";
 
         $cat = $request->get('categoria');
-        $tours->categoria= implode(',', $cat);
+        $tours->categoria = implode(',', $cat);
         $tours->keywords = $request->get('keywords');
         $tours->slug = $request->get('slug');
         $tours->clase = $request->get('clase');
@@ -86,9 +86,11 @@ class TourController extends Controller
      * @param  \App\Models\tour  $tour
      * @return \Illuminate\Http\Response
      */
-    public function show($id, $slug)
+    public function show($slug)
     {
-        $tour = Tour::find($id);
+        /* $tour = Tour::find($id);
+        return view('tours.show')->with('tour', $tour); */
+        $tour = Tour::where('slug', $slug)->firstOrFail();
         return view('tours.show')->with('tour', $tour);
     }
 
@@ -125,9 +127,11 @@ class TourController extends Controller
         $tour->precio = $request->get('precio');
         $tour->dias = $request->get('dias');
         $cat = $request->get('categoria');
-        $tour->categoria= implode(',', $cat);          
+        $tour->categoria = implode(',', $cat);
         $tour->ubicacion = $request->get('ubicacion');
         $tour->keywords = $request->get('keywords');
+        $tour->slug = $request->get('slug');
+        $tour->clase = $request->get('clase');
 
         if ($img = $request->file('img')) {
             $rutaImg = public_path("img/buscador/");

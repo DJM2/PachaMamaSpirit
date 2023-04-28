@@ -1,7 +1,24 @@
 @extends('layouts.app')
+@section('titulo', 'Pacha Mama Spirit || Agencia de viaje para Perú')
+@section('metas')
+    <meta name="keywords"
+        content="Book Peru, Book Machu Picchu, machu Picchu, Travel peru, Travel to Machu Picchu, Inca Trail, Ica trail to Machu Picchu">
+    <link rel="canonical" href="https://pachamamaspirit.com/inicio">
+    <meta name="description"
+        content="Pacha Mama Spirit It's a travel agency to visit and do tourism in Peru. Travel around Peru and get to know its culture, gastronomy and History">
+    <meta name="image_src" content="https://pachamamaspirit.com/img/panoramico/Recorrido-Cusco-Machu-Picchu.webp">
 
+    <meta name="og_image" content="https://pachamamaspirit.com/img/panoramico/Recorrido-Cusco-Machu-Picchu.webp">
+    <meta name="og_secureImage" content="https://pachamamaspirit.com/img/panoramico/Recorrido-Cusco-Machu-Picchu.webp">
+
+    <meta property="og:title" content="Pacha Mama Spirit | Travel Agency Perú">
+    <meta property="og:description"
+        content="Pacha Mama Spirit It's a travel agency to visit and do tourism in Peru. Travel around Peru and get to know its culture, gastronomy and History">
+    <meta property="og:url" content="https://pachamamaspirit.com/inicio">
+    <meta name="twitter:card" content="summary">
+    <meta name="robots" content="index,follow">
+@endsection
 @section('content')
-    @include('layouts.menu-castellano')
     <div class="hero">
         <!------- formulario---------->
         <div class="container">
@@ -9,7 +26,8 @@
                 <div class="col-12 mx-auto">
                     <div class="form-index">
                         <div class="contenidoindex">
-                            <h1 style="color: #fff" class="text-center">Descubre los lugares mas impresionantes que tiene Perú
+                            <h1 style="color: #fff" class="text-center">Descubre los lugares mas impresionantes que tiene
+                                Perú
                             </h1>
                             <p style="color: #fff" class="text-center">Walks, gastronomy, archaeological sites, nature
                                 reserves, customs, traditions, landscapes and much more...

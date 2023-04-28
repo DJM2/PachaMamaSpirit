@@ -53,6 +53,7 @@ a {
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
+    color: #43cfcf;
 }
 
 a,
@@ -97,7 +98,7 @@ a:hover {
 .imperdible {
     height: 60vh;
     width: 100%;
-    background-image: url('../img/panoramico/cusco-imperdible-tierras-vivas.webp');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/panoramico/cusco-imperdible-tierras-vivas.webp');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -154,6 +155,24 @@ a:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/blog/camino-inca-temas-de-blog-from-Peru.webp');
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.terminos {
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/terminos-y-condiciones-pacha-Mama-Spirit-Travel-agency.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.preguntas {
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/preguntas-frecuentes-para-viajar-a-Peru-Pacha-mama-Spirit.webp');
+    background-size: cover;
+    background-position: initial;
     background-repeat: no-repeat;
 }
 

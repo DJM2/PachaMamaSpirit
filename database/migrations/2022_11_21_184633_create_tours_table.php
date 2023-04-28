@@ -17,18 +17,16 @@ return new class extends Migration
             $table->id();
             $table->string('nombre',120)->unique();
             $table->string('descripcion',250);
-            
             $table->text('contenido');
             $table->text('resumen');
             $table->text('detallado');
             $table->text('incluidos');            
             $table->text('importante')->nullable();
-
             $table->string('ubicacion');
             $table->integer('precio');
             $table->integer('dias');
             $table->string('img');            
-            $table->string('categoria')->unique();
+            $table->string('categoria');
             $table->string('keywords');
             $table->string('slug')->unique();
             $table->string('clase');

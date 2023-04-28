@@ -4639,7 +4639,8 @@ input[type="button"].btn-block {
     display: none;
     background: #ffffffb8;
     border-radius: 8px;
-    padding: 1.5em;
+    padding: 0em;
+    padding-top: 0.8em;
 }
 
 .tab-content>.active {

@@ -1,7 +1,11 @@
 @extends('layouts.app')
-
+@php $titulo="Exclusive Pacha Mama lodge in the mountains of Cusco" @endphp
+@php $descripcion="It is located in the heart of the sacred valley of the Incas, wake up with one of the best views that the sacred valley can offer" @endphp
+@php $keywords="sky lodge, Machu Picchu lodge, 5 stars lodge, lodge cusco, sacred valley lodge" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/Pacha-mama-spirit-lodge.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 @section('content')
-    @include('layouts.menu')
     <div class="pachamamalodge">
         <div class="container">
             <div class="row align-items-center">
@@ -31,7 +35,7 @@
                     @if (Str::contains($tour->categoria, 'lodge'))
                         <div class="col-lg-3 col-md-6">
                             <div class="card card-new" style="width: 18rem;">
-                                <a href="{{ route('tours.show', ['id' => $tour->id, 'slug' => $tour->slug]) }}">
+                                <a href="{{ route('toursen.show', ['id' => $tour->id, 'slug' => $tour->slug]) }}">
                                     <img class="card-img-top" src="../img/buscador/{{ $tour->img }}"
                                         alt="Camino Inca 4 dias" loading="lazy">
                                 </a>

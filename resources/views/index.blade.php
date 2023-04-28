@@ -1,7 +1,24 @@
 @extends('layouts.appen')
+@section('titulo', 'Pacha Mama Spirit | Travel Agency for Perú')
+@section('metas')
+    <meta name="keywords"
+        content="Book Peru, Book Machu Picchu, machu Picchu, Travel peru, Travel to Machu Picchu, Inca Trail, Ica trail to Machu Picchu">
+    <link rel="canonical" href="https://pachamamaspirit.com">
+    <meta name="description"
+        content="Pacha Mama Spirit It's a travel agency to visit and do tourism in Peru. Travel around Peru and get to know its culture, gastronomy and History">
+    <meta name="image_src" content="https://pachamamaspirit.com/img/panoramico/Recorrido-Cusco-Machu-Picchu.webp">
 
+    <meta name="og_image" content="https://pachamamaspirit.com/img/panoramico/Recorrido-Cusco-Machu-Picchu.webp">
+    <meta name="og_secureImage" content="https://pachamamaspirit.com/img/panoramico/Recorrido-Cusco-Machu-Picchu.webp">
+
+    <meta property="og:title" content="Pacha Mama Spirit | Travel Agency Perú">
+    <meta property="og:description"
+        content="Pacha Mama Spirit It's a travel agency to visit and do tourism in Peru. Travel around Peru and get to know its culture, gastronomy and History">
+    <meta property="og:url" content="https://pachamamaspirit.com">
+    <meta name="twitter:card" content="summary">
+    <meta name="robots" content="index,follow">
+@endsection
 @section('content')
-    @include('layouts.menu')
     <div class="hero">
         <div class="container">
             <div class="row">
@@ -37,9 +54,9 @@
         <div class="container" id="pachamama">
             <div class="row justify-content-center">
                 <div class="col-lg-12">
-                    <h1 class="h1-index">
+                    <h2 class="h1-index">
                         <beige>Pacha Mama Spirit</beige>
-                    </h1>
+                    </h2>
                     <p>
                         <strong>Pacha Mama Spirit</strong> is a Peruvian travel agency born in Cusco, which is known as the
                         navel of the
@@ -63,7 +80,6 @@
                     <h2 class="h2-tierras">Tours a Machu Picchu:</h2>
                 </div>
 
-
                 <!-----Prueba--->
                 @foreach ($tours as $tour)
                     <div class="col-lg-3 col-md-6">
@@ -76,7 +92,7 @@
                                 <h5 class="card-title">{{ $tour->nombre }}</h5>
                                 <p class="text-card">{{ $tour->descripcion }}</p>
                                 <div class="enlacesCategoria">
-                                    @if (Str::contains($tour->categoria, 'machupicchu'))
+                                    @if (Str::contains($tour->categoria, 'machuPicchu'))
                                         <p style="display:none">
                                             {{ $mapi = 'Machu Picchu' }}
                                         </p>

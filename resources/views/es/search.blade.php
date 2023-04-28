@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-    @include('layouts.menu-castellano')
     <div class="blog">
         <div class="container">
             <div class="row">

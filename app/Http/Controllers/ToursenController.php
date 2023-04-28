@@ -79,9 +79,9 @@ class ToursenController extends Controller
      * @param  \App\Models\Toursen  $toursen
      * @return \Illuminate\Http\Response
      */
-    public function show($id, $slug)
+    public function show($slug)
     {
-        $tour = Toursen::find($id);
+        $tour = Toursen::where('slug', $slug)->firstOrFail();
         return view('toursen.show')->with('tour', $tour);
     }
 
@@ -123,6 +123,8 @@ class ToursenController extends Controller
         $tour->categoria= implode(',', $cat); 
         $tour->ubicacion = $request->get('ubicacion');
         $tour->keywords = $request->get('keywords');
+        $tour->clase=$request->get('clase');
+        $tour->slug=$request->get('slug');
 
         if ($img = $request->file('img')) {
             $rutaImg = public_path("img/buscador/");

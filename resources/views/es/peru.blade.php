@@ -1,7 +1,11 @@
 @extends('layouts.app')
-
+@php $titulo="Tours que dirigen a Machu Picchu" @endphp
+@php $descripcion="Hay muchas maneras de llegar a la maravilla del mundo Machu Picchu y te mostramos una lista de los mejores tours." @endphp
+@php $keywords="Camino inca 2024, camino inca 2023, llegar a Machu Picchu, tour machu Picchu" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/Tours-a-Machu-Picchu-Tierras-Vivas.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 @section('content')
-    @include('layouts.menu-castellano')
     <div class="destinos">
         <div class="container">
             <div class="row align-items-center">

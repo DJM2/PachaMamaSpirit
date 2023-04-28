@@ -1,7 +1,11 @@
 @extends('layouts.app')
-
+@php $titulo="Tours with Machu Picchu Included" @endphp
+@php $descripcion="This is a list of all our tours that include the citadel of Machu Picchu" @endphp
+@php $keywords="Inca Trail, Machu Picchu tour, travel to Peru, Discover Peru" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/trekking-peru.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 @section('content')
-    @include('layouts.menu')
     <div class="machu">
         <div class="container">
             <div class="row align-items-center">
@@ -22,10 +26,10 @@
                 </div>
                 <!-----Fin orueba--->
                 @foreach ($tours as $tour)
-                    @if (Str::contains($tour->categoria, 'machupicchu'))
+                    @if (Str::contains($tour->categoria, 'machuPicchu'))
                         <div class="col-lg-3 col-md-6">
                             <div class="card card-new" style="width: 18rem;">
-                                <a href="{{ route('tours.show', ['id' => $tour->id, 'slug' => $tour->slug]) }}">
+                                <a href="{{ route('toursen.show', ['id' => $tour->id, 'slug' => $tour->slug]) }}">
                                     <img class="card-img-top" src="../img/buscador/{{ $tour->img }}"
                                         alt="Camino Inca 4 dias" loading="lazy">
                                 </a>
@@ -33,7 +37,7 @@
                                     <h5 class="card-title">{{ $tour->nombre }}</h5>
                                     <p class="text-card">{{ $tour->descripcion }}</p>
                                     <div class="enlacesCategoria">
-                                        @if (Str::contains($tour->categoria, 'machupicchu'))
+                                        @if (Str::contains($tour->categoria, 'machuPicchu'))
                                             <p style="display:none">
                                                 {{ $mapi = 'Machu Picchu' }}
                                             </p>
@@ -77,7 +81,7 @@
                                         </div>
 
                                     </div>
-                                    <a href="{{ route('tours.show', ['id' => $tour->id, 'slug' => $tour->slug]) }}"
+                                    <a href="{{ route('toursen.show', ['id' => $tour->id, 'slug' => $tour->slug]) }}"
                                         class="boton-card">Más Info</a>
 
                                 </div>

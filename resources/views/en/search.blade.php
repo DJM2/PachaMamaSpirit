@@ -1,6 +1,11 @@
 @extends('layouts.appen')
+@php $titulo="Full day tours for Perú" @endphp
+@php $descripcion="add this amazing tours to your package for Perú, City tour, Museums, treks" @endphp
+@php $keywords="Vinicunca, Humantay, rainbow mountain, City tour" @endphp
+@php $img="https://pachamamaspirit.com/img/panoramico/trekking-peru.webp" @endphp
+@section('titulo', $titulo)
+@include('layouts.metasblogs')
 @section('content')
-    @include('layouts.menu')
     <div class="blog">
         <div class="container">
             <div class="row">

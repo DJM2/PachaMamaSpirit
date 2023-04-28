@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="create.blade.php" server="ftp.happyperutours.com" local="133144178241877983" remote="133150307400000000" Dst="0" />
-<file name="edit.blade.php" server="ftp.happyperutours.com" local="133144179615546774" remote="133150307400000000" Dst="0" />
-<file name="index.blade.php" server="ftp.happyperutours.com" local="133149252095165215" remote="133150307400000000" Dst="0" />
-<file name="show.blade.php" server="ftp.happyperutours.com" local="133156869281207637" remote="133157049600000000" Dst="0" />
+<file name="create.blade.php" server="ftp.happyperutours.com" local="133233143753884485" remote="133251865800000000" Dst="0" />
+<file name="edit.blade.php" server="ftp.happyperutours.com" local="133233133946836723" remote="133251865800000000" Dst="0" />
+<file name="index.blade.php" server="ftp.happyperutours.com" local="133245636307539817" remote="133251865800000000" Dst="0" />
+<file name="show.blade.php" server="ftp.happyperutours.com" local="133180171335682376" remote="133251865800000000" Dst="0" />
+<file name="create.blade.php" server="15.204.142.117" local="133233143753884485" remote="133270483800000000" Dst="0" />
+<file name="edit.blade.php" server="15.204.142.117" local="133233133946836723" remote="133270483800000000" Dst="0" />
+<file name="index.blade.php" server="15.204.142.117" local="133245636307539817" remote="133270483800000000" Dst="0" />
+<file name="show.blade.php" server="15.204.142.117" local="133271167394279276" remote="133271347200000000" Dst="0" />
 </dwsync>

@@ -5,7 +5,7 @@
     <div class="row">
         <div class="col-12">
             <h1 class="float-left">Usuarios registrados:</h1>
-            <a href="register" class="btn btn-primary float-right">Nuevo Usuario</a>
+            <a href="{{route('registrar')}}" class="btn btn-primary float-right">Nuevo Usuario</a>
             <table class="table mt-4 table-hover">
                 <thead class="thead-dark">
                     <tr>

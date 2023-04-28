@@ -6,7 +6,7 @@
         <div class="col-12 mt-2">
             <div class="row" style="padding: 1em; border-radius: 10px;">
                 <div class="col-lg-6 float-left">
-                    <h3>Crear Nuevo Tour en español</h3>
+                    <h3>Crear Nuevo Tour en españols</h3>
                 </div>
                 <div class="col-lg-6">
                     <a href="/toursen/create" class="btn btn-primary float-right">Crear tour en Ingles</a>
@@ -81,7 +81,28 @@
                     <div class="col-lg-3">
                         <label for="" class="form-label">Clase:<small class="text-success">(Tomada para definir
                                 img)</small></label>
-                        <input type="text" id="clase" name="clase" class="form-control" required>
+                        <select name="clase" id="clase" class="form-control" required>
+                            <option value="aventuras">Camino Inca Salkantay</option>
+                            <option value="imperdible">Plaza de armas Cusco</option>
+                            <option value="machu">Machu Picchu</option>
+                            <option value="ollantaytambo">Ollantaytambo</option>
+                            <option value="pachamamalodge">Vista Valle Sagrado</option>
+                            <option value="valle">Vista Valle Sagrado 2</option>
+                            <option value="santuaryLodge">Hotel Sanctuary Lodge</option>
+                            <option value="puno">Balsa en Lago Titicaca</option>
+                            <option value="selva">Rio Amazonas</option>
+                            <option value="caminata">Caminata Salkantay</option>
+                            <option value="nazca">Lineas de Nazca</option>
+                            <option value="lima">Ciudad de Lima</option>
+                            <option value="arequipa">Ciudad de Arequipa</option>
+                            <option value="huchuy">Huchuy Qosqo</option>
+                            <option value="choque">Choquequirao</option>
+                            <option value="humantay">Laguna Humantay</option>
+                            <option value="vinicunca">Vinicunca</option>
+                            <option value="ica">Huacachina</option>
+                            <option value="pisco">Reserva Nacional Paracas</option>
+                            <option value="puerto">Puerto Maldonado</option>
+                        </select>
                     </div>
                     <div class="col-lg-12">
                         <label for="" class="form-label">Keywords: <small class="text-success">(Separar cada
@@ -100,8 +121,14 @@
         </div>
     </div>
     <script type="text/javascript">
-        $(document).ready(function() {
-            $('.ckeditor').ckeditor();
+        /* $(document).ready(function() {
+                $('.ckeditor').ckeditor();
+            }); */
+        CKEDITOR.replace('.ckeditor', {
+            extraPlugins: 'youtube',
+            toolbar: [
+                ['Youtube']
+            ]
         });
     </script>
 @endsection
