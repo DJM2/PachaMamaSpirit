@@ -256,7 +256,7 @@
 
                                     <h3>2. Santa Rosa de Lima</h3>
                                     <p><strong>Date: August 30</strong></p>
-                                    <a href="{{ route('santa-rosa-de-lima-en') }}"
+                                    <a href="{{ url('https://pachamamaspirit.com/en-blog/santa-rosa-de-lima') }}"
                                         title="Read complete info about Santa Rosa">Santa Rosa de Lima</a> is the
                                     patron saint of the Americas and the Philippines,
                                     protector in addition to the National Police of our country, whose date of

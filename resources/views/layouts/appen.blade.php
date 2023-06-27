@@ -21,10 +21,6 @@
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('css/estilos-bootstrap.css') }}">
     @yield('metas')
-
-    {{-- ReCaptcha --}}
-
-
 </head>
 
 <body>
@@ -53,9 +49,13 @@
                                 <span class="d-none d-md-inline-block">info@pachamamaspirit.com</span>
                             </a>
                             <a href="https://api.whatsapp.com/send?phone=51921136755&app=facebook&entry_point=page_cta"
-                                target="_blank" class="d-flex align-items-center mr-auto">
+                                target="_blank" class="d-flex align-items-center mr-4">
                                 <span class="icon-phone mr-2"></span>
                                 <span class="d-none d-md-inline-block">+51 921 136 755</span>
+                            </a>
+                            <a href="#" class="d-flex align-items-center">
+                                <span class="icon-user mr-2"></span>
+                                <span class="d-none d-md-inline-block">Contact Us</span>
                             </a>
                         </div>
                     </div>
@@ -141,7 +141,7 @@
                                         <a href="{{ route('lodgen') }}" class="nav-link">Luxury Lodge</a>
                                     </li>
                                     <li>
-                                        <a href="{{ route('peru-blog') }}" class="nav-link">Blog</a>
+                                        <a href="{{ route('enlistado') }}" class="nav-link">Blog</a>
                                     </li>
                                     <li>
                                         <button type="button"
@@ -180,7 +180,7 @@
                     <div class="form-row">
                         <div class="form-group col-12 text-center">
                             <input type="text" id="name" name="name" class="form-control"
-                                placeholder="Search...">
+                                placeholder="Search..." required>
                             <input type="submit" class="boton-index mt-2" value="Search">
                         </div>
                     </div>
@@ -247,9 +247,16 @@
             </div>
         </footer>
     </section>
+    <script>
+        const imagenes = document.querySelectorAll('img');
+        imagenes.forEach((imagen) => {
+            if (!imagen.hasAttribute('loading')) {
+                imagen.setAttribute('loading', 'lazy');
+            }
+        });
+    </script>
 
     <script src="{{ asset('js/jquery-3.3.1.min.js') }}"></script>
-    {{-- <script src="{{ asset('js/popper.min.js') }}"></script> --}}
     <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('js/jquery.sticky.js') }}"></script>
     <script src="{{ asset('js/main.js') }}"></script>

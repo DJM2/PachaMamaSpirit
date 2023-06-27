@@ -1,0 +1,28 @@
+.botonCarta {
+    color: #3e3e3e;
+    text-decoration: none;
+    margin-left: 1.2em;
+    padding: 0.6em;
+    transition: 0.4s;
+}
+
+.botonCarta:hover {
+    color: #3e3e3e;
+    border-radius: 5px;
+    transition: 0.4s;
+    border-bottom: 1px solid #0000003d;
+    transition: 0.4s;
+}
+
+.redes {
+    color: #fff;
+    font-size: 22px;
+    padding-right: 1em;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.redes:hover {
+    color: #d49400;
+}

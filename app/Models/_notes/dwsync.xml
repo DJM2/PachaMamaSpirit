@@ -7,4 +7,15 @@
 <file name="Tour.php" server="ftp.happyperutours.com" local="133213909327406878" remote="133251865200000000" Dst="0" />
 <file name="User.php" server="ftp.happyperutours.com" local="133129126980000000" remote="133251865200000000" Dst="0" />
 <file name="Imagenes.php" server="ftp.happyperutours.com" local="133155996228184469" remote="133251865200000000" Dst="0" />
+<file name="Article.php" server="15.204.142.117" local="133135490088670400" remote="133275698400000000" Dst="0" />
+<file name="Blog.php" server="15.204.142.117" local="133275879294560144" remote="133276583400000000" Dst="0" />
+<file name="Imagenes.php" server="15.204.142.117" local="133155996228184469" remote="133275698400000000" Dst="0" />
+<file name="search.php" server="15.204.142.117" local="133135354776737353" remote="133275698400000000" Dst="0" />
+<file name="Searchen.php" server="15.204.142.117" local="133137617483134468" remote="133275698400000000" Dst="0" />
+<file name="Tag.php" server="15.204.142.117" local="133274500333276024" remote="133275698400000000" Dst="0" />
+<file name="Tour.php" server="15.204.142.117" local="133213909327406878" remote="133275698400000000" Dst="0" />
+<file name="User.php" server="15.204.142.117" local="133129126980000000" remote="133275698400000000" Dst="0" />
+<file name="Toursen.php" server="15.204.142.117" local="133137616507124853" remote="133275698400000000" Dst="0" />
+<file name="Enblog.php" server="15.204.142.117" local="133275912323572418" remote="133276583400000000" Dst="0" />
+<file name="Entag.php" server="15.204.142.117" local="133275909815787810" remote="133276583400000000" Dst="0" />
 </dwsync>

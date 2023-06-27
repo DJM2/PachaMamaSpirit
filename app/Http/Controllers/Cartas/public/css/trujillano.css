@@ -1,0 +1,483 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7411764706), rgba(0, 0, 0, 0.3803921569)), url(../img/trujillano/seafood.jpg) !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain !important;
+    background-attachment: fixed !important;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    display: none;
+}
+#oferta { 
+    display: none;
+}
+.ofertaback {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.show {
+    display: block !important;
+}
+.ofertacont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.ofertacont img {
+    width: 100%;
+}
+
+.btn-oferta {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 24px;
+    transition: 0.6s;
+}
+
+.btn-oferta:hover {
+    color: #000;
+    background: #fff;
+    transition: 0.4s;
+}
+
+.alert {
+    position: relative;
+    z-index: 10000;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    max-width: 90%;
+}
+
+.boton-local {
+    background: #1a4275;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 8px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.boton-local:hover {
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+    transition: 0.4s;
+}
+
+.precioEnvio {
+    border-bottom: 1px dashed #fba817;
+}
+
+.fondo {
+    background: #eedab7;
+    height: 20vh;
+    width: 100% !important;
+    display: flex;
+}
+
+.img-pikol {
+    margin: auto;
+    width: 180px;
+}
+
+.titulo {
+    font-size: 1.4em;
+    color: #fff;
+    text-align: center;
+    padding-top: 2em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.subrayado {
+    width: 5%;
+    height: 4px;
+    background: #ff9828;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.boton-wasa {
+    background: #12c454;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 8px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.boton-wasa:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    color: #12c454;
+    background: #fff;
+    border: 1px solid #12c454;
+    transition: 0.4s;
+}
+
+#popup1-dialog {
+    border-radius: 10px;
+    border: 1px solid #ff0000;
+}
+
+.enviarpedido {
+    font-size: 14px;
+    background: #162981;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 8px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.enviarpedido:hover {
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+    transition: 0.4s;
+}
+
+#display {
+    display: none;
+    height: auto;
+    background: #f00;
+    position: fixed;
+    bottom: 0px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.5em;
+    margin-left: 90px;
+    border-radius: 10px;
+    z-index: 9;
+}
+
+#display a {
+    color: #ffffff;
+    top: 20%;
+    padding: 0.6em;
+    border-radius: 5px;
+    transition: 0.4s;
+    text-decoration: none;
+    position: relative;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+#display a:hover {
+    background: #ffffff;
+    color: #000;
+    transition: 0.4s;
+}
+
+#display p {
+    color: #fff;
+    margin-top: 25px;
+}
+
+p {
+    color: #000;
+}
+
+.menu {
+    width: 100%;
+    background: #4779af;
+    display: flex;
+    height: 50px;
+    position: sticky;
+    top: 0em;
+    z-index: 10;
+}
+
+.dot {
+    color: #fff;
+    margin-left: 0.8em;
+}
+
+.category-slider[data-v-1c8fdb5a] {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    overflow-x: auto;
+    width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+    list-style: none;
+    margin-bottom: 0;
+    justify-content: center;
+}
+
+.category-slider__item[data-v-1c8fdb5a] {
+    height: 26px;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    border: 1px solid hsla(0, 0%, 49.8%, 0.12);
+    color: #fff;
+}
+
+.category-slider__item[data-v-1c8fdb5a] a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.dialog {
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    border-width: 1px;
+    border-color: rgba(128, 128, 128, 0.1490196078);
+}
+
+.dialog #botonactivo {
+    font-size: 16px;
+    margin: auto;
+    background: #ed7e06;
+    color: #fff;
+    padding: 0.6em;
+    cursor: pointer;
+}
+
+.dialog #decremento {
+    font-size: 16px;
+    margin: auto;
+    background: #ed7e06;
+    color: #fff;
+    padding: 0.6em;
+    cursor: pointer;
+}
+
+.dialog .sub {
+    margin: auto;
+    padding-left: 1em;
+    font-size: 20px;
+}
+
+.dialog .input {
+    width: 42px;
+    height: 40px;
+    margin: auto;
+}
+
+.dialog h3 {
+    margin-top: 1.2em;
+}
+
+.platos {
+    margin: 2em !important;
+}
+
+.platos .plato {
+    border-radius: 5px;
+    margin-top: 0.5em;
+    margin-bottom: 1.5em;
+    transition: 0.4S;
+    overflow: hidden;
+    background: #fff;
+}
+
+.platos .plato:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.4S;
+}
+
+.platos .plato .margin-left {
+    margin-left: -4em;
+}
+
+.platos img {
+    height: 100%;
+    width: 85%;
+    margin-left: -12px;
+    object-fit: cover;
+}
+
+.platos .pedido {
+    position: relative;
+    top: 18px;
+    z-index: 0;
+    margin-top: 2em;
+}
+
+.platos .linea {
+    width: 100%;
+    border-bottom-style: dashed;
+    border-bottom-color: #ed7e06;
+    border-bottom-width: 2px;
+    display: flex;
+    margin-bottom: 0.5em;
+    margin-top: 2em;
+}
+
+.platos .izq {
+    float: left;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin-top: -1.8em;
+}
+
+.platos .izq2 {
+    font-size: 25px;
+}
+
+.platos .der {
+    font-size: 1.6em;
+    font-weight: 400;
+    float: right;
+    margin-right: 1em;
+}
+
+.platos .descripcion {
+    font-size: 14px;
+}
+
+.platos i {
+    background: orange;
+    padding: 0.4em;
+    transition: 0.4s;
+}
+
+.platos i:hover {
+    color: #fff;
+    transition: 0.4s;
+}
+
+.selectP {
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 0.8em;
+}
+
+.zoom {
+    font-size: 2.5rem;
+    transition: 0.5s;
+}
+
+.rezoom {
+    font-size: 1rem;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.pie {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.pie h5 {
+    font-size: 1em !important;
+}
+
+.pie a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.pie a:hover {
+    color: #f00;
+    transition: 0.4s;
+}
+
+@media (max-width: 480px) {
+    /* .tituselect {
+        float: right!important;
+        margin-right: 2em!important;
+    } */
+    #display {
+        margin-left: 0px !important;
+    }
+    .category-slider[data-v-1c8fdb5a] {
+        justify-content: flex-start;
+    }
+    .platos {
+        margin: 0em !important;
+    }
+    .platos .pedido {
+        margin-top: 0;
+    }
+    .platos .der {
+        margin-top: 1em;
+        margin-left: 1em;
+    }
+    .platos .plato img {
+        width: 400px;
+        height: 200px;
+    }
+    .platos .plato .margin-left {
+        margin-left: 0em;
+    }
+    .platos .plato .izq {
+        margin-top: 0.2em;
+    }
+    .platos .plato .descripcion {
+        display: inline-block;
+    }
+    dialog {
+        width: 100%;
+    }
+    dialog dialog .enviarpedido {
+        margin-top: 1em;
+    }
+}
+
+
+/*# sourceMappingURL=style.css.map */

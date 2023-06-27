@@ -46,7 +46,7 @@
                             <td>{{ $tour->id }}</td>
                             <td>{{ $tour->nombre }}</td>
                             <td>{{ $tour->descripcion }}</td>
-                            <td><img src="../img/buscador/{{ $tour->img }}" width="120px"></td>
+                            <td><img src="{{asset( $tour->img) }}" width="120px"></td>
                             <td>{{ $tour->precio }}</td>
                             <td>{{ $tour->dias }}</td>
                             <td>{{ $tour->categoria }}</td>
@@ -61,7 +61,7 @@
                                         <i class="fa fa-edit"></i> </a>
                                     {{-- <a href="{{ route('tours.show', ['slug' => $tour->slug]) }}"
                                         class="btn btn-success btn-sm" title="Ver tour"><i class="fa fa-eye"></i></a> --}}
-                                        <a href="{{ route('tours.show', $tour->slug) }}" class="btn btn-success btn-sm" title="Ver tour"><i class="fa fa-eye"></i></a>
+                                        <a href="{{ route('tours.show', $tour->slug) }}" class="btn btn-success btn-sm" title="Ver tour" target="_blank"><i class="fa fa-eye"></i></a>
                                         
                                     <button type="submit" class="btn btn-danger btn-sm" title="Eliminar"
                                         onclick="alerta();"><i class="fa fa-trash"></i></button>
@@ -76,7 +76,7 @@
         <script>
             function alerta() {
                 alert('Desea aliminar?');
-            }
+            } 
         </script>
     </div>
     <script src="//cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>

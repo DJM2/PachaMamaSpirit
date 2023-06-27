@@ -15,12 +15,12 @@ class TourController extends Controller
      */
     public function index()
     {
-        $tours = Tour::paginate(10);
+        $tours = Tour::latest()->get();
         return view('tours.index')->with('tours', $tours);
     }
     public function mostrar()
     {
-        $tours = tour::all();
+        $tours = Tour::latest()->get();
         return view('inicio')->with('tours', $tours);
     }
     public function users()
@@ -65,9 +65,10 @@ class TourController extends Controller
 
         $img = $request->file('img');
         $rutaImg = public_path("img/buscador/");
-        $imgTour = /* time() . "." .  */ $img->getClientOriginalName();
+        $imgTour = $img->getClientOriginalName();
         $img->move($rutaImg, $imgTour);
-        $tours['img'] = "$imgTour";
+        /* $tours['img'] = "$imgTour"; */
+        $tours['img'] = "img/buscador/$imgTour";
 
         $cat = $request->get('categoria');
         $tours->categoria = implode(',', $cat);
@@ -88,10 +89,9 @@ class TourController extends Controller
      */
     public function show($slug)
     {
-        /* $tour = Tour::find($id);
-        return view('tours.show')->with('tour', $tour); */
         $tour = Tour::where('slug', $slug)->firstOrFail();
-        return view('tours.show')->with('tour', $tour);
+        $otrosTours = Tour::where('id', '!=', $tour->id)->get();
+        return view('tours.show', compact('tour', 'otrosTours'));
     }
 
     /**
@@ -115,7 +115,7 @@ class TourController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $tour = Tour::find($id);
+        $tour = Tour::findOrFail($id);
 
         $tour->nombre = $request->get('nombre');
         $tour->descripcion = $request->get('descripcion');
@@ -126,25 +126,26 @@ class TourController extends Controller
         $tour->importante = $request->get('importante');
         $tour->precio = $request->get('precio');
         $tour->dias = $request->get('dias');
+        $tour->ubicacion = $request->get('ubicacion');
+
         $cat = $request->get('categoria');
         $tour->categoria = implode(',', $cat);
-        $tour->ubicacion = $request->get('ubicacion');
         $tour->keywords = $request->get('keywords');
         $tour->slug = $request->get('slug');
         $tour->clase = $request->get('clase');
 
-        if ($img = $request->file('img')) {
+        // Actualizar la imagen si se ha proporcionado una nueva
+        if ($request->hasFile('img')) {
+            $img = $request->file('img');
             $rutaImg = public_path("img/buscador/");
             $imgTour = $img->getClientOriginalName();
             $img->move($rutaImg, $imgTour);
-            $tour['img'] = "$imgTour";
-        } else {
-            unset($tour['img']);
+            $tour->img = "img/buscador/$imgTour";
         }
 
         $tour->save();
         session()->flash('status', 'Tour actualizado exitosamente!');
-        return redirect('/tours');
+        return redirect('tours');
     }
 
     /**

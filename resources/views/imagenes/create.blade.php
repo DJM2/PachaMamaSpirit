@@ -3,21 +3,25 @@
 
 @section('contenido')
     <div class="row">
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                {{ $errors->first() }}
+            </div>
+        @endif
         <div class="col-12">
             <h4 class="float-left">Subir imagen nueva:</h4>
             <a href="{{ route('imagenes.index') }}" class="btn btn-primary float-right">Volver</a>
         </div>
         <div class="col-12">
-            <form action="{{ route('imagenes.index') }}" method="post" enctype="multipart/form-data" class="bg-light">
+            <form method="POST" action="{{ route('imagenes.store') }}" enctype="multipart/form-data">
                 @csrf
-                <div class="row">
-                    <div class="col-lg-12">
-                        <input type="file" id="img" name="img" class="form-control" required>
-                    </div>
+                <div class="form-group">
+                    <label for="img">Seleccionar imágenes:</label>
+                    <input type="file" name="img[]" id="img" class="form-control" multiple>
                 </div>
-                <a href="{{route('imagenes.index')}}" class="btn btn-secondary mt-4">Cancelar</a>
-                <button class="btn btn-primary mt-4" type="submit">Guardar</button>
+                <button type="submit" class="btn btn-primary">Subir imágenes</button>
             </form>
+            
         </div>
     </div>
 

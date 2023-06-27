@@ -14,7 +14,8 @@ class TagController extends Controller
      */
     public function index()
     {
-        //
+        $tags = Tag::all();
+        return view('blogs.es.tags.index', compact('tags'));
     }
 
     /**
@@ -24,7 +25,8 @@ class TagController extends Controller
      */
     public function create()
     {
-        //
+        $tag = new Tag();
+        return view('blogs.es.tags.create', compact('tag'));
     }
 
     /**
@@ -35,18 +37,28 @@ class TagController extends Controller
      */
     public function store(Request $request)
     {
-        //
-    }
+        request()->validate(Tag::$rules);
+        $tag = new Tag;
+        $tag->nombre = $request->input('nombre');
+        $tag->slug = $request->input('slug');
+        $tag->save();
 
+        return redirect()->route('tags.index')
+            ->with('success', 'Tag creado exitosamente!');
+    }
+ 
     /**
      * Display the specified resource.
      *
      * @param  \App\Models\Tag  $tag
      * @return \Illuminate\Http\Response
      */
-    public function show(Tag $tag)
+    public function show($slug)
     {
-        //
+        $tag = Tag::where('slug', $slug)->firstOrFail();
+        $blogs = $tag->blogs()->get();
+        $coincidencias = $tag->blogs()->count();
+        return view('blogs.es.tags.show', compact('tag','blogs','coincidencias'));
     }
 
     /**
@@ -55,9 +67,10 @@ class TagController extends Controller
      * @param  \App\Models\Tag  $tag
      * @return \Illuminate\Http\Response
      */
-    public function edit(Tag $tag)
+    public function edit($id)
     {
-        //
+        $tag = Tag::query()->find($id);
+        return view('blogs.es.tags.edit', compact('tag'));
     }
 
     /**
@@ -69,7 +82,10 @@ class TagController extends Controller
      */
     public function update(Request $request, Tag $tag)
     {
-        //
+        request()->validate(Tag::$rules);
+        $tag->update($request->all());
+        return redirect()->route('tags.index')
+            ->with('success', 'Tag actualizado exitosamente!');
     }
 
     /**
@@ -78,8 +94,11 @@ class TagController extends Controller
      * @param  \App\Models\Tag  $tag
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Tag $tag)
+    public function destroy($id)
     {
-        //
+        $tag = Tag::query()->find($id);
+        $tag->delete();
+        return redirect()->route('tags.index')
+            ->with('success', 'Tag borrado exitosamente!');
     }
 }

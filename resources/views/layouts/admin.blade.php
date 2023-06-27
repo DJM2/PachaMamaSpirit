@@ -10,7 +10,8 @@
     <link rel="shortcut icon" href="{{ asset('img/icono-home.png') }}">
     <link href="{{ asset('admin/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('admin/css/sb-admin-2.min.css') }}" rel="stylesheet">
-
+    {{-- <link href='https://cdn.jsdelivr.net/npm/froala-editor@3.2.6/css/froala_editor.pkgd.min.css' rel='stylesheet' type='text/css' />
+<script type='text/javascript' src='https://cdn.jsdelivr.net/npm/froala-editor@3.2.6/js/froala_editor.pkgd.min.js'></script> --}}
 </head>
 
 <body id="page-top">
@@ -24,7 +25,6 @@
             <div class="sidebar-heading">
                 Tours
             </div>
-
             <li class="nav-item">
                 <a class="nav-link collapsed" href="{{ route('tours.index') }}">
                     <i class="fas fa-fw fa-cog"></i>
@@ -38,7 +38,44 @@
                 </a>
             </li>
             <hr class="sidebar-divider">
-
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#es"
+                    aria-expanded="false" aria-controls="es">
+                    <i class="fas fa-fw fa-language"></i>
+                    <span>Blogs Español</span>
+                </a>
+                <div id="es" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar"
+                    style="">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="{{ route('tags.index') }}">
+                            Tags de blogs
+                        </a>
+                        <a class="collapse-item" href="{{ route('blogs.index') }}">
+                            Blogs
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <hr class="sidebar-divider">
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#ingles"
+                    aria-expanded="false" aria-controls="ingles">
+                    <i class="fas fa-fw fa-language"></i>
+                    <span>Blogs Inglés</span>
+                </a>
+                <div id="ingles" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar"
+                    style="">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="{{ route('entags.index') }}">
+                            Tags de blogs
+                        </a>
+                        <a class="collapse-item" href="{{ route('enblogs.index') }}">
+                            Blogs
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <hr class="sidebar-divider">
             <li class="nav-item">
                 <a class="nav-link" href="{{ route('imagenes.index') }}">
                     <i class="fas fa-fw fa-images"></i>
@@ -146,9 +183,8 @@
         <i class="fas fa-angle-up"></i>
     </a>
 
-    <script src="//cdn.ckeditor.com/4.14.1/plugins/youtube/plugin.js"></script>
     <script src="//cdn.ckeditor.com/4.14.1/full/ckeditor.js"></script>
-    
+
     <script src="{{ asset('admin/vendor/jquery/jquery.min.js') }}"></script>
     <script src="{{ asset('admin/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('admin/vendor/jquery-easing/jquery.easing.min.js') }}"></script>

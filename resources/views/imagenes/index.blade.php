@@ -35,7 +35,7 @@
                     @foreach ($imagenes as $imagen)
                         <tr>
                             <td>{{ $imagen->id }}</td>
-                            <td> <img width="200px" height="auto" src="../img/galeria/{{ $imagen->img }}">
+                            <td> <img width="120px" height="auto" src="../img/galeria/{{ $imagen->img }}">
                             </td>
                             <td onclick="copiar(this)">{{asset("img/galeria/$imagen->img")}} 
                             </td>
@@ -69,6 +69,7 @@
             alert('URL copiada');
         }
     </script>
+    
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.1/js/dataTables.bootstrap5.min.js"></script>

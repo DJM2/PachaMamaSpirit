@@ -9,4 +9,13 @@
 <file name="TrustProxies.php" server="ftp.happyperutours.com" local="133129126980000000" remote="133251865200000000" Dst="0" />
 <file name="ValidateSignature.php" server="ftp.happyperutours.com" local="133129126980000000" remote="133251865200000000" Dst="0" />
 <file name="VerifyCsrfToken.php" server="ftp.happyperutours.com" local="133129126980000000" remote="133251865200000000" Dst="0" />
+<file name="Authenticate.php" server="15.204.142.117" local="133129126980000000" remote="133275698400000000" Dst="0" />
+<file name="EncryptCookies.php" server="15.204.142.117" local="133129126980000000" remote="133275698400000000" Dst="0" />
+<file name="PreventRequestsDuringMaintenance.php" server="15.204.142.117" local="133129126980000000" remote="133275698400000000" Dst="0" />
+<file name="TrimStrings.php" server="15.204.142.117" local="133129126980000000" remote="133275698400000000" Dst="0" />
+<file name="TrustHosts.php" server="15.204.142.117" local="133129126980000000" remote="133275698400000000" Dst="0" />
+<file name="RedirectIfAuthenticated.php" server="15.204.142.117" local="133129126980000000" remote="133275698400000000" Dst="0" />
+<file name="TrustProxies.php" server="15.204.142.117" local="133129126980000000" remote="133275698400000000" Dst="0" />
+<file name="ValidateSignature.php" server="15.204.142.117" local="133129126980000000" remote="133275698400000000" Dst="0" />
+<file name="VerifyCsrfToken.php" server="15.204.142.117" local="133129126980000000" remote="133275698400000000" Dst="0" />
 </dwsync>

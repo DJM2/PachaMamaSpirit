@@ -25,4 +25,8 @@ class Tag extends Model
       /**
        * @return \Illuminate\Database\Eloquent\Relations\HasMany
        */
+      public function blogs()
+   {
+       return $this->belongsToMany(Blog::class, 'blog_categoria', 'tag_id', 'blog_id');
+   }
 }

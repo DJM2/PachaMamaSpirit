@@ -18,7 +18,7 @@ class ToursenController extends Controller
         return view('toursen.index')->with('tours', $tours);
     }
     public function mostrar(){
-        $tours=Toursen::all();
+        $tours = Toursen::orderBy('created_at', 'desc')->get();
         return view('index')->with('tours', $tours);
     }
 
@@ -58,9 +58,14 @@ class ToursenController extends Controller
 
         $img = $request->file('img');
         $rutaImg = public_path("img/buscador/");
-        $imgTour = time() . "." . $img->getClientOriginalName();
+        $imgTour = $img->getClientOriginalName();
         $img->move($rutaImg, $imgTour);
-        $tours['img'] = "$imgTour";
+        $tours['img'] = "img/buscador/$imgTour";
+        /* $img = $request->file('img');
+        $rutaImg = public_path("img/buscador/");
+        $imgTour = $img->getClientOriginalName();
+        $img->move($rutaImg, $imgTour);
+        $tours['img'] = "$imgTour"; */
 
         $cat = $request->get('categoria');
         $tours->categoria= implode(', ', $cat); 
@@ -82,7 +87,8 @@ class ToursenController extends Controller
     public function show($slug)
     {
         $tour = Toursen::where('slug', $slug)->firstOrFail();
-        return view('toursen.show')->with('tour', $tour);
+        $otrosTours = Toursen::where('id', '!=', $tour->id)->get();     
+        return view('toursen.show', compact('tour', 'otrosTours'));
     }
 
     /**
@@ -126,13 +132,12 @@ class ToursenController extends Controller
         $tour->clase=$request->get('clase');
         $tour->slug=$request->get('slug');
 
-        if ($img = $request->file('img')) {
+        if ($request->hasFile('img')) {
+            $img = $request->file('img');
             $rutaImg = public_path("img/buscador/");
-            $imgTour = time() . "." . $img->getClientOriginalExtension();
+            $imgTour = $img->getClientOriginalName();
             $img->move($rutaImg, $imgTour);
-            $tour['img'] = "$imgTour";
-        } else {
-            unset($tour['img']);
+            $tour->img = "img/buscador/$imgTour";
         }
 
         $tour->save();

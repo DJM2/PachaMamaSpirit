@@ -28,64 +28,80 @@
                         </div>
                     </div>
                 </div>
+                <div class="col lg-12 mb-2">
+                    <h2>BLogs sobre sobre Perú</h2>
+                    <p>
+                        ¡Bienvenid@ a nuestra sección de blogs! Aquí encontrarás temas interesantes sobre Perú, desde tips
+                        útiles para viajar hasta información sobre la historia, costumbres, lugares turísticos y mucho más.
+                        Explora nuestras publicaciones y descubre todo lo que este hermoso país tiene para ofrecer.</p>
+                </div>
+                <div class="col-lg-12 mb-5">
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control" id="buscador" placeholder="Buscar blog">
+                    </div>
+                    <div id="no-results" style="display: none; font-weight:bold">No se encontraron resultados para tu
+                        búsqueda.</div>
+                </div>
+                <script>
+                    function searchBlogs() {
+                        const input = document.getElementById('buscador');
+                        const blogs = document.querySelectorAll('.nombreBlog');
+                        const blogContainers = document.querySelectorAll('.blog-container');
+                        const noResults = document.getElementById('no-results');
+                        let numResults = 0;
+
+                        const searchWords = input.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "").split(' ');
+
+                        blogContainers.forEach(function(blogContainer) {
+                            let blogName = blogContainer.querySelector('.nombreBlog').textContent.toLowerCase().normalize('NFD')
+                                .replace(/[\u0300-\u036f]/g, "");
+                            let hasAllWords = true;
+
+                            searchWords.forEach(function(searchWord) {
+                                if (!blogName.includes(searchWord)) {
+                                    hasAllWords = false;
+                                }
+                            });
+
+                            if (hasAllWords) {
+                                blogContainer.style.display = 'block';
+                                numResults++;
+                            } else {
+                                blogContainer.style.display = 'none';
+                            }
+                        });
+
+                        if (input.value === '') {
+                            blogContainers.forEach(function(blogContainer) {
+                                blogContainer.style.display = 'block';
+                            });
+                        }
+
+                        if (numResults === 0) {
+                            noResults.style.display = 'block';
+                        } else {
+                            noResults.style.display = 'none';
+                        }
+                    }
+                    setInterval(searchBlogs, 500);
+                </script>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="blogs actividades">
-                    <div class="black">
-                        <h2>10 Actividades turísticas recomendadas en Cusco</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 25/04/2023</span></div>
-                        <p>Conoce y disfruta de muchas actividades turísticas en la
-                            ciudad del Cusco
-                        </p>
-                        <a href="{{ route('actividadescusco') }}">Leer artículo</a>
+                @foreach ($blogs as $blog)
+                    <div class="blogs blogimg blog-container" style="background:url({{ $blog->img }}); background-size:cover">
+                        <div class="black">
+                            <h2 class="nombreBlog">{{ $blog->nombre }}</h2>
+                            <div class="fecha"><i class="icon-calendar"></i><span>
+                                    {{ $blog->created_at->format('d/m/Y') }}</span></div>
+                            <p>{{ $blog->descripcion }}</p>
+                            <a href="{{ route('blog.show', $blog->slug) }}">Leer artículo</a>
+                        </div>
                     </div>
-                </div>
-                <div class="blogs semanasanta">
-                    <div class="black">
-                        <h2>Semana Santa Cusco</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 15/04/2023</span></div>
-                        <p>La feria gastronómica más grande del Perú
-                        </p>
-                        <a href="{{ route('semanasanta') }}">Leer artículo</a>
-                    </div>
-                </div>                
-                <div class="blogs santaRosa">
-                    <div class="black">
-                        <h2>Santa Rosa de Lima</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 17/09/2022</span></div>
-                        <p>La vida completa de Santa Rosa de Lima y su canonización
-                        </p>
-                        <a href="{{ route('santa-rosa-de-lima-es') }}">Leer artículo</a>
-                    </div>
-                </div>
-                <div class="blogs fiestasPatrias">
-                    <div class="black">
-                        <h2>Fiestas patrias en Perú</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 17/09/2022</span></div>
-                        <p>Cada 28 de julio se celebra la emancipación de Perú </p>
-                        <a href="{{ route('fiestas-patrias-peru') }}">Leer artículo</a>
-                    </div>
-                </div>
-                <div class="blogs playas">
-                    <div class="black">
-                        <h2>Las mejores playas de Perú</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 17/09/2022</span></div>
-                        <p>Tras una rigurosa busqueda, tenemos una lista de las mejores playas que Perú ofrece
-                        </p>
-                        <a href="{{ route('las-mejores-playas-peru') }}">Leer artículo</a>
-                    </div>
-                </div>
-                <div class="blogs mistura">
-                    <div class="black">
-                        <h2>Mistura</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 17/09/2022</span></div>
-                        <p>La feria gastronómica más grande Perú
-                        </p>
-                        <a href="{{ route('mistura-es') }}">Leer artículo</a>
-                    </div>
-                </div>                
+                @endforeach              
+                
+                
             </div>
         </div>
     </section>

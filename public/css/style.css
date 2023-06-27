@@ -86,8 +86,18 @@ a:hover {
     background-repeat: no-repeat;
 }
 
+
+/* @keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+} */
+
 .aventuras {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../img/panoramico/camino-inca-reserva.webp');
     background-size: cover;
@@ -96,7 +106,7 @@ a:hover {
 }
 
 .imperdible {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/panoramico/cusco-imperdible-tierras-vivas.webp');
     background-size: cover;
@@ -105,16 +115,16 @@ a:hover {
 }
 
 .machu {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.352)), url('../img/panoramico/Tours-a-Machu-Picchu-Tierras-Vivas.webp');
     background-size: cover;
-    background-position: top center;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
 .ollantaytambo {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.352)), url('../img/panoramico/ollantaytambo-streets-from-Cusco.webp');
     background-size: cover;
@@ -123,7 +133,7 @@ a:hover {
 }
 
 .pachamamalodge {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.352)), url('../img/panoramico/Pacha-mama-spirit-lodge.webp');
     background-size: cover;
@@ -168,7 +178,7 @@ a:hover {
 }
 
 .preguntas {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/preguntas-frecuentes-para-viajar-a-Peru-Pacha-mama-Spirit.webp');
     background-size: cover;
@@ -177,7 +187,7 @@ a:hover {
 }
 
 .blog-temas {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/panoramico/caminatas-trekking-peru.webp');
     background-size: cover;
@@ -186,7 +196,7 @@ a:hover {
 }
 
 .puno {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/panoramico/viajar-a-puno.webp');
     background-size: cover;
@@ -195,7 +205,7 @@ a:hover {
 }
 
 .valle {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/panoramico/sacred-valley-cusco-valle-sagrado.webp');
     background-size: cover;
@@ -204,7 +214,7 @@ a:hover {
 }
 
 .selva {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/panoramico/vista-aerea-de-la-selva-amazonica.webp');
     background-size: cover;
@@ -213,7 +223,7 @@ a:hover {
 }
 
 .caminata {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/panoramico/trekking-peru.webp');
     background-size: cover;
@@ -222,7 +232,7 @@ a:hover {
 }
 
 .nazca {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../img/panoramico/Lineas-de-nazca-peru-ica.webp');
     background-size: cover;
@@ -231,7 +241,7 @@ a:hover {
 }
 
 .lima {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../img/panoramico/ciudad-de-reyes-lima.webp');
     background-size: cover;
@@ -240,7 +250,7 @@ a:hover {
 }
 
 .arequipa {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../img/panoramico/la-ciudad-blanca-de-arequipa.webp');
     background-size: cover;
@@ -249,7 +259,7 @@ a:hover {
 }
 
 .cusco {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/panoramico/cusco-ciudad-imperial.webp');
     background-size: cover;
@@ -258,7 +268,7 @@ a:hover {
 }
 
 .ollanta {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../img/panoramico/ollantaytambo-tour-cusco-tierras-vivas.webp');
     background-size: cover;
@@ -267,7 +277,7 @@ a:hover {
 }
 
 .huchuy {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../img/panoramico/huchuy-qosqo-tour-cusco.webp');
     background-size: cover;
@@ -276,7 +286,7 @@ a:hover {
 }
 
 .choque {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../img/panoramico/guia-de-viajes-choquequirao.webp');
     background-size: cover;
@@ -285,7 +295,7 @@ a:hover {
 }
 
 .humantay {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/panoramico/tour-a-la-laguna-de-humantay.webp');
     background-size: cover;
@@ -294,7 +304,7 @@ a:hover {
 }
 
 .vinicunca {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../img/panoramico/vinicunca-7-colores.webp');
     background-size: cover;
@@ -303,7 +313,7 @@ a:hover {
 }
 
 .ica {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../img/panoramico/huacachina-ica-peru-tour.webp');
     background-size: cover;
@@ -312,7 +322,7 @@ a:hover {
 }
 
 .pisco {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../img/panoramico/pisco-city-tourism.webp');
     background-size: cover;
@@ -321,7 +331,7 @@ a:hover {
 }
 
 .puerto {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: url('../img/panoramico/puerto-maldonado-peru.webp');
     background-size: cover;
@@ -330,7 +340,7 @@ a:hover {
 }
 
 .salkantay {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/panoramico/Salkantay-cusco-Peru-Tierras-Vivas.webp');
     background-size: cover;
@@ -339,7 +349,7 @@ a:hover {
 }
 
 .manu {
-    height: 60vh;
+    height: 80vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/galeria/Lugares-turísticos-de-Puerto-Maldonado-Reserva-Tambopata-Candamo.webp');
     background-size: cover;
@@ -355,7 +365,7 @@ a:hover {
 
 .temasBlogs h1 {
     color: #fff;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: 600;
     text-align: center;
     margin: auto;

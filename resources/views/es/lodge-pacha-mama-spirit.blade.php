@@ -36,7 +36,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="card card-new" style="width: 18rem;">
                                 <a href="{{ route('tours.show', ['id' => $tour->id, 'slug' => $tour->slug]) }}">
-                                    <img class="card-img-top" src="../img/buscador/{{ $tour->img }}"
+                                    <img class="card-img-top" src="{{ $tour->img }}"
                                         alt="Camino Inca 4 dias" loading="lazy">
                                 </a>
                                 <div class="card-body text-center">

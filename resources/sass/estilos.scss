@@ -1,3 +1,7 @@
+$color: rgb(67, 207, 207);
+$colordark: rgb(44 173 173);
+$secundario: #283950;
+
 html {
     scroll-behavior: smooth;
 }
@@ -13,17 +17,131 @@ html {
     margin-top: 2em;
 }
 
+.formTransparent {
+    input {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid grey;
+    }
+
+    textarea {
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid grey;
+    }
+    select{
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid grey;
+    }
+
+    .btnTransparent {
+        background: transparent;
+        margin-top: 3em;
+        border: none;
+        border-bottom: 1px solid $color;
+        border-radius: 10%;
+        position: relative;
+        overflow: hidden;
+        color: #000000;
+
+        &:hover {
+            color: #fff;
+            transition: 0.4 ease-in-out;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 0;
+            background-color: $color;
+            transition: height 0.3s ease-in-out;
+            z-index: -1;
+            /* Ajustar el valor del índice z para colocar el pseudo-elemento detrás del texto */
+        }
+
+        &:hover::before {
+            height: 100%;
+            transition: 0.4s ease-in-out;
+        }
+    }
+}
+
 .tab-content {
-    background: #c3c3c3;
-    /* border-radius: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #80808012; */
+    background: #c3c3c3 !important;
+}
+
+.nav {
+    background: #d8d8d8;
+
+    .nav-item {
+        border: 1px solid #72727270;
+    }
+}
+
+.tags {
+    margin-bottom: 1.5em;
+
+    a {
+        color: rgb(44 173 173) !important;
+        transition: 0.6s;
+        cursor: pointer;
+        margin-left: 0.5em;
+
+        &:hover {
+            color: #343434 !important;
+            transition: 0.6s;
+        }
+    }
+}
+
+.boton-blog-search {
+    background: #ffffff;
+    border: 1px solid #0000002b;
+    padding: 5px 10px 5px 10px;
+    color: #000;
+    border-radius: 6px;
+    transition: 0.5s;
+
+    &:hover {
+        color: #fff;
+        background: $color;
+        transition: 0.5s;
+        border-color: $color;
+    }
+}
+
+.form-control:focus {
+    border-color: #43cfcf !important;
+    box-shadow: 0 0 0 0.25rem rgba(67, 207, 207, 0.034) !important;
+}
+
+.precio {
+    font-size: 35px;
+    text-align: center;
+}
+
+.linea-precio {
+    width: 60px;
+    height: 8px;
+    margin: auto;
+    background: $secundario;
+    margin-bottom: 1.2em;
+}
+
+.linea2-blogs {
+    border-bottom: 5px solid $color;
+    margin-bottom: 1em;
+    width: 30px;
+    border-radius: 5px;
 }
 
 .compartir {
     a {
-        background: #43cfcf;
+        background: $color;
         color: #fff;
         padding: 0.3em;
         margin-left: 0.6em;
@@ -32,15 +150,17 @@ html {
         height: 30px;
         display: inline-block;
         text-align: center;
-        border: solid 1px #43cfcf;
+        border: solid 1px $color;
         font-size: 16px;
         transition: 0.6s;
+
         &:hover {
             background: #fff;
             color: #43cfcf;
             border: 1px solid #43cfcf;
             transition: 0.6s;
         }
+
         i {
             line-height: 20px;
         }
@@ -183,6 +303,11 @@ html {
 .img-card {
     width: 100%;
     height: 180px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
 }
 
 .enlacesCategoria {
@@ -414,18 +539,25 @@ beige {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 3em;
-}
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 
-.details p {
-    color: #000;
-}
+    a {
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: $secundario;
+        letter-spacing: 0.1em;
 
-.details a {
-    color: #000;
-}
+        &:hover {
+            color: #2fa69b;
+        }
+    }
 
-.details a:hover {
-    color: #2fa69b;
+    p {
+        font-weight: 500 !important;
+    }
 }
 
 .sticky {
@@ -754,144 +886,109 @@ h3 {
     overflow: hidden;
     text-align: center;
     color: #fff;
+
+    .black {
+        background: transparent;
+        transition: 1s;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    &:hover .black {
+        background: #00000080;
+    }
+
+    &:hover p {
+        margin-left: 0em;
+        font-size: 13px;
+        transition: 0.6s;
+    }
+
+    &:hover h2 {
+        opacity: 1;
+    }
+
+    h2 {
+        color: #fff;
+        font-size: 18px !important;
+        padding-top: 40px;
+        opacity: 0.9;
+        transition: 1s;
+    }
+
+    p {
+        text-align: center;
+        font-size: 0px;
+        margin-left: -50em;
+        color: #fff;
+        padding: 1.2em;
+        transition: 0.6s;
+    }
+
+    .fecha {
+        margin-right: -50em;
+        transition: 1s;
+    }
+
+    &:hover .fecha {
+        margin-right: 0%;
+    }
+
+    a {
+        text-align: center;
+        color: #fff;
+        background: transparent;
+        padding: 10px 15px;
+        border-style: solid;
+        border-color: #fff;
+        font-size: 12px;
+        border-width: 1px;
+        border-radius: 4px;
+        display: none;
+        transition: 1s;
+
+        &:hover {
+            background: #2fa69b;
+            border-style: none;
+            color: #fff;
+            transition: 0.8s;
+        }
+    }
+
+    &:hover a {
+        margin-right: 0em;
+        display: inline;
+        transition: 1s;
+    }
+}
+
+.blogimg {
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
 }
 
 .blogSpace {
-    margin: 1em;
-    padding-top: 10px;
-    padding-bottom: 10px;
     transition: 0.5s;
-}
 
-.blogSpace p {
-    text-align: left;
-}
+    &:hover {
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        transition: 0.5s;
+    }
 
-.blogSpace:hover {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    transition: 0.5s;
+    p {
+        text-align: left;
+    }
 }
 
 .imgCuadrada {
     width: 100%;
     height: 80px;
+    object-fit: cover;
+    position: initial;
 }
 
-.blogs:hover .black {
-    background: #00000080;
-}
-
-.black {
-    background: transparent;
-    transition: 1s;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.blogs h2 {
-    color: #fff;
-    font-size: 24px;
-    padding-top: 40px;
-    opacity: 0.9;
-    transition: 1s;
-}
-
-.blogs:hover h2 {
-    opacity: 1;
-}
-
-.blogs .fecha {
-    margin-right: -50em;
-    transition: 1s;
-}
-
-.blogs:hover .fecha {
-    margin-right: 0%;
-}
-
-.blogs p {
-    text-align: center;
-    font-size: 0px;
-    margin-left: -50em;
-    color: #fff;
-    padding: 1.2em;
-    transition: 1s;
-}
-
-.blogs a {
-    text-align: center;
-    color: #fff;
-    background: transparent;
-    padding: 10px 15px;
-    border-style: solid;
-    border-color: #fff;
-    border-width: 1px;
-    border-radius: 4px;
-    display: none;
-    transition: 1s;
-}
-
-.blogs:hover p {
-    margin-left: 0em;
-    font-size: 14px;
-    transition: 1s;
-}
-
-.blogs:hover a {
-    margin-right: 0em;
-    display: inline;
-    transition: 1s;
-}
-
-.blogs a:hover {
-    background: #2fa69b;
-    border-style: none;
-    color: #fff;
-    transition: 0.8s;
-}
-
-.santaRosa {
-    background: url(../img/blog/thumb/santa-rosa-de-Lima-Pacha-Mama-Spirit.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.fiestasPatrias {
-    background: url(../img/blog/thumb/fiestas-patrias-Peru-Pacha-Mama-Spirit.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.mistura {
-    background: url(../img/blog/thumb/mistura-lima-peru-Pacha-mama-Spirit.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.playas {
-    background: url(../img/blog/thumb/the-best-beaches-of-Peru.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.semanasanta {
-    background: url(../img/blog/thumb/santo_sepulcro.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-.actividades {
-    background: url(../img/blog/thumb/actividades-turisticas-cusco.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 
 .boton-card {
     background: #2fa69b;
@@ -1089,6 +1186,7 @@ footer p {
     .logo {
         margin-left: -1.5em
     }
+
     .h1-destinos {
         margin-top: 7em;
         font-size: 30px;
@@ -1099,37 +1197,48 @@ footer p {
     .display-foot {
         display: none;
     }
+
     .display-foot-2 {
         display: inline;
     }
+
     .logo {
         margin-left: 0em;
     }
+
     .form-index {
         margin-top: 55%;
     }
+
     .row-menu {
         width: 100%;
     }
+
     .icon-menu {
         float: right;
     }
+
     .h1-index-book {
         font-size: 1.6em;
     }
+
     .full-img-card {
         width: 100%;
     }
+
     .h1-destinos {
         font-size: 1.8em;
         margin-top: 8em;
     }
+
     .banner-container {
         width: 90%;
     }
+
     .h3-banner {
         font-size: 2.4em;
     }
+
     .banner {
         background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/responsive/reservas-camino-inca-peru.webp);
         background-repeat: no-repeat;
@@ -1138,6 +1247,7 @@ footer p {
         background-size: cover;
         height: 600px;
     }
+
     .banner-destinos {
         background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/responsive/los-mejores-destinos-para-peru.webp);
         background-repeat: no-repeat;
@@ -1145,6 +1255,7 @@ footer p {
         align-content: center;
         background-size: cover;
     }
+
     .banner-aventuras {
         background: linear-gradient(to bottom right, #000000a8, #00000075), url(../img/responsive/camino-inca-reserva.webp);
         background-repeat: no-repeat;

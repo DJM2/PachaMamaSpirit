@@ -4,5 +4,8 @@
 <file name="api.php" server="ftp.happyperutours.com" local="133129126980000000" remote="133251865200000000" Dst="0" />
 <file name="channels.php" server="ftp.happyperutours.com" local="133129126980000000" remote="133251865200000000" Dst="0" />
 <file name="console.php" server="ftp.happyperutours.com" local="133129126980000000" remote="133251865200000000" Dst="0" />
-<file name="web.php" server="15.204.142.117" local="133270281322331332" remote="133270563000000000" Dst="0" />
+<file name="web.php" server="15.204.142.117" local="133277627107830532" remote="133277807400000000" Dst="0" />
+<file name="api.php" server="15.204.142.117" local="133129126980000000" remote="133275708000000000" Dst="0" />
+<file name="channels.php" server="15.204.142.117" local="133129126980000000" remote="133275708000000000" Dst="0" />
+<file name="console.php" server="15.204.142.117" local="133129126980000000" remote="133275708000000000" Dst="0" />
 </dwsync>

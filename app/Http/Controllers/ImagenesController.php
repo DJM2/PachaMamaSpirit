@@ -7,85 +7,68 @@ use Illuminate\Http\Request;
 
 class ImagenesController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
-        $imagenes=Imagenes::all();
+        $imagenes = Imagenes::latest()->get();
         return view('imagenes.index', compact('imagenes'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
         return view('imagenes.create');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
-        $imagen = new Imagenes();
-        $img = $request->file('img');
-        $rutaImg = public_path("img/galeria/");
-        $imgTour = $img->getClientOriginalName();
-        $img->move($rutaImg, $imgTour);
-        $imagen['img'] = "$imgTour";
-        $imagen->save();
-        session()->flash('status', 'Imagen creada exitosamente!');
+        $imgFiles = $request->file('img');
+
+        foreach ($imgFiles as $img) {
+            $imgTour = $img->getClientOriginalName();
+            $imagenExistente = Imagenes::where('img', $imgTour)->first();
+            if ($imagenExistente) {
+                return redirect()->route('imagenes.create')->withErrors('La imagen ya existe en la base de datos. Por favor, elige una nueva imagen popita.');
+            }
+            $rutaImg = public_path("img/galeria/");
+            $img->move($rutaImg, $imgTour);
+
+            $imagen = new Imagenes();
+            $imagen->img = $imgTour;
+            
+            $imagen->save();
+        }
+
+        session()->flash('status', 'Imágenes creadas exitosamente!');
         return redirect('imagenes');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\Imagenes  $imagenes
-     * @return \Illuminate\Http\Response
-     */
+
     public function show($id)
     {
         $imagen = Imagenes::find($id);
         return view('imagenes.show')->with('imagen', $imagen);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Models\Imagenes  $imagenes
-     * @return \Illuminate\Http\Response
-     */
+
     public function edit($id)
     {
         $imagen = Imagenes::find($id);
         return view('imagenes.edit')->with('imagen', $imagen);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\Imagenes  $imagenes
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(Request $request, $id)
     {
         $imagen = Imagenes::find($id);
         if ($img = $request->file('img')) {
-            $rutaImg = public_path("img/galeria/");
             $imgTour = $img->getClientOriginalName();
+            $imagenExistente = Imagenes::where('img', $imgTour)->first();
+            if ($imagenExistente) {
+                return redirect()->route('imagenes.edit', ['imagene' => $id])->withErrors('La imagen ya existe en la base de datos. Por favor, elige una nueva imagen.');
+            }
+
+            $rutaImg = public_path("img/galeria/");
             $img->move($rutaImg, $imgTour);
-            $imagen['img'] = "$imgTour";
+            $imagen['img'] = $imgTour;
         } else {
             unset($imagen['img']);
         }
@@ -95,12 +78,6 @@ class ImagenesController extends Controller
         return redirect('imagenes');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Models\Imagenes  $imagenes
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
         $imagen = Imagenes::find($id);

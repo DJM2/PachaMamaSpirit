@@ -87,7 +87,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="card card-new" style="width: 18rem;">
                             <a href="{{ route('tours.show', ['id' => $tour->id, 'slug' => $tour->slug]) }}">
-                                <img class="card-img-top" src="img/buscador/{{ $tour->img }}" alt="Camino Inca 4 dias"
+                                <img class="card-img-top" src="{{ $tour->img }}" alt="Camino Inca 4 dias"
                                     loading="lazy">
                             </a>
                             <div class="card-body text-center">
@@ -173,7 +173,7 @@
             <div class="oscuro">
                 <h5>Perú</h5>
                 <p>Tours para conocer Perú</p>
-                <a href="{{ route('around') }}">Ver Tours</a>
+                <a href="{{ route('peru') }}">Ver Tours</a>
             </div>
         </div>
         <div class="full-img-card cuatro">
@@ -205,7 +205,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="card card-new" style="width: 18rem;">
                                 <a href="{{ route('tours.show', ['id' => $tour->id, 'slug' => $tour->slug]) }}">
-                                    <img class="card-img-top" src="img/buscador/{{ $tour->img }}"
+                                    <img class="card-img-top" src="{{ $tour->img }}"
                                         alt="Camino Inca 4 dias" loading="lazy">
                                 </a>
                                 <div class="card-body text-center">
@@ -277,10 +277,69 @@
     <section>
         <div class="container">
             <div class="row justify-content-center">
-                <div class="space"></div>
-                <div class="space"></div>
+                <section class="mb-4">
+                    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+                    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to
+                        contact us directly. Our team will come back to you within
+                        a matter of hours to help you.</p>
+                    <div class="row">
+                        <div class="col-lg-12 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                @csrf
+                                <div class="row formTransparent">
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-4">
+                                            <input type="text" id="name" name="name" class="form-control"
+                                                placeholder="Name:">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-4">
+                                            <input type="text" id="email" name="email" class="form-control"
+                                                placeholder="Email:">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="md-form mb-4">
+                                            <input type="text" id="phone" name="phone" class="form-control"
+                                                placeholder="Phone:">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="md-form mb-4">
+                                            <input type="text" id="country" name="country" class="form-control" placeholder="Country:">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="md-form mb-4">
+                                            <input type="number" id="adults" name="adults" class="form-control"
+                                                placeholder="Adults:">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="md-form mb-4">
+                                            <input type="number" id="children" name="children" class="form-control"
+                                                placeholder="Children:">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="md-form">
+                                            <textarea type="text" placeholder="Write your message here..." id="message" name="message" rows="2"
+                                                class="form-control md-textarea"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="text-center">
+                                            <button class="btnTransparent">Enviar</button>
+                                        </div>
+                                    </div>
+                            </form>                            
+                        </div>
+                    </div>
+
+                </section>
+                <!--Section: Contact v.2-->
             </div>
         </div>
-    </section>{{-- 
-    @include('layouts.foot-castellano') --}}
+    </section>
 @endsection

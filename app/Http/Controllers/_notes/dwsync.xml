@@ -11,4 +11,19 @@
 <file name="UserControler.php" server="ftp.happyperutours.com" local="133251715160872957" remote="133251898800000000" Dst="0" />
 <file name="MailController.php" server="ftp.happyperutours.com" local="133157053163568357" remote="133251865200000000" Dst="0" />
 <file name="ImagenesController.php" server="ftp.happyperutours.com" local="133156245258767705" remote="133251865200000000" Dst="0" />
+<file name="ArticleController.php" server="15.204.142.117" local="133135491048884985" remote="133275698400000000" Dst="0" />
+<file name="BlogController.php" server="15.204.142.117" local="133275893915664528" remote="133276583400000000" Dst="0" />
+<file name="Controller.php" server="15.204.142.117" local="133129126980000000" remote="133275698400000000" Dst="0" />
+<file name="EnlacesCategorias.php" server="15.204.142.117" local="133180184296347020" remote="133275698400000000" Dst="0" />
+<file name="HomeController.php" server="15.204.142.117" local="133149074256085597" remote="133275698400000000" Dst="0" />
+<file name="ImagenesController.php" server="15.204.142.117" local="133288520658449744" remote="133288700400000000" Dst="0" />
+<file name="MailController.php" server="15.204.142.117" local="133157053163568357" remote="133275698400000000" Dst="0" />
+<file name="SearchController.php" server="15.204.142.117" local="133275513669013900" remote="133275698400000000" Dst="0" />
+<file name="SearchenController.php" server="15.204.142.117" local="133276379597405927" remote="133276583400000000" Dst="0" />
+<file name="TagController.php" server="15.204.142.117" local="133275880544589291" remote="133276583400000000" Dst="0" />
+<file name="TourController.php" server="15.204.142.117" local="133286755199015993" remote="133286936400000000" Dst="0" />
+<file name="ToursenController.php" server="15.204.142.117" local="133286755515214990" remote="133286936400000000" Dst="0" />
+<file name="UserControler.php" server="15.204.142.117" local="133251715160872957" remote="133275698400000000" Dst="0" />
+<file name="EnblogController.php" server="15.204.142.117" local="133276727058356027" remote="133276908000000000" Dst="0" />
+<file name="EntagController.php" server="15.204.142.117" local="133276386076962431" remote="133276583400000000" Dst="0" />
 </dwsync>

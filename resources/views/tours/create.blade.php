@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-lg-12">
                         <label for="descripcion" class="form-label">Descripción:</label>
-                        <input type="text" id="descripcion" name="descripcion" class="form-control" required>
+                        <input type="text" id="descripcion" name="descripcion" class="ckeditor form-control" required>
                     </div>
                     <div class="col-lg-12">
                         <label for="contenido" class="form-label">Contenido:</label>
@@ -121,14 +121,13 @@
         </div>
     </div>
     <script type="text/javascript">
-        /* $(document).ready(function() {
-                $('.ckeditor').ckeditor();
-            }); */
         CKEDITOR.replace('.ckeditor', {
-            extraPlugins: 'youtube',
-            toolbar: [
-                ['Youtube']
-            ]
-        });
+                    toolbar: [
+                        ['Youtube']
+                    ]
+                });
     </script>
+    {{-- <script>
+        new FroalaEditor('.ckeditor')
+      </script> --}}
 @endsection

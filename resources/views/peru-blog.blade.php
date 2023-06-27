@@ -28,64 +28,79 @@
                         </div>
                     </div>
                 </div>
+                <div class="col lg-12 mb-2">
+                    <h2>BLogs abouts Perú</h2>
+                    <p>
+                        Welcome to our blog section! Here you will find interesting topics about Peru, from useful tips for
+                        traveling to information about history, customs, tourist spots, and much more. Explore our
+                        publications and discover everything this beautiful country has to offer.
+                    </p>
+                </div>
+                <div class="col-lg-12 mb-5">
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control" id="buscador" placeholder="Search topic">
+                    </div>
+                    <div id="no-results" style="display: none; font-weight:bold">
+                        No results found for your search.
+                    </div>
+                </div>                
+                <script>
+                    function searchBlogs() {
+                        const input = document.getElementById('buscador');
+                        const blogs = document.querySelectorAll('.nombreBlog');
+                        const blogContainers = document.querySelectorAll('.blog-container');
+                        const noResults = document.getElementById('no-results');
+                        let numResults = 0;
+
+                        const searchWords = input.value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, "").split(' ');
+
+                        blogContainers.forEach(function(blogContainer) {
+                            let blogName = blogContainer.querySelector('.nombreBlog').textContent.toLowerCase().normalize('NFD')
+                                .replace(/[\u0300-\u036f]/g, "");
+                            let hasAllWords = true;
+                            searchWords.forEach(function(searchWord) {
+                                if (!blogName.includes(searchWord)) {
+                                    hasAllWords = false;
+                                }
+                            });
+
+                            if (hasAllWords) {
+                                blogContainer.style.display = 'block';
+                                numResults++;
+                            } else {
+                                blogContainer.style.display = 'none';
+                            }
+                        });
+
+                        if (input.value === '') {
+                            blogContainers.forEach(function(blogContainer) {
+                                blogContainer.style.display = 'block';
+                            });
+                        }
+
+                        if (numResults === 0) {
+                            noResults.style.display = 'block';
+                        } else {
+                            noResults.style.display = 'none';
+                        }
+                    }
+                    setInterval(searchBlogs, 500);
+                </script>
             </div>
         </div>
         <div class="container-fluid">
             <div class="row">
-                <div class="blogs actividades">
-                    <div class="black">
-                        <h2>10 activities recommended in Cusco</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 25/04/2023</span></div>
-                        <p>Get to know and enjoy many tourist activities in the city of Cusco
-                        </p>
-                        <a href="{{ route('activities-cusco') }}">Read Article</a>
+                @foreach ($blogs as $blog)
+                    <div class="blogs blogimg blog-container" style="background:url({{ $blog->img }});background-size:cover;">
+                        <div class="black">
+                            <h2 class="nombreBlog">{{ $blog->nombre }}</h2>
+                            <div class="fecha"><i class="icon-calendar"></i><span>
+                                    {{ $blog->created_at->format('d/m/Y') }}</span></div>
+                            <p>{{ $blog->descripcion }}</p>
+                            <a href="{{ route('enblog', $blog->slug) }}">Leer artículo</a>
+                        </div>
                     </div>
-                </div>
-                <div class="blogs semanasanta">
-                    <div class="black">
-                        <h2>Holy week Cusco 2024</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 15/04/2023</span></div>
-                        <p>The largest gastronomic fair Peru
-                        </p>
-                        <a href="{{ route('holy-week') }}">Read Article</a>
-                    </div>
-                </div>
-                <div class="blogs santaRosa">
-                    <div class="black">
-                        <h2>Santa Rosa de Lima</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 17/10/2022</span></div>
-                        <p>Patron saint of the police and nurses, to whom a series of miracles and stories are
-                            attributed.
-                        </p>
-                        <a href="{{ route('santa-rosa-de-lima-en') }}">Read Article</a>
-                    </div>
-                </div>
-                <div class="blogs fiestasPatrias">
-                    <div class="black">
-                        <h2>National Holidays in Perú</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 15/10/2022</span></div>
-                        <p>Every July 28 the emancipation of Peru is celebrated </p>
-                        <a href="{{ route('national-holidays-peru') }}">Read Article</a>
-                    </div>
-                </div>
-                <div class="blogs playas">
-                    <div class="black">
-                        <h2>The best beaches in Perú</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 10/10/2022</span></div>
-                        <p>After a rigorous search, we have a list of the best beaches that Peru has to offer
-                        </p>
-                        <a href="{{ route('the-best-beaches-peru') }}">Read Article</a>
-                    </div>
-                </div>
-                <div class="blogs mistura">
-                    <div class="black">
-                        <h2>Mistura</h2>
-                        <div class="fecha"><i class="icon-calendar"></i><span> 27/09/2022</span></div>
-                        <p>The largest gastronomic fair Peru
-                        </p>
-                        <a href="{{ route('mistura-en') }}">Read Article</a>
-                    </div>
-                </div>
+                @endforeach              
             </div>
         </div>
     </section>
